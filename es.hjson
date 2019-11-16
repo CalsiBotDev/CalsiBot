@@ -1,0 +1,640 @@
+{
+  /* ---------------------------------------------------------------------
+                    Emoji Key - Guide to what they mean
+     --------------------------------------------------------------------- */
+  /*
+
+  ℹ️ - Indicates an example of how this string could look with real values
+  ⚠️ - Indicates IMPORTANT TRANSLATIONS. These should be correctly translated first!
+
+  */
+
+
+  /* ---------------------------------------------------------------------
+                        Generic - Used for multiple things
+     --------------------------------------------------------------------- */
+  "generic.callbacks": {
+    "userBannedBy": "<a href=\"tg://user?id=%s\">Este usuario</a><b> fue prohibido por </b>%s"
+    # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
+    # and NOT contain any formatting or assume the value of any dynamic values.
+    "userBannedBySignature": " fue prohibido por "
+    "userBannedAnswerText": "Usuario prohibido"
+    # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
+    # and NOT contain any formatting or assume the value of any dynamic values.
+    "userUnbannedBy": "<a href=\"tg://user?id=%s\">Este usuario</a><b> fue excluido por </b>%s"
+    "userUnbannedBySignature": " fue excluido por "
+    "userUnbannedAnswerText": "Usuario no prohibido"
+
+    # ℹ️ Example: /JoinVerify enabled by Andy
+    "featureEnabledBy": "%s<b> habilitado por </b>%s"
+    "featureEnabledAnswerText": "%s habilitado"
+    "featureAlreadyEnabled": "%s<b> ya está habilitado</b>"
+    "featureAlreadyEnabledAnswerText": "%s Ya habilitado"
+    "featureDisabledBy": "%s<b> deshabilitado por </b>%s"
+    "featureDisabledAnswerText": "%s discapacitado"
+    "featureAlreadyDisabled": "%s<b> ya está deshabilitado</b>"
+    "featureAlreadyDisabledAnswerText": "%s Ya deshabilitado"
+
+    "joinLimitRestrictionsReset": "<a href=\"tg://user?id=%s\">Este usuario</a><b> tuvo su </b><code> /JoinLimit</code><b> restricciones restablecidas por </b>%s"
+    "joinLimitRestrictionsResetAnswerText": "Restablecimiento de restricciones!"
+
+    "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">Este usuario</a><b> ha recibido una excepción de unión única por </b>%s\n\n<b>La próxima vez que el usuario se una, no los eliminaré.</b>"
+    "joinLockExceptionAddedAnswerText": "Excepción añadida"
+
+    "chatNameRemoved": "<b>El Nombre de chat eliminado por </b>%s"
+    "chatNameRemovedAnswerText": "Nombre de chat eliminado"
+    "chatNameNotSet": "<b>El nombre del chat no se configuró, por lo que no hay nada que eliminar.</b>"
+    "chatNameNotSetAnswerText": "Nombre de chat no establecido"
+
+    "cantUseFeatureOnAdminsAnswerText": "No puede %s administradores"
+
+    "CalsiBotNoLongerAdmin": "<b>El CalsiBot ya no es administrador o no tiene suficientes permisos, por lo que este teclado ha caducado.</b>"
+    "CalsiBotNoLongerAdminAnswerText": "CalsiBot ya no es administrador o no tiene suficientes permisos, por lo que este teclado ha caducado."
+
+    "keyboardHasExpired": "<b>El Este teclado ha caducado.</b>"
+    "keyboardHasExpiredAnswerText": "Teclado caducado."
+  }
+
+  "generic.buttons": {
+    "whatIsThis": "❓ ¿Qué es esto?"
+    "whatIsThisShort": "❓ ¿Qué?"
+    "imSorry": "😭 Lo siento!"
+
+    "joinChannel": "👋 Unirse al canal"
+    "tapToVerify": "🤖 Toca para verificar 🤖"
+
+    "banUser": "❌ Prohibir usuario"
+    "banBot": "❌ Ban Bot"
+    "allowUser": "🤝 Permitir usuario"
+    "trustUser": "🤝 Usuario de confianza"
+    "trustBot": "🤝 Trust Bot"
+    "unbanUser": "🤝 Usuario de Unban"
+
+    "settings": "⚙️ Configuración"
+
+    "resetRestrictions": "🤝 Restablecer restricciones"
+    "yes": "✅ sí"
+    "no": "❌ No"
+    "enable": "✅ Habilitar"
+    "disable": "❌ Desactivar"
+    "disableLimit": "❌ Desactivar límite"
+    "disableTimeLimit": "❌ Desactivar límite de tiempo"
+
+    "permabanUser": "❌ Usuario de Permaban"
+    "unPermabanUser": "🤝 Usuario no permanente"
+
+    "remove": "❌ Eliminar"
+    "removeAllWarns": "❌ Eliminar todos los avisos"
+    "history": "📚 Historia"
+    "setMax": "🔢 Establecer Max"
+    "back": "⬅️ Volver"
+
+    "messages": "Mensajes"
+    "media": "Medios de comunicación"
+    "stickersAndGIFs": "Pegatinas y GIF"
+    "linkPreviews": "Vistas previas de enlaces"
+    "confirm": "📝 Confirmar"
+    "cancel": "❌ Cancelar"
+
+    "seeExample": "👀 Ver ejemplo"
+
+    "marryAccept": "🥰 aceptar"
+    "marryReject": "😒 Rechazar"
+
+    "continueFishing": "🎣 Continuar pescando"
+    "continueBuilding": "⚒ Continuar construyendo"
+  }
+
+  # ℹ️ Note: For languages which don't use English numbers, these should be changed
+  #          from being emoji into plain text localized numbers.
+  "generic.numbers": {
+    "zero": "0️⃣"
+    "one": "1️⃣"
+    "two": "2️⃣"
+    "three": "3️⃣"
+    "four": "4️⃣"
+    "five": "5️⃣"
+    "six": "6️⃣"
+    "seven": "7️⃣"
+    "eight": "8️⃣"
+    "nine": "9️⃣"
+    "ten": "🔟"
+  }
+
+  generic.times: {
+    "zero": "veces"
+    "one": "hora"
+    "other": "veces"
+  }
+
+  "generic.onlySupergroups": "<b>Lo sentimos, este comando solo se puede usar en Supergrupos</b>"
+  "generic.somethingWentWrongTryAgainLater": "<b>Algo salió mal, por favor intente nuevamente más tarde...</b>"
+
+  # ℹ️ Example: Reply to the person you want to /slap
+  "generic.replyToThePersonYouWantTo": "<b>Responda a la persona que desea</b> %s"
+  "generic.needToReply": "<b>Debe responder a alguien.</b>"
+
+  "generic.needToBeAdmin": "<b>❌ No permitido. Necesitas:</b>\n\n1️⃣ Sé un administrador\n2️⃣ Tener permiso para %s"
+  "generic.needToBeAdminAnswerText": "❌ No permitido. Necesitas:\n\n1️⃣ Sé un administrador\n2️⃣ Tener permiso para %s"
+  "generic.CalsiBotNeedsToBeAdmin": "<b>❌ Para que esto funcione, %s tiene que:</b>\n\n1️⃣ Sé un administrador\n2️⃣ Tener permiso para %s"
+
+  "generic.loaded": "Cargado"
+  "generic.disabled": "Discapacitado"
+  "generic.enabled": "Habilitado"
+  "generic.cancelled": "Cancelado"
+  "generic.currently": "Actualmente"
+  "generic.none": "Ninguna"
+  "generic.note": "Nota"
+
+  # ℹ️ Example: Exception was added by an admin.
+  "generic.anAdmin": "un administrador"
+
+  # ℹ️ Example: Fishing is always allowed in private :)
+  "generic.featureAlwaysAllowedInPrivate": "%s siempre está permitido en privado :)"
+
+  # ℹ️ Example: <b>Wall Building has now been enabled in this group.</b>
+  "generic.featureEnabled": "<b>%s ahora se ha habilitado en este grupo.</b>"
+  "generic.featureAlreadyEnabled": "<b>%s ya está habilitado en este grupo.</b>"
+  "generic.featureDisabled": "<b>%s ahora está deshabilitado en este grupo.</b>"
+  "generic.featureAlreadyDisabled": "<b>%s ya está deshabilitado en este grupo.</b>"
+
+  # ℹ️ Example: By default, fishing is disabled in group chats.</b>\n\nAn admin can /EnableFish, or you can fish in private, by tapping the button below:
+  "generic.featureDisabledByDefault": "<b>Por defecto, %s está deshabilitado en los chats grupales.</b>\n\nUn administrador puede %s, o puedes %s en privado, tocando el botón a continuación:"
+
+  # ℹ️ Example: <b>You can use </b>/DisableBrick<b> to change that.</b>
+  "generic.toggleFeatureHint": "<b>Puedes usar </b>%s<b> cambiar eso</b>"
+
+  # ℹ️ Example: You can't Warn admins
+  "generic.cantUseFeatureOnAdmins": "<b>No puedes </b><code>%s</code><b> administradores... Desafortunadamente</b>"
+  "generic.cantUseFeatureOnAdminsWithReason": "<b>No puedes </b><code>%s</code><b> administradores porque %s</b>"
+  # ℹ️ Example: because they can't be warned in the first place.
+  "generic.theyCantBeInTheFirstPlace": "porque no pueden ser %s en primer lugar."
+
+
+  /* ---------------------------------------------------------------------
+                      Comfy - Used for /hug, /cuddle, etc.
+     --------------------------------------------------------------------- */
+  "comfy.hug": {
+    "self": "%s<b> alcanza un brazo y abraza su propio cuerpo. </b>%s<b> se siente un poco menos solo ahora.</b>"
+    "main": "%s te acabo de dar un <b>abrazo! :)</b>"
+    "CalsiBot": "<i>No puedo ser abrazado </i><b>:/</b>"
+  }
+
+  "comfy.cuddle": {
+    "self": "%s<b> se acuesta boca abajo en su cama y trata de abrazar a ambos lados. </b>%s<b> se siente un poco menos triste ahora.</b>"
+    "main": "%s abrazos %s herméticamente"
+    "CalsiBot": "<i>suspiro</i> ☁️😌☁️"
+  }
+
+  "comfy.snuggle": {
+    "self": "%s<b> levanta las rodillas y trata de acurrucarse. </b>%s<b> se siente un poco menos amado ahora.</b>"
+    "main": "%s se acurruca contento %s"
+    "CalsiBot": "🥺 <i>*ruidos de bot relajados*</i>"
+  }
+
+  "comfy.poke": {
+    "self": "%s<b> asoma su pecho. Les hace recordar que probablemente deberían perder algo de peso.</b>"
+    "main": "<b>*</b>%s pinchazos %s<b>* o_o</b>"
+    "CalsiBot": "<b>&gt;_&lt;</b>"
+  }
+
+  "comfy.pat": {
+    "self": "%s<b> torpemente extiende una mano para darse palmaditas en la cabeza. 🙃</b>"
+    "main": "<b>*</b>%s palmaditas %s en la cabeza<b>* :V</b>"
+    "CalsiBot": "<i>rawr</i> <b>xDddd</b>"
+  }
+
+  "comfy.ruffle": {
+    "self": "%s<b> riza su propio cabello... ¡Ay! 😐</b>"
+    "main": "<b>*</b>%s volantes %s's cabello de<b>* :&</b>"
+    "CalsiBot": "<i>😟 Debes despeinarme el pelo en la cabeza...no...allí.</i> 😳"
+  }
+
+  "comfy.highfive": {
+    "self": "%s<b> intenta chocar sus manos golpeando sus dos manos juntas. </b>%s<b> falla y se hunde más profundamente en la depresión</b>"
+    "main": "%s solo <b>choca los cinco</b> gracias por esto!"
+    "CalsiBot": "<i>:D</i>"
+  }
+
+
+  /* ---------------------------------------------------------------------
+                      Death - Used for /kys, /kms & /kos
+     --------------------------------------------------------------------- */
+  "death.CalsiBot": "<i>No puedo ser asesinado </i><b>;)</b>"
+
+  # ℹ️ Example: Josie stabbed Kevin before they starved to death
+  "death.kos": "%s<b> apuñalado </b>%s<b> antes de que %s</b>"
+
+
+  /* ---------------------------------------------------------------------
+                  Ban - Used for /ban, /unban, /kick, etc.
+     --------------------------------------------------------------------- */
+  "ban.kick.main": "%s<i> fue pateado.</i>"
+  "ban.kickme.main": "%s<i> eliminado.</i>"
+  "ban.ban.main": "%s<i> fue prohibido.</i>"
+  "ban.deport.main": "%s<i> fue deportado.</i>"
+  "ban.realdeport.main": "%s<i> fue deportado de forma permanente.</i>"
+
+
+  /* ---------------------------------------------------------------------
+                      Fish - Used for /fish, /MyFish, etc.
+     --------------------------------------------------------------------- */
+  "fish.fish": "Pescado"
+  "fish.fishing": "Pescar"
+  "fish.noFish": "<b>Parece que </b><a href=\"tg://user?id=%s\">%s</a><b> ¡Nunca antes ha pescado un pez!\n\nPruébalo:</b>/Fish"
+  "fish.noTrophyFish": "<b>Actualmente no tienes ningún pez trofeo 😢, ¡pero no te preocupes!\n\nAtrapa uno </b>/Fish<b> para ganar tu primero!</b>\n\n/MyFish ||| /Fish"
+
+  "fish.verdicts": {
+    "failure": "Al igual que en la vida real, <b>tu cebo falló</b>"
+    "blowfish": "Atrapaste un Blowfish: 🐡"
+    "normal": "<b>¡No está mal!</b>\nCapturaste un Pez Normal: 🐟"
+    "tropical": "<b>¡Genial!</b>\nCapturaste un Pez Tropical: 🐠"
+    "squid": "<b>¡Dulce!</b>\nAtrapaste un Calamar: 🦑"
+    "crab": "<b>¡Impresionante!</b>\nAtrapaste un Cangrejo: 🦀"
+    "dolphin": "<b>¡WHOA!</b>\nAtrapaste un Delfín: 🐬"
+    "shark": "<b>¡MIERDA MIERDA!</b>\nAtrapaste un Tiburón: 🦈"
+    "crocodile": "<b>ARGHHH!!!</b>\nCapturaste un Cocodrilo: 🐊"
+    "whale": "<b>EL OCÉANO PARECE Hundirse...\n\n¡Con todas tus fuerzas, recoges tu captura!</b>\nAtrapaste una Ballena: 🐳"
+  }
+
+  "fish.viewYourFish": "\n\n<b>Ver tu pez: </b>/MyFish"
+  "fish.newTrophyFish": "\n\n<b>🎉 Acabas de ganar un nuevo</b>\n/TrophyFish!"
+
+  "fish.myFish":
+  '''
+  <b>🎣 </b><a href="tg://user?id=%s">%s</a><b> – Pescado:</b>
+
+  🐡 - Blowfish: <b>%s</b>
+  🐟 - Pescado normal: <b>%s</b>
+  🐠 - Pez tropical: <b>%s</b>
+  🦀 - Cangrejos: <b>%s</b>
+  🦑 - Calamar: <b>%s</b>
+  🐬 - Delfines: <b>%s</b>
+  🦈 - Tiburones: <b>%s</b>
+  🐊 - Cocodrilos: <b>%s</b>
+  🐳 - Ballenas: <b>%s</b>
+
+  🐠🦑🐊 - Todos los peces: <b>%s</b>
+
+  /TrophyFish ||| /Fish
+  '''
+
+  "trophy.types": {
+    "firstfish": "\n%s<%s> - ¡Primer pez!</%s>"
+    "1000fish": "\n%s<%s> - Mil peces</%s>"
+    "5000fish": "\n%s<%s> - Cinco mil peces</%s>"
+    "10000fish": "\n%s<%s> - Diez mil peces</%s>"
+    "2018newyear": "\n%s<%s> - Año Nuevo 2018</%s>"
+    "2018vday": "\n%s<%s> - VDay 2018</%s>"
+    "2018xmas": "\n%s<%s> - Navidad 2018</%s>"
+    "2019newyear": "\n%s<%s> - Año Nuevo 2019</%s>"
+  }
+
+
+  /* ---------------------------------------------------------------------
+                        JoinEvents - Used for Join Flow
+     --------------------------------------------------------------------- */
+  "joinevents.error.CalsiBotNotEnoughPermissions": "<b>Un mensaje de bienvenida, JoinLock, JoinVerify o JoinLimit está habilitado actualmente, pero no tengo suficientes permisos de administrador en este momento...\n\nAsegúrese de que pueda </b><code>cambiar información del grupo</code><b> y </b><code>prohibir usuarios</code><b>.</b>"
+  "joinevents.userPermabanned": "%s<b> fue expulsado permanentemente de este grupo por un administrador.\n\nLos he eliminado.</b>"
+  "joinevents.joinlockAddedByAdmin": "<b>El bloqueo de unión está habilitado pero </b>%s<b> fue agregado por </b>%s<b>, por lo que no han sido pateados</b>"
+  "joinevents.joinlockMemberBanned": "%s<b> fue prohibido porque el bloqueo de unión está habilitado.</b>"
+
+  /* ---------------------------------------------------------------------
+                        JoinConfig - Used for Join Flow
+     --------------------------------------------------------------------- */
+  "joinconfig.welcome.help": "<code>/SetWelcome</code><b> le permite configurar un mensaje de bienvenida para su chat\n\nSu mensaje debe ser como el siguiente ejemplo:</b>"
+  "joinconfig.welcome.error.somethingWrong": "<b>Lo siento, pero hay algo mal con el mensaje que publicaste.\n\nVuelva a verificar su formato y asegúrese de no haber incluido ningún carácter extraño.</b>"
+  "joinconfig.welcome.success": "<b>Genial, se ha configurado su nuevo mensaje de bienvenida. ¡Comprueba arriba para ver cómo se verá!\n\nPuedes usar </b><code>/DeleteWelcome</code><b> para eliminarlo</b>"
+  "joinconfig.welcome.removed": "<b>Se ha eliminado el mensaje de bienvenida.\n\nPuedes usar </b><code>/SetWelcome</code><b>, seguido del mensaje que desea, para configurar uno nuevo.</b>"
+  "joinconfig.welcome.alreadyRemoved": "<b>Actualmente no hay ningún Mensaje de bienvenida configurado para eliminar.\n\nPuedes usar </b><code>/SetWelcome</code><b>, seguido del mensaje que desea, para establecer uno.</b>"
+
+  "joinconfig.joinlimit.help": "<code>/JoinLimit</code><b> le permite establecer las restricciones predeterminadas para cualquier miembro que se una a su chat\n\nSu mensaje debe ser como el siguiente ejemplo:</b>"
+  "joinconfig.joinlimit.success": "<b>Tu </b><code>/JoinLimit</code><b> se ha configurado!</b>\n\nLos nuevos miembros serán restringidos automáticamente %s, hasta que un administrador los anule."
+  "joinconfig.joinlimit.successTimed": "<b>Tu </b><code>/JoinLimit</code><b> <b> se ha configurado!</b>\n\nLos nuevos miembros serán restringidos automáticamente %s, para el límite de tiempo que especificó."
+
+  "joinconfig.title.help": "<code>/%s</code><b> le permite establecer el título del chat con un mensaje.\n\nSu mensaje debería ser el siguiente:</b>\n<code>/%s Nuevo título de chat</code>\n\n<b>Sugerencia: </b><i>¿Tiene un nombre de chat que siempre usa en los títulos? Echa un vistazo</i>/cn"
+  "joinconfig.title.replyToTextHint": "<b>Si está respondiendo a otro mensaje para configurar el título del chat, debe ser solo texto.</b>\n\n<b>Sugerencia: </b><i>¿Tiene un nombre de chat que siempre usa en los títulos? Echa un vistazo </i>/cn"
+
+  "joinconfig.chatname.help": "<code>/%s</code><b> le permite configurar el nombre del chat. Este nombre siempre aparecerá frente a cualquier título de chat configurado con </b><code>/t</code> <b>o</b><code>/title</code><b>.\n\nSu mensaje debería ser el siguiente:</b>\n<code>/%s MyChatName</code>"
+  "joinconfig.chatname.replyToTextHint": "<b>Si está respondiendo a otro mensaje para configurar el nombre del chat, debe ser solo texto.</b>"
+  "joinconfig.chatname.success": "<b>Su nombre de chat se ha configurado como:</b>\n%s\n\nEsto aparecerá al comienzo de cada conjunto de títulos de chat usando <code>/t</code> o <code>/title</code>."
+
+
+  /* ---------------------------------------------------------------------
+                        JoinVerify - Used for /JoinVerify
+     --------------------------------------------------------------------- */
+  # ⚠️ IMPORTANT
+  "joinverify.callbacks": {
+    "correctAnswerText": "¡Correcto! El %s más para ir ..."
+    "incorrectAnswerText": "Incorrecto. 3 más para ir ..."
+    "success": "<b>¡Éxito!\n\nBuen trabajo humano, ahora puedes chatear en: </b><code>%s</code>"
+    "successAnswerText": "¡Éxito! Puedes chatear en %s ahora..."
+    "manuallyTrusted": "%s<b> ha confiado manualmente </b>%s<b>.</b>"
+    "manuallyTrustedAnswerText": "Usuario de confianza"
+    "expired": "<b>Esta solicitud de verificación ha caducado.</b>\n\nUsted <b>pueden haber sido prohibidos manualmente o confiables por los administradores del grupo.</b> O bien, esta es una solicitud muy antigua."
+    "expiredAnswerText": "Verificación de solicitud caducada"
+
+    "settingsUnavailable": "<b>Join Verify no está habilitado ahora, habilítelo primero para cambiar la configuración:</b>"
+    "setTimeLimit": "<b>Elija un límite de tiempo para unirse Verificar</b>\n\n¿Cuántos minutos deberían permitirse los nuevos miembros antes de ser prohibidos?"
+    "setTimeLimitAnswerText": "Seleccione un valor"
+    "timeLimitChanged": "<b>El límite de tiempo de verificación de unión cambió de </b><code>%s</code><b> a </b><code>%s</code><b> por </b>%s"
+    # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
+    # and NOT contain any formatting or assume the value of any dynamic values.
+    "timeLimitChangedSignature": "Unirse al límite de tiempo de verificación cambió de"
+    "timeLimitChangedAnswerText": "Nueva configuración guardada"
+  }
+
+  # ⚠️ IMPORTANT
+  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Toque el emoji correspondiente a continuación:</b>"
+
+  # ⚠️ IMPORTANT
+  "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>Join Verify está habilitado pero </b>%s<b> fue agregado por </b>%s<b>, por lo que no necesitan verificarse a sí mismos.</b>"
+  "joinverify.joinevents.userVerify": "<b>Hola </b>%s<b> bienvenido a </b><code>%s</code><b>.\n\nPara chatear, verifica que eres humano:</b>"
+  "joinverify.joinevents.userVerifyTimed": "<b>Hola </b>%s<b> bienvenido a </b><code>%s</code><b>.\n\nPara chatear, verifica que eres humano dentro de %s minutos:</b>"
+  "joinverify.joinevents.botVerify": "%s<b> es un bot.\n\nUn administrador puede presionar \"Confianza\" a continuación para permitirle enviar mensajes:</b>"
+  "joinverify.joinevents.botVerifyTimed": "%s<b> es un bot.\n\nUn administrador puede presionar \"Confianza\" a continuación para permitirle enviar mensajes; de lo contrario, se prohibirá en %s minutos</b>"
+  "joinverify.joinevents.userVerified": "%s<b> tiene </b><a href=\"t.me/CalsiBotDev/89\">se verificaron como humanos</a><b>.</b>"
+
+
+  /* ---------------------------------------------------------------------
+                        JoinLimit - Used for /JoinLimit
+     --------------------------------------------------------------------- */
+  "joinlimit.joinevents.userLimited": "%s ha sido restringido %s porque <code>/JoinLimit</code><b> está habilitado.</b>"
+  "joinlimit.joinevents.userLimitedTimed": "%s ha sido restringido %s <b>hasta %s (UTC) porque </b><code>/JoinLimit</code><b> está habilitado</b>"
+  "joinlimit.joinevents.signature": " ha sido restringido "
+
+
+  /* ---------------------------------------------------------------------
+                    Marry - Used for /Marry, /Divorce, etc.
+     --------------------------------------------------------------------- */
+  "marry.callbacks": {
+    "waitForDecisionAnswerText": "😶 Necesitas esperar %s elegir una opción ..."
+    "userNotInvolvedAnswerText": "🙄 Deja de interferir con las relaciones de otras personas, %s."
+
+    "proposalAccepted": "💝 %s<b> y </b>%s<b> se han casado 🎉 </b><i>\n(sucedido %s %s hasta ahora)</i>\n\n%s\n\n<code>Vea su </code>/MarryStats"
+    "proposalAcceptedAnswerText": "💝 ¡Felicidades! 🎉"
+    "proposalRejected": "🤕 %s<b> fue rechazado por </b>%s<i>\n(sucedido %s %s hasta ahora)</i>\n\n%s\n\n<code>Vea su </code>/MarryStats"
+    "proposalRejectedAnswerText": "🤕 Ay."
+  }
+
+  "marry.action.child": {
+    "zero": "niños"
+    "one": "niño"
+    "other": "niños"
+  }
+  "marry.action.house": {
+    "zero": "casas"
+    "one": "casa"
+    "other": "casas"
+  }
+
+  "marry.action.bothGainedHappiness": "🙂 Ambos ganaron <b>%s felicidad</b> cada."
+
+  "marry.help": "💍<b> Responde a alguien que te guste con </b><code>/marry</code><b> para hacerlo oficial.</b>"
+
+  "marry.self": "<b>No mereces ser tan engreído como para pensar que podrías casarte contigo mismo...</b>"
+  "marry.main": "💘 %s<b> te ha propuesto!</b>"
+  "marry.CalsiBot": "<b>Lo siento, pero ya estoy casado con mi trabajo...</b> 🥺"
+
+  "marry.divorce.help": "🖤<b> ¿Ya no sientes el amor? </b><code>/divorce</code><b> puede usarse para separarse de personas con las que se ha casado previamente.</b>"
+
+  "marry.divorce.error.notMarried": "😐<b> Actualmente no estás casado con </b>%s<b>, así que no puedes divorciarte de ellos...</b>"
+
+  "marry.divorce.self": "<i>¿Querías decir:\n</i>/kms"
+  "marry.divorce.main": "💔 %s<b> divorciados </b>%s<i>\n(sucedido %s %s hasta ahora)</i>\n\n%s\n\n<code>Vea su </code>/MarryStats"
+  "marry.divorce.CalsiBot": "<b>Veamos qué dicen los abogados sobre eso...</b> 🤧"
+
+
+  /* ---------------------------------------------------------------------
+                            Brick - Used for /brick
+     --------------------------------------------------------------------- */
+  "brick.wallBuilding": "Edificio de la pared"
+  "brick.noActivity": "<b>No </b>/brick<b> la actividad ha sucedido aquí en mucho tiempo</b>"
+  "brick.brickStatsMain": "<b>Brick Estadísticas para este chat:</b>"
+
+
+  /* ---------------------------------------------------------------------
+                    Permaban - Used for /Permaban, /UnPermaban
+     --------------------------------------------------------------------- */
+  "permaban.callbacks": {
+    "userPermabanned": "<a href=\"tg://user?id=%s\">Este usuario</a><b> fue Permabanned por </b>%s"
+    "userPermabannedAnswerText": "Usuario permanente"
+    "userAlreadyPermabanned": "<a href=\"tg://user?id=%s\">Este usuario</a><b> ya está Permabanned.</b>"
+    "userAlreadyPermabannedAnswerText": "Usuario ya permabanneado"
+
+    "userUnPermabanned": "<a href=\"tg://user?id=%s\">Este usuario</a><b> fue no-Permabanned por </b>%s"
+    "userUnPermabannedAnswerText": "Usuario no permanente"
+    "userAlreadyNotPermabanned": "<a href=\"tg://user?id=%s\">Este usuario</a><b> ya no está Permabanned</b>"
+    "userAlreadyNotPermabannedAnswerText": "El usuario ya no está permabanneado"
+  }
+
+  "permaban.replyHint": "<b>Responda al usuario que desee </b><code>permaban</code>"
+
+
+  /* ---------------------------------------------------------------------
+              Restrict - Used for /restrict, /unrestrict, /unban
+     --------------------------------------------------------------------- */
+  "restrict.callbacks": {
+    "restrictionsReset": "<b>Las restricciones se restablecieron mediante </b>%s"
+    "restrictionsUpdated": "<b>Restricciones actualizadas por </b>%s"
+    "restrictCancelled": "<code>/restrict</code><b> cancelado por </b>%s"
+  }
+
+  "restrict.info": {
+    "messages": "Controla si el usuario puede enviar algún mensaje."
+    "media": "Controla si el usuario puede enviar audio, documentos, fotos, videos, notas de video y notas de voz."
+    "stickergifs": "Controla si el usuario puede enviar animaciones, juegos, stickers y usar bots en línea."
+    "linkpreviews": "Controla si el usuario puede agregar vistas previas de enlaces a sus mensajes."
+  }
+
+  "restrict.success": "%s ahora ha sido restringido %s por %s"
+  "restrict.successTimed": "%s ahora ha sido restringido %s <b>hasta %s (UTC) por </b>%s"
+  "restrict.replyHint": "<b>Responda al usuario cuyas restricciones desea editar</b>"
+
+  "restrict.main": "<b>Utilice los botones de abajo para elegir qué </b>%s<b> puede enviar aquí:</b>"
+  "restrict.mainTimed": "<b>Utilice los botones de abajo para elegir qué </b>%s<b> puede enviar aquí:\n\nLas restricciones caducarán automáticamente el:\n</b><code>%s %s</code>"
+
+
+  /* ---------------------------------------------------------------------
+                  Warn - Used for /warn, /Warns, /MyWarns
+     --------------------------------------------------------------------- */
+  "warn.callbacks": {
+    "warnRemovedBy": "<b>Advertir fue eliminado por </b>%s"
+    "warnRemovedAnswerText": "¡Advertencia eliminada!"
+    "noWarns": "<a href=\"tg://user?id=%s\">Este usuario</a><b> actualmente no tiene ninguna advertencia</b>"
+    "noWarnsToRemoveAnswerText": "Sin advertencias para eliminar"
+    "noWarnsToShowAnswerText": "No advierte que mostrar"
+    "previousWarns": "<a href=\"tg://user?id=%s\">Este usuario</a><b> advierte:</b>"
+    "previousWarnsAnswerText": "Avisos anteriores cargados"
+    "confirmRemoveAllWarns": "<b>¿Está seguro de que desea eliminar todo </b><a href=\"tg://user?id=%s\">este usuario</a><b> advierte?</b>"
+    "confirmRemoveAllWarnsAnswerText": "¿Estás seguro?"
+    "allWarnsRemovedBy": "Todos los <a href=\"tg://user?id=%s\">este usuario</a><b> avisos anteriores han sido eliminados por </b>%s"
+    "allWarnsRemovedAnswerText": "Avisos anteriores eliminados"
+    "chooseMaxWarnsValue": "<b>¿A qué número de advertencias se debe prohibir a un usuario?</b>"
+    "chooseMaxWarnsValueAnswerText": "Seleccione un valor"
+    "maxWarnsValueChangedBy": "<b>Max Warn cambió de </b><code>%s</code><b> a </b><code>%s</code><b> por </b>%s"
+    "maxWarnsValueChangedAnswerText": "Nuevo conjunto Max Warn"
+  }
+
+  "warn.noReasonGiven": "Ninguna razón dada"
+
+  "warn.replyHint": "<b>Responda al usuario al que desea advertir, por ejemplo:</b>\n\n<code>/warn</code><b> o\n</b><code>/warn &lt;razón aquí&gt;</code>"
+
+  "warn.success": "%s<b> fue advertido por </b>%s.%s\n\n<code>%s fuera de %s advierte</code>"
+  "warn.userBanned": "%s<b> fue prohibido. Alcanzado </b><code>%s fuera de %s advierte</code>"
+  "warn.myWarns": "<b>Advierte sobre </b>%s<b>:</b>"
+  "warn.noWarns": "No advierte, muy inteligente."
+
+
+  /* ---------------------------------------------------------------------
+                            Start - Used for /start
+     --------------------------------------------------------------------- */
+  # ⚠️ IMPORTANT
+  "start.error.JoinVerifyWrongUser": "<b>Ese botón no debe ser presionado por ti.\n\nPero bueno, ahora que estás aquí:</b>"
+  "start.error.JoinVerifyExpired": "<b>Lo sentimos, su solicitud de verificación de unión ha caducado.\n\nVuelva a unirse al grupo e intente nuevamente.</b>"
+  "start.main":
+  '''
+  <b>Hola </b><code>%s</code><b>, soy %s!
+
+  ✴️ Mantengo a tu grupo a salvo del mal</b> y también tengo <b>muchas otras características interesantes</b> como <a href="t.me/CalsiBotDev/48">traducciones</a><b>.</b>
+
+  <b>Herramientas de administración de grupo más utilizadas:</b>
+  <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
+  <a href="t.me/CalsiBotDev/23">/restrict</a>, <a href="t.me/CalsiBotDev/82">/warn</a>, <a href="t.me/CalsiBotDev/48">/JoinLock</a>, and <a href="t.me/CalsiBotDev/74">/JoinLimit</a>
+
+  <b>Otros comandos más utilizados:</b>
+  /translate, /setwelcome, /hug, /when
+
+  ¿Solo quieres comandos de administrador de grupo? Use <a href="t.me/CalsiBotDev/100">/AdminMode</a>
+  '''
+
+
+  /* ---------------------------------------------------------------------
+                        Misc - A mix of other commands
+     --------------------------------------------------------------------- */
+  "misc.boi.self": "<b>Imagínese tratando irónicamente de </b>/boi<b> usted mismo...</b>"
+  "misc.boi.main": "Te ha visitado la poderosa mano de los asados. Ve a tu esquina y piensa en la mierda que has dicho."
+  "misc.boi.CalsiBot": "<b>boiii, ¿sabes lo que acabas de intentar hacer? 😡😤</b>"
+
+  "misc.denko.main":
+  '''
+  <b>(´･ω･`)</b>
+  '''
+
+  "misc.huh.main": "<b>eh</b>"
+
+  "misc.judge.main.truth": "%s<b> es decir la verdad</b>"
+  "misc.judge.main.lying": "%s<b> está mintiendo!</b>"
+  "misc.judge.CalsiBot": "<i>Estoy más allá del juicio</i>"
+
+  "misc.coin.main.heads": "%s lanzó una moneda!\n\n<b>¡Son cabezas!</b>"
+  "misc.coin.main.tails": "%s lanzó una moneda!\n\n<b>¡Son colas!</b>"
+
+  "misc.covfefe.tooLong": "<b>❌ Demasiado largo. ☕😐</b>"
+  "misc.covfefe.replyHint": "<b>¡Responda al mensaje que desea cofectar!</b>"
+
+  "misc.spurdo.tooLong": "<b>❌ too lonk :dd 🥺</b>"
+  "misc.spurdo.replyHint": "<b>responda a de meszage que desea spurdo-fy :DD</b>"
+
+  # ℹ️ Example: It's
+  #             Alex Wayne"
+  "misc.name.main": "Es:\n<b>%s</b>"
+
+  "misc.me.main":
+  '''
+  <b>Tarjeta de información para </b>%s<b>:</b>
+
+  <code>Nombre de usuario: </code>%s
+  <code>ID de usuario: </code>%s
+  <code>D de chat: </code>%s
+  '''
+
+  "misc.wish.help":
+  '''
+  <b>Puedes usar </b><code>/wish</code><b> como una especie de Wishing Well general
+
+  Por ejemplo:</b>
+  <code>/wish Pudiera salir contigo 😍</code><b>, o</b>
+  <code>/wish Ojalá el sushi fuera 🍣 en /emojify</code><b>, o</b>
+  <code>/wish Tenía a alguien para /cuddle por la noche</code><b>...</b>
+  '''
+
+  "misc.wish.main": "<b>Tu deseo ha sido emitido. ✨</b>\n\n<i>posibilidad de éxito: %s%</i>"
+
+  "misc.adminmode.help": "<b>El modo de administración le permite deshabilitar todos los comandos de CalsiBot que no están relacionados con la administración de grupos</b>"
+
+  "misc.sedreplace.main": "Querías decir:"
+
+  "misc.pfp.help": "<b>Responder a una imagen comprimida (no enviada como archivo) que desea establecer como imagen de perfil de grupo</b>"
+
+  "misc.slap.CalsiBot": "<b>No puedes abofetearme, no es así como funciona...</b>"
+
+  "misc.when.main": "<code>Publicado originalmente en (UTC):</code>"
+  "misc.when.help": "<b>Responda a un mensaje reenviado y le diré cuándo se publicó originalmente, hasta el segundo.</b>"
+
+  "misc.count.main": "<b>Desde su creación, este supergrupo ha tenido </b><code>%s</code><b> mensajes en total, incluido el tuyo</b>"
+
+  "misc.pin.help": "<code>/pin</code> <b>le permite configurar o cambiar fácilmente el pin del chat sin menús estúpidos\n\n¿Aún no sabes cómo usarlo? Toque el botón de abajo para ver un ejemplo:</b>"
+  "misc.pin.main": "<b>Responder a una imagen comprimida (no enviada como archivo) que desea establecer como imagen de perfil de grupo</b>"
+
+
+  /* ---------------------------------------------------------------------
+                        Emojify - Used for /emojify
+     --------------------------------------------------------------------- */
+  "emojify.error.tooLong": "<b>❌ Demasiado largo. 🍆😐</b>"
+  "emojify.error.replyToHuman": "<b>Nah 🚫 fam 😂 \n\n Responder 💬 a un humano 👤</b>"
+  "emojify.replyHint": "🙈 <b>¡Responde 💬 al 👏 texto 📲 que 👈 quieres 👏 para emojificar!</b>"
+
+
+  /* ---------------------------------------------------------------------
+                    Translate - Used for /tr, /translate
+     --------------------------------------------------------------------- */
+  "translate.error.notALanguage": "<b>Lo siento, '%s' no es un idioma o no es compatible</b>"
+  "translate.replyHint": "<b>¡Responde al texto que quieres traducir!</b>"
+
+
+  /* ---------------------------------------------------------------------
+                            Roll - Used for /roll
+     --------------------------------------------------------------------- */
+  "roll.singlesArray": [
+    "Soltero :("
+    ":( soltero, como tu."
+    "._."
+    "REEEEEEEEE"
+    "dep para ti"
+    "(((hicieron))) esto"
+    "feelsbadman.gaypg"
+  ]
+
+  # ℹ️ Example: You Got Septuples!
+  "roll.main": "Tienes %s"
+
+
+  /* ---------------------------------------------------------------------
+                              Dox - Used for /dox
+     --------------------------------------------------------------------- */
+  "dox.result":
+  '''
+  <b>Dox de </b>%s<b>:</b>
+
+  <pre>Género: %s
+  Fecha de nacimiento: %s
+  Habla a: %s, %s
+  Trabajo: %s
+
+  IP actual: %s
+  DNI: %s
+  Número de teléfono: %s</pre>
+  '''
+
+  "dox.gendersArray": [
+    "chico"
+    "niña"
+    "e-chico"
+    "e-niña"
+    "thot"
+    "puta"
+    "fuckboy"
+    "no sé 😳"
+  ]
+}
