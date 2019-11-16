@@ -315,8 +315,9 @@
   "joinconfig.title.help": "<code>/%s</code><b> allows you to set the chat's title with a message.\n\nYour message should be like this:</b>\n<code>/%s New chat title</code>\n\n<b>Tip: </b><i>Have a chat name you always use in titles? Check out </i>/cn"
   "joinconfig.title.replyToTextHint": "<b>If you're replying to another message to set the chat's title, it must be text-only.</b>\n\n<b>Tip: </b><i>Have a chat name you always use in titles? Check out </i>/cn"
 
-  "joinconfig.chatname.help": "<code>/%s</code><b> allows you to set the chat's name. This name will always appear in front of any chat title set using </b><code>/t</code> <b>or</b> <code>/title</code><b>.\n\nYour message should be like this:</b>\n<code>/%s MyChatName</code>"  
-  "joinconfig.chatname.replyToTextHint": "<b>If you're replying to another message to set the chat's name, it must be text-only.</b>"  "joinconfig.chatname.success": "<b>Your Chat Name has been set to:</b>\n%s\n\nThis will appear at the start of every chat title set using <code>/t</code> or <code>/title</code>."
+  "joinconfig.chatname.help": "<code>/%s</code><b> allows you to set the chat's name. This name will always appear in front of any chat title set using </b><code>/t</code> <b>or</b> <code>/title</code><b>.\n\nYour message should be like this:</b>\n<code>/%s MyChatName</code>"
+  "joinconfig.chatname.replyToTextHint": "<b>If you're replying to another message to set the chat's name, it must be text-only.</b>"
+  "joinconfig.chatname.success": "<b>Your Chat Name has been set to:</b>\n%s\n\nThis will appear at the start of every chat title set using <code>/t</code> or <code>/title</code>."
 
 
   /* ---------------------------------------------------------------------
