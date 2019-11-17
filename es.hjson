@@ -260,7 +260,7 @@
     "squid": "<b>¡Dulce!</b>\nAtrapaste un Calamar: 🦑"
     "crab": "<b>¡Impresionante!</b>\nAtrapaste un Cangrejo: 🦀"
     "dolphin": "<b>¡WHOA!</b>\nAtrapaste un Delfín: 🐬"
-    "shark": "<b>¡MIERDA MIERDA!</b>\nAtrapaste un Tiburón: 🦈"
+    "shark": "<b>¡SANTA MIERDA!</b>\nAtrapaste un Tiburón: 🦈"
     "crocodile": "<b>ARGHHH!!!</b>\nCapturaste un Cocodrilo: 🐊"
     "whale": "<b>EL OCÉANO PARECE Hundirse...\n\n¡Con todas tus fuerzas, recoges tu captura!</b>\nAtrapaste una Ballena: 🐳"
   }
@@ -568,7 +568,7 @@
 
   <code>Nombre de usuario: </code>%s
   <code>ID de usuario: </code>%s
-  <code>D de chat: </code>%s
+  <code>ID de chat: </code>%s
   '''
 
   "misc.wish.help":
