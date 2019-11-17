@@ -121,7 +121,7 @@
     "ten": "🔟"
   }
 
-  generic.times: {
+  "generic.times": {
     "zero": "veces"
     "one": "hora"
     "other": "veces"
@@ -138,6 +138,13 @@
   "generic.needToBeAdminAnswerText": "❌ No permitido. Necesitas:\n\n1️⃣ Sé un administrador\n2️⃣ Tener permiso para %s"
   "generic.CalsiBotNeedsToBeAdmin": "<b>❌ Para que esto funcione, %s tiene que:</b>\n\n1️⃣ Sé un administrador\n2️⃣ Tener permiso para %s"
 
+  "generic.permissionTypes": {
+    "changeGroupInfo": "cambiar información del grupo"
+    "banUsers": "prohibir a los usuarios"
+    "deleteMessages": "eliminar mensajes"
+    "pinMessages": "fijar mensajes"
+  }
+
   "generic.loaded": "Cargado"
   "generic.disabled": "Discapacitado"
   "generic.enabled": "Habilitado"
@@ -145,6 +152,7 @@
   "generic.currently": "Actualmente"
   "generic.none": "Ninguna"
   "generic.note": "Nota"
+  "generic.and": "y"
 
   # ℹ️ Example: Exception was added by an admin.
   "generic.anAdmin": "un administrador"
@@ -416,6 +424,8 @@
   /* ---------------------------------------------------------------------
                     Permaban - Used for /Permaban, /UnPermaban
      --------------------------------------------------------------------- */
+  "permaban.permaban": "Permaban"
+
   "permaban.callbacks": {
     "userPermabanned": "<a href=\"tg://user?id=%s\">Este usuario</a><b> fue Permabanned por </b>%s"
     "userPermabannedAnswerText": "Usuario permanente"
@@ -434,6 +444,8 @@
   /* ---------------------------------------------------------------------
               Restrict - Used for /restrict, /unrestrict, /unban
      --------------------------------------------------------------------- */
+  "restrict.restricted": "restringido"
+
   "restrict.callbacks": {
     "restrictionsReset": "<b>Las restricciones se restablecieron mediante </b>%s"
     "restrictionsUpdated": "<b>Restricciones actualizadas por </b>%s"
@@ -447,6 +459,13 @@
     "linkpreviews": "Controla si el usuario puede agregar vistas previas de enlaces a sus mensajes."
   }
 
+  "restrict.types": {
+    "messages": "de enviar mensajes aquí"
+    "media": "de enviar mensajes de medios aquí"
+    "stickergifs": "desde el envío de pegatinas o GIF aquí"
+    "linkpreviews": "desde agregar cualquier vista previa de enlace a sus mensajes"
+  }
+
   "restrict.success": "%s ahora ha sido restringido %s por %s"
   "restrict.successTimed": "%s ahora ha sido restringido %s <b>hasta %s (UTC) por </b>%s"
   "restrict.replyHint": "<b>Responda al usuario cuyas restricciones desea editar</b>"
@@ -458,6 +477,9 @@
   /* ---------------------------------------------------------------------
                   Warn - Used for /warn, /Warns, /MyWarns
      --------------------------------------------------------------------- */
+  "warn.warned": "prevenido"
+  "warn.checkWarnsOf": "verificar advertencias"
+
   "warn.callbacks": {
     "warnRemovedBy": "<b>Advertir fue eliminado por </b>%s"
     "warnRemovedAnswerText": "¡Advertencia eliminada!"

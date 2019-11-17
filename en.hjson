@@ -121,7 +121,7 @@
     "ten": "🔟"
   }
 
-  generic.times: {
+  "generic.times": {
     "zero": "times"
     "one": "time"
     "other": "times"
@@ -138,6 +138,13 @@
   "generic.needToBeAdminAnswerText": "❌ Not allowed. You need to:\n\n1️⃣ Be an admin\n2️⃣ Have permission to %s"
   "generic.CalsiBotNeedsToBeAdmin": "<b>❌ For this to work, %s has to:</b>\n\n1️⃣ Be an admin\n2️⃣ Have permission to %s"
 
+  "generic.permissionTypes": {
+    "changeGroupInfo": "change group info"
+    "banUsers": "ban users"
+    "deleteMessages": "delete messages"
+    "pinMessages": "pin messages"
+  }
+
   "generic.loaded": "Loaded"
   "generic.disabled": "Disabled"
   "generic.enabled": "Enabled"
@@ -145,6 +152,7 @@
   "generic.currently": "Currently"
   "generic.none": "None"
   "generic.note": "Note"
+  "generic.and": "and"
 
   # ℹ️ Example: Exception was added by an admin.
   "generic.anAdmin": "an admin"
@@ -416,6 +424,8 @@
   /* ---------------------------------------------------------------------
                     Permaban - Used for /Permaban, /UnPermaban
      --------------------------------------------------------------------- */
+  "permaban.permaban": "Permaban"
+
   "permaban.callbacks": {
     "userPermabanned": "<a href=\"tg://user?id=%s\">This user</a><b> was Permabanned by </b>%s"
     "userPermabannedAnswerText": "User Permabanned"
@@ -434,6 +444,8 @@
   /* ---------------------------------------------------------------------
               Restrict - Used for /restrict, /unrestrict, /unban
      --------------------------------------------------------------------- */
+  "restrict.restricted": "restricted"
+
   "restrict.callbacks": {
     "restrictionsReset": "<b>Restrictions were reset by </b>%s"
     "restrictionsUpdated": "<b>Restrictions updated by </b>%s"
@@ -447,6 +459,13 @@
     "linkpreviews": "Controls if the user can add link previews to their messages."
   }
 
+  "restrict.types": {
+    "messages": "from sending any Messages here"
+    "media": "from sending any Media messages here"
+    "stickergifs": "from sending any Stickers or GIFs here"
+    "linkpreviews": "from adding any Link Previews to their messages"
+  }
+
   "restrict.success": "%s has now been restricted %s by %s"
   "restrict.successTimed": "%s has now been restricted %s <b>until %s (UTC) by </b>%s"
   "restrict.replyHint": "<b>Reply to the user whose restrictions you want to edit</b>"
@@ -458,6 +477,9 @@
   /* ---------------------------------------------------------------------
                   Warn - Used for /warn, /Warns, /MyWarns
      --------------------------------------------------------------------- */
+  "warn.warned": "warned"
+  "warn.checkWarnsOf": "check the warns of"
+
   "warn.callbacks": {
     "warnRemovedBy": "<b>Warn was removed by </b>%s"
     "warnRemovedAnswerText": "Warn Removed!"
