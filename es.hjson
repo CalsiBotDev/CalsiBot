@@ -249,7 +249,7 @@
      --------------------------------------------------------------------- */
   "fish.fish": "Pescado"
   "fish.fishing": "Pescar"
-  "fish.noFish": "<b>Parece que </b><a href=\"tg://user?id=%s\">%s</a><b> ¡Nunca antes ha pescado un pez!\n\nPruébalo:</b>/Fish"
+  "fish.noFish": "<b>Parece que </b><a href=\"tg://user?id=%s\">%s</a><b> ¡Nunca antes ha pescado un pez!\n\nPruébalo:</b> /Fish"
   "fish.noTrophyFish": "<b>Actualmente no tienes ningún pez trofeo 😢, ¡pero no te preocupes!\n\nAtrapa uno </b>/Fish<b> para ganar tu primero!</b>\n\n/MyFish ||| /Fish"
 
   "fish.verdicts": {

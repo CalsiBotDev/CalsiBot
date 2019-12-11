@@ -249,7 +249,7 @@
      --------------------------------------------------------------------- */
   "fish.fish": "Fish"
   "fish.fishing": "Fishing"
-  "fish.noFish": "<b>It looks like </b><a href=\"tg://user?id=%s\">%s</a><b> has never caught a fish before!\n\nHave a go:</b>/Fish"
+  "fish.noFish": "<b>It looks like </b><a href=\"tg://user?id=%s\">%s</a><b> has never caught a fish before!\n\nHave a go:</b> /Fish"
   "fish.noTrophyFish": "<b>You don't currently have any Trophy Fish 😢 - but don't worry!\n\nCatch one </b>/Fish<b> to earn your first!</b>\n\n/MyFish ||| /Fish"
 
   "fish.verdicts": {
