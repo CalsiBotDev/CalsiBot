@@ -39,12 +39,12 @@
     "joinLimitRestrictionsResetAnswerText": "Rimosse restrizioni."
 
     "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">A questo utente</a><b> è stata concessa un'esenzione una tantum da </b>%s\n\n<b>La prossima volta che l'utente si unisce, non sarà rimosso.</b>"
-    "joinLockExceptionAddedAnswerText": "Eccezione aggiunta."
+    "joinLockExceptionAddedAnswerText": "Eccezione aggiunta"
 
     "chatNameRemoved": "<b>Nome gruppo rimosso da </b>%s"
-    "chatNameRemovedAnswerText": "Nome gruppo rimosso."
+    "chatNameRemovedAnswerText": "Nome gruppo rimosso"
     "chatNameNotSet": "<b>Il nome gruppo non è mai stato impostato, quindi non c'è nulla da rimuovere.</b>"
-    "chatNameNotSetAnswerText": "Nome gruppo non impostato."
+    "chatNameNotSetAnswerText": "Nome gruppo non impostato"
 
     "cantUseFeatureOnAdminsAnswerText": "Non posso %s gli amministratori"
 
@@ -52,7 +52,7 @@
     "CalsiBotNoLongerAdminAnswerText": "CalsiBot non è più un amministratore o non dispone di autorizzazioni sufficienti, quindi questa tastiera è scaduta."
 
     "keyboardHasExpired": "<b>Questa tastiera è scaduta.</b>"
-    "keyboardHasExpiredAnswerText": "Tastiera scaduta."
+    "keyboardHasExpiredAnswerText": "Tastiera scaduta"
   }
 
   "generic.buttons": {
@@ -61,7 +61,7 @@
     "imSorry": "😭 Mi dispiace!"
 
     "joinChannel": "👋 Iscriviti al canale"
-    "tapToVerify": "🤖 Tocca per iniziare la verifica 🤖"
+    "tapToVerify": "🤖 Inizia la verifica 🤖"
 
     "banUser": "❌ Rimuovi utente"
     "banBot": "❌ Rimuovi bot"
@@ -577,7 +577,7 @@
 
   Per esempio:</b>
   <code>/wish Vorrei uscire con te 😍</code><b>, o</b>
-  <code>/wish Finalmente ci sarà un governo stabile?</code><b>, o</b>
+  <code>/wish Finalmente ci sarà un governo stabile? 😂😢</code><b>, o</b>
   <code>/wish Vorrei avere qualcuno a cui fare /cuddle stanotte</code><b>...</b>
   '''
 
