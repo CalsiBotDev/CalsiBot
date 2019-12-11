@@ -22,7 +22,7 @@
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
     # and NOT contain any formatting or assume the value of any dynamic values.
     "userUnbannedBy": "<a href=\"tg://user?id=%s\">Questo utente</a><b> è stato sbannato da </b>%s"
-    "userUnbannedBySignature": " sbannato da "
+    "userUnbannedBySignature": " è stato sbannato da "
     "userUnbannedAnswerText": "Utente sbannato"
 
     # ℹ️ Example: /JoinVerify enabled by Andy
