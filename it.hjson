@@ -581,7 +581,7 @@
   <code>/wish Vorrei avere qualcuno a cui fare /cuddle stanotte</code><b>...</b>
   '''
 
-  "misc.wish.main": "<b>Il tuo desiderio è stato espresso. ✨</b>\n\n<i>Si avvererà al %s%</i>"
+  "misc.wish.main": "<b>Il tuo desiderio è stato espresso. ✨</b>\n\n<i>Si avvererà al: %s%</i>"
 
   "misc.adminmode.help": "<b>La modalità amministratore consente di disabilitare tutti i comandi di CalsiBot che non sono correlati alla moderazione</b>"
 
