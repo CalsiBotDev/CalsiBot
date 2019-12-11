@@ -417,7 +417,7 @@
                             Brick - Used for /brick
      --------------------------------------------------------------------- */
   "brick.wallBuilding": "Costruzione del muro"
-  "brick.noActivity": "<b>È da un po' che nessuno da </b>/brick<b> ...</b>"
+  "brick.noActivity": "<b>È da un po' che nessuno da </b>/brick<b>...</b>"
   "brick.brickStatsMain": "<b>Statistiche costruzione per questa chat:</b>"
 
 
