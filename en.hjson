@@ -52,7 +52,8 @@
     "CalsiBotNoLongerAdminAnswerText": "CalsiBot is no longer an admin or doesn't have enough permissions, so this keyboard has expired."
 
     "keyboardHasExpired": "<b>This keyboard has expired.</b>"
-    "keyboardHasExpiredAnswerText": "Keyboard Expired."
+    "keyboardHasExpiredAnswerText": "Keyboard Expired"
+    "keyboardHasUpdatedPressConfirmAnswerText": "Keyboard Updated, press 'Confirm' to apply"
   }
 
   "generic.buttons": {
@@ -103,6 +104,9 @@
 
     "continueFishing": "🎣 Continue Fishing"
     "continueBuilding": "⚒ Continue Building"
+
+    "chooseAction": "🎭 Choose Action"
+    "ignore": "🙈 Ignore"
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
@@ -152,6 +156,8 @@
   "generic.currently": "Currently"
   "generic.none": "None"
   "generic.note": "Note"
+  "generic.deleteQuestion": "Delete?"
+  "generic.banQuestion": "Ban?"
   "generic.and": "and"
 
   # ℹ️ Example: Exception was added by an admin.
@@ -659,4 +665,23 @@
     "fuckboy"
     "idk 😳"
   ]
+
+
+  /* ---------------------------------------------------------------------
+                        AtAdmin - Used for @admin, @admins
+     --------------------------------------------------------------------- */
+  # ℹ️ NOTE: The last %s may look useless here, but it will hold the 'mentions' to the group's admins
+  "atAdmin.main": "%s <b>has summoned admins to look at this message.</b>%s"
+
+  "atAdmin.callbacks": {
+    "chooseAction": "<b>Select the actions you want to take with the toggles below:</b>"
+    "chooseActionAnswerText": "Select An Action"
+    "ignoreAnswerText": "Report Ignored"
+    "actionTakenAnswerText": "The actions you selected have been taken"
+  }
+
+  "atAdmin.info": {
+    "delete": "Should the reported message be deleted? Note that bots are unable to delete messages older than 48h..."
+    "ban": "Should the reported user be banned?"
+  }
 }

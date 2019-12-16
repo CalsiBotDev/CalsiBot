@@ -53,6 +53,7 @@
 
     "keyboardHasExpired": "<b>El Este teclado ha caducado.</b>"
     "keyboardHasExpiredAnswerText": "Teclado caducado"
+    "keyboardHasUpdatedPressConfirmAnswerText": "Teclado actualizado, presione 'Confirmar' para aplicar"
   }
 
   "generic.buttons": {
@@ -103,6 +104,9 @@
 
     "continueFishing": "🎣 Continuar pescando"
     "continueBuilding": "⚒ Continuar construyendo"
+
+    "chooseAction": "🎭 Elige Acción"
+    "ignore": "🙈 Ignorar"
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
@@ -152,6 +156,8 @@
   "generic.currently": "Actualmente"
   "generic.none": "Ninguna"
   "generic.note": "Nota"
+  "generic.deleteQuestion": "¿Borrar?"
+  "generic.banQuestion": "¿Prohibición?"
   "generic.and": "y"
 
   # ℹ️ Example: Exception was added by an admin.
@@ -659,4 +665,23 @@
     "fuckboy"
     "no sé 😳"
   ]
+
+
+  /* ---------------------------------------------------------------------
+                        AtAdmin - Used for @admin, @admins
+     --------------------------------------------------------------------- */
+  # ℹ️ NOTE: The last %s may look useless here, but it will hold the 'mentions' to the group's admins
+  "atAdmin.main": "%s <b>ha convocado a administradores para que vean este mensaje.</b>%s"
+
+  "atAdmin.callbacks": {
+    "chooseAction": "<b>Seleccione las acciones que desea realizar con los siguientes botones:</b>"
+    "chooseActionAnswerText": "Seleccione una acción"
+    "ignoreAnswerText": "Informe ignorado"
+    "actionTakenAnswerText": "Se han tomado las acciones que seleccionó"
+  }
+
+  "atAdmin.info": {
+    "delete": "¿Se debe eliminar el mensaje informado? Tenga en cuenta que los bots no pueden eliminar mensajes anteriores a 48h..."
+    "ban": "¿Se debe prohibir al usuario informado?"
+  }
 }
