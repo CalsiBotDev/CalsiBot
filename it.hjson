@@ -361,7 +361,7 @@
   "joinverify.joinevents.userVerifyTimed": "<b>Ehi </b>%s<b> benvenuto in </b><code>%s</code><b>.\n\nPer poter scrivere, verifica di essere un umano entro %s minuti:</b>"
   "joinverify.joinevents.botVerify": "%s<b> è un bot\n\nUn amministratore può premere \"Permetti bot\" in basso per consentirgli di inviare messaggi:</b>"
   "joinverify.joinevents.botVerifyTimed": "%s<b> è un bot\n\nUn amministratore può premere \"Permetti bot\" in basso per consentirgli di inviare messaggi, altrimenti verrà bannato tra %s minuti.</b>"
-  "joinverify.joinevents.userVerified": "%s<b> ha passato </b><a href=\"t.me/CalsiBotDev/89\">il CAPTCHA con successo</a><b>.</b>"
+  "joinverify.joinevents.userVerified": "%s<b> ha passato </b><a href=\"t.me/CalsiBotDev/89\">il JoinVerify con successo</a><b>.</b>"
 
 
   /* ---------------------------------------------------------------------

@@ -52,7 +52,7 @@
     "CalsiBotNoLongerAdminAnswerText": "CalsiBot больше не является администратором или не имеет достаточных разрешений, поэтому срок действия этой клавиатуры истек."
 
     "keyboardHasExpired": "<b>Срок действия этой клавиатуры истек.</b>"
-    "keyboardHasExpiredAnswerText": "Клавиатура просрочена."
+    "keyboardHasExpiredAnswerText": "Клавиатура просрочена"
   }
 
   "generic.buttons": {

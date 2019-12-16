@@ -52,7 +52,7 @@
     "CalsiBotNoLongerAdminAnswerText": "CalsiBot ya no es administrador o no tiene suficientes permisos, por lo que este teclado ha caducado."
 
     "keyboardHasExpired": "<b>El Este teclado ha caducado.</b>"
-    "keyboardHasExpiredAnswerText": "Teclado caducado."
+    "keyboardHasExpiredAnswerText": "Teclado caducado"
   }
 
   "generic.buttons": {
