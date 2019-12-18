@@ -345,7 +345,7 @@
     "successAnswerText": "Succès ! vous pouvez maintenant discuter dans le groupe %s ..."
     "manuallyTrusted": "%s<b> a approuvé manuellement à </b>%s<b>.</b>"
     "manuallyTrustedAnswerText": "Utilisateur approuvé"
-    "expired": "<b>Cette demande de vérification a expiré.\n\n Il se peur que </b>vous <b>ayez été manuellement banni ou approuvé par les administrateurs du groupe.</b>Ou, c'est une très vieille demande ."
+    "expired": "<b>Cette demande de vérification a expiré.\n\nIl se peut que </b>vous <b>ayez été manuellement banni ou approuvé par les administrateurs du groupe.</b>Ou, c'est une très vieille demande ."
     "expiredAnswerText": "Demande de vérification expirée"
 
     "settingsUnavailable": "<b>La vérification au moment de rejoindre n'est pas activée pour le moment, activez-la d'abord pour modifier les paramètres:</b>"
@@ -508,7 +508,7 @@
 
   "warn.replyHint": "<b>Répondez à l'utilisateur que vous souhaitez avertir, e.g:</b>\n\n<code>/warn</code><b>, ou\n</b><code>/warn &lt;votre raison ici&gt;</code>"
 
-  "warn.success": "%s<b> a été averti par </b>%s. %s\n\n<code>%s sur %s avertissements</code>"
+  "warn.success": "%s<b> a été averti par </b>%s.%s\n\n<code>%s sur %s avertissements</code>"
   "warn.userBanned": "%s<b> a été banni. </b><code>%s sur %s avertissements</code>"
   "warn.myWarns": "<b>Avertissements pour </b>%s<b>:</b>"
   "warn.noWarns": "Pas d'avertissement, plutôt cool."
