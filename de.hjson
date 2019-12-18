@@ -22,7 +22,7 @@
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
     # and NOT contain any formatting or assume the value of any dynamic values.
     "userUnbannedBy": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> wurde von nicht gesperrt </b>%s"
-    "userUnbannedBySignature": " wurde von nicht gebannt "
+    "userUnbannedBySignature": " wurde von nicht gesperrt "
     "userUnbannedAnswerText": "Benutzer nicht gesperrt"
 
     # ℹ️ Example: /JoinVerify enabled by Andy
@@ -354,7 +354,7 @@
     "timeLimitChanged": "<b>Join Verify Time Limit geändert von </b><code>%s</code><b> zu </b><code>%s</code><b> von </b>%s"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
     # and NOT contain any formatting or assume the value of any dynamic values.
-    "timeLimitChangedSignature": "Beitrittsbestätigungszeitlimit geändert von "
+    "timeLimitChangedSignature": "Join Verify Time Limit geändert von "
     "timeLimitChangedAnswerText": "Neue Einstellungen gespeichert"
   }
 
