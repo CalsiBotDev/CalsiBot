@@ -17,7 +17,7 @@ You can help in the following ways:
 Once you've made some changes to a language file, please [make a Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request).
 
 Then, always request the following people [as reviewers](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/requesting-a-pull-request-review).
-1. Me, @CalsiBotDev
+1. Me, [@CalsiBotDev](https://github.com/CalsiBotDev)
 1. The people in charge of checking changes to the specific language you have edited:
 
 | Language | Additional Reviewers |
@@ -26,7 +26,7 @@ Then, always request the following people [as reviewers](https://help.github.com
 | Russian (ru) | *None currently 😔* [Apply?](https://github.com/CalsiBotDev/CalsiBot/issues/new) |
 | Spanish (es) | *None currently 😔* [Apply?](https://github.com/CalsiBotDev/CalsiBot/issues/new) |
 | Italian (it) | [@LucentW](https://github.com/LucentW) |
-| French (fr) | *None currently 😔* [Apply?](https://github.com/CalsiBotDev/CalsiBot/issues/new) |
+| French (fr) | [@PBiret](https://github.com/PBiret) |
 | German (de) | [@lucanello](https://github.com/lucanello) |
 
 ## Will you add X? (*language requests*)
