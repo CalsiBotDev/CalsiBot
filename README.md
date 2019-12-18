@@ -25,8 +25,9 @@ Then, always request the following people [as reviewers](https://help.github.com
 | English (en) | None needed |
 | Russian (ru) | *None currently 😔* [Apply?](https://github.com/CalsiBotDev/CalsiBot/issues/new) |
 | Spanish (es) | *None currently 😔* [Apply?](https://github.com/CalsiBotDev/CalsiBot/issues/new) |
-| Italian (it) | @LucentW |
+| Italian (it) | [@LucentW](https://github.com/LucentW) |
 | French (fr) | *None currently 😔* [Apply?](https://github.com/CalsiBotDev/CalsiBot/issues/new) |
+| German (de) | [@lucanello](https://github.com/lucanello) |
 
 ## Will you add X? (*language requests*)
 You can see the list of languages [CalsiBot](https://t.me/CalsiBot) currently supports above. These languages were chosen because they were requested most by users.
@@ -38,4 +39,4 @@ You may be wondering why all the language files end with `.hjson`, well HJSON is
 
 This way, the translation files can easily be converted to JSON for bot-consumption, while the original HJSON version allows us to add comments and spacing - making the experience of the translators a bit nicer.
 
-It's still a bit of a wall of text though, so if you have ideas on how to improve the syntax of the files further (that don't involve using some external translation site) then please [make an issue](https://github.com/CalsiBotDev/CalsiBot/issues/new) or [message me](t.me/cancer) to let me know.
+It's still a bit of a wall of text though, so if you have ideas on how to improve the syntax of the files further (that don't involve using some external translation site) then please [make an issue](https://github.com/CalsiBotDev/CalsiBot/issues/new) or [message me](https://t.me/cancer) to let me know.
