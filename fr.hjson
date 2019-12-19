@@ -107,6 +107,8 @@
 
     "chooseAction": "🎭 Choisissez une action"
     "ignore": "🙈 Ignorer"
+
+    "changeLanguage": "🌐 Changer de Langue"
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
@@ -604,6 +606,24 @@
 
   "misc.pin.help": "<code>/pin</code> <b>vous permet de définir ou de modifier facilement l'épingle du chat sans menus stupides\n\nVous ne savez toujours pas comment l'utiliser? Appuyez sur le bouton ci-dessous pour voir un exemple:</b>"
   "misc.pin.main": "<b>Répondre à une image compressée (non envoyée sous forme de fichier) que vous souhaitez définir comme image de profil de groupe</b>"
+
+  # ℹ️ Example: Come over here, get on your knees, and translate this 😏
+  "misc.knees.main": "<b>Venez ici, mettez-vous à genoux, et </b><i>%s</i><b> ceci %s</b>"
+
+
+  /* ---------------------------------------------------------------------
+                        Language - Used for /language
+     --------------------------------------------------------------------- */
+  # ℹ️ NOTE: This should be the native name of the language.
+  "language.name": "Français"
+  "language.main": "<b>Votre langue est actuellement définie sur:</b>\n<code>%s</code>"
+
+  "language.callbacks": {
+    "chooseYourLanguage": "<b>Choisissez votre langue:</b>"
+    "changedBy": "<b>La langue a été changée de </b><code>%s</code><b> à </b><code>%s</code><b> par </b>%s"
+    "changedByAnswerText": "Langue Changée"
+    "languageAlreadySetAnswerText": "%s est déjà défini comme langue de groupe"
+  }
 
 
   /* ---------------------------------------------------------------------
