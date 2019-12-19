@@ -671,17 +671,17 @@
                         AtAdmin - Used for @admin, @admins
      --------------------------------------------------------------------- */
   # ℹ️ NOTE: The last %s may look useless here, but it will hold the 'mentions' to the group's admins
-  "atAdmin.main": "%s <b>ha convocato gli amministratori a guardare questo messaggio.</b>%s"
+  "atAdmin.main": "%s <b>ha segnalato agli amministratori questo messaggio.</b>%s"
 
   "atAdmin.callbacks": {
-    "chooseAction": "<b>Seleziona le azioni che desideri eseguire con le levette di seguito:</b>"
+    "chooseAction": "<b>Seleziona le azioni che desideri eseguire con i pulsanti di seguito:</b>"
     "chooseActionAnswerText": "Seleziona un'azione"
-    "ignoreAnswerText": "Rapporto ignorato"
-    "actionTakenAnswerText": "Le azioni selezionate sono state intraprese"
+    "ignoreAnswerText": "Segnalazione ignorata"
+    "actionTakenAnswerText": "Detto, fatto"
   }
 
   "atAdmin.info": {
-    "delete": "Il messaggio segnalato deve essere eliminato? Si noti che i robot non sono in grado di eliminare i messaggi più vecchi di 48 ore..."
-    "ban": "L'utente segnalato dovrebbe essere bannato?"
+    "delete": "Il messaggio segnalato deve essere eliminato? Ricorda che i bot non possono eliminare i messaggi più vecchi di 48 ore..."
+    "ban": "Vuoi bannare l'utente segnalato?"
   }
 }
