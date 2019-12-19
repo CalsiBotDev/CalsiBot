@@ -106,7 +106,7 @@
     "continueBuilding": "⚒ Continua a costruire"
 
     "chooseAction": "🎭 Scegli un'azione"
-    "ignore": "🙈 Ignorare"
+    "ignore": "🙈 Ignora"
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
@@ -157,7 +157,7 @@
   "generic.none": "Nessuna"
   "generic.note": "Note"
   "generic.deleteQuestion": "Elimina?"
-  "generic.banQuestion": "Bandire?"
+  "generic.banQuestion": "Banna?"
   "generic.and": "e"
 
   # ℹ️ Example: Exception was added by an admin.
