@@ -107,6 +107,8 @@
 
     "chooseAction": "🎭 Elige Acción"
     "ignore": "🙈 Ignorar"
+
+    "changeLanguage": "🌐 Cambiar Idioma"
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
@@ -604,6 +606,24 @@
 
   "misc.pin.help": "<code>/pin</code> <b>le permite configurar o cambiar fácilmente el pin del chat sin menús estúpidos\n\n¿Aún no sabes cómo usarlo? Toque el botón de abajo para ver un ejemplo:</b>"
   "misc.pin.main": "<b>Responder a una imagen comprimida (no enviada como archivo) que desea establecer como imagen de perfil de grupo</b>"
+
+  # ℹ️ Example: Come over here, get on your knees, and translate this 😏
+  "misc.knees.main": "<b>Ven aquí, ponte de rodillas, y </b><i>%s</i><b> esto %s</b>"
+
+
+  /* ---------------------------------------------------------------------
+                        Language - Used for /language
+     --------------------------------------------------------------------- */
+  # ℹ️ NOTE: This should be the native name of the language.
+  "language.name": "Español"
+  "language.main": "<b>Tu idioma está configurado actualmente en:</b>\n<code>%s</code>"
+
+  "language.callbacks": {
+    "chooseYourLanguage": "<b>Elige tu idioma:</b>"
+    "changedBy": "<b>Idioma cambiado de </b><code>%s</code><b> a </b><code>%s</code><b> por </b>%s"
+    "changedByAnswerText": "Idioma Cambiado"
+    "languageAlreadySetAnswerText": "%s es el ya establecido como idioma grupal"
+  }
 
 
   /* ---------------------------------------------------------------------
