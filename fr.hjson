@@ -620,7 +620,7 @@
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Choisissez votre langue:</b>"
-    "changedBy": "<b>La langue est passée de </b><code>%s</code><b> à </b><code>%s</code><b> par </b>%s"
+    "changedBy": "<b>La langue a été changée de </b><code>%s</code><b> à </b><code>%s</code><b> par </b>%s"
     "changedByAnswerText": "Langue Changée"
     "languageAlreadySetAnswerText": "%s est déjà défini comme langue de groupe"
   }
