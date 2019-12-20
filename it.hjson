@@ -108,7 +108,7 @@
     "chooseAction": "🎭 Scegli un'azione"
     "ignore": "🙈 Ignora"
 
-    "changeLanguage": "🌐 Cambia lingua"
+    "changeLanguage": "🌐 Cambia Lingua"
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
@@ -621,7 +621,7 @@
   "language.callbacks": {
     "chooseYourLanguage": "<b>Scegli la tua lingua:</b>"
     "changedBy": "<b>La lingua è stata cambiata da </b><code>%s</code><b> a </b><code>%s</code><b> da parte di </b>%s"
-    "changedByAnswerText": "Lingua modificata"
+    "changedByAnswerText": "Lingua Modificata"
     "languageAlreadySetAnswerText": "%s è già la lingua selezionata"
   }
 
