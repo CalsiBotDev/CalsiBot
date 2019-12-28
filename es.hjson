@@ -16,11 +16,11 @@
   "generic.callbacks": {
     "userBannedBy": "<a href=\"tg://user?id=%s\">Este usuario</a><b> fue prohibido por </b>%s"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
-    # and NOT contain any formatting or assume the value of any dynamic values.
+    #          and NOT contain any formatting or assume the value of any dynamic values.
     "userBannedBySignature": " fue prohibido por "
     "userBannedAnswerText": "Usuario prohibido"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
-    # and NOT contain any formatting or assume the value of any dynamic values.
+    #          and NOT contain any formatting or assume the value of any dynamic values.
     "userUnbannedBy": "<a href=\"tg://user?id=%s\">Este usuario</a><b> fue excluido por </b>%s"
     "userUnbannedBySignature": " fue excluido por "
     "userUnbannedAnswerText": "Usuario no prohibido"
@@ -168,16 +168,16 @@
   # ℹ️ Example: Fishing is always allowed in private :)
   "generic.featureAlwaysAllowedInPrivate": "%s siempre está permitido en privado :)"
 
-  # ℹ️ Example: <b>Wall Building has now been enabled in this group.</b>
+  # ℹ️ Example: Wall Building has now been enabled in this group.
   "generic.featureEnabled": "<b>%s ahora se ha habilitado en este grupo.</b>"
   "generic.featureAlreadyEnabled": "<b>%s ya está habilitado en este grupo.</b>"
   "generic.featureDisabled": "<b>%s ahora está deshabilitado en este grupo.</b>"
   "generic.featureAlreadyDisabled": "<b>%s ya está deshabilitado en este grupo.</b>"
 
-  # ℹ️ Example: By default, fishing is disabled in group chats.</b>\n\nAn admin can /EnableFish, or you can fish in private, by tapping the button below:
+  # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableFish, or you can fish in private, by tapping the button below:
   "generic.featureDisabledByDefault": "<b>Por defecto, %s está deshabilitado en los chats grupales.</b>\n\nUn administrador puede %s, o puedes %s en privado, tocando el botón a continuación:"
 
-  # ℹ️ Example: <b>You can use </b>/DisableBrick<b> to change that.</b>
+  # ℹ️ Example: You can use /DisableBrick to change that.
   "generic.toggleFeatureHint": "<b>Puedes usar </b>%s<b> cambiar eso</b>"
 
   # ℹ️ Example: You can't Warn admins
@@ -355,7 +355,7 @@
     "setTimeLimitAnswerText": "Seleccione un valor"
     "timeLimitChanged": "<b>El límite de tiempo de verificación de unión cambió de </b><code>%s</code><b> a </b><code>%s</code><b> por </b>%s"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
-    # and NOT contain any formatting or assume the value of any dynamic values.
+    #          and NOT contain any formatting or assume the value of any dynamic values.
     "timeLimitChangedSignature": "El límite de tiempo de verificación de unión cambió de "
     "timeLimitChangedAnswerText": "Nueva configuración guardada"
   }
@@ -617,6 +617,16 @@
   # ℹ️ NOTE: This should be the native name of the language.
   "language.name": "Español"
   "language.main": "<b>Tu idioma está configurado actualmente en:</b>\n<code>%s</code>"
+  "language.credit": "<b>Este idioma es hecho posible por el </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">trabajo duro</a><b> de las siguientes personas:</b>\n"
+  # ℹ️ NOTE: The contributors string should NOT be changed by anyone other than me, or those who are already listed
+  #          as contributors.
+  #
+  #          By default, let's use id-mentions here instead of usernames for privacy reasons, but if you'd prefer to
+  #          be credited by username or something else, feel free to change your tag here - or ask me to do it.
+  #
+  #          This list of names should be in order of contribution size and frequency, taking into account age of last
+  #          contribution.
+  "language.credit.activeContributors": "Ninguna"
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Elige tu idioma:</b>"

@@ -16,11 +16,11 @@
   "generic.callbacks": {
     "userBannedBy": "<a href=\"tg://user?id=%s\">This user</a><b> was banned by </b>%s"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
-    # and NOT contain any formatting or assume the value of any dynamic values.
+    #          and NOT contain any formatting or assume the value of any dynamic values.
     "userBannedBySignature": " was banned by "
     "userBannedAnswerText": "User Banned"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
-    # and NOT contain any formatting or assume the value of any dynamic values.
+    #          and NOT contain any formatting or assume the value of any dynamic values.
     "userUnbannedBy": "<a href=\"tg://user?id=%s\">This user</a><b> was unbanned by </b>%s"
     "userUnbannedBySignature": " was unbanned by "
     "userUnbannedAnswerText": "User Unbanned"
@@ -168,16 +168,16 @@
   # ℹ️ Example: Fishing is always allowed in private :)
   "generic.featureAlwaysAllowedInPrivate": "%s is always allowed in private :)"
 
-  # ℹ️ Example: <b>Wall Building has now been enabled in this group.</b>
+  # ℹ️ Example: Wall Building has now been enabled in this group.
   "generic.featureEnabled": "<b>%s has now been enabled in this group.</b>"
   "generic.featureAlreadyEnabled": "<b>%s is already enabled in this group.</b>"
   "generic.featureDisabled": "<b>%s is now disabled in this group.</b>"
   "generic.featureAlreadyDisabled": "<b>%s is already disabled in this group.</b>"
 
-  # ℹ️ Example: By default, fishing is disabled in group chats.</b>\n\nAn admin can /EnableFish, or you can fish in private, by tapping the button below:
+  # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableFish, or you can fish in private, by tapping the button below:
   "generic.featureDisabledByDefault": "<b>By default, %s is disabled in group chats.</b>\n\nAn admin can %s, or you can %s in private, by tapping the button below:"
 
-  # ℹ️ Example: <b>You can use </b>/DisableBrick<b> to change that.</b>
+  # ℹ️ Example: You can use /DisableBrick to change that.
   "generic.toggleFeatureHint": "<b>You can use </b>%s<b> to change that.</b>"
 
   # ℹ️ Example: You can't Warn admins
@@ -355,7 +355,7 @@
     "setTimeLimitAnswerText": "Select a Value"
     "timeLimitChanged": "<b>Join Verify Time Limit changed from </b><code>%s</code><b> to </b><code>%s</code><b> by </b>%s"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
-    # and NOT contain any formatting or assume the value of any dynamic values.
+    #          and NOT contain any formatting or assume the value of any dynamic values.
     "timeLimitChangedSignature": "Join Verify Time Limit changed from "
     "timeLimitChangedAnswerText": "New Settings Saved"
   }
@@ -617,6 +617,16 @@
   # ℹ️ NOTE: This should be the native name of the language.
   "language.name": "English"
   "language.main": "<b>Your language is currently set to:</b>\n<code>%s</code>"
+  "language.credit": "<b>This language is made possible by the </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">hard work</a><b> of the following people:</b>\n"
+  # ℹ️ NOTE: The contributors string should NOT be changed by anyone other than me, or those who are already listed
+  #          as contributors.
+  #
+  #          By default, let's use id-mentions here instead of usernames for privacy reasons, but if you'd prefer to
+  #          be credited by username or something else, feel free to change your tag here - or ask me to do it.
+  #
+  #          This list of names should be in order of contribution size and frequency, taking into account age of last
+  #          contribution.
+  "language.credit.activeContributors": "<a href=\"t.me/cancer\">Calsï</a>"
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Choose your language:</b>"
