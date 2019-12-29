@@ -135,6 +135,7 @@
 
   "generic.onlySupergroups": "<b>Sorry, this command can only be used in Supergroups</b>"
   "generic.somethingWentWrongTryAgainLater": "<b>Something went wrong, please try again later...</b>"
+  "generic.rateLimit": "😡 <b>Now ignoring new messages from </b>%s<b> for sending more than 3 command messages in less than 1 second. Please stop.</b>\n\n<i>Expires in a few minutes</i>"
 
   # ℹ️ Example: Reply to the person you want to /slap
   "generic.replyToThePersonYouWantTo": "<b>Reply to the person you want to</b> %s"
