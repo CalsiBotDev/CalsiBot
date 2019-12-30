@@ -135,7 +135,7 @@
 
   "generic.onlySupergroups": "<b>Siamo spiacenti, questo comando può essere utilizzato solo nei supergruppi</b>"
   "generic.somethingWentWrongTryAgainLater": "<b>Qualcosa è andato storto, per favore riprova più tardi...</b>"
-  "generic.rateLimit": "😡 <b>Ora ignora i nuovi messaggi di </b>%s<b> per aver inviato più di 3 messaggi di comando in meno di 1 secondo. Per favore fermati.</b>\n\n<i>Scade tra pochi minuti</i>"
+  "generic.rateLimit": "😡 %s<b>, ti sto ignorando perché hai inviato più di 3 comandi in meno di 1 secondo. Per favore dacci un taglio.</b>\n\n<i>Tra pochi minuti scadrà</i>"
 
   # ℹ️ Example: Reply to the person you want to /slap
   "generic.replyToThePersonYouWantTo": "<b>Rispondi alla persona che vuoi</b> %s"
