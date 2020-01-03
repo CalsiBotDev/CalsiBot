@@ -64,12 +64,12 @@
     "joinChannel": "👋 Rejoignez le channel"
     "tapToVerify": "🤖 Appuyez pour vérifier 🤖"
 
-    "banUser": "❌ Bannir l'utilisateur"
-    "banBot": "❌ Bannir le Bot"
-    "allowUser": "🤝 Autoriser l'utilisateur"
-    "trustUser": "🤝 Faire confiance à l'utilisateur"
-    "trustBot": "🤝 Faire confiance au Bot"
-    "unbanUser": "🤝 Débannir l'utilisateur"
+    "banUser": "Bannir l'utilisateur"
+    "banBot": "Bannir le Bot"
+    "allowUser": "Autoriser l'utilisateur"
+    "trustUser": "Faire confiance à l'utilisateur"
+    "trustBot": "Faire confiance au Bot"
+    "unbanUser": "Débannir l'utilisateur"
 
     "settings": "⚙️ Paramètres"
 

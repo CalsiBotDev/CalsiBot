@@ -64,12 +64,12 @@
     "joinChannel": "👋 Iscriviti al canale"
     "tapToVerify": "🤖 Inizia la verifica 🤖"
 
-    "banUser": "❌ Rimuovi utente"
-    "banBot": "❌ Rimuovi bot"
-    "allowUser": "🤝 Consenti utente"
-    "trustUser": "🤝 Aggiungi ai fidati"
-    "trustBot": "🤝 Permetti bot"
-    "unbanUser": "🤝 Sblocca utente"
+    "banUser": "Rimuovi utente"
+    "banBot": "Rimuovi bot"
+    "allowUser": "Consenti utente"
+    "trustUser": "Aggiungi ai fidati"
+    "trustBot": "Permetti bot"
+    "unbanUser": "Sblocca utente"
 
     "settings": "⚙️ Impostazioni"
 

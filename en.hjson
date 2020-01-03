@@ -64,12 +64,12 @@
     "joinChannel": "👋 Join Channel"
     "tapToVerify": "🤖 Tap to Verify 🤖"
 
-    "banUser": "❌ Ban User"
-    "banBot": "❌ Ban Bot"
-    "allowUser": "🤝 Allow User"
-    "trustUser": "🤝 Trust User"
-    "trustBot": "🤝 Trust Bot"
-    "unbanUser": "🤝 Unban User"
+    "banUser": "Ban User"
+    "banBot": "Ban Bot"
+    "allowUser": "Allow User"
+    "trustUser": "Trust User"
+    "trustBot": "Trust Bot"
+    "unbanUser": "Unban User"
 
     "settings": "⚙️ Settings"
 
