@@ -618,7 +618,7 @@
   # ℹ️ NOTE: This should be the native name of the language.
   "language.name": "Italiano"
   "language.main": "<b>La tua lingua è attualmente impostata su:</b>\n<code>%s</code>"
-  "language.credit": "<b>Queste traduzioni ci sono grazie al </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">duro lavoro</a><b> di queste persone:</b>\n"
+  "language.credit": "<b>Questa traduzione c'è grazie al </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">duro lavoro</a><b> di queste persone:</b>\n"
   # ℹ️ NOTE: The contributors string should NOT be changed by anyone other than me, or those who are already listed
   #          as contributors.
   #
