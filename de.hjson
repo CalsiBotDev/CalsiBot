@@ -149,7 +149,9 @@
     "changeGroupInfo": "Gruppeninfo ändern"
     "banUsers": "Benutzer sperren"
     "deleteMessages": "Nachrichten löschen"
+    "inviteUsers": "Benutzer einladen"
     "pinMessages": "PIN-Nachrichten"
+    "doEverything": "Tun Sie alles, einschließlich des Hinzufügens neuer Administratoren"
   }
 
   "generic.loaded": "Geladen"
@@ -159,6 +161,7 @@
   "generic.currently": "Zur Zeit"
   "generic.none": "Keiner"
   "generic.note": "Hinweis"
+  "generic.reasonColon": "Grund:"
   "generic.deleteQuestion": "Löschen?"
   "generic.banQuestion": "Verbot?"
   "generic.and": "und"
@@ -186,6 +189,10 @@
   "generic.cantUseFeatureOnAdminsWithReason": "<b>Du kannst nicht </b><code>%s</code><b> Admins weil %s</b>"
   # ℹ️ Example: because they can't be warned in the first place.
   "generic.theyCantBeInTheFirstPlace": "weil sie nicht sein können %s an erster Stelle."
+
+  "generic.tapNextToContinue": "\n\n<b>Tippen Sie </b>/next<b> um fortzufahren...</b>"
+  "generic.tapNextToRetry": "\n\n<b>Tippen Sie </b>/next<b> auf, um es erneut zu versuchen...</b>"
+  "generic.tapCancelToQuit": "\n\n<b>Tippen Sie </b>/cancel<b> zum Beenden auf %s</b>"
 
 
   /* ---------------------------------------------------------------------
@@ -244,7 +251,7 @@
 
 
   /* ---------------------------------------------------------------------
-                  Ban - Used for /ban, /unban, /kick, etc.
+                        Ban - Used for /ban, /kick, etc.
      --------------------------------------------------------------------- */
   "ban.kick.main": "%s<i> wurde getreten.</i>"
   "ban.kickme.main": "%s<i> entfernt.</i>"

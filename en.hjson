@@ -149,7 +149,9 @@
     "changeGroupInfo": "change group info"
     "banUsers": "ban users"
     "deleteMessages": "delete messages"
+    "inviteUsers": "invite users"
     "pinMessages": "pin messages"
+    "doEverything": "do everything, including adding new admins"
   }
 
   "generic.loaded": "Loaded"
@@ -159,6 +161,7 @@
   "generic.currently": "Currently"
   "generic.none": "None"
   "generic.note": "Note"
+  "generic.reasonColon": "Reason:"
   "generic.deleteQuestion": "Delete?"
   "generic.banQuestion": "Ban?"
   "generic.and": "and"
@@ -186,6 +189,10 @@
   "generic.cantUseFeatureOnAdminsWithReason": "<b>You can't </b><code>%s</code><b> admins because %s</b>"
   # ℹ️ Example: because they can't be warned in the first place.
   "generic.theyCantBeInTheFirstPlace": "because they can't be %s in the first place."
+
+  "generic.tapNextToContinue": "\n\n<b>Tap </b>/next<b> to Continue...</b>"
+  "generic.tapNextToRetry": "\n\n<b>Tap </b>/next<b> to Retry...</b>"
+  "generic.tapCancelToQuit": "\n\n<b>Tap </b>/cancel<b> to Quit %s</b>"
 
 
   /* ---------------------------------------------------------------------
@@ -244,7 +251,7 @@
 
 
   /* ---------------------------------------------------------------------
-                  Ban - Used for /ban, /unban, /kick, etc.
+                        Ban - Used for /ban, /kick, etc.
      --------------------------------------------------------------------- */
   "ban.kick.main": "%s<i> was kicked.</i>"
   "ban.kickme.main": "%s<i> removed.</i>"
@@ -312,7 +319,7 @@
                         JoinEvents - Used for Join Flow
      --------------------------------------------------------------------- */
   "joinevents.error.CalsiBotNotEnoughPermissions": "<b>A Welcome Message, JoinLock, JoinVerify or JoinLimit is currently enabled, but I don't have enough Admin permissions right now...\n\nPlease ensure that I can </b><code>change group info</code><b>, and </b><code>ban users</code><b>.</b>"
-  "joinevents.userPermabanned": "%s<b> was permanently banned from this group by an Admin.\n\nI have removed them.</b>"
+  "joinevents.userPermabanned": "%s<b> was permanently banned from this group by an admin.\n\nI have removed them.</b>"
   "joinevents.joinlockAddedByAdmin": "<b>Join Lock is enabled but </b>%s<b> was added by </b>%s<b>, so they have not been kicked.</b>"
   "joinevents.joinlockMemberBanned": "%s<b> was banned because Join Lock is enabled.</b>"
 
@@ -368,8 +375,8 @@
   "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>Join Verify is enabled but </b>%s<b> was added by </b>%s<b>, so they don't need to verify themselves.</b>"
   "joinverify.joinevents.userVerify": "<b>Hey </b>%s<b> welcome to </b><code>%s</code><b>.\n\nTo chat, please verify that you're human:</b>"
   "joinverify.joinevents.userVerifyTimed": "<b>Hey </b>%s<b> welcome to </b><code>%s</code><b>.\n\nTo chat, please verify that you're human within %s minutes:</b>"
-  "joinverify.joinevents.botVerify": "%s<b> is a bot.\n\nAn Admin can press \"Trust\" below to allow it to send messages:</b>"
-  "joinverify.joinevents.botVerifyTimed": "%s<b> is a bot.\n\nAn Admin can press \"Trust\" below to allow it to send messages, otherwise it'll be banned in %s minutes.</b>"
+  "joinverify.joinevents.botVerify": "%s<b> is a bot.\n\nAn admin can press \"Trust\" below to allow it to send messages:</b>"
+  "joinverify.joinevents.botVerifyTimed": "%s<b> is a bot.\n\nAn admin can press \"Trust\" below to allow it to send messages, otherwise it'll be banned in %s minutes.</b>"
   "joinverify.joinevents.userVerified": "%s<b> has </b><a href=\"t.me/CalsiBotDev/89\">verified themselves as human</a><b>.</b>"
 
 
