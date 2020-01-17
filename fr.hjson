@@ -65,7 +65,7 @@
     "tapToVerify": "🤖 Appuyez pour vérifier 🤖"
 
     "banUser": "Bannir l'utilisateur"
-    "banBot": "Bannirle Bot"
+    "banBot": "Bannir le Bot"
     "allowUser": "Autoriser"
     "trustUser": "Faire confiance"
     "trustBot": "Faire confiance"
@@ -151,7 +151,7 @@
     "deleteMessages": "supprimer des messages"
     "inviteUsers": "inviter des utilisateurs"
     "pinMessages": "épingler des messages"
-    "doEverything": "tout faire, y compris l'ajout de nouveaux administrateurs"
+    "doEverything": "tout faire, y compris ajouter de nouveaux administrateurs"
   }
 
   "generic.loaded": "Chargé"
@@ -273,7 +273,7 @@
     "blowfish": "Vous avez attrapé un Poisson-Globe: 🐡"
     "normal": "<b>Pas mal!</b>\nVous avez attrapé un Poisson Normal: 🐟"
     "tropical": "<b>Cool!</b>\nVous avez attrapé un Poisson Tropical: 🐠"
-    "squid": "<b>Doux!</b>\nVous avez attrapé un Calmar: 🦑"
+    "squid": "<b>Sympa!</b>\nVous avez attrapé un Calmar: 🦑"
     "crab": "<b>Génial!</b>\nVous avez attrapé un Crabe: 🦀"
     "dolphin": "<b>WHOA!</b>\nVous avez attrapé un Dauphin: 🐬"
     "shark": "<b>OH PUTAIN !!</b>\nVous avez attrapé un Requin: 🦈"
