@@ -66,10 +66,10 @@
 
     "banUser": "Bannir l'utilisateur"
     "banBot": "Bannir le Bot"
-    "allowUser": "Autoriser l'utilisateur"
-    "trustUser": "Faire confiance à l'utilisateur"
-    "trustBot": "Faire confiance au Bot"
-    "unbanUser": "Débannir l'utilisateur"
+    "allowUser": "Autoriser"
+    "trustUser": "Faire confiance"
+    "trustBot": "Faire confiance"
+    "unbanUser": "Débannir"
 
     "settings": "⚙️ Paramètres"
 
@@ -149,7 +149,9 @@
     "changeGroupInfo": "modifier les informations du groupe"
     "banUsers": "bannir les utilisateurs"
     "deleteMessages": "supprimer des messages"
+    "inviteUsers": "inviter des utilisateurs"
     "pinMessages": "épingler des messages"
+    "doEverything": "tout faire, y compris ajouter de nouveaux administrateurs"
   }
 
   "generic.loaded": "Chargé"
@@ -159,6 +161,7 @@
   "generic.currently": "Actuellement"
   "generic.none": "Aucun"
   "generic.note": "Remarque"
+  "generic.reasonColon": "Raison :"
   "generic.deleteQuestion": "Supprimer?"
   "generic.banQuestion": "Bannir?"
   "generic.and": "et"
@@ -186,6 +189,10 @@
   "generic.cantUseFeatureOnAdminsWithReason": "<b>Vous ne pouvez pas </b><code>%s</code><b> les admins parce que %s</b>"
   # ℹ️ Example: because they can't be warned in the first place.
   "generic.theyCantBeInTheFirstPlace": "parce qu'ils ne peuvent pas être %s en premier lieu."
+
+  "generic.tapNextToContinue": "\n\n<b>Appuyez </b>/next<b> pour Continuer...</b>"
+  "generic.tapNextToRetry": "\n\n<b>Cliquer </b>/next<b> pour Réessayer...</b>"
+  "generic.tapCancelToQuit": "\n\n<b>Appuyez </b>/cancel<b> pour Quitter %s</b>"
 
 
   /* ---------------------------------------------------------------------
@@ -244,7 +251,7 @@
 
 
   /* ---------------------------------------------------------------------
-                  Ban - Used for /ban, /unban, /kick, etc.
+                        Ban - Used for /ban, /kick, etc.
      --------------------------------------------------------------------- */
   "ban.kick.main": "%s<i> a été expulsé.</i>"
   "ban.kickme.main": "%s<i> retiré.</i>"
@@ -266,7 +273,7 @@
     "blowfish": "Vous avez attrapé un Poisson-Globe: 🐡"
     "normal": "<b>Pas mal!</b>\nVous avez attrapé un Poisson Normal: 🐟"
     "tropical": "<b>Cool!</b>\nVous avez attrapé un Poisson Tropical: 🐠"
-    "squid": "<b>Doux!</b>\nVous avez attrapé un Calmar: 🦑"
+    "squid": "<b>Sympa!</b>\nVous avez attrapé un Calmar: 🦑"
     "crab": "<b>Génial!</b>\nVous avez attrapé un Crabe: 🦀"
     "dolphin": "<b>WHOA!</b>\nVous avez attrapé un Dauphin: 🐬"
     "shark": "<b>OH PUTAIN !!</b>\nVous avez attrapé un Requin: 🦈"
@@ -366,8 +373,8 @@
 
   # ⚠️ IMPORTANT
   "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>La vérification au moment de rejoindre est activée mais </b>%s<b> a été ajouté par </b>%s<b>, il ou elle n'a donc pas besoin de se faire approuver.</b>"
-  "joinverify.joinevents.userVerify": "<b>Hé</b>%s<b>, bienvenue à </b><code>%s</code><b>.\n\nPour pouvoir discuter, veuillez confirmer que vous êtes humain:</b>"
-  "joinverify.joinevents.userVerifyTimed": "b>Hé</b>%s<b>, bienvenue à </b><code>%s</code><b>.\n\nPour pouvoir discuter, veuillez confirmer que vous êtes humain d'ici %s minutes:</b>"
+  "joinverify.joinevents.userVerify": "<b>Hé </b>%s<b>, bienvenue à </b><code>%s</code><b>.\n\nPour pouvoir discuter, veuillez confirmer que vous êtes humain:</b>"
+  "joinverify.joinevents.userVerifyTimed": "<b>Hé </b>%s<b>, bienvenue à </b><code>%s</code><b>.\n\nPour pouvoir discuter, veuillez confirmer que vous êtes humain d'ici %s minutes:</b>"
   "joinverify.joinevents.botVerify": "%s<b> est un bot.\n\nUn administrateur peut appuyer sur \"Trust\" ci-dessous pour l'autoriser à envoyer des messages:</b>"
   "joinverify.joinevents.botVerifyTimed": "%s<b> est un bot.\n\nUn administrateur peut appuyer sur \"Trust\" ci-dessous pour lui permettre d'envoyer des messages, sinon il sera banni dans %s minutes.</b>"
   "joinverify.joinevents.userVerified": "%s<b> a </b><a href=\"t.me/CalsiBotDev/89\">a confirmé être un humain</a><b>.</b>"
