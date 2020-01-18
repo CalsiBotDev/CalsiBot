@@ -191,7 +191,7 @@
   "generic.theyCantBeInTheFirstPlace": "perché non possono essere %s comunque."
 
   "generic.tapNextToContinue": "\n\n<b>Tocca </b>/next<b> per Continuare...</b>"
-  "generic.tapNextToRetry": "\n\n<b>Premi </b>/next<b> per Riprovare...</b>"
+  "generic.tapNextToRetry": "\n\n<b>Tocca </b>/next<b> per Riprovare...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Tocca </b>/cancel<b> per Uscire %s</b>"
 
 
