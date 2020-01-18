@@ -190,7 +190,7 @@
   # ℹ️ Example: because they can't be warned in the first place.
   "generic.theyCantBeInTheFirstPlace": "porque no pueden ser %s en primer lugar."
 
-  "generic.tapNextToContinue": "\n\n<b>Pulse </b>/next<b> para Continuar...</b>"
+  "generic.tapNextToContinue": "\n\n<b>Toca </b>/next<b> para Continuar...</b>"
   "generic.tapNextToRetry": "\n\n<b>Toca </b>/next<b> para volver a Intentar...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Toca </b>/cancel<b> para Salir %s</b>"
 

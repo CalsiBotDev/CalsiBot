@@ -191,7 +191,7 @@
   "generic.theyCantBeInTheFirstPlace": "parce qu'ils ne peuvent pas être %s en premier lieu."
 
   "generic.tapNextToContinue": "\n\n<b>Appuyez </b>/next<b> pour Continuer...</b>"
-  "generic.tapNextToRetry": "\n\n<b>Cliquer </b>/next<b> pour Réessayer...</b>"
+  "generic.tapNextToRetry": "\n\n<b>Appuyez </b>/next<b> pour Réessayer...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Appuyez </b>/cancel<b> pour Quitter %s</b>"
 
 
