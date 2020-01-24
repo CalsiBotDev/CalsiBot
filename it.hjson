@@ -149,9 +149,9 @@
     "changeGroupInfo": "cambiare le informazioni del gruppo"
     "banUsers": "bloccare gli utenti"
     "deleteMessages": "eliminare i messaggi"
-    "inviteUsers": "invita gli utenti"
+    "inviteUsers": "invitare gli utenti"
     "pinMessages": "fissare messaggi"
-    "doEverything": "fai tutto, incluso l'aggiunta di nuovi amministratori"
+    "doEverything": "fare tutto, incluso aggiungere nuovi amministratori"
   }
 
   "generic.loaded": "Caricato"
