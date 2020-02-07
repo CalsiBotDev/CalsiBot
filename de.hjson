@@ -52,8 +52,8 @@
     "CalsiBotNoLongerAdminAnswerText": "CalsiBot ist kein Administrator mehr oder verfügt nicht über ausreichende Berechtigungen. Daher ist diese Tastatur abgelaufen."
 
     "keyboardHasExpired": "<b>Diese Tastatur ist abgelaufen.</b>"
-    "keyboardHasExpiredAnswerText": "Tastatur abgelaufen"
-    "keyboardHasUpdatedPressConfirmAnswerText": "Tastatur aktualisiert, drücken Sie zum Übernehmen auf 'Bestätigen'"
+    "keyboardExpiredAnswerText": "Tastatur abgelaufen"
+    "keyboardUpdatedPressConfirmAnswerText": "Tastatur aktualisiert, drücken Sie zum Übernehmen auf 'Bestätigen'"
   }
 
   "generic.buttons": {
@@ -136,6 +136,7 @@
   "generic.onlySupergroups": "<b>Dieser Befehl kann leider nur in Supergruppen verwendet werden</b>"
   "generic.somethingWentWrongTryAgainLater": "<b>Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal...</b>"
   "generic.rateLimit": "😡 <b>Ignoriert jetzt neue Nachrichten von </b>%s<b> da mehr als 3 Befehlsnachrichten in weniger als 1 Sekunde gesendet wurden. Bitte hör auf.</b>\n\n<i>Läuft in wenigen Minuten ab</i>"
+  "generic.willNotSeeAgainForAWhile": "<i>Sie werden diese Nachricht für eine Weile nicht mehr sehen.</i>"
 
   # ℹ️ Example: Reply to the person you want to /slap
   "generic.replyToThePersonYouWantTo": "<b>Antworte der gewünschten Person</b> %s"
@@ -155,10 +156,13 @@
   }
 
   "generic.loaded": "Geladen"
+  "generic.loadingEllipsis": "Wird geladen..."
   "generic.disabled": "Behindert"
   "generic.enabled": "aktiviert"
   "generic.cancelled": "Abgesagt"
   "generic.currently": "Zur Zeit"
+  "generic.gaming": "Spielen"
+  "generic.nobody": "Niemand"
   "generic.none": "Keiner"
   "generic.note": "Hinweis"
   "generic.reasonColon": "Grund:"
@@ -178,7 +182,7 @@
   "generic.featureDisabled": "<b>%s ist jetzt in dieser Gruppe deaktiviert.</b>"
   "generic.featureAlreadyDisabled": "<b>%s ist in dieser Gruppe bereits deaktiviert.</b>"
 
-  # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableFish, or you can fish in private, by tapping the button below:
+  # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableGames, or you can fish in private, by tapping the button below:
   "generic.featureDisabledByDefault": "<b>Standardmäßig %s ist in Gruppenchats deaktiviert.</b>\n\nEin Administrator kann %s oder Sie können %s Privat, indem Sie auf die Schaltfläche unten tippen:"
 
   # ℹ️ Example: You can use /DisableBrick to change that.
@@ -193,6 +197,8 @@
   "generic.tapNextToContinue": "\n\n<b>Tippen Sie </b>/next<b> um fortzufahren...</b>"
   "generic.tapNextToRetry": "\n\n<b>Tippen Sie </b>/next<b> auf, um es erneut zu versuchen...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Tippen Sie </b>/cancel<b> zum Beenden auf %s</b>"
+
+  "generic.timeInDHMS": "%s Tage, %s Stunden, %s Minuten, %s Sekunden"
 
 
   /* ---------------------------------------------------------------------
@@ -231,7 +237,7 @@
   "comfy.ruffle": {
     "self": "%s<b> kräuselt sich die Haare... Huch. 😐</b>"
     "main": "<b>*</b>%s Rüschen %s s Haar<b>* :&</b>"
-    "CalsiBot": "<i>😟 Du sollst die Haare auf meinem Kopf kräuseln...nicht...dort.</i> 😳"
+    "CalsiBot": "<i>Du sollst die Haare auf meinem Kopf kräuseln...nicht...dort.</i> 😳"
   }
 
   "comfy.highfive": {
@@ -412,21 +418,45 @@
     "other": "häuser"
   }
 
-  "marry.action.bothGainedHappiness": "🙂 Beide haben gewonnen <b>%s Glück</b> jeder."
+  "marry.result.bothGainedHappiness": "🙂 Beide behaalden <b>%s geluk</b> elk."
+  "marry.result.oneLostHappiness": "🙂 %s verloren <b>%s geluk</b>."
 
-  "marry.help": "💍<b> Antworte jemandem, den du magst mit </b><code>/marry</code><b> um es offiziell zu machen</b>"
+  "marry.result.bothGainedChildren": "🥺 Beide behaalden <b>%s %s</b> elk."
+  "marry.result.oneTookChildrenFrom": "🥺 %s nam <b>%s %s</b> van %s."
+  "marry.result.noChildrenGained": "🚫 Er zijn deze keer geen kinderen gewonnen."
 
-  "marry.self": "<b>Du verdienst es nicht genug eingebildet zu sein, um zu glauben, du könntest dich selbst heiraten...</b>"
-  "marry.main": "💘 %s<b> hat dir vorgeschlagen!</b>"
-  "marry.CalsiBot": "<b>Tut mir leid, aber ich bin bereits mit meiner Arbeit verheiratet...</b> 🥺"
+  "marry.result.bothGainedHouses": "🏠 Beide behaalden <b>%s %s</b> elk."
+  "marry.result.oneTookHousesFrom": "🏠 %s nam <b>%s %s</b> van %s."
+  "marry.result.noHousesGained": "🚫 Geen huizen gewonnen deze keer."
 
-  "marry.divorce.help": "🖤<b> Fühlen Sie die Liebe nicht mehr? </b><code>/divorce</code><b> kann verwendet werden, um sich von zuvor verheirateten Personen zu trennen</b>"
+  "marry.result.bothGainedNetWorth": "💰 Beide behaalden <b>$%s</b> elk."
+  "marry.result.oneTookNetWorthFrom": "💰 %s nam <b>$%s</b> van %s."
+  "marry.result.noNetWorthGained": "🚫 Er is deze keer geen netto vermogen verdiend."
 
-  "marry.divorce.error.notMarried": "😐<b> Sie sind derzeit nicht verheiratet mit </b>%s<b>, also kannst du dich nicht scheiden lassen...</b>"
+  "marry.help": "💍<b> Antwoord op iemand die je leuk vindt met </b><code>/marry</code><b> om het officieel te maken.</b>"
 
-  "marry.divorce.self": "<i>Meinten Sie:\n</i>/kms"
-  "marry.divorce.main": "💔 %s<b> geschieden </b>%s<i>\n(passiert %s %s bisher)</i>\n\n%s\n\n<code>Siehe Ihre </code>/MarryStats"
-  "marry.divorce.CalsiBot": "<b>Mal sehen, was die Anwälte dazu sagen...</b> 🤧"
+  "marry.error.cooldown": "<b>Je moet 1 minuut wachten tussen elke keer dat je statistieken controleert.</b>\n\n%s"
+
+  "marry.self": "<b>Je kunt niet met jezelf trouwen, zelfs als niemand anders met je wil trouwen...</b>"
+  "marry.main": "💘 %s<b> heeft u voorgesteld!</b>"
+  "marry.CalsiBot": "<b>Sorry, maar ik ben al getrouwd met mijn werk...</b> 🥺"
+
+  "marry.divorce.help": "💔<b> Voel je de liefde niet meer? </b><code>/divorce</code><b> kan worden gebruikt om uit elkaar te gaan met mensen met wie u eerder bent getrouwd.</b>"
+
+  "marry.divorce.error.notMarried": "😐<b> U bent momenteel niet getrouwd met </b>%s<b>, dus je kunt niet van ze scheiden...</b>"
+
+  "marry.divorce.self": "<i>Meintest du:\n</i>/kms"
+  "marry.divorce.main": "🖤 %s<b> gescheiden </b>%s<i>\n(gebeurde %s %s tot nu toe)</i>\n\nGetrouwd voor: %s\n\n%s\n\n<code>Zie uw </code>/MarryStats"
+  "marry.divorce.CalsiBot": "<b>Eens kijken wat mijn advocaten daarover zeggen...</b> 🤧"
+
+  "marry.marrystats.error.noData": "🥺 %s <b>is nooit getrouwd geweest.</b>"
+  "marry.marrystats.error.noMutualData": "😶 %s <b>is nooit getrouwd geweest met</b> %s<b>.</b>"
+
+  "marry.marrystats.CalsiBot": "<b>Anders dan u, is CalsiBot puur en heeft geen huwelijkshistorie.</b>"
+
+  "marry.marrystats.own.information": "💖 %s<b> - Trouwstatistieken - 1️⃣:</b>\n\n🙂 - Geluk: <b>%s</b>\n🥺 - Kinderen: <b>%s</b>\n🏠 - Huizen: <b>%s</b>\n💰 - Netto waarde: <b>$%s</b>"
+  "marry.marrystats.own.marriages": "💖 %s<b> - Trouwstatistieken - 2️⃣:</b>\n\n❤️ <b>Huwelijken:</b>\nAanvragen het meest geaccepteerd door %s\nAanvragen het meest afgewezen door %s\nGetrouwd: <b>%s</b> | Afgewezen: <b>%s</b>"
+  "marry.marrystats.own.divorces": "💖 %s<b> - Trouwstatistieken - 3️⃣:</b>\n\n🖤 <b>Echtscheidingen:</b>\nGescheiden van %s de meeste\n Totaal: <b>%s</b>"
 
 
   /* ---------------------------------------------------------------------
@@ -600,6 +630,7 @@
   "misc.wish.main": "<b>Dein Wunsch wurde gewirkt. ✨</b>\n\n<i>erfolgschance: %s%</i>"
 
   "misc.adminmode.help": "<b>Im Administratormodus können Sie alle CalsiBot-Befehle deaktivieren, die sich nicht auf die Gruppenverwaltung beziehen.</b>"
+  "misc.adminmode.sorry": "<b>Entschuldigung, der Admin-Modus ist aktiviert, daher können Sie diesen Befehl hier nicht verwenden...</b>\n\n%s"
 
   "misc.sedreplace.main": "Meintest du:"
 
