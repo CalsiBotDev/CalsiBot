@@ -52,8 +52,8 @@
     "CalsiBotNoLongerAdminAnswerText": "CalsiBot non è più un amministratore o non dispone di autorizzazioni sufficienti, quindi questa tastiera è scaduta."
 
     "keyboardHasExpired": "<b>Questa tastiera è scaduta.</b>"
-    "keyboardHasExpiredAnswerText": "Tastiera scaduta"
-    "keyboardHasUpdatedPressConfirmAnswerText": "Tastiera aggiornata, premere 'Conferma' per applicare"
+    "keyboardExpiredAnswerText": "Tastiera scaduta"
+    "keyboardUpdatedPressConfirmAnswerText": "Tastiera aggiornata, premere 'Conferma' per applicare"
   }
 
   "generic.buttons": {
@@ -136,6 +136,7 @@
   "generic.onlySupergroups": "<b>Siamo spiacenti, questo comando può essere utilizzato solo nei supergruppi</b>"
   "generic.somethingWentWrongTryAgainLater": "<b>Qualcosa è andato storto, per favore riprova più tardi...</b>"
   "generic.rateLimit": "😡 %s<b>, ti sto ignorando perché hai inviato più di 3 comandi in meno di 1 secondo. Per favore dacci un taglio.</b>\n\n<i>Tra pochi minuti scadrà</i>"
+  "generic.willNotSeeAgainForAWhile": "<i>Non vedrai più questo messaggio per un po.</i>"
 
   # ℹ️ Example: Reply to the person you want to /slap
   "generic.replyToThePersonYouWantTo": "<b>Rispondi alla persona che vuoi</b> %s"
@@ -155,10 +156,13 @@
   }
 
   "generic.loaded": "Caricato"
+  "generic.loadingEllipsis": "Caricamento in corso..."
   "generic.disabled": "Disabilitato"
   "generic.enabled": "Abilitato"
   "generic.cancelled": "Annullato"
   "generic.currently": "Attualmente"
+  "generic.gaming": "Gioco"
+  "generic.nobody": "Nessuno"
   "generic.none": "Nessuna"
   "generic.note": "Note"
   "generic.reasonColon": "Motivo:"
@@ -178,7 +182,7 @@
   "generic.featureDisabled": "<b>%s è ora disabilitato in questo gruppo</b>"
   "generic.featureAlreadyDisabled": "<b>%s è già disabilitato in questo gruppo</b>"
 
-  # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableFish, or you can fish in private, by tapping the button below:
+  # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableGames, or you can fish in private, by tapping the button below:
   "generic.featureDisabledByDefault": "<b>Per impostazione predefinita, %s è disabilitato nelle chat di gruppo.</b>\n\nUn amministratore può dare %s oppure puoi %s in privato, usando il pulsante qui sotto:"
 
   # ℹ️ Example: You can use /DisableBrick to change that.
@@ -193,6 +197,8 @@
   "generic.tapNextToContinue": "\n\n<b>Tocca </b>/next<b> per Continuare...</b>"
   "generic.tapNextToRetry": "\n\n<b>Tocca </b>/next<b> per Riprovare...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Tocca </b>/cancel<b> per Uscire %s</b>"
+
+  "generic.timeInDHMS": "%s giorni, %s ore, %s minuti, %s secondi"
 
 
   /* ---------------------------------------------------------------------
@@ -231,7 +237,7 @@
   "comfy.ruffle": {
     "self": "%s<b> si scompiglia i capelli... Ops. 😐</b>"
     "main": "<b>*</b>%s scompiglia i capelli di %s<b>* :&</b>"
-    "CalsiBot": "<i>😟 Dovresti scompigliare i miei capelli...non...quei peli.</i> 😳"
+    "CalsiBot": "<i>Dovresti scompigliare i miei capelli...non...quei peli.</i> 😳"
   }
 
   "comfy.highfive": {
@@ -412,21 +418,45 @@
     "other": "case"
   }
 
-  "marry.action.bothGainedHappiness": "🙂 Entrambi guadagnati <b>%s la felicità</b> ogni."
+  "marry.result.bothGainedHappiness": "🙂 Entrambi hanno guadagnato <b>%s felicità</b> ciascuno."
+  "marry.result.oneLostHappiness": "🙂 %s ha perso <b>%s felicità</b>."
+
+  "marry.result.bothGainedChildren": "🥺 Entrambi hanno guadagnato <b>%s %s</b> ciascuno."
+  "marry.result.oneTookChildrenFrom": "🥺 %s ha preso <b>%s %s</b> da %s."
+  "marry.result.noChildrenGained": "🚫 Questa volta nessun bambino ha guadagnato."
+
+  "marry.result.bothGainedHouses": "🏠 Entrambi hanno guadagnato <b>%s %s</b> ciascuno."
+  "marry.result.oneTookHousesFrom": "🏠 %s ha preso <b>%s %s</b> da %s."
+  "marry.result.noHousesGained": "🚫 Nessuna casa guadagnata questa volta."
+
+  "marry.result.bothGainedNetWorth": "💰 Entrambi hanno guadagnato <b>$ %s</b> ciascuno."
+  "marry.result.oneTookNetWorthFrom": "💰 %s ha preso <b>$%s</b> da %s."
+  "marry.result.noNetWorthGained": "🚫 Nessun valore netto guadagnato questa volta."
 
   "marry.help": "💍<b> Rispondi a qualcuno che ti piace con </b><code>/marry</code><b> per renderlo ufficiale.</b>"
 
-  "marry.self": "<b>Non puoi essere così narcisista da sposarti da solo...</b>"
-  "marry.main": "💘 %s<b> ti ha fatto la proposta di matrimonio!</b>"
-  "marry.CalsiBot": "<b>Mi dispiace, ma sono già sposato con il mio lavoro...</b> 🥺"
+  "marry.error.cooldown": "<b>Devi attendere 1 minuto tra ogni volta che controlli le statistiche.</b>\n\n %s"
 
-  "marry.divorce.help": "🖤 ​<b> Non senti più l'amore? </b><code>/divorce</code><b> può essere usato per separarsi dalle persone che hai sposato in precedenza</b>"
+  "marry.self": "<b>Non puoi sposarti, anche se nessun altro vuole sposarti...</b>"
+  "marry.main": "💘 %s<b> ti ha proposto!</b>"
+  "marry.CalsiBot": "<b>Scusa, ma sono già sposato con il mio lavoro...</b> 🥺"
 
-  "marry.divorce.error.notMarried": "😐<b> Attualmente non sei sposato con </b>%s<b>, quindi non puoi chiedere il divorzio...</b>"
+  "marry.divorce.help": "💔 <b>Non senti più l'amore? </b><code>/divorce</code><b> può essere utilizzato per separarsi dalle persone che hai sposato in precedenza.</b>"
 
-  "marry.divorce.self": "<i>Cercavi forse:\n</i>/kms"
-  "marry.divorce.main": "💔 %s<b> ha divorziato da </b>%s<i>\n(successo %s %s finora)</i>\n\n%s\n\n<code>Vedi </code>/MarryStats"
-  "marry.divorce.CalsiBot": "<b>Vediamo cosa ne dicono gli avvocati...</b> 🤧"
+  "marry.divorce.error.notMarried": "😐<b> ​​Al momento non sei sposato con </b>%s<b>, quindi non puoi divorziarli...</b>"
+
+  "marry.divorce.self": "<i>Per caso intendevi:\n</i>/kms"
+  "marry.divorce.main": "🖤 %s<b> divorziato </b>%s<i>\n(è successo %s %s finora)</i>\n\nSpecificato per: %s\n\n%s\n\n<code>Vedi il tuo </code>/MarryStats"
+  "marry.divorce.CalsiBot": "<b>Vediamo cosa dicono i miei avvocati al riguardo...</b> 🤧"
+
+  "marry.marrystats.error.noData": "🥺 %s <b>non è mai stato sposato.</b>"
+  "marry.marrystats.error.noMutualData": "😶 %s <b>non è mai stato sposato con</b> %s<b>.</b>"
+
+  "marry.marrystats.CalsiBot": "<b>A differenza di te, CalsiBot è puro e non ha precedenti di matrimonio.</b>"
+
+  "marry.marrystats.own.information": "💖 %s <b> – Statistiche di matrimonio - 1️⃣:</b>\n\n🙂 - Felicità: <b>%s</b>\n🥺 - Bambini: <b>%s</b>\n🏠 - Case: <b>%s</b>\n💰 - Patrimonio netto: <b>$%s</b>"
+  "marry.marrystats.own.marriages": "💖 %s <b> – Statistiche di matrimonio - 2️⃣:</b>\n\n❤️ <b>Matrimoni:</b>\nRichieste accettate per lo più da %s\nRichieste respinte per lo più da %s\nMarried: <b>%s</b> | Rifiutato: <b>%s</b>"
+  "marry.marrystats.own.divorces": "💖 %s <b> – Statistiche di matrimonio - 3️⃣:</b>\n\n🖤 <b>Divorzi:</b>\nDiventato da %s most\nTotale: <b>%s</b>"
 
 
   /* ---------------------------------------------------------------------
@@ -600,6 +630,7 @@
   "misc.wish.main": "<b>Il tuo desiderio è stato espresso. ✨</b>\n\n<i>Si avvererà al: %s%</i>"
 
   "misc.adminmode.help": "<b>La modalità amministratore consente di disabilitare tutti i comandi di CalsiBot che non sono correlati alla moderazione</b>"
+  "misc.adminmode.sorry": "<b>Spiacenti, la modalità amministratore è abilitata, quindi non puoi utilizzare questo comando qui...</b>\n\n%s"
 
   "misc.sedreplace.main": "Per caso intendevi:"
 
