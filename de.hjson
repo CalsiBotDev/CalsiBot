@@ -34,8 +34,10 @@
     "featureDisabledAnswerText": "%s deaktiviert"
     "featureAlreadyDisabled": "%s<b> ist bereits deaktiviert</b>"
     "featureAlreadyDisabledAnswerText": "%s Bereits deaktiviert"
+
     "joinLimitRestrictionsReset": "<b>Die </b><code>/JoinLimit</code><b> Einschränkungen <a href=\"tg://user?id=%s\">dieses Nutzers</a><b> würden zurückgesetzt von </b>%s"
     "joinLimitRestrictionsResetAnswerText": "Einschränkungen zurücksetzen!"
+
     "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> hat eine einmalige Join-Ausnahme erhalten </b>%s\n\n<b>Wenn der Benutzer das nächste Mal beitritt, werde ich ihn nicht entfernen.</b>"
     "joinLockExceptionAddedAnswerText": "Ausnahme hinzugefügt"
 
