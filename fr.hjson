@@ -168,7 +168,7 @@
   "generic.reasonColon": "Raison :"
   "generic.deleteQuestion": "Supprimer?"
   "generic.banQuestion": "Bannir?"
-  "generic.and": "et"
+  "generic.and": " et "
 
   # ℹ️ Example: Exception was added by an admin.
   "generic.anAdmin": "un administrateur"
