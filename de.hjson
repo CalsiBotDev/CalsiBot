@@ -396,65 +396,65 @@
                     Marry - Used for /Marry, /Divorce, etc.
      --------------------------------------------------------------------- */
   "marry.callbacks": {
-    "waitForDecisionAnswerText": "😶 Sie müssen auf %s warten um eine Option zu wählen..."
+    "waitForDecisionAnswerText": "😶 Sie müssen auf warten %s um eine Option zu wählen..."
     "userNotInvolvedAnswerText": "🙄 Hören Sie auf, die Beziehungen anderer zu stören %s."
 
-    "proposalAccepted": "💝 %s<b> und </b>%s<b>haben sich geheiratet! 🎉</b><i>\n(passierte %s %s bisher)</i>\n\n%s\n\n<code>Siehe Ihre </code>/MarryStats"
+    "proposalAccepted": "💝 %s<b> und </b>%s<b> haben sich geheiratet! 🎉 </b><i>\n(passiert %s %s bisher)</i>\n\n%s\n\n<code>Siehe Ihre </code>/MarryStats"
     "proposalAcceptedAnswerText": "💝 Glückwunsch! 🎉"
-    "proposalRejected": "🤕 %s<b> wurde abgelehnt von: </b>%s<i>\n(passiert %s %s bisher)</i>\n\n%s\n\n<code>Siehe Ihre </code>/MarryStats"
+    "proposalRejected": "🤕 %s<b> wurde von abgelehnt </b>%s<i>\n(passiert %s %s bisher)</i>\n\n%s\n\n<code>Siehe Ihre </code>/MarryStats"
     "proposalRejectedAnswerText": "🤕 Autsch."
   }
 
-  "marry.action.child": {
+  "marry.result.child": {
     "zero": "kinder"
     "one": "kind"
     "other": "kinder"
   }
-  "marry.action.house": {
+  "marry.result.house": {
     "zero": "häuser"
     "one": "haus"
     "other": "häuser"
   }
 
-  "marry.result.bothGainedHappiness": "🙂 Beide behaalden <b>%s geluk</b> elk."
-  "marry.result.oneLostHappiness": "🙂 %s verloren <b>%s geluk</b>."
+  "marry.result.bothGainedHappiness": "🙂 Beide haben gewonnen <b>%s Glück</b> jeder."
+  "marry.result.oneLostHappiness": "🙂 %s verloren <b>%s Glück</b>."
 
-  "marry.result.bothGainedChildren": "🥺 Beide behaalden <b>%s %s</b> elk."
-  "marry.result.oneTookChildrenFrom": "🥺 %s nam <b>%s %s</b> van %s."
-  "marry.result.noChildrenGained": "🚫 Er zijn deze keer geen kinderen gewonnen."
+  "marry.result.bothGainedChildren": "🥺 Beide haben gewonnen <b>%s %s</b> jeder."
+  "marry.result.oneTookChildrenFrom": "🥺 %s nahm <b>%s %s</b> von %s."
+  "marry.result.noChildrenGained": "🚫 Diesmal haben keine Kinder gewonnen."
 
-  "marry.result.bothGainedHouses": "🏠 Beide behaalden <b>%s %s</b> elk."
-  "marry.result.oneTookHousesFrom": "🏠 %s nam <b>%s %s</b> van %s."
-  "marry.result.noHousesGained": "🚫 Geen huizen gewonnen deze keer."
+  "marry.result.bothGainedHouses": "🏠 Beide haben gewonnen <b>%s %s</b> jeder."
+  "marry.result.oneTookHousesFrom": "🏠 %s nahm <b>%s %s</b> von %s."
+  "marry.result.noHousesGained": "🚫 Dieses Mal wurden keine Häuser gewonnen."
 
-  "marry.result.bothGainedNetWorth": "💰 Beide behaalden <b>$%s</b> elk."
-  "marry.result.oneTookNetWorthFrom": "💰 %s nam <b>$%s</b> van %s."
-  "marry.result.noNetWorthGained": "🚫 Er is deze keer geen netto vermogen verdiend."
+  "marry.result.bothGainedNetWorth": "💰 Beide haben gewonnen <b>$%s</b> jeder."
+  "marry.result.oneTookNetWorthFrom": "💰 %s nahm <b>$%s</b> von %s."
+  "marry.result.noNetWorthGained": "🚫 Dieses Mal wurde kein Nettovermögen erreicht."
 
-  "marry.help": "💍<b> Antwoord op iemand die je leuk vindt met </b><code>/marry</code><b> om het officieel te maken.</b>"
+  "marry.help": "💍<b> Antworte jemandem, den du magst, mit </b><code>/marry</code><b> um es offiziell zu machen.</b>"
 
-  "marry.error.cooldown": "<b>Je moet 1 minuut wachten tussen elke keer dat je statistieken controleert.</b>\n\n%s"
+  "marry.error.cooldown": "<b>Zwischen jedem Überprüfen der Statistiken muss 1 Minute gewartet werden.</b>\n\n%s"
 
-  "marry.self": "<b>Je kunt niet met jezelf trouwen, zelfs als niemand anders met je wil trouwen...</b>"
-  "marry.main": "💘 %s<b> heeft u voorgesteld!</b>"
-  "marry.CalsiBot": "<b>Sorry, maar ik ben al getrouwd met mijn werk...</b> 🥺"
+  "marry.self": "<b>Du kannst dich nicht selbst heiraten, auch wenn sonst niemand dich heiraten will...</b>"
+  "marry.main": "💘 %s<b> hat dir vorgeschlagen!</b>"
+  "marry.CalsiBot": "<b>Tut mir leid, aber ich bin bereits mit meiner Arbeit verheiratet...</b> 🥺"
 
-  "marry.divorce.help": "💔<b> Voel je de liefde niet meer? </b><code>/divorce</code><b> kan worden gebruikt om uit elkaar te gaan met mensen met wie u eerder bent getrouwd.</b>"
+  "marry.divorce.help": "💔<b> Fühlen Sie die Liebe nicht mehr? </b><code>/divorce</code><b> kann verwendet werden, um sich von zuvor verheirateten Personen zu trennen.</b>"
 
-  "marry.divorce.error.notMarried": "😐<b> U bent momenteel niet getrouwd met </b>%s<b>, dus je kunt niet van ze scheiden...</b>"
+  "marry.divorce.error.notMarried": "😐<b> Sie sind derzeit nicht verheiratet mit </b>%s<b>, also kannst du dich nicht scheiden lassen...</b>"
 
   "marry.divorce.self": "<i>Meintest du:\n</i>/kms"
-  "marry.divorce.main": "🖤 %s<b> gescheiden </b>%s<i>\n(gebeurde %s %s tot nu toe)</i>\n\nGetrouwd voor: %s\n\n%s\n\n<code>Zie uw </code>/MarryStats"
-  "marry.divorce.CalsiBot": "<b>Eens kijken wat mijn advocaten daarover zeggen...</b> 🤧"
+  "marry.divorce.main": "🖤 %s<b> geschieden </b>%s<i>\n(passiert %s %s bisher)</i>\n\nVerheiratet am: %s\n\n%s\n\n<code>Siehe Ihre </code>/MarryStats"
+  "marry.divorce.CalsiBot": "<b>Mal sehen, was meine Anwälte dazu sagen...</b> 🤧"
 
-  "marry.marrystats.error.noData": "🥺 %s <b>is nooit getrouwd geweest.</b>"
-  "marry.marrystats.error.noMutualData": "😶 %s <b>is nooit getrouwd geweest met</b> %s<b>.</b>"
+  "marry.marrystats.error.noData": "🥺 %s <b>war noch nie verheiratet.</b>"
+  "marry.marrystats.error.noMutualData": "😶 %s <b>war noch nie verheiratet mit</b> %s<b>.</b>"
 
-  "marry.marrystats.CalsiBot": "<b>Anders dan u, is CalsiBot puur en heeft geen huwelijkshistorie.</b>"
+  "marry.marrystats.CalsiBot": "<b>Im Gegensatz zu Ihnen ist CalsiBot rein und hat keine Heiratsgeschichte.</b>"
 
-  "marry.marrystats.own.information": "💖 %s<b> - Trouwstatistieken - 1️⃣:</b>\n\n🙂 - Geluk: <b>%s</b>\n🥺 - Kinderen: <b>%s</b>\n🏠 - Huizen: <b>%s</b>\n💰 - Netto waarde: <b>$%s</b>"
-  "marry.marrystats.own.marriages": "💖 %s<b> - Trouwstatistieken - 2️⃣:</b>\n\n❤️ <b>Huwelijken:</b>\nAanvragen het meest geaccepteerd door %s\nAanvragen het meest afgewezen door %s\nGetrouwd: <b>%s</b> | Afgewezen: <b>%s</b>"
-  "marry.marrystats.own.divorces": "💖 %s<b> - Trouwstatistieken - 3️⃣:</b>\n\n🖤 <b>Echtscheidingen:</b>\nGescheiden van %s de meeste\n Totaal: <b>%s</b>"
+  "marry.marrystats.own.information": "💖 %s<b> - Heiratsstatistik - 1️⃣:</b>\n\n🙂 - Glück: <b>%s</b>\n🥺 - Kinder: <b>%s</b>\n🏠 - Häuser: <b>%s</b>\n💰 - Vermögen: <b>$%s</b>"
+  "marry.marrystats.own.marriages": "💖 %s<b> - Heiratsstatistik - 2️⃣:</b>\n\n❤️ <b>Ehen:</b>\nAm meisten akzeptierte Anfragen von %s\nAnfragen, die am meisten von abgelehnt wurden %s\nVerheiratet: <b>%s</b> | Abgelehnt: <b>%s</b>"
+  "marry.marrystats.own.divorces": "💖 %s<b> - Heiratsstatistik - 3️⃣:</b>\n\n🖤 <b>Scheidungen:</b>\nGeschieden von %s die meisten\nInsgesamt: <b>%s</b>"
 
 
   /* ---------------------------------------------------------------------
@@ -663,7 +663,7 @@
   #
   #          This list of names should be in order of contribution size and frequency, taking into account age of last
   #          contribution.
-  "language.credit.activeContributors": "<a href=\"https://github.com/lucanello\">Luca</a>"
+  "language.credit.activeContributors": "<a href=\"t.me/Daelock\">Daelock</a>"
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Wähle deine Sprache:</b>"
