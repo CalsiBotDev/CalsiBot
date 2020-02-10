@@ -182,8 +182,9 @@
   "generic.featureDisabled": "<b>%s is now disabled in this group.</b>"
   "generic.featureAlreadyDisabled": "<b>%s is already disabled in this group.</b>"
 
+  "generic.featureDisabledByDefault": "<b>By default, %s is disabled in group chats.</b>\n\nAn admin can %s."
   # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableGames, or you can fish in private, by tapping the button below:
-  "generic.featureDisabledByDefault": "<b>By default, %s is disabled in group chats.</b>\n\nAn admin can %s, or you can %s in private, by tapping the button below:"
+  "generic.featureDisabledByDefaultWithPrivate": "<b>By default, %s is disabled in group chats.</b>\n\nAn admin can %s, or you can %s in private, by tapping the button below:"
 
   # ℹ️ Example: You can use /DisableBrick to change that.
   "generic.toggleFeatureHint": "<b>You can use </b>%s<b> to change that.</b>"
@@ -397,6 +398,7 @@
   /* ---------------------------------------------------------------------
                     Marry - Used for /Marry, /Divorce, etc.
      --------------------------------------------------------------------- */
+  "marry.marriage": "Marriage"
   "marry.callbacks": {
     "waitForDecisionAnswerText": "😶 You need to wait for %s to choose an option..."
     "userNotInvolvedAnswerText": "🙄 Stop interfering with other people's relationships, %s."
@@ -753,3 +755,4 @@
     "delete": "Should the reported message be deleted? Note that bots are unable to delete messages older than 48h..."
     "ban": "Should the reported user be banned?"
   }
+}

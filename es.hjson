@@ -182,8 +182,9 @@
   "generic.featureDisabled": "<b>%s ahora está deshabilitado en este grupo.</b>"
   "generic.featureAlreadyDisabled": "<b>%s ya está deshabilitado en este grupo.</b>"
 
+  "generic.featureDisabledByDefault": "<b>Por defecto, %s está deshabilitado en los chats grupales.</b>\n\nUn administrador puede %s."
   # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableGames, or you can fish in private, by tapping the button below:
-  "generic.featureDisabledByDefault": "<b>Por defecto, %s está deshabilitado en los chats grupales.</b>\n\nUn administrador puede %s, o puedes %s en privado, tocando el botón a continuación:"
+  "generic.featureDisabledByDefaultWithPrivate": "<b>Por defecto, %s está deshabilitado en los chats grupales.</b>\n\nUn administrador puede %s, o puedes %s en privado, tocando el botón a continuación:"
 
   # ℹ️ Example: You can use /DisableBrick to change that.
   "generic.toggleFeatureHint": "<b>Puedes usar </b>%s<b> cambiar eso</b>"
@@ -397,6 +398,7 @@
   /* ---------------------------------------------------------------------
                     Marry - Used for /Marry, /Divorce, etc.
      --------------------------------------------------------------------- */
+  "marry.marriage": "Matrimonio"
   "marry.callbacks": {
     "waitForDecisionAnswerText": "😶 Necesitas esperar %s elegir una opción ..."
     "userNotInvolvedAnswerText": "🙄 Deja de interferir con las relaciones de otras personas, %s."
@@ -457,6 +459,14 @@
   "marry.marrystats.own.information": "💖 %s<b> - Casar Estadísticas - 1️⃣:</b>\n\n🙂 - Felicidad: <b>%s</b>\n🥺 - Niños: <b>%s</b>\n🏠 - Casas: <b>%s</b>\n💰 - Patrimonio neto: <b>$%s</b>"
   "marry.marrystats.own.marriages": "💖 %s<b> - Casar Estadísticas - 2️⃣:</b>\n\n❤️ <b>Matrimonios:</b>\nSolicitudes más aceptadas por %s\nSolicitudes rechazadas más por %s\nCasado: <b>%s</b> El | Rechazado: <b>%s</b>"
   "marry.marrystats.own.divorces": "💖 %s<b> - Casar Estadísticas - 3️⃣:</b>\n\n🖤 <b>Divorcios:</b>\nDivorciado de %s más\nTotal: <b>%s</b>"
+
+
+  /* ---------------------------------------------------------------------
+                            Brick - Used for /brick
+     --------------------------------------------------------------------- */
+  "brick.wallBuilding": "Edificio de la pared"
+  "brick.noActivity": "<b>No ha habido </b>/brick<b> actividad aquí en mucho tiempo..</b>"
+  "brick.brickStatsMain": "<b>Brick Estadísticas para este chat:</b>"
 
 
   /* ---------------------------------------------------------------------

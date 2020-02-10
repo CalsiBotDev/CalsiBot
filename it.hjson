@@ -182,8 +182,9 @@
   "generic.featureDisabled": "<b>%s è ora disabilitato in questo gruppo</b>"
   "generic.featureAlreadyDisabled": "<b>%s è già disabilitato in questo gruppo</b>"
 
+  "generic.featureDisabledByDefault": "<b>Per impostazione predefinita, %s è disabilitato nelle chat di gruppo.</b>\n\nUn amministratore può dare %s."
   # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableGames, or you can fish in private, by tapping the button below:
-  "generic.featureDisabledByDefault": "<b>Per impostazione predefinita, %s è disabilitato nelle chat di gruppo.</b>\n\nUn amministratore può dare %s oppure puoi %s in privato, usando il pulsante qui sotto:"
+  "generic.featureDisabledByDefaultWithPrivate": "<b>Per impostazione predefinita, %s è disabilitato nelle chat di gruppo.</b>\n\nUn amministratore può dare %s oppure puoi %s in privato, usando il pulsante qui sotto:"
 
   # ℹ️ Example: You can use /DisableBrick to change that.
   "generic.toggleFeatureHint": "<b>Puoi usare </b>%s<b> per modificarlo</b>"
@@ -397,6 +398,7 @@
   /* ---------------------------------------------------------------------
                     Marry - Used for /Marry, /Divorce, etc.
      --------------------------------------------------------------------- */
+  "marry.marriage": "Matrimonio"
   "marry.callbacks": {
     "waitForDecisionAnswerText": "😶 Devi aspettare %s scegliere un'opzione..."
     "userNotInvolvedAnswerText": "🙄 Smettila di interferire con le relazioni degli altri, %s"
