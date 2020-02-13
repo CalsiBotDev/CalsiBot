@@ -423,24 +423,24 @@
   "marry.result.bothGainedHappiness": "🙂 Entrambi hanno guadagnato <b>%s punti felicità</b> ciascuno."
   "marry.result.oneLostHappiness": "🙂 %s ha perso <b>%s punti felicità</b>."
 
-  "marry.result.bothGainedChildren": "🥺 Entrambi hanno guadagnato <b>%s %s</b> ciascuno."
-  "marry.result.oneTookChildrenFrom": "🥺 %s ha preso <b>%s %s</b> da %s."
-  "marry.result.noChildrenGained": "🚫 Questa volta nessun bambino ha guadagnato."
+  "marry.result.bothGainedChildren": "🥺 Entrambi hanno ottenuto <b>%s %s</b> ciascuno."
+  "marry.result.oneTookChildrenFrom": "🥺 %s ha preso <b>%s %s</b> in affido da %s."
+  "marry.result.noChildrenGained": "🚫 Stavolta niente bambini."
 
   "marry.result.bothGainedHouses": "🏠 Entrambi hanno guadagnato <b>%s %s</b> ciascuno."
   "marry.result.oneTookHousesFrom": "🏠 %s ha preso <b>%s %s</b> da %s."
-  "marry.result.noHousesGained": "🚫 Nessuna casa guadagnata questa volta."
+  "marry.result.noHousesGained": "🚫 Stavolta niente case."
 
-  "marry.result.bothGainedNetWorth": "💰 Entrambi hanno guadagnato <b>$ %s</b> ciascuno."
+  "marry.result.bothGainedNetWorth": "💰 Entrambi hanno guadagnato <b>%s €</b> ciascuno."
   "marry.result.oneTookNetWorthFrom": "💰 %s ha preso <b>$%s</b> da %s."
-  "marry.result.noNetWorthGained": "🚫 Nessun patrimonio guadagnato questa volta."
+  "marry.result.noNetWorthGained": "🚫 Stavolta niente soldi."
 
   "marry.help": "💍<b> Rispondi a qualcuno che ti piace con </b><code>/marry</code><b> per fare la proposta di matrimonio.</b>"
 
   "marry.error.cooldown": "<b>Devi attendere 1 minuto tra ogni volta che controlli le statistiche.</b>\n\n %s"
 
   "marry.self": "<b>Non puoi autosposarti, anche se nessun altro ti vuole...</b>"
-  "marry.main": "💘 %s<b> ti ha fatto una proposta!</b>"
+  "marry.main": "💘 %s<b> ti ha fatto una proposta di matrimonio!</b>"
   "marry.CalsiBot": "<b>Scusami, ma sono già sposato con il mio lavoro...</b> 🥺"
 
   "marry.divorce.help": "💔 <b>Non senti più l'amore? </b><code>/divorce</code><b> può essere utilizzato per separarsi dalle persone che hai sposato in precedenza.</b>"
@@ -456,7 +456,7 @@
 
   "marry.marrystats.CalsiBot": "<b>A differenza di te, CalsiBot è puro e non ha precedenti di matrimonio.</b>"
 
-  "marry.marrystats.own.information": "💖 %s <b> – Statistiche di matrimonio - 1️⃣:</b>\n\n🙂 - Felicità: <b>%s</b>\n🥺 - Bambini: <b>%s</b>\n🏠 - Case: <b>%s</b>\n💰 - Patrimonio netto: <b>$%s</b>"
+  "marry.marrystats.own.information": "💖 %s <b> – Statistiche di matrimonio - 1️⃣:</b>\n\n🙂 - Felicità: <b>%s</b>\n🥺 - Bambini: <b>%s</b>\n🏠 - Case: <b>%s</b>\n💰 - Patrimonio netto: <b>%s €</b>"
   "marry.marrystats.own.marriages": "💖 %s <b> – Statistiche di matrimonio - 2️⃣:</b>\n\n❤️ <b>Matrimoni:</b>\nRichieste accettate per lo più da %s\nRichieste respinte per lo più da %s\nMatrimoni: <b>%s</b> | Rifiuti: <b>%s</b>"
   "marry.marrystats.own.divorces": "💖 %s <b> – Statistiche di matrimonio - 3️⃣:</b>\n\n🖤 <b>Divorzi:</b>\nDivorziato per lo più da %s\nTotale: <b>%s</b>"
 
