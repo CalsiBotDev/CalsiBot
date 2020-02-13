@@ -431,7 +431,8 @@
   "marry.result.oneTookHousesFrom": "🏠 %s ha preso <b>%s %s</b> da %s."
   "marry.result.noHousesGained": "🚫 Stavolta niente case."
 
-  "marry.result.bothGainedNetWorth": "💰 Entrambi hanno guadagnato <b>%s €</b> ciascuno."
+  "marry.result.bothGainedNetWorth": "💰 Entrambi hanno guadagnato <b>$%s</b> ciascuno."
+
   "marry.result.oneTookNetWorthFrom": "💰 %s ha preso <b>$%s</b> da %s."
   "marry.result.noNetWorthGained": "🚫 Stavolta niente soldi."
 
