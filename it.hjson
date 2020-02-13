@@ -432,7 +432,6 @@
   "marry.result.noHousesGained": "🚫 Stavolta niente case."
 
   "marry.result.bothGainedNetWorth": "💰 Entrambi hanno guadagnato <b>$%s</b> ciascuno."
-
   "marry.result.oneTookNetWorthFrom": "💰 %s ha preso <b>$%s</b> da %s."
   "marry.result.noNetWorthGained": "🚫 Stavolta niente soldi."
 
@@ -458,7 +457,6 @@
   "marry.marrystats.CalsiBot": "<b>A differenza di te, CalsiBot è puro e non ha precedenti di matrimonio.</b>"
 
   "marry.marrystats.own.information": "💖 %s <b> – Statistiche di matrimonio - 1️⃣:</b>\n\n🙂 - Felicità: <b>%s</b>\n🥺 - Bambini: <b>%s</b>\n🏠 - Case: <b>%s</b>\n💰 - Patrimonio netto: <b>$%s</b>"
-
   "marry.marrystats.own.marriages": "💖 %s <b> – Statistiche di matrimonio - 2️⃣:</b>\n\n❤️ <b>Matrimoni:</b>\nRichieste accettate per lo più da %s\nRichieste respinte per lo più da %s\nMatrimoni: <b>%s</b> | Rifiuti: <b>%s</b>"
   "marry.marrystats.own.divorces": "💖 %s <b> – Statistiche di matrimonio - 3️⃣:</b>\n\n🖤 <b>Divorzi:</b>\nDivorziato per lo più da %s\nTotale: <b>%s</b>"
 
