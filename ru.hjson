@@ -667,7 +667,7 @@
   #
   #          This list of names should be in order of contribution size and frequency, taking into account age of last
   #          contribution.
-  "language.credit.activeContributors": "Яндекс))"
+  "language.credit.activeContributors": "<a href=\"t.me/devexion\">devexion</a>"
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Выберите свой язык:</b>"
