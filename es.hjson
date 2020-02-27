@@ -409,12 +409,12 @@
     "proposalRejectedAnswerText": "🤕 Ay."
   }
 
-  "marry.action.child": {
+  "marry.result.child": {
     "zero": "niños"
     "one": "niño"
     "other": "niños"
   }
-  "marry.action.house": {
+  "marry.result.house": {
     "zero": "casas"
     "one": "casa"
     "other": "casas"

@@ -409,12 +409,12 @@
     "proposalRejectedAnswerText": "🤕 Ahi, che peccato."
   }
 
-  "marry.action.child": {
+  "marry.result.child": {
     "zero": "bambini"
     "one": "bambino"
     "other": "bambini"
   }
-  "marry.action.house": {
+  "marry.result.house": {
     "zero": "case"
     "one": "casa"
     "other": "case"
