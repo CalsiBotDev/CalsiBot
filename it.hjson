@@ -404,7 +404,7 @@
     "three": "✅✅*️⃣➡️ <b>Fase 3\n\n1. Inoltra il messaggio sopra (risposto a)</b> a un <u>gruppo pubblico</u> o <u>canale pubblico</u> dove %s è un amministratore.\n<b>2. Toccare o fare clic con il tasto destro del mouse sul messaggio inoltrato e <b>Copia collegamento</b>\n3. Invia il link pubblico copiato a questa chat</b>.\nIl link dovrebbe apparire così:\nhttps://t.me/CalsiBotDev/99999"
     "threeError.noVerificationString": "✅✅❌➡️ <b>Passaggio 3\n\nImpossibile trovare la stringa di verifica richiesta nel post. Assicurati che il post a cui sei collegato sia il messaggio di verifica della proprietà che hai inoltrato.</b>"
     "threeError.urlFormat": "✅✅❌➡️ <b>Step 3\n\nIl link che hai inviato non sembra corretto. Dovrebbe apparire così:</b>\nhttps://t.me/CalsiBotDev/99999"
-    "four": "✅✅✅*️⃣ <b>Passaggio 4\n\nSuccesso!</b>\nSuccessivamente, %s invierà un PreVerifyPost a quel gruppo o canale\n\n<b>Assicurati che %s è un amministratore lì prima di procedere.</b>%s"
+    "four": "✅✅✅*️⃣  <b>Passaggio 4\n\nSuccesso!</b>\nSuccessivamente, %s invierà un PreVerifyPost a quel gruppo o canale\n\n<b>Assicurati che %s è un amministratore lì prima di procedere.</b>%s"
     "fourError": "✅✅✅❌ <b>Passaggio 5\n\nImpossibile inviare il messaggio, assicurarsi %s è un amministratore in %s.</b>%s"
     "fourSuccess": "✅✅✅✅ <b>Passaggio 5\n\nOk, pubblicato correttamente!</b> Vedi https://t.me/%s/%s per il post!"
   }
