@@ -404,7 +404,7 @@
     "three": "✅✅*️⃣➡️ <b>Étape 3\n\n1. Transférer le message (répondu) ci-dessus</b> à un <u>groupe public</u> ou <u>canal public</u> où %s est administrateur.\n<b>2. Appuyez ou cliquez avec le bouton droit sur le message transféré et <b>Copier le lien</b>\n3. Envoyez le lien public copié à ce chat</b>.\nLe lien devrait ressembler à ceci:\nhttps://t.me/CalsiBotDev/99999"
     "threeError.noVerificationString": "✅✅❌➡️ <b>Étape 3\n\nPas trouvé la chaîne de vérification requise dans le message. Assurez-vous que le message auquel vous êtes lié est le message de vérification de propriété que vous avez transféré.</b>"
     "threeError.urlFormat": "✅✅❌➡️ <b>Étape 3\n\nLe lien que vous avez envoyé ne semble pas correct. Il devrait ressembler à ceci:</b>\nhttps://t.me/CalsiBotDev/99999"
-    "four": "✅✅✅*️⃣  <b>Étape 4\n\nSuccess!</b>\nSuivant, %s enverra un PreVerifyPost à ce groupe ou canal\n\n<b>Veuillez vous assurer que %s est un administrateur là-bas avant de continuer.</b>%s"
+    "four": "✅✅✅*️⃣ <b>Étape 4\n\nSuccess!</b>\nSuivant, %s enverra un PreVerifyPost à ce groupe ou canal\n\n<b>Veuillez vous assurer que %s est un administrateur là-bas avant de continuer.</b>%s"
     "fourError": "✅✅✅❌ <b>Étape 5\n\nPourrait pas envoyer le message, veuillez vous assurer que %s est un administrateur dans %s.</b>%s"
     "fourSuccess": "✅✅✅✅ <b>Étape 5\n\nAccord, publié avec succès!</b> Voir https://t.me/%s/%s pour le message!"
   }
