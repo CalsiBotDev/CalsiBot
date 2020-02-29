@@ -621,9 +621,9 @@
 
   "misc.huh.main": "<b>eh</b>"
 
-  "misc.judge.main.truth": "%s<b> es decir la verdad</b>"
+  "misc.judge.main.truth": "%s<b> está diciendo la verdad</b>"
   "misc.judge.main.lying": "%s<b> está mintiendo!</b>"
-  "misc.judge.CalsiBot": "<i>Estoy más allá del juicio</i>"
+  "misc.judge.CalsiBot": "<i>Estoy más allá del bien y del mal</i>"
 
   "misc.coin.main.heads": "%s lanzó una moneda!\n\n<b>¡Son cabezas!</b>"
   "misc.coin.main.tails": "%s lanzó una moneda!\n\n<b>¡Son colas!</b>"
