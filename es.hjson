@@ -399,7 +399,7 @@
   "joinverify.preverify.error.preVerifyInvalid": "<b>El enlace de invitación de PreVerify no es válido.</b>"
 
   "joinverify.preverifypost.steps": {
-    "one": "*️⃣➡️➡️➡️ <b>Paso 1\n\nPreVerifyPost es una extensión de <a href=\"t.me/CalsiBotDev/111\">PreVerify</a>.</b>\n\nUtilice crear una publicación en un grupo o canal público con el que <b>los usuarios pueden verificarse a sí mismos como humanos <u>antes</u> de unirse a su grupo.\n\nEsto tiene un par de ventajas:\n1. Impide que los bots eliminen las listas de usuarios y los mensajes</b>, ya que deben verificar antes de poder ver algo\n\n<b>2. Lo protege de los robots de estafa que confían en los enlaces de invitación normales</b> ya que no podrán unirse usando el enlace especial PreVerify<b>.</b>%s"
+    "one": "*️⃣➡️➡️➡️ <b>Paso 1\n\nPreVerifyPost es una extensión de <a href=\"t.me/CalsiBotDev/111\">PreVerify</a>.</b>\n\nÚselo para crear una publicación en un grupo o canal público con el que <b>los usuarios pueden verificarse a sí mismos como humanos <u>antes</u> de unirse a su grupo.\n\nEsto tiene un par de ventajas:\n1. Impide que los bots eliminen las listas de usuarios y los mensajes</b>, ya que deben verificar antes de poder ver algo\n\n<b>2. Lo protege de los robots de estafa que confían en los enlaces de invitación normales</b> ya que no podrán unirse usando el enlace especial PreVerify<b>.</b>%s"
     "two": "✅*️⃣➡️➡️ <b>Paso 2\n\nAgregue %s como administrador del <u>Grupo público</u> o <u>Canal público</u> donde desea que se envíe el PreVerifyPost. Puede eliminarlo más tarde.</b>%s"
     "three": "✅✅*️⃣➡️ <b>Paso 3\n\n1. Reenvíe el mensaje (respondido) anterior</b> a un <u>Grupo público</u> o <u>Canal público</u> donde %s es un administrador.\n<b>2. Toque o haga clic con el botón derecho en el mensaje reenviado y <b>Copiar enlace</b>\n3. Envíe el enlace público copiado a este chat </b>.\nEl enlace debería verse así:\nhttps://t.me/CalsiBotDev/99999"
     "threeError.noVerificationString": "✅✅❌➡️ <b>Paso 3\n\nNo se pudo encontrar la cadena de verificación requerida en la publicación. Asegúrese de que la publicación a la que se vinculó sea el mensaje de verificación de propiedad que reenvió.</b>"
@@ -621,9 +621,9 @@
 
   "misc.huh.main": "<b>eh</b>"
 
-  "misc.judge.main.truth": "%s<b> es decir la verdad</b>"
+  "misc.judge.main.truth": "%s<b> está diciendo la verdad</b>"
   "misc.judge.main.lying": "%s<b> está mintiendo!</b>"
-  "misc.judge.CalsiBot": "<i>Estoy más allá del juicio</i>"
+  "misc.judge.CalsiBot": "<i>Estoy más allá del bien y del mal</i>"
 
   "misc.coin.main.heads": "%s lanzó una moneda!\n\n<b>¡Son cabezas!</b>"
   "misc.coin.main.tails": "%s lanzó una moneda!\n\n<b>¡Son colas!</b>"
