@@ -783,4 +783,54 @@
     "delete": "Should the reported message be deleted? Note that bots are unable to delete messages older than 48h..."
     "ban": "Should the reported user be banned?"
   }
+
+
+  /* ---------------------------------------------------------------------
+                Herd - Used for /herd, /hkick, /hban, /hunban
+     --------------------------------------------------------------------- */
+  "herd.join.main": "<b>Your Herd Join Request has been generated. It will only last for a short time.\n\nSend this message to a Herd admin who must accept you by sending the command below in the </b><a href=\"https://t.me/c/%s/999999999\">Herd HQ chat</a><b>:</b>\n<code>/herd join %s</code>"
+  "herd.join.success": "<b>Your Herd request has been accepted! This group is now a member of this Herd:</b>\n<code>%s</code>\n\n⚖️ <b>A public record of this Herd's data can be found </b><a href=\"https://github.com/CalsiBotDev/Herds-and-Actions/tree/master/%s\">on GitHub here</a><b>.</b>\n\n<b>Actions Herd admins take will overrule your admin's decisions.</b>\n\nYou can <code>/herd leave</code> at any time.%s"
+  "herd.join.hq.success": "<a href=\"https://t.me/c/%s/999999999\">%s</a><b> has now been added to this Herd.\n\nThere are now <code>%s</code> Herd members.</b>"
+  "herd.join.error": {
+    "alreadyInHerd": "<b>This group is already a member of this Herd:</b>\n<code>%s</code>\n\nYou must <code>/herd leave</code> to join a new Herd."
+    "invalidHerd": "<b>The Herd you provided does not exist, or you didn't provide a Herd. Your command should look like this:</b>\n<code>/herd join <i>herd-id-here</i></code>"
+    "invalidToken": "<b>The token you provided has expired, or you didn't provide a token.\n\nThis group owns a Herd, so it can use </b><code>/herd join <i>token-here</i></code><b> to accept other groups into the Herd.\n\nOther groups who want to join your Herd can send:</b>\n<code>/herd join %s</code><b> to generate their token.</b>"
+    "memberLimit": "<b>This Herd:</b>\n<code>%s</code>\n\n<b>Has reached the maximum number of allowed members (25). Other members must leave before you can join.</b>"
+  }
+
+  "herd.leave.success": "<b>This group is no longer a member of this Herd:</b>\n<code>%s</code>\n\nYou can <code>/herd join <i>herd-id-here</i></code> a different Herd at any time."
+
+  "herd.create.main": "<b>⚠️ Read all of the following text:\n\n- It is highly recommended that you make a new group to serve as the base for your Herd!\n- This allows you to manage Herd admins completely independently of any existing group structures you have.\n\nIf you are already sending this command in a new group, then send the following command to create your Herd:</b>\n<code>/herd create %s</code>"
+  "herd.create.success": "<b>Success! This group now owns and is a member of this Herd:</b>\n<code>%s</code>%s"
+  "herd.create.successGuidance": "\n\nA public record of this Herd's data will be uploaded <a href=\"https://github.com/CalsiBotDev/Herds-and-Actions/tree/master/\">to GitHub here</a>.\n\n<b>People in <u>this group</u> who can ban users, will be able to use </b><code>/hban</code><b> and </b><code>/hunban</code><b> in this group and any other that is a member of this Herd.\n\nYou <u>must</u> respect the people who join your Herd by appointing good admins, and not abusing trust.</b>"
+  "herd.create.error": {
+    "alreadyInHerd": "<b>This group is already a member of this Herd:</b>\n<code>%s</code>\n\nYou must <code>/herd leave</code> to establish a new Herd that this group owns."
+  }
+
+  "herd.orphan.main": "<b>⚠️ Orphaning a Herd is serious! Here are some recent statistics for your Herd:\n\nHerd Members: %s\nTotal Bans: %s</b>\n\nSend the following command to confirm:\n<code>/herd orphan %s</code>\n\nIf you'd still like to go forward with orphaning this Herd:\n<code>%s</code>"
+  "herd.orphan.success": "<b>This group has orphaned this Herd:</b>\n<code>%s</code>"
+
+  "herd.main": "<b>Herds allow you to link together groups you own or groups with similar rules and share kicks, bans, and unbans between all of them, seamlessly.</b>\n\n<code>/herd join <i>herd-id-here</i></code> - join a Herd\n<code>/herd leave</code> - leave your current Herd\n<code>/herd create</code> - create a new Herd\n<code>/herd orphan</code> - abandon a Herd you created"
+  "herd.error": {
+    "cooldown": "<b>A previous Herd action is still being processed for this user, please try again in a while.</b>"
+    "notInHerd": "<b>This group is not in a Herd, so this command can't be used.</b>"
+    "isHerdOwner": "<b>This group owns and is a member of this Herd:</b>\n<code>%s</code>\n\nIf you'd like to make a new Herd and abandon this one, you can use:\n<code>/herd orphan</code>."
+    "isNotHerdOwner": "<b>This group is not the owner of this Herd:</b>\n<code>%s</code>."
+    "hqChatNotAccessible": "⚠️ <b>Something is wrong. Please ensure that %s is both a member and admin of the </b><a href=\"https://t.me/c/%s/999999999\">Herd HQ chat</a><b>.\n\nIf this error keeps occuring, the Herd has probably been adandoned and it is recommended that you:</b>\n<code>/herd leave</code>"
+  }
+
+
+  "herd.ban": {
+    "ban.main": "%s<b> will be banned across all groups in the Herd below, where they are not an admin:</b>\n<code>%s</code>\n\nUse <code>/hunban</code> to undo"
+    "ban.hq.main": "%s <b>has banned</b> %s\n\nReason:\n<code>%s</code>"
+    "unban.main": "%s<b> will be unbanned across all groups in Herd:</b>\n<code>%s</code>\n\nUse <code>/hban</code> to undo"
+    "unban.hq.main": "%s <b>has unbanned</b> %s\n\nReason:\n<code>%s</code>"
+  }
+  "herd.ban.error": {
+    "alreadyBanned": "<a href=\"tg://user?id=%s\">This user</a><b> is already banned in Herd:</b>\n<code>%s</code>"
+    "alreadyNotBanned": "<a href=\"tg://user?id=%s\">This user</a><b> is already not banned in Herd:</b>\n<code>%s</code>"
+    "userIsHerdAdmin": "<b>You can't do anything to</b> %s <b>in this Herd because they're a member of its </b><a href=\"https://t.me/c/%s/999999999\">Herd HQ chat</a><b>.</b>"
+    "reasonMandatory": "<b>You must provide a reason for Herd actions, for example:</b>\n<code>/%s reason here</code>"
+    "needToBeAdminAttachment": "\n\nIn Herd:\n<code>%s</code>"
+  }
 }
