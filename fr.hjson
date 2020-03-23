@@ -98,6 +98,7 @@
     "cancel": "❌ Annuler"
 
     "seeExample": "👀 Voir l'exemple"
+    "seeGroupInfo": "Voir les informations sur le groupe"
 
     "marryAccept": "🥰 Accepter"
     "marryReject": "😒 Rejeter"
@@ -145,6 +146,8 @@
   "generic.needToBeAdmin": "<b>❌ Non autorisé. Vous devez:</b>\n\n1️⃣ Être administrateur\n2️⃣ Avoir la permission de %s"
   "generic.needToBeAdminAnswerText": "❌ Non autorisé. Vous devez:\n\n1️⃣ Être administrateur\n2️⃣ Avoir la permission de %s"
   "generic.CalsiBotNeedsToBeAdmin": "<b>❌ Pour que cela fonctionne, %s doit:</b>\n\n1️⃣ Être administrateur\n2️⃣ Avoir la permission de %s"
+  "generic.CalsiBotNotUsedAnymore": "<b>Désolé, CalsiBot n'est plus utilisé dans le groupe ou n'a pas suffisamment d'autorisations.</b>"
+  "generic.CalsiBotNotUsedAnymoreAnswerText": "Désolé, CalsiBot n'est plus utilisé dans le groupe ou n'a pas suffisamment d'autorisations."
 
   "generic.permissionTypes": {
     "changeGroupInfo": "modifier les informations du groupe"
@@ -388,31 +391,28 @@
 
   # ⚠️ IMPORTANT
   "joinverify.preverify.callbacks": {
-    "success": "<b>Cliquez sur le lien d'invitation temporaire ci-dessous pour rejoindre le groupe:</b>\n%s\n\n<i>si vous avez été banni de ce groupe, vous ne pourrez pas rejoindre</i>"
+    "success": "<b>Cliquez sur le lien d'invitation <u>temporaire</u> ci-dessous pour rejoindre le groupe:</b>\n%s\n\n<i>si vous avez été banni de ce groupe, vous ne pourrez pas rejoindre</i>"
     "successAnswerText": "Succès! Utilisez le lien d'invitation pour rejoindre!"
+    "memberCount": "Ce groupe compte actuellement %s membres"
   }
-
-  "joinverify.preverify.main": "<b>Le lien d'invitation PreVerify pour ce groupe est:</b>\n%s\n\n<b>Vous pouvez le partager au lieu des liens d'invitation normaux pour vous assurer que les gens vérifient en tant qu'humains avant de rejoindre votre groupe.</b>\n\nPour protéger pleinement votre groupe, vous devez révoquer tous les liens d'invitation précédents. Vous pouvez le faire en:\n1. Révocation de votre lien d'invitation personnel\n2. Rétrograder puis re-promouvoir tous vos administrateurs (sauf CalsiBot). Cela révoquera tous les liens d'invitation qu'ils ont partagés."
 
   "joinverify.preverify.error.alreadyVerified": "<b>Vous vous êtes déjà vérifié comme humain.</b>\n\n%s"
-  "joinverify.preverify.error.notAvailable": "<b>Join Verify n'est pas activé pour le moment, il doit être activé avant de pouvoir utiliser PreVerify:</b>"
   "joinverify.preverify.error.preVerifyInvalid": "<b>Le lien d'invitation PreVerify n'est pas valide.</b>"
 
-  "joinverify.preverifypost.steps": {
-    "one": "*️⃣➡️➡️➡️ <b>Étape 1\n\nPreVerifyPost est une extension de <a href=\"t.me/CalsiBotDev/111\">PreVerify</a>.</b>\n\nUtilisez-le pour créer une publication dans un groupe ou une chaîne publique avec laquelle <b>les utilisateurs peuvent se vérifier en tant qu'humains <u>avant</u> de rejoindre votre groupe.\n\nCela présente quelques avantages:\n1. Empêche les robots de supprimer les listes d'utilisateurs et les messages</b> car ils doivent vérifier avant de pouvoir voir quoi que ce soit\n\n<b>2. Vous protège contre les robots frauduleux qui s'appuient sur des liens d'invitation normaux</b> car ils ne pourront pas se joindre à l'aide du lien spécial PreVerify<b>.</b>%s"
-    "two": "✅*️⃣➡️➡️ <b>Étape 2\n\nAjoutez %s en tant qu'administrateur au <u>groupe public</u> ou <u>canal public</u> où vous souhaitez que PreVerifyPost soit envoyé. Vous pouvez le supprimer plus tard.</b>%s"
-    "three": "✅✅*️⃣➡️ <b>Étape 3\n\n1. Transférer le message (répondu) ci-dessus</b> à un <u>groupe public</u> ou <u>canal public</u> où %s est administrateur.\n<b>2. Appuyez ou cliquez avec le bouton droit sur le message transféré et <b>Copier le lien</b>\n3. Envoyez le lien public copié à ce chat</b>.\nLe lien devrait ressembler à ceci:\nhttps://t.me/CalsiBotDev/99999"
-    "threeError.noVerificationString": "✅✅❌➡️ <b>Étape 3\n\nPas trouvé la chaîne de vérification requise dans le message. Assurez-vous que le message auquel vous êtes lié est le message de vérification de propriété que vous avez transféré.</b>"
-    "threeError.urlFormat": "✅✅❌➡️ <b>Étape 3\n\nLe lien que vous avez envoyé ne semble pas correct. Il devrait ressembler à ceci:</b>\nhttps://t.me/CalsiBotDev/99999"
-    "four": "✅✅✅*️⃣ <b>Étape 4\n\nSuccess!</b>\nSuivant, %s enverra un PreVerifyPost à ce groupe ou canal\n\n<b>Veuillez vous assurer que %s est un administrateur là-bas avant de continuer.</b>%s"
-    "fourError": "✅✅✅❌ <b>Étape 5\n\nPourrait pas envoyer le message, veuillez vous assurer que %s est un administrateur dans %s.</b>%s"
-    "fourSuccess": "✅✅✅✅ <b>Étape 5\n\nAccord, publié avec succès!</b> Voir https://t.me/%s/%s pour le message!"
+  "joinverify.preverify.steps": {
+    "one": "✴️➡️➡️ <b>Étape 1\n\nUtilisez <a href=\"t.me/CalsiBotDev/111\">PreVerify</a></b> pour créer une publication dans un groupe ou une chaîne publique avec laquelle <b>les utilisateurs peuvent se vérifier en tant qu'humains <u>avant</u> de rejoindre votre groupe.\n\n✅ Empêche</b> les utilisateurs robots de collecter les messages et les listes de membres\n✅ Vous <b>protège</b> davantage des robots collecteurs de spam qui comptent sur des liens d'invitation normaux\n✅ <b>Réduit</b> le nombre de personnes qui ne vérifient pas.%s"
+    "two": "✅✴️➡️ <b>Étape 2\n\nAjoutez %s en tant qu'administrateur au groupe public ou au canal public où vous souhaitez envoyer la publication PreVerify.</b>%s"
+    "three": "✅✅✴️ <b>Étape 3\n\n1. Transférez le message (en réponse) ci-dessus</b> à un groupe public ou à un canal public où %s est administrateur.\n<b>2. Appuyez ou cliquez avec le bouton droit sur le message transféré et <b>Copiez le lien</b>\n3. Envoyez le lien public copié à cette discussion</b>.\n\nLe lien devrait ressembler à ceci:\nhttps://t.me/CalsiBotDev/99999"
+    "threeError.noVerificationString": "✅✅❌ <b>Étape 3\n\nJe n'ai pas trouvé la chaîne de vérification requise dans le message. Assurez-vous que le message que vous avez lié est le message de vérification de propriété que vous avez transféré.</b>"
+    "threeError.urlFormat": "✅✅❌ <b>Étape 3\n\nLe lien que vous avez envoyé ne semble pas correct. Il devrait ressembler à ceci:</b>\nhttps://t.me/CalsiBotDev/99999"
+    "threeError.cantSendPost": "✅✅❌ <b>Étape 3\n\nJe n'ai pas pu pas envoyer le message, veuillez vous assurer que %s est un administrateur avec suffisamment d'autorisations dans %s.</b>%s"
+    "threeSuccess": "✅✅✅ <b>Étape 3\n\nOkay, publication réussie!</b>\n\nVoir https://t.me/%s/%s pour le message!\n\n<b>Pour bien protéger votre groupe, vous devez révoquer tous les liens d'invitation précédents. Vous pouvez le faire en:</b>\n1. Révocant votre lien d'invitation personnel\n2. Rétrogradant puis re-promouvant tous vos administrateurs (sauf CalsiBot). Cela révoquera tous les liens d'invitation qu'ils ont partagés."
   }
 
-  "joinverify.preverifypost.main": "<code>%s</code><b> est <a href=\"t.me/CalsiBotDev/111\">protégé par JoinVerify</a>.\n\nPour rejoindre le groupe, appuyez sur le bouton puis sur \"Démarrer\". </b>"
-  "joinverify.preverifypost.main.imageText": "Pour rejoindre le groupe:\n1. Appuyez sur Vérifier, puis sur \"Démarrer\"\n2. Réussir le test\n3. Rejoindre le groupe"
-  "joinverify.preverifypost.verificationMessage": "<b>Ce message vise à vérifier la propriété de ce groupe ou canal pour la fonction PreVerifyPost de CalsiBot.</b>\n\n%s"
-  "joinverify.preverifypost.setUpCancelled": "<b>La configuration de PreVerifyPost a été annulée.</b>"
+  "joinverify.preverify.main": "<code>%s</code><b> est <a href=\"t.me/CalsiBotDev/111\">protégé par</a> PreVerify.\n\nPour rejoindre le groupe, appuyez sur le bouton puis sur \"Démarrer\".</b>"
+  "joinverify.preverify.main.imageText": "Pour rejoindre le groupe:\n1. Appuyez sur Vérifier, puis sur \"Démarrer\"\n2. Réussissez le test\n3. Rejoignez le groupe!"
+  "joinverify.preverify.verificationMessage": "<b>Ce message vise à vérifier la propriété de ce groupe ou canal pour la fonction PreVerify de CalsiBot.</b>\n\n%s"
+  "joinverify.preverify.setUpCancelled": "<b>La configuration de PreVerify a été annulée.</b>"
 
 
   /* ---------------------------------------------------------------------
