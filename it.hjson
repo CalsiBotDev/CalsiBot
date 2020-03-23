@@ -383,8 +383,8 @@
 
   # ⚠️ IMPORTANT
   "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>Join Verify è abilitato ma </b>%s<b> è stato aggiunto manualmente </b>%s<b>, quindi non è richiesta alcuna verifica.</b>"
-  "joinverify.joinevents.userVerify": "<b>Ehi </b>%s<b> benvenuto in </b><code>%s</code><b>.\n\nPer chattare, tocca il pulsante e quindi \"Avvia\":</b>"
-  "joinverify.joinevents.userVerifyTimed": "<b>Ehi </b>%s<b> benvenuto in </b><code>%s</code><b>.\n\nPer chattare, tocca il pulsante e quindi \"Avvia\". Altrimenti, verrai bannato tra %s minuti:</b>"
+  "joinverify.joinevents.userVerify": "<b>Ehi </b>%s<b> benvenuto in </b><code>%s</code><b>.\n\nPer chattare, tocca il pulsante \"verifica\" e quindi \"Avvia\":</b>"
+  "joinverify.joinevents.userVerifyTimed": "<b>Ehi </b>%s<b> benvenuto in </b><code>%s</code><b>.\n\nPer chattare, tocca il pulsante \"verifica\" e quindi \"Avvia\". Altrimenti, verrai bannato tra %s minuti:</b>"
   "joinverify.joinevents.botVerify": "%s<b> è un bot\n\nUn amministratore può premere \"Permetti bot\" in basso per consentirgli di inviare messaggi:</b>"
   "joinverify.joinevents.botVerifyTimed": "%s<b> è un bot\n\nUn amministratore può premere \"Permetti bot\" in basso per consentirgli di inviare messaggi, altrimenti verrà bannato tra %s minuti.</b>"
   "joinverify.joinevents.userVerified": "%s<b> ha passato </b><a href=\"t.me/CalsiBotDev/89\">il JoinVerify con successo</a><b>.</b>"
@@ -409,7 +409,7 @@
     "threeSuccess": "✅✅✅ <b>Passaggio 3\n\nOk, pubblicato correttamente!</b>\n\nVedi https://t.me/%s/%s per il post!\n\n<b>Completamente proteggere il tuo gruppo, è necessario revocare tutti i precedenti link di invito. Puoi farlo tramite:</b>\n1. Revoca del tuo link di invito personale\n2. Demoting e quindi ri-promuovere tutti i tuoi amministratori (tranne CalsiBot). Ciò revocherà tutti i link di invito che hanno condiviso."
   }
 
-  "joinverify.preverify.main": "<code>%s</code><b> è <a href=\"t.me/CalsiBotDev/111\">protetto da</a> PreVerify.\n\nPer unirti al gruppo, tocca il pulsante e quindi \"Start\".</b>"
+  "joinverify.preverify.main": "<code>%s</code><b> è <a href=\"t.me/CalsiBotDev/111\">protetto da</a> PreVerify.\n\nPer chattare, tocca il pulsante \"verifica\" e quindi \"Avvia\".</b>"
   "joinverify.preverify.main.imageText": "Per unirti al gruppo:\n1. Tocca Verifica, quindi \"Avvia\"\n2. Passa test\n3. Unirsi al gruppo!"
   "joinverify.preverify.verificationMessage": "<b>Questo messaggio serve a verificare la proprietà di questo gruppo o canale per la funzione PreVerify di CalsiBot.</b>\n\n%s"
   "joinverify.preverify.setUpCancelled": "<b>Impostazione PreVerify annullata.</b>"
