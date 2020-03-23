@@ -98,6 +98,7 @@
     "cancel": "❌ Abbrechen"
 
     "seeExample": "👀 Siehe Beispiel"
+    "seeGroupInfo": "Siehe Gruppeninformationen"
 
     "marryAccept": "🥰 Akzeptieren"
     "marryReject": "😒 Ablehnen"
@@ -145,6 +146,8 @@
   "generic.needToBeAdmin": "<b>❌ Nicht erlaubt. Sie müssen:</b>\n\n1️⃣ Administrator sein\n2️⃣ Erlaubnis haben, zu %s"
   "generic.needToBeAdminAnswerText": "❌ Nicht erlaubt. Sie müssen:\n\n1️⃣ Administrator sein\n2️⃣ Erlaubnis haben, zu %s"
   "generic.CalsiBotNeedsToBeAdmin": "<b>❌ Damit dies funktioniert, %s muss</b>\n\n1️⃣ Administrator sein\n2️⃣ Erlaubnis haben, zu %s"
+  "generic.CalsiBotNotUsedAnymore": "<b>Leider wird CalsiBot entweder nicht mehr in der Gruppe verwendet oder verfügt nicht über genügend Berechtigungen.</b>"
+  "generic.CalsiBotNotUsedAnymoreAnswerText": "Leider wird CalsiBot entweder nicht mehr in der Gruppe verwendet oder verfügt nicht über genügend Berechtigungen."
 
   "generic.permissionTypes": {
     "changeGroupInfo": "Gruppeninfo ändern"
@@ -388,31 +391,28 @@
 
   # ⚠️ IMPORTANT
   "joinverify.preverify.callbacks": {
-    "success": "<b>Klicken Sie unten auf den temporären Einladungslink, um der Gruppe beizutreten:</b>\n%s\n\n<i>Wenn Sie aus dieser Gruppe ausgeschlossen wurden, können Sie nicht beitreten</i>"
+    "success": "<b>Klicken Sie unten auf den <u>temporären</u> Einladungslink, um der Gruppe beizutreten:</b>\n%s\n\n<i>Wenn Sie aus dieser Gruppe ausgeschlossen wurden, können Sie dies nicht beitreten</i>"
     "successAnswerText": "Erfolg! Verwenden Sie den Einladungslink zum Beitritt!"
+    "memberCount": "Diese Gruppe hat derzeit %s Mitglieder"
   }
-
-  "joinverify.preverify.main": "<b>Der PreVerify-Einladungslink für diese Gruppe lautet:</b>\n%s\n\n<b>Sie können ihn anstelle normaler Einladungslinks freigeben, um sicherzustellen, dass Personen vor dem Beitritt zu Ihrer Gruppe als Personen verifiziert werden.</b>\n\nUm Ihre Gruppe vollständig zu schützen, müssen Sie alle vorherigen Einladungslinks widerrufen. Sie können dies tun durch:\n1. Widerrufen Ihres persönlichen Einladungslinks\n2. Herabstufen und erneutes Bewerben aller Ihrer Administratoren (außer CalsiBot). Dadurch werden alle von ihnen freigegebenen Einladungslinks widerrufen."
 
   "joinverify.preverify.error.alreadyVerified": "<b>Sie haben sich zuvor als Mensch verifiziert.</b>\n\n%s"
-  "joinverify.preverify.error.notAvailable": "<b>Join Verify ist derzeit nicht aktiviert. Es muss aktiviert sein, bevor Sie PreVerify verwenden können:</b>"
   "joinverify.preverify.error.preVerifyInvalid": "<b>Der PreVerify Invite Link ist ungültig.</b>"
 
-  "joinverify.preverifypost.steps": {
-    "one": "*️⃣➡️➡️➡️ <b>Schritt 1\n\nPreVerifyPost ist eine Erweiterung von <a href=\"t.me/CalsiBotDev/111\">PreVerify</a>.</b>\n\nVerwenden Sie es erstellen ein Beitrag in einer öffentlichen Gruppe oder einem Kanal, mit dem <b>Benutzer sich als menschlich verifizieren können, <u>bevor sie</u> Ihrer Gruppe beitreten.\n\nDies hat einige Vorteile:\n1. Verhindert, dass Bots Benutzerlisten und Nachrichten</b> herusfiltern, da sie überprüft werden müssen, bevor sie etwas sehen können\n\n<b>2. Schützt Sie vor Betrugs-Bots, die auf normale Einladungslinks angewiesen sind</b>, da sie über den speziellen PreVerify-Link nicht beitreten können<b>.</b>%s"
-    "two": "✅*️⃣➡️➡️ <b>Schritt 2\n\nFügen Sie %s als Administrator der <u>öffentlichen Gruppe</u> oder <u>öffentlichem Kanal</u> hinzu, an die PreVerifyPost gesendet werden soll. Sie können es später entfernen.</b>%s"
-    "three": "✅✅*️⃣➡️ <b>Schritt 3\n\n1. Leiten Sie die obige (beantwortete) Nachricht</b> an eine <u>öffentliche Gruppe</u> oder <u>öffentlichen Kanal</u> weiter, in der %s ein Administrator ist.\n<b>2. Tippen oder klicken Sie mit der rechten Maustaste auf die weitergeleitete Nachricht und <b>Link kopieren</b>\n3. Senden Sie den kopierten öffentlichen Link an diesen Chat.</b>.\nDer Link sollte folgendermaßen aussehen:\nhttps://t.me/CalsiBotDev/99999"
-    "threeError.noVerificationString": "✅✅❌➡️ <b>Schritt 3\n\nKann die erforderliche Bestätigungszeichenfolge im Beitrag nicht finden. Stellen Sie sicher, dass der von Ihnen verlinkte Beitrag die von Ihnen weitergeleitete Nachricht zur Überprüfung des Eigentums ist.</b>"
-    "threeError.urlFormat": "✅✅❌➡️ <b>Schritt 3\n\nDer von Ihnen gesendete Link sieht nicht richtig aus. Es sollte folgendermaßen aussehen:</b>\nhttps://t.me/CalsiBotDev/99999"
-    "four": "✅✅✅*️⃣ <b>Schritt 4\n\nErfolg!</b>\nNächste, %s sendet einen PreVerifyPost an diese Gruppe oder diesen Kanal\n\n<b>Stellen Sie sicher, dass %s dort ein Administrator ist bevor Sie fortfahren.</b>%s"
-    "fourError": "✅✅✅❌ <b>Schritt 5\n\nKann die Nachricht nicht senden, stellen Sie bitte sicher, dass %s ein Administrator in %s.</b>%s"
-    "fourSuccess": "✅✅✅✅ <b>Schritt 5\n\nOkay, erfolgreich gepostet!</b> Siehe https://t.me/%s/%s für den Beitrag!"
+  "joinverify.preverify.steps": {
+    "one": "✴️➡️➡️ <b>Schritt 1\n\nVerwenden Sie <a href=\"t.me/CalsiBotDev/111\">PreVerify</a></b>, um einen Beitrag in einer öffentlichen Gruppe oder einem öffentlichen Kanal zu erstellen, mit dem <b>Benutzer können sich als menschlich verifizieren <u>bevor</u> sie Ihrer Gruppe beitreten.\n\n✅ Verhindert, dass</b> Benutzer-Bots Nachrichten und Mitgliederlisten abkratzen\n✅ <b>Schützt</b> Sie mehr von Spam-Bots, die sich auf normale Einladungslinks verlassen\n✅ <b>Reduziert</b> die Anzahl der Personen, die nicht verifizieren.%s"
+    "two": "✅✴️➡️ <b>Schritt 2\n\n Fügen Sie %s als Administrator der öffentlichen Gruppe oder dem öffentlichen Kanal hinzu, an die der PreVerify-Beitrag gesendet werden soll.</b>%s"
+    "three": "✅✅✴️ <b>Schritt 3\n\n1. Leiten Sie die obige (beantwortete) Nachricht</b> an eine öffentliche Gruppe oder einen öffentlichen Kanal weiter, in dem %s ein Administrator ist.\n<b>2. Tippen oder klicken Sie mit der rechten Maustaste auf die weitergeleitete Nachricht und <b>Link kopieren</b>\n3. Senden Sie den kopierten öffentlichen Link an diesen Chat</b>.\n\nDer Link sollte folgendermaßen aussehen:\nhttps://t.me/CalsiBotDev/99999"
+    "threeError.noVerificationString": "✅✅❌ <b>Schritt 3\n\nKann die erforderliche Bestätigungszeichenfolge im Beitrag nicht finden. Stellen Sie sicher, dass der von Ihnen verlinkte Beitrag die von Ihnen weitergeleitete Nachricht zur Überprüfung des Eigentums ist.</b>"
+    "threeError.urlFormat": "✅✅❌ <b>Schritt 3\n\nDer von Ihnen gesendete Link sieht nicht richtig aus. Es sollte folgendermaßen aussehen:</b>\nhttps://t.me/CalsiBotDev/99999"
+    "threeError.cantSendPost": "✅✅❌ <b>Schritt 3\n\nKann die Nachricht nicht senden, stellen Sie bitte sicher, dass %s ein Administrator mit genügend Berechtigungen in %s ist.</b>%s"
+    "threeSuccess": "✅✅✅ <b>Schritt 3\n\nOkay, erfolgreich gepostet!</b>\n\nSiehe https://t.me/%s/%s für den Beitrag!\n\n<b>Zu vollständig Um Ihre Gruppe zu schützen, müssen Sie alle vorherigen Einladungslinks widerrufen. Sie können dies tun, indem Sie:</b>\n1. Widerrufen Ihres persönlichen Einladungslinks\n2. Herabstufen und erneutes Bewerben aller Ihrer Administratoren (außer CalsiBot). Dadurch werden alle von ihnen freigegebenen Einladungslinks widerrufen."
   }
 
-  "joinverify.preverifypost.main": "<code>%s</code><b> ist <a href=\"t.me/CalsiBotDev/111\">durch JoinVerify geschützt</a>.\n\nUm der Gruppe beizutreten, tippen Sie auf die Schaltfläche und dann auf \"Start\".</b>"
-  "joinverify.preverifypost.main.imageText": "So treten Sie der Gruppe bei:\n1. Tippen Sie auf Überprüfen und dann auf \"Start\"\n2. Test bestehen\n3. Gruppe beitreten"
-  "joinverify.preverifypost.verificationMessage": "<b>Mit dieser Nachricht wird der Besitz dieser Gruppe oder dieses Kanals für die PreVerifyPost-Funktion von CalsiBot überprüft.</b>\n\n%s"
-  "joinverify.preverifypost.setUpCancelled": "<b>PreVerifyPost-Einrichtung abgebrochen.</b>"
+  "joinverify.preverify.main": "<code>%s</code><b> ist durch PreVerify <a href=\"t.me/CalsiBotDev/111\">geschützt</a>.\n\nUm der Gruppe beizutreten, tippen Sie auf die Schaltfläche und dann auf \"Start\".</b>"
+  "joinverify.preverify.main.imageText": "So treten Sie der Gruppe bei:\n1. Tippen Sie auf Überprüfen und dann auf \"Start\"\n2. Test bestehen\n3. Gruppe beitreten!"
+  "joinverify.preverify.verificationMessage": "<b>Mit dieser Nachricht wird der Besitz dieser Gruppe oder dieses Kanals für die PreVerify-Funktion von CalsiBot überprüft.</b>\n\n%s"
+  "joinverify.preverify.setUpCancelled": "<b>PreVerify-Einrichtung abgebrochen.</b>"
 
 
   /* ---------------------------------------------------------------------
