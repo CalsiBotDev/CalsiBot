@@ -62,7 +62,7 @@
     "imSorry": "😭 Je suis désolé!"
 
     "joinChannel": "👋 Rejoignez le channel"
-    "tapToVerify": "🤖 Appuyez pour vérifier 🤖"
+    "tapToVerify": "🤖 Appuyer pour vérifier 🤖"
 
     "banUser": "Bannir l'utilisateur"
     "banBot": "Bannir le Bot"
@@ -383,8 +383,8 @@
 
   # ⚠️ IMPORTANT
   "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>La vérification au moment de rejoindre est activée mais </b>%s<b> a été ajouté par </b>%s<b>, il ou elle n'a donc pas besoin de se faire approuver.</b>"
-  "joinverify.joinevents.userVerify": "<b>Hé </b>%s<b>, bienvenue à </b><code>%s</code><b>.\n\nPour discuter, appuyez sur le bouton puis sur \"Démarrer\":</b>"
-  "joinverify.joinevents.userVerifyTimed": "<b>Hé </b>%s<b>, bienvenue à </b><code>%s</code><b>.\n\nPour discuter, appuyez sur le bouton puis sur \"Démarrer\". Sinon, vous serez banni dans %s minutes:</b>"
+  "joinverify.joinevents.userVerify": "<b>Hé </b>%s<b>, bienvenue à </b><code>%s</code><b>.\n\nPour discuter, appuyez sur le bouton \"vérifier\" puis sur \"Démarrer\":</b>"
+  "joinverify.joinevents.userVerifyTimed": "<b>Hé </b>%s<b>, bienvenue à </b><code>%s</code><b>.\n\nPour discuter, appuyez sur le bouton \"vérifier\" puis sur \"Démarrer\". Sinon, vous serez banni dans %s minutes:</b>"
   "joinverify.joinevents.botVerify": "%s<b> est un bot.\n\nUn administrateur peut appuyer sur \"Trust\" ci-dessous pour l'autoriser à envoyer des messages:</b>"
   "joinverify.joinevents.botVerifyTimed": "%s<b> est un bot.\n\nUn administrateur peut appuyer sur \"Trust\" ci-dessous pour lui permettre d'envoyer des messages, sinon il sera banni dans %s minutes.</b>"
   "joinverify.joinevents.userVerified": "%s<b> a </b><a href=\"t.me/CalsiBotDev/89\">a confirmé être un humain</a><b>.</b>"
@@ -409,7 +409,7 @@
     "threeSuccess": "✅✅✅ <b>Étape 3\n\nOkay, publication réussie!</b>\n\nVoir https://t.me/%s/%s pour le message!\n\n<b>Pour bien protéger votre groupe, vous devez révoquer tous les liens d'invitation précédents. Vous pouvez le faire en:</b>\n1. Révocant votre lien d'invitation personnel\n2. Rétrogradant puis re-promouvant tous vos administrateurs (sauf CalsiBot). Cela révoquera tous les liens d'invitation qu'ils ont partagés."
   }
 
-  "joinverify.preverify.main": "<code>%s</code><b> est <a href=\"t.me/CalsiBotDev/111\">protégé par</a> PreVerify.\n\nPour rejoindre le groupe, appuyez sur le bouton puis sur \"Démarrer\".</b>"
+  "joinverify.preverify.main": "<code>%s</code><b> est <a href=\"t.me/CalsiBotDev/111\">protégé par</a> PreVerify.\n\nPour rejoindre le groupe, appuyez sur le bouton \"vérifier\" puis sur \"Démarrer\".</b>"
   "joinverify.preverify.main.imageText": "Pour rejoindre le groupe:\n1. Appuyez sur Vérifier, puis sur \"Démarrer\"\n2. Réussissez le test\n3. Rejoignez le groupe!"
   "joinverify.preverify.verificationMessage": "<b>Ce message vise à vérifier la propriété de ce groupe ou canal pour la fonction PreVerify de CalsiBot.</b>\n\n%s"
   "joinverify.preverify.setUpCancelled": "<b>La configuration de PreVerify a été annulée.</b>"
