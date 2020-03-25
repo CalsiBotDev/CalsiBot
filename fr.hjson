@@ -410,7 +410,7 @@
   }
 
   "joinverify.preverify.main": "<code>%s</code><b> est <a href=\"t.me/CalsiBotDev/111\">protégé par</a> PreVerify.\n\nPour rejoindre le groupe, appuyez sur le bouton \"vérifier\" puis sur \"Démarrer\".</b>"
-  "joinverify.preverify.main.imageText": "Pour rejoindre le groupe:\n1. Appuyez sur Vérifier, puis sur \"Démarrer\"\n2. Réussissez le test\n3. Rejoignez le groupe!"
+  "joinverify.preverify.main.imageText": "Pour rejoindre le groupe:\n1. Appuyez Vérifier, puis Démarrer\n2. Réussissez le test\n3. Rejoignez le groupe!"
   "joinverify.preverify.verificationMessage": "<b>Ce message vise à vérifier la propriété de ce groupe ou canal pour la fonction PreVerify de CalsiBot.</b>\n\n%s"
   "joinverify.preverify.setUpCancelled": "<b>La configuration de PreVerify a été annulée.</b>"
 

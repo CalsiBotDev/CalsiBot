@@ -410,7 +410,7 @@
   }
 
   "joinverify.preverify.main": "<code>%s</code><b> is <a href=\"t.me/CalsiBotDev/111\">protected by</a> PreVerify.\n\nTo chat, tap the \"Verify\" button and then \"Start\".</b>"
-  "joinverify.preverify.main.imageText": "To Join the Group:\n1. Tap Verify, then \"Start\"\n2. Pass Test\n3. Join Group!"
+  "joinverify.preverify.main.imageText": "To join the group:\n1. Tap Verify, then Start\n2. Pass the Test\n3. Join the Group!"
   "joinverify.preverify.verificationMessage": "<b>This message is to verify ownership of this group or channel for CalsiBot's PreVerify feature.</b>\n\n%s"
   "joinverify.preverify.setUpCancelled": "<b>PreVerify set up cancelled.</b>"
 
