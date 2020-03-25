@@ -409,7 +409,7 @@
     "threeSuccess": "✅✅✅ <b>Passaggio 3\n\nOk, pubblicato correttamente!</b>\n\nVedi https://t.me/%s/%s per il post!\n\n<b>Completamente proteggere il tuo gruppo, è necessario revocare tutti i precedenti link di invito. Puoi farlo tramite:</b>\n1. Revoca del tuo link di invito personale\n2. Demoting e quindi ri-promuovere tutti i tuoi amministratori (tranne CalsiBot). Ciò revocherà tutti i link di invito che hanno condiviso."
   }
 
-  "joinverify.preverify.main": "<code>%s</code><b> è <a href=\"t.me/CalsiBotDev/111\">protetto da</a> PreVerify.\n\nPer chattare, tocca il pulsante \"verifica\" e quindi \"Avvia\".</b>"
+  "joinverify.preverify.main": "<b>%s%s è <a href=\"t.me/CalsiBotDev/111\">protetto da</a> PreVerify.\n\nPer chattare, tocca il pulsante \"verifica\" e quindi \"Avvia\".</b>"
   "joinverify.preverify.main.imageText": "Per unirti al gruppo:\n1. Tocca Verifica, quindi Avvia\n2. Passa test\n3. Unirsi al gruppo!"
   "joinverify.preverify.verificationMessage": "<b>Questo messaggio serve a verificare la proprietà di questo gruppo o canale per la funzione PreVerify di CalsiBot.</b>\n\n%s"
   "joinverify.preverify.setUpCancelled": "<b>Impostazione PreVerify annullata.</b>"
