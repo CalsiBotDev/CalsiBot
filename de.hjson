@@ -409,7 +409,7 @@
     "threeSuccess": "✅✅✅ <b>Schritt 3\n\nOkay, erfolgreich gepostet!</b>\n\nSiehe https://t.me/%s/%s für den Beitrag!\n\n<b>Um Ihre Gruppe vollständig zu schützen, müssen Sie alle vorherigen Einladungslinks widerrufen. Sie können dies tun, indem Sie:</b>\n1. Widerrufen Ihres persönlichen Einladungslinks\n2. Herabstufen und erneutes Bewerben aller Ihrer Administratoren (außer CalsiBot). Dadurch werden alle von ihnen freigegebenen Einladungslinks widerrufen."
   }
 
-  "joinverify.preverify.main": "<code>%s</code><b> ist durch PreVerify <a href=\"t.me/CalsiBotDev/111\">geschützt</a>.\n\nUm der Gruppe beizutreten, tippen sie auf die \"Bestätigung\" Schaltfläche und dann auf \"Start\".</b>"
+  "joinverify.preverify.main": "<b>%s%s ist durch PreVerify <a href=\"t.me/CalsiBotDev/111\">geschützt</a>.\n\nUm der Gruppe beizutreten, tippen sie auf die \"Bestätigung\" Schaltfläche und dann auf \"Start\".</b>"
   "joinverify.preverify.main.imageText": "So treten Sie der Gruppe bei:\n1. Erst Überprüfen, dann Starten\n2. Test bestehen\n3. Gruppe beitreten!"
   "joinverify.preverify.verificationMessage": "<b>Mit dieser Nachricht wird der Besitz dieser Gruppe oder dieses Kanals für die PreVerify-Funktion von CalsiBot überprüft.</b>\n\n%s"
   "joinverify.preverify.setUpCancelled": "<b>PreVerify-Einrichtung abgebrochen.</b>"

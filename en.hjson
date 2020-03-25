@@ -409,7 +409,7 @@
     "threeSuccess": "✅✅✅ <b>Step 3\n\nOkay, posted successfully!</b>\n\nSee https://t.me/%s/%s for the post!\n\n<b>To fully protect your group, you must revoke all previous Invite Links. You can do this by:</b>\n1. Revoking your personal Invite Link\n2. Demoting and then re-promoting all of your admins (except for CalsiBot). This will revoke any Invite Links they have shared."
   }
 
-  "joinverify.preverify.main": "<code>%s</code><b> is <a href=\"t.me/CalsiBotDev/111\">protected by</a> PreVerify.\n\nTo chat, tap the \"Verify\" button and then \"Start\".</b>"
+  "joinverify.preverify.main": "<b>%s%s is <a href=\"t.me/CalsiBotDev/111\">protected by</a> PreVerify.\n\nTo chat, tap the \"Verify\" button and then \"Start\".</b>"
   "joinverify.preverify.main.imageText": "To join the group:\n1. Tap Verify, then Start\n2. Pass the Test\n3. Join the Group!"
   "joinverify.preverify.verificationMessage": "<b>This message is to verify ownership of this group or channel for CalsiBot's PreVerify feature.</b>\n\n%s"
   "joinverify.preverify.setUpCancelled": "<b>PreVerify set up cancelled.</b>"
