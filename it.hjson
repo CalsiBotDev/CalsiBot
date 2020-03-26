@@ -98,6 +98,7 @@
     "cancel": "❌ Annulla"
 
     "seeExample": "👀 Vedi esempio"
+    "seeGroupInfo": "Vedi info gruppo"
 
     "marryAccept": "🥰 Accetta"
     "marryReject": "😒 Rifiuta"
@@ -145,6 +146,8 @@
   "generic.needToBeAdmin": "<b>❌ Non consentito. È necessario:</b>\n\n1️⃣ Essere un amministratore\n2️⃣ Avere l'autorizzazione di %s"
   "generic.needToBeAdminAnswerText": "❌ Non consentito. È necessario: \n\n 1️⃣ Essere un amministratore \n 2️⃣ Avere l'autorizzazione di %s"
   "generic.CalsiBotNeedsToBeAdmin": "<b>❌ Perché funzioni, %s deve:</b>\n\n1️⃣ Essere un amministratore\n2️⃣ Avere l'autorizzazione di %s"
+  "generic.CalsiBotNotUsedAnymore": "<b>Mi dispiace, CalsiBot non è più utilizzato nel gruppo o non dispone di autorizzazioni sufficienti.</b>"
+  "generic.CalsiBotNotUsedAnymoreAnswerText": "Mi dispiace, CalsiBot non è più utilizzato nel gruppo o non dispone di autorizzazioni sufficienti."
 
   "generic.permissionTypes": {
     "changeGroupInfo": "cambiare le informazioni del gruppo"
@@ -380,39 +383,36 @@
 
   # ⚠️ IMPORTANT
   "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>Join Verify è abilitato ma </b>%s<b> è stato aggiunto manualmente </b>%s<b>, quindi non è richiesta alcuna verifica.</b>"
-  "joinverify.joinevents.userVerify": "<b>Ehi </b>%s<b> benvenuto in </b><code>%s</code><b>.\n\nPer chattare, tocca il pulsante e quindi \"Avvia\":</b>"
-  "joinverify.joinevents.userVerifyTimed": "<b>Ehi </b>%s<b> benvenuto in </b><code>%s</code><b>.\n\nPer chattare, tocca il pulsante e quindi \"Avvia\". Altrimenti, verrai bannato tra %s minuti:</b>"
+  "joinverify.joinevents.userVerify": "<b>Ehi </b>%s<b> benvenuto in </b><code>%s</code><b>.\n\nPer chattare, tocca il pulsante \"verifica\" e quindi \"Avvia\":</b>"
+  "joinverify.joinevents.userVerifyTimed": "<b>Ehi </b>%s<b> benvenuto in </b><code>%s</code><b>.\n\nPer chattare, tocca il pulsante \"verifica\" e quindi \"Avvia\". Altrimenti, verrai bannato tra %s minuti:</b>"
   "joinverify.joinevents.botVerify": "%s<b> è un bot\n\nUn amministratore può premere \"Permetti bot\" in basso per consentirgli di inviare messaggi:</b>"
   "joinverify.joinevents.botVerifyTimed": "%s<b> è un bot\n\nUn amministratore può premere \"Permetti bot\" in basso per consentirgli di inviare messaggi, altrimenti verrà bannato tra %s minuti.</b>"
   "joinverify.joinevents.userVerified": "%s<b> ha passato </b><a href=\"t.me/CalsiBotDev/89\">il JoinVerify con successo</a><b>.</b>"
 
   # ⚠️ IMPORTANT
   "joinverify.preverify.callbacks": {
-    "success": "<b>Ecco il link di invito temporaneo:</b>\n%s\n\n<i>se sei stato bandito da questo gruppo, non potrai unirti</i>"
-    "successAnswerText": "Perfetto! Usa il link d'invito per unirti!"
+    "success": "<b>Fai clic sul link d'invito <u>temporaneo</u> qui in basso per unirti al gruppo:</b>\n%s\n\n<i>se sei stato rimosso da questo gruppo, non sarai in grado di unirti</i>"
+    "successAnswerText": "Bene! Usa il link d'invito per unirti!"
+    "memberCount": "Questo gruppo ha attualmente %s membri"
   }
-
-  "joinverify.preverify.main": "<b>Il link d'invito PreVerify per questo gruppo è:</b>\n%s\n\n<b>Puoi condividerlo al posto dei normali link di invito per assicurarti che le persone si verifichino come umane prima di unirsi al tuo gruppo.</b>\n\nPer proteggere completamente il tuo gruppo, devi revocare tutti i precedenti link di invito. Puoi farlo tramite:\n1. Revoca del link di invito personale\n2. Rimuovi e quindi ri-promuovi tutti i tuoi amministratori (tranne CalsiBot). Ciò revocherà tutti i link di invito che hanno condiviso."
 
   "joinverify.preverify.error.alreadyVerified": "<b>Ti sei verificato in precedenza come umano.</b>\n\n%s"
-  "joinverify.preverify.error.notAvailable": "<b>Join Verify non è abilitato in questo momento, deve essere abilitato prima di poter usare PreVerify:</b>"
-  "joinverify.preverify.error.preVerifyInvalid": "<b>Il link d'invito con PreVerify non è valido.</b>"
+  "joinverify.preverify.error.preVerifyInvalid": "<b>Il link d'invito PreVerify non è valido.</b>"
 
-  "joinverify.preverifypost.steps": {
-    "one": "*️⃣➡️➡️➡️ <b>Passo 1\n\nPreVerifyPost è un'estensione di <a href=\"t.me/CalsiBotDev/111\">PreVerify</a>.</b>\n\nUsalo per creare un post in un gruppo o canale pubblico con il quale <b>gli utenti possono verificarsi come <u>umani</u> prima di unirsi al tuo gruppo.\n\nQuesto ha un paio di vantaggi:\n1. Impedisce ai bot l'ottenere elenchi e messaggi di utenti</b> in quanto devono prima verificarsi\n\n<b>2. Ti protegge dagli spam bot completamente automatizzati che sfruttano i normali link di invito</b> in quanto non saranno in grado di passare il test di PreVerify<b>.</b>%s"
-    "two": "✅*️⃣➡️➡️ <b>Passo 2\n\nAggiungi %s come amministratore del <u>gruppo pubblico</u> o <u>canale pubblico</u> dove si desidera inviare PreVerifyPost. Puoi rimuoverlo in un secondo momento.</b>%s"
-    "three": "✅✅*️⃣➡️ <b>Passo 3\n\n1. Inoltra il messaggio in risposta a questo</b> su un <u>gruppo pubblico</u> o un <u>canale pubblico</u> dove %s è un amministratore.\n<b>2. Toccare o fai clic con il tasto destro del mouse sul messaggio inoltrato e <b>Copia collegamento</b>\n3. Invia il link pubblico copiato a questa chat</b>.\nIl link ottenuto dovrebbe essere simile a questo:\nhttps://t.me/CalsiBotDev/99999"
-    "threeError.noVerificationString": "✅✅❌➡️ <b>Passo 3\n\nImpossibile trovare la stringa di verifica richiesta nel post. Assicurati che il post linkato sia il messaggio di verifica di proprietà che hai inoltrato.</b>"
-    "threeError.urlFormat": "✅✅❌➡️ <b>Passo 3\n\nIl link che hai inviato non sembra corretto. Dovrebbe essere simile a questo:</b>\nhttps://t.me/CalsiBotDev/99999"
-    "four": "✅✅✅*️⃣ <b>Passo 4\n\nPerfetto!</b>\nSuccessivamente, %s invierà un PreVerifyPost su quel gruppo o canale\n\n<b>Assicurati che %s sia un amministratore lì prima di procedere.</b>%s"
-    "fourError": "✅✅✅❌ <b>Passo 5\n\nImpossibile inviare il messaggio, assicurarsi che %s sia un amministratore in %s.</b>%s"
-    "fourSuccess": "✅✅✅✅ <b>Passo 5\n\nOk, pubblicato correttamente!</b> Vedi https://t.me/%s/%s per il post!"
+  "joinverify.preverify.steps": {
+    "one": "✴️➡️➡️ <b>Passaggio 1\n\nUtilizzare <a href=\"t.me/CalsiBotDev/111\">PreVerify</a></b> per creare un post in un gruppo o canale pubblico con cui <b>gli utenti possono verificarsi come <u>umani prima che</u> si uniscano al tuo gruppo.\n\n✅ Impedisce</b> agli spambot di ottenere messaggi o la lista membri\n✅ <b>Protegge</b> dagli spambot che si affidano ai normali link di invito\n✅ <b>Riduce</b> il numero di persone che non passano la verifica.%s"
+    "two": "✅✴️➡️ <b>Passaggio 2\n\nAggiungi %s come amministratore al gruppo pubblico o al canale pubblico in cui desideri inviare il post PreVerify.</b>%s"
+    "three": "✅✅✴️ <b>Passaggio 3\n\n1. Inoltra il messaggio precedente (in risposta)</b> a un gruppo pubblico o canale pubblico in cui %s è un amministratore.\n<b>2. Tocca o fai clic con il pulsante destro del mouse sul messaggio inoltrato e <b>Copia collegamento</b>\n3. Invia il link pubblico copiato a questa chat</b>.\n\nIl link dovrebbe apparire così:\nhttps://t.me/CalsiBotDev/99999"
+    "threeError.noVerificationString": "✅✅❌ <b>Passaggio 3\n\nImpossibile trovare la stringa di verifica richiesta nel post. Assicurati che il post a cui si riferisce il link sia il messaggio di verifica di proprietà che hai inoltrato.</b>"
+    "threeError.urlFormat": "✅✅❌ <b>Passaggio 3\n\nIl collegamento che hai inviato non sembra corretto. Dovrebbe apparire così:</b>\nhttps://t.me/CalsiBotDev/99999"
+    "threeError.cantSendPost": "✅✅❌ <b>Passaggio 3\n\nImpossibile inviare il messaggio, assicurati che %s sia un amministratore con autorizzazioni sufficienti in %s.</b>%s"
+    "threeSuccess": "✅✅✅ <b>Passaggio 3\n\nOk, pubblicato correttamente!</b>\n\nVedi https://t.me/%s/%s per il post!\n\n<b>Per proteggere completamente il tuo gruppo, è necessario revocare tutti i precedenti link di invito. Puoi farlo:</b>\n1. Revocando il tuo link di invito personale\n2. Rimuovendo e quindi ri-promuovendo tutti i tuoi amministratori (tranne CalsiBot). Ciò revocherà tutti i link di invito che hanno condiviso."
   }
 
-  "joinverify.preverifypost.main": "<code>%s</code><b> è <a href=\"t.me/CalsiBotDev/111\">protetto da JoinVerify</a>.\n\nPer unirti al gruppo, tocca il pulsante e quindi \"Avvia\".</b>"
-  "joinverify.preverifypost.main.imageText": "Per aderire al gruppo:\n1. Tocca Verifica, quindi \"Avvia\"\n2. Effettua il test\n3. Unisciti al gruppo"
-  "joinverify.preverifypost.verificationMessage": "<b>Questo messaggio serve a verificare la proprietà di questo gruppo o canale per la funzione PreVerifyPost di CalsiBot.</b>\n\n%s"
-  "joinverify.preverifypost.setUpCancelled": "<b>Impostazione PreVerifyPost annullata.</b>"
+  "joinverify.preverify.main": "<b>%s%s è <a href=\"t.me/CalsiBotDev/111\">protetto da</a> PreVerify.\n\nPer chattare, tocca il pulsante \"verifica\" e quindi \"Avvia\".</b>"
+  "joinverify.preverify.main.imageText": "Per unirti al gruppo:\n1. Tocca Verifica, quindi Avvia\n2. Passa il test\n3. Unisciti al gruppo!"
+  "joinverify.preverify.verificationMessage": "<b>Questo messaggio serve a verificare la proprietà di questo gruppo o canale per la funzione PreVerify di CalsiBot.</b>\n\n%s"
+  "joinverify.preverify.setUpCancelled": "<b>Impostazione PreVerify annullata.</b>"
 
 
   /* ---------------------------------------------------------------------
