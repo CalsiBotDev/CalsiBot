@@ -397,6 +397,7 @@
   }
 
   "joinverify.preverify.error.alreadyVerified": "<b>You have previously verified yourself as human.</b>\n\n%s"
+  "joinverify.preverify.error.notAvailable": "<b>Join Verify is not enabled right now, it must be enabled before you can use PreVerify:</b>"
   "joinverify.preverify.error.preVerifyInvalid": "<b>The PreVerify Invite Link is invalid.</b>"
 
   "joinverify.preverify.steps": {

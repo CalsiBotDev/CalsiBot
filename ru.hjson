@@ -397,6 +397,7 @@
   }
 
   "joinverify.preverify.error.alreadyVerified": "<b>Вы ранее проверили себя как человека.</b>\n\n%s"
+  "joinverify.preverify.error.notAvailable": "<b>Проверка присоединения сейчас не включена, она должна быть включена, прежде чем вы сможете использовать PreVerify:</b>"
   "joinverify.preverify.error.preVerifyInvalid": "<b>Ссылка приглашения PreVerify недействительна.</b>"
 
   "joinverify.preverify.steps": {
