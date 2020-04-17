@@ -396,18 +396,17 @@
     "memberCount": "Ce groupe compte actuellement %s membres"
   }
 
+  "joinverify.preverify.error.preVerifyInvalid": "<b>Le lien d'invitation PreVerify n'est pas valide ou le groupe a désactivé JoinVerify.</b>"
+  "joinverify.preverify.error.joinLockEnabled": "<b><a href=\"t.me/CalsiBotDev/48\">JoinLock</a> est actuellement activé pour ce groupe, veuillez réessayer plus tard.</b>"
   "joinverify.preverify.error.alreadyVerified": "<b>Vous vous êtes déjà vérifié comme humain.</b>\n\n%s"
   "joinverify.preverify.error.notAvailable": "<b>Join Verify n'est pas activé pour le moment, il doit être activé avant de pouvoir utiliser PreVerify:</b>"
-  "joinverify.preverify.error.preVerifyInvalid": "<b>Le lien d'invitation PreVerify n'est pas valide.</b>"
 
   "joinverify.preverify.steps": {
-    "one": "✴️➡️➡️ <b>Étape 1\n\nUtilisez <a href=\"t.me/CalsiBotDev/111\">PreVerify</a></b> pour créer une publication dans un groupe ou une chaîne publique avec laquelle <b>les utilisateurs peuvent se vérifier en tant qu'humains <u>avant</u> de rejoindre votre groupe.\n\n✅ Empêche</b> les utilisateurs robots de collecter les messages et les listes de membres\n✅ Vous <b>protège</b> davantage des robots collecteurs de spam qui comptent sur des liens d'invitation normaux\n✅ <b>Réduit</b> le nombre de personnes qui ne vérifient pas.%s"
-    "two": "✅✴️➡️ <b>Étape 2\n\nAjoutez %s en tant qu'administrateur au groupe public ou au canal public où vous souhaitez envoyer la publication PreVerify.</b>%s"
-    "three": "✅✅✴️ <b>Étape 3\n\n1. Transférez le message (en réponse) ci-dessus</b> à un groupe public ou à un canal public où %s est administrateur.\n<b>2. Appuyez ou cliquez avec le bouton droit sur le message transféré et <b>Copiez le lien</b>\n3. Envoyez le lien public copié à cette discussion</b>.\n\nLe lien devrait ressembler à ceci:\nhttps://t.me/CalsiBotDev/99999"
-    "threeError.noVerificationString": "✅✅❌ <b>Étape 3\n\nJe n'ai pas trouvé la chaîne de vérification requise dans le message. Assurez-vous que le message que vous avez lié est le message de vérification de propriété que vous avez transféré.</b>"
-    "threeError.urlFormat": "✅✅❌ <b>Étape 3\n\nLe lien que vous avez envoyé ne semble pas correct. Il devrait ressembler à ceci:</b>\nhttps://t.me/CalsiBotDev/99999"
-    "threeError.cantSendPost": "✅✅❌ <b>Étape 3\n\nJe n'ai pas pu pas envoyer le message, veuillez vous assurer que %s est un administrateur avec suffisamment d'autorisations dans %s.</b>%s"
-    "threeSuccess": "✅✅✅ <b>Étape 3\n\nOkay, publication réussie!</b>\n\nVoir https://t.me/%s/%s pour le message!\n\n<b>Pour bien protéger votre groupe, vous devez révoquer tous les liens d'invitation précédents. Vous pouvez le faire en:</b>\n1. Révocant votre lien d'invitation personnel\n2. Rétrogradant puis re-promouvant tous vos administrateurs (sauf CalsiBot). Cela révoquera tous les liens d'invitation qu'ils ont partagés."
+    "one": "✴️ <b>1. Transférez le message (en réponse) ci-dessus</b> à un groupe public ou à un canal public où %s est administrateur.\n<b>2. Appuyez ou cliquez avec le bouton droit sur le message transféré et <b>Copiez le lien</b>\n3. Envoyez le lien public copié à cette discussion</b>.\n\nLe lien devrait ressembler à ceci:\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.noVerificationString": "❌ <b>Je n'ai pas trouvé la chaîne de vérification requise dans le message. Assurez-vous que le message que vous avez lié est le message de vérification de propriété que vous avez transféré.</b>"
+    "oneError.urlFormat": "❌ <b>Le lien que vous avez envoyé ne semble pas correct. Il devrait ressembler à ceci:</b>\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.cantSendPost": "❌ <b>Je n'ai pas pu pas envoyer le message, veuillez vous assurer que %s est un administrateur avec suffisamment d'autorisations dans %s.</b>%s"
+    "oneSuccess": "✅ <b>Okay, publication réussie!</b>\n\nVoir https://t.me/%s/%s pour le message!\n\n<b>Pour bien protéger votre groupe, vous devez révoquer tous les liens d'invitation précédents. Vous pouvez le faire en:</b>\n1. Révocant votre lien d'invitation personnel\n2. Rétrogradant puis re-promouvant tous vos administrateurs (sauf CalsiBot). Cela révoquera tous les liens d'invitation qu'ils ont partagés."
   }
 
   "joinverify.preverify.main": "<b>%s%s est <a href=\"t.me/CalsiBotDev/111\">protégé par</a> PreVerify.</b>"

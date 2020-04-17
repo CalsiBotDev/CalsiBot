@@ -396,18 +396,17 @@
     "memberCount": "This group currently has %s members"
   }
 
+  "joinverify.preverify.error.preVerifyInvalid": "<b>The PreVerify Invite Link is invalid or the group has disabled JoinVerify.</b>"
+  "joinverify.preverify.error.joinLockEnabled": "<b>This group currently has <a href=\"t.me/CalsiBotDev/48\">JoinLock</a> enabled, please try again later.</b>"
   "joinverify.preverify.error.alreadyVerified": "<b>You have previously verified yourself as human.</b>\n\n%s"
   "joinverify.preverify.error.notAvailable": "<b>Join Verify is not enabled right now, it must be enabled before you can use PreVerify:</b>"
-  "joinverify.preverify.error.preVerifyInvalid": "<b>The PreVerify Invite Link is invalid.</b>"
 
   "joinverify.preverify.steps": {
-    "one": "✴️➡️➡️ <b>Step 1\n\nUse <a href=\"t.me/CalsiBotDev/111\">PreVerify</a></b> to create a post in a public Group or Channel with which <b>users can verify themselves as human <u>before</u> they join your group.\n\n✅ Prevents</b> user bots from scraping messages and member lists\n✅ <b>Protects</b> you more from spam bots who rely on normal invite links\n✅ <b>Reduces</b> the number of people not verifying.%s"
-    "two": "✅✴️➡️ <b>Step 2\n\nAdd %s as an admin to the Public Group or Public Channel where you want the PreVerify post to be sent.</b>%s"
-    "three": "✅✅✴️ <b>Step 3\n\n1. Forward the above (replied to) message</b> to a Public Group or Public Channel where %s is an admin.\n<b>2. Tap or right-click the forwarded message and <b>Copy Link</b>\n3. Send the copied public link to this chat</b>.\n\nThe link should look like this:\nhttps://t.me/CalsiBotDev/99999"
-    "threeError.noVerificationString": "✅✅❌ <b>Step 3\n\nCouldn't find the required verification string in the post. Make sure the post you linked to is the ownership verification message you forwarded.</b>"
-    "threeError.urlFormat": "✅✅❌ <b>Step 3\n\nThe link you sent doesn't look right. It should look like this:</b>\nhttps://t.me/CalsiBotDev/99999"
-    "threeError.cantSendPost": "✅✅❌ <b>Step 3\n\nCould not send the message, please ensure %s is an admin with enough permissions in %s.</b>%s"
-    "threeSuccess": "✅✅✅ <b>Step 3\n\nOkay, posted successfully!</b>\n\nSee https://t.me/%s/%s for the post!\n\n<b>To fully protect your group, you must revoke all previous Invite Links. You can do this by:</b>\n1. Revoking your personal Invite Link\n2. Demoting and then re-promoting all of your admins (except for CalsiBot). This will revoke any Invite Links they have shared."
+    "one": "✴️ <b>1. Forward the above (replied to) message</b> to a Public Group or Public Channel where %s is an admin.\n<b>2. Tap or right-click the forwarded message and <b>Copy Link</b>\n3. Send the copied public link to this chat</b>.\n\nThe link should look like this:\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.noVerificationString": "❌ <b>Couldn't find the required verification string in the post. Make sure the post you linked to is the ownership verification message you forwarded.</b>"
+    "oneError.urlFormat": "❌ <b>The link you sent doesn't look right. It should look like this:</b>\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.cantSendPost": "❌ <b>Could not send the message, please ensure %s is an admin with enough permissions in %s.</b>%s"
+    "oneSuccess": "✅ <b>Okay, posted successfully!</b>\n\nSee https://t.me/%s/%s for the post!\n\n<b>To fully protect your group, you must revoke all previous Invite Links. You can do this by:</b>\n1. Revoking your personal Invite Link\n2. Demoting and then re-promoting all of your admins (except for CalsiBot). This will revoke any Invite Links they have shared."
   }
 
   "joinverify.preverify.main": "<b>%s%s is <a href=\"t.me/CalsiBotDev/111\">protected by</a> PreVerify.</b>"

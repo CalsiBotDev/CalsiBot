@@ -396,18 +396,17 @@
     "memberCount": "Este grupo tiene actualmente %s miembros"
   }
 
+  "joinverify.preverify.error.preVerifyInvalid": "<b>El enlace de invitación de PreVerify no es válido o el grupo ha deshabilitado JoinVerify.</b>"
+  "joinverify.preverify.error.joinLockEnabled": "<b>Este grupo actualmente tiene <a href=\"t.me/CalsiBotDev/48\">JoinLock</a> habilitado, intente nuevamente más tarde.</b>"
   "joinverify.preverify.error.alreadyVerified": "<b>Te has verificado previamente como humano.</b>\n\n%s"
   "joinverify.preverify.error.notAvailable": "<b>Join Verify no está habilitado en este momento, debe estar habilitado antes de poder usar PreVerify:</b>"
-  "joinverify.preverify.error.preVerifyInvalid": "<b>El enlace de invitación de PreVerify no es válido.</b>"
 
   "joinverify.preverify.steps": {
-    "one": "✴️➡️➡️ <b>Paso 1\n\nUtilice <a href=\"t.me/CalsiBotDev/111\">PreVerify</a></b> para crear una publicación en un Grupo o Canal público con el que <b>los usuarios pueden verificarse a sí mismos como humanos <u>antes de</u> unirse a su grupo.\n\n✅ Impide</b> que los bots de usuarios raspen mensajes y listas de miembros\n✅ <b>Protege</b> más de bots de spam que confían en enlaces de invitación normales\n✅ <b>Reduce</b> la cantidad de personas que no verifican.%s"
-    "two": "✅✴️➡️ <b>Paso 2\n\nAgregue %s como administrador del grupo público o canal público donde desea que se envíe la publicación de PreVerify.</b>%s"
-    "three": "✅✅✴️ <b>Paso 3\n\n1. Reenvíe el mensaje anterior (respondido a)</b> a un grupo público o canal público donde %s es un administrador.\n<b>2. Toque o haga clic con el botón derecho en el mensaje reenviado y <b>Copiar enlace</b>\n3. Envíe el enlace público copiado a este chat</b>.\n\nEl enlace debería verse así:\nhttps://t.me/CalsiBotDev/99999"
-    "threeError.noVerificationString": "✅✅❌ <b>Paso 3\n\nNo se pudo encontrar la cadena de verificación requerida en la publicación. Asegúrese de que la publicación a la que se vinculó sea el mensaje de verificación de propiedad que reenvió.</b>"
-    "threeError.urlFormat": "✅✅❌ <b>Paso 3\n\nEl enlace que envió no se ve bien. Debería verse así:</b>\nhttps://t.me/CalsiBotDev/99999"
-    "threeError.cantSendPost": "✅✅❌ <b>Paso 3\n\nNo podría enviar el mensaje, asegúrese de que %s sea un administrador con suficientes permisos en %s.</b>%s"
-    "threeSuccess": "✅✅✅ <b>Paso 3\n\n¡Ok, publicado con éxito!</b>\n\nVer https://t.me/%s/%s para la publicación!\n\n<b>proteja a su grupo, debe revocar todos los enlaces de invitación anteriores. Puede hacerlo mediante:</b>\n1. Revocando su Invite Link personal\n2. Degradar y luego volver a promocionar a todos sus administradores (excepto CalsiBot). Esto revocará cualquier enlace de invitación que hayan compartido."
+    "one": "✴️ <b>1. Reenvíe el mensaje anterior (respondido a)</b> a un grupo público o canal público donde %s es un administrador.\n<b>2. Toque o haga clic con el botón derecho en el mensaje reenviado y <b>Copiar enlace</b>\n3. Envíe el enlace público copiado a este chat</b>.\n\nEl enlace debería verse así:\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.noVerificationString": "❌ <b>No se pudo encontrar la cadena de verificación requerida en la publicación. Asegúrese de que la publicación a la que se vinculó sea el mensaje de verificación de propiedad que reenvió.</b>"
+    "oneError.urlFormat": "❌ <b>El enlace que envió no se ve bien. Debería verse así:</b>\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.cantSendPost": "❌ <b>No podría enviar el mensaje, asegúrese de que %s sea un administrador con suficientes permisos en %s.</b>%s"
+    "oneSuccess": "✅ <b>¡Ok, publicado con éxito!</b>\n\nVer https://t.me/%s/%s para la publicación!\n\n<b>proteja a su grupo, debe revocar todos los enlaces de invitación anteriores. Puede hacerlo mediante:</b>\n1. Revocando su Invite Link personal\n2. Degradar y luego volver a promocionar a todos sus administradores (excepto CalsiBot). Esto revocará cualquier enlace de invitación que hayan compartido."
   }
 
   "joinverify.preverify.main": "<b>%s%s está <a href=\"t.me/CalsiBotDev/111\">protegido por</a> PreVerify.</b>"
