@@ -128,7 +128,7 @@
     "ten": "🔟"
   }
 
-  "generic.times": {
+  "generic.timePlural": {
     "zero": "mal"
     "one": "zeit"
     "other": "mal"
@@ -369,7 +369,7 @@
     "expiredAnswerText": "Anforderung abgelaufen"
 
     "settingsUnavailable": "<b>Join Verify ist derzeit nicht aktiviert. Aktivieren Sie es zuerst, um die Einstellungen zu ändern:</b>"
-    "setTimeLimit": "<b>Wählen Sie ein Zeitlimit für die Beitrittsüberprüfung</b>\n\nWie viele Minuten sollten neue Mitglieder zugelassen werden, bevor sie gesperrt werden?"
+    "setTimeLimit": "<b>Wählen Sie ein Zeitlimit für die Beitrittsüberprüfung</b>\n\nWie viele Minuten sollten nicht verifiziert Mitglieder zugelassen werden, bevor sie gesperrt werden?"
     "setTimeLimitAnswerText": "Wähle einen Wert"
     "timeLimitChanged": "<b>Join Verify Time Limit geändert von </b><code>%s</code><b> zu </b><code>%s</code><b> von </b>%s"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
@@ -437,12 +437,12 @@
     "proposalRejectedAnswerText": "🤕 Autsch."
   }
 
-  "marry.result.child": {
+  "marry.result.childPlural": {
     "zero": "kinder"
     "one": "kind"
     "other": "kinder"
   }
-  "marry.result.house": {
+  "marry.result.housePlural": {
     "zero": "häuser"
     "one": "haus"
     "other": "häuser"
@@ -686,7 +686,7 @@
   # ℹ️ NOTE: This should be the native name of the language.
   "language.name": "Deutsch"
   "language.main": "<b>Ihre Sprache ist derzeit eingestellt auf:</b>\n<code>%s</code>"
-  "language.credit": "<b>Diese Sprache wird durch die </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">harte Arbeit</a><b> der folgenden Personen ermöglicht:</b>\n"
+  "language.credit": "<b>Diese Übersetzung wird durch die </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">harte Arbeit</a><b> der folgenden Personen ermöglicht:</b>\n"
   # ℹ️ NOTE: The contributors string should NOT be changed by anyone other than me, or those who are already listed
   #          as contributors.
   #

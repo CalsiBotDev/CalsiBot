@@ -128,7 +128,7 @@
     "ten": "🔟"
   }
 
-  "generic.times": {
+  "generic.timePlural": {
     "zero": "veces"
     "one": "hora"
     "other": "veces"
@@ -369,7 +369,7 @@
     "expiredAnswerText": "Verificación de solicitud caducada"
 
     "settingsUnavailable": "<b>Join Verify no está habilitado ahora, habilítelo primero para cambiar la configuración:</b>"
-    "setTimeLimit": "<b>Elija un límite de tiempo para unirse Verificar</b>\n\n¿Cuántos minutos deberían permitirse los nuevos miembros antes de ser prohibidos?"
+    "setTimeLimit": "<b>Elija un límite de tiempo para unirse Verificar</b>\n\n¿Cuántos minutos deberían permitirse los inconfirmado miembros antes de ser prohibidos?"
     "setTimeLimitAnswerText": "Seleccione un valor"
     "timeLimitChanged": "<b>El límite de tiempo de verificación de unión cambió de </b><code>%s</code><b> a </b><code>%s</code><b> por </b>%s"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
@@ -437,12 +437,12 @@
     "proposalRejectedAnswerText": "🤕 Ay."
   }
 
-  "marry.result.child": {
+  "marry.result.childPlural": {
     "zero": "niños"
     "one": "niño"
     "other": "niños"
   }
-  "marry.result.house": {
+  "marry.result.housePlural": {
     "zero": "casas"
     "one": "casa"
     "other": "casas"
@@ -686,7 +686,7 @@
   # ℹ️ NOTE: This should be the native name of the language.
   "language.name": "Español"
   "language.main": "<b>Tu idioma está configurado actualmente en:</b>\n<code>%s</code>"
-  "language.credit": "<b>Este idioma es hecho posible por el </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">trabajo duro</a><b> de las siguientes personas:</b>\n"
+  "language.credit": "<b>Esta traducciónes es hecho posible por el </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">trabajo duro</a><b> de las siguientes personas:</b>\n"
   # ℹ️ NOTE: The contributors string should NOT be changed by anyone other than me, or those who are already listed
   #          as contributors.
   #

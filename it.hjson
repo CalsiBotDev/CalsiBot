@@ -128,7 +128,7 @@
     "ten": "🔟"
   }
 
-  "generic.times": {
+  "generic.timePlural": {
     "zero": "volte"
     "one": "volta"
     "other": "volte"
@@ -437,12 +437,12 @@
     "proposalRejectedAnswerText": "🤕 Ahi, che peccato."
   }
 
-  "marry.result.child": {
+  "marry.result.childPlural": {
     "zero": "bambini"
     "one": "bambino"
     "other": "bambini"
   }
-  "marry.result.house": {
+  "marry.result.housePlural": {
     "zero": "case"
     "one": "casa"
     "other": "case"

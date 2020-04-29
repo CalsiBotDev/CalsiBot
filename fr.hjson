@@ -128,7 +128,7 @@
     "ten": "🔟"
   }
 
-  "generic.times": {
+  "generic.timePlural": {
     "zero": "fois"
     "one": "fois"
     "other": "fois"
@@ -369,7 +369,7 @@
     "expiredAnswerText": "Demande de vérification expirée"
 
     "settingsUnavailable": "<b>La vérification au moment de rejoindre n'est pas activée pour le moment, activez-la d'abord pour modifier les paramètres:</b>"
-    "setTimeLimit": "<b>Choisissez une limite de temps pour la vérification au moment de rejoindre</b>\n\nCombien de minutes doivent être accordées aux nouveaux membres avant d'être bannis?"
+    "setTimeLimit": "<b>Choisissez une limite de temps pour la vérification au moment de rejoindre</b>\n\nCombien de minutes doivent être accordées aux non vérifié membres avant d'être bannis?"
     "setTimeLimitAnswerText": "Sélectionnez une valeur"
     "timeLimitChanged": "<b>La limite de temps de la vérification au moment de rejoindre a été modifiée de </b><code>%s</code><b> à </b><code>%s</code><b> par </b>%s"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
@@ -437,12 +437,12 @@
     "proposalRejectedAnswerText": "🤕 Aïe."
   }
 
-  "marry.result.child": {
+  "marry.result.childPlural": {
     "zero": "enfant"
     "one": "enfant"
     "other": "enfants"
   }
-  "marry.result.house": {
+  "marry.result.housePlural": {
     "zero": "maison"
     "one": "maison"
     "other": "maisons"
@@ -686,7 +686,7 @@
   # ℹ️ NOTE: This should be the native name of the language.
   "language.name": "Français"
   "language.main": "<b>Votre langue est actuellement définie sur:</b>\n<code>%s</code>"
-  "language.credit": "<b>Cette langue est disponible grâce au </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">travail acharné</a><b> des personnes suivantes :</b>\n"
+  "language.credit": "<b>Cette traduction est disponible grâce au </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">travail acharné</a><b> des personnes suivantes :</b>\n"
   # ℹ️ NOTE: The contributors string should NOT be changed by anyone other than me, or those who are already listed
   #          as contributors.
   #
