@@ -140,14 +140,14 @@
 
   "generic.weekPlural": {
     "zero": "semaines"
-    "one": "la semaine"
+    "one": "semaine"
     "other": "semaines"
   }
 
   "generic.dayPlural": {
-    "zero": "journées"
-    "one": "journée"
-    "other": "journées"
+    "zero": "jours"
+    "one": "jour"
+    "other": "jours"
   }
 
   "generic.hourPlural": {
@@ -838,7 +838,7 @@
     "confirmStickerPackCreate": "<b>Votre pack d'autocollants aura le titre suivant:</b>\n\n<code>%s</code>\n\n<b>⚠️ Vous ne pourrez pas le modifier plus tard.</b>"
     "cancelStickerPackCreate": "<b>D'accord, choisissez un titre différent et réessayez.</b>"
     "stickerPackCreateSuccess": "<b>Votre pack d'autocollants a été créé!</b>\n\nVous pouvez désormais répondre aux images et autocollants avec /addsticker pour les ajouter à votre pack\n\n%s"
-    "confirmStickerPackRemove": "⚠️ <b>Votre pack d'autocollants sera déconnecté de CalsiBot.\n\nVous ne pourrez pas mettre à jour ce pack avec CalsiBot jamais agian.\n\nVoulez-vous vraiment supprimer ce pack?</b>"
+    "confirmStickerPackRemove": "⚠️ <b>Votre pack d'autocollants sera déconnecté de CalsiBot.\n\nVous ne pourrez plus jamais mettre à jour ce pack avec CalsiBot.\n\nVoulez-vous vraiment supprimer ce pack?</b>"
     "cancelStickerPackRemove": "<b>D'accord, le pack n'a pas été supprimé.</b>"
     "stickerPackRemoveSuccess": "<b>Votre pack d'autocollants a été supprimé de CalsiBot.</b>\n\nPour le supprimer complètement, parlez à @Stickers"
   }
