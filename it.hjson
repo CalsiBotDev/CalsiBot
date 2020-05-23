@@ -702,7 +702,7 @@
   "misc.when.forwardMain": "📅 Originariamente pubblicato alle <b>%s</b> alle <b>%s</b> (UTC)\n\n⏳ Sono passati <b>%s</b>."
   "misc.when.otherMain": "⏳ Questo messaggio è stato inviato <b>%s</b> fa."
   "misc.when.otherEdit": "\n\n✏️ Ultima modifica <b>%s</b> fa."
-  "misc.when.help": "<b>Rispondi a un messaggio inoltrato e ti dirò quando è stato pubblicato, preciso al secondo</b>"
+  "misc.when.help": "<b>Rispondi a qualsiasi messaggio per vedere quanto tempo è trascorso da quando è stato pubblicato, fino al secondo.\n\nPer i messaggi inoltrati, ti dirò quando il messaggio originale è stato pubblicato per la prima volta.</b>"
 
   "misc.count.main": "<b>Da quando è stato creato, in questo gruppo sono stati inviati </b><code>%s</code><b> messaggi in totale, incluso il tuo</b>"
 
