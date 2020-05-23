@@ -110,6 +110,10 @@
     "ignore": "🙈 Ignorer"
 
     "changeLanguage": "🌐 Changer de Langue"
+
+    "createPack": "📸 Créer un Pack"
+    "removePack": "💀 Supprimer le Pack"
+    "viewPack": "🌆 Voir le Pack"
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
@@ -134,7 +138,37 @@
     "other": "fois"
   }
 
-  "generic.onlySupergroups": "<b>Désolé, cette commande ne peut être utilisée que dans les supergroupes</b>"
+  "generic.weekPlural": {
+    "zero": "semaines"
+    "one": "semaine"
+    "other": "semaines"
+  }
+
+  "generic.dayPlural": {
+    "zero": "jours"
+    "one": "jour"
+    "other": "jours"
+  }
+
+  "generic.hourPlural": {
+    "zero": "heures"
+    "one": "heure"
+    "other": "heures"
+  }
+
+  "generic.minutePlural": {
+    "zero": "minutes"
+    "one": "minute"
+    "other": "minutes"
+  }
+
+  "generic.secondPlural": {
+    "zero": "secondes"
+    "one": "seconde"
+    "other": "secondes"
+  }
+
+  "generic.onlyInSupergroups": "<b>Désolé, cette commande ne peut être utilisée que dans les supergroupes</b>"
   "generic.somethingWentWrongTryAgainLater": "<b>Une erreur s'est produite. Veuillez réessayer plus tard...</b>"
   "generic.rateLimit": "😡 <b>J'ignore à partir de maintenant les prochains messages de </b>%s<b> pour avoir envoyé plus de 3 messages de commande en moins d'une seconde. Arrête s'il te plaît.</b>\n\n<i>Expire dans quelques minutes</i>"
   "generic.willNotSeeAgainForAWhile": "<i>Vous ne verrez plus ce message pendant un certain temps.</i>"
@@ -201,8 +235,6 @@
   "generic.tapNextToContinue": "\n\n<b>Appuyez </b>/next<b> pour Continuer...</b>"
   "generic.tapNextToRetry": "\n\n<b>Appuyez </b>/next<b> pour Réessayer...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Appuyez </b>/cancel<b> pour Quitter %s</b>"
-
-  "generic.timeInDHMS": "%s jours, %s heures, %s minutes, %s secondes"
 
 
   /* ---------------------------------------------------------------------
@@ -402,16 +434,17 @@
   "joinverify.preverify.error.notAvailable": "<b>Join Verify n'est pas activé pour le moment, il doit être activé avant de pouvoir utiliser PreVerify:</b>"
 
   "joinverify.preverify.steps": {
-    "one": "✴️ <b>1. Transférez le message (en réponse) ci-dessus</b> à un groupe public ou à un canal public où %s est administrateur.\n<b>2. Appuyez ou cliquez avec le bouton droit sur le message transféré et <b>Copiez le lien</b>\n3. Envoyez le lien public copié à cette discussion</b>.\n\nLe lien devrait ressembler à ceci:\nhttps://t.me/CalsiBotDev/99999"
+    "one": "✴️ <b>1. Transférez le message (en réponse) ci-dessus</b> à un canal public où %s est administrateur.\n<b>2. Appuyez ou cliquez avec le bouton droit sur le message transféré et <b>Copiez le lien</b>\n3. Envoyez le lien public copié à cette discussion</b>.\n\nLe lien devrait ressembler à ceci:\nhttps://t.me/CalsiBotDev/99999"
     "oneError.noVerificationString": "❌ <b>Je n'ai pas trouvé la chaîne de vérification requise dans le message. Assurez-vous que le message que vous avez lié est le message de vérification de propriété que vous avez transféré.</b>"
     "oneError.urlFormat": "❌ <b>Le lien que vous avez envoyé ne semble pas correct. Il devrait ressembler à ceci:</b>\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.targetIsNotChannel": "❌ <b>Le lien que vous avez fourni concerne un groupe public.\n\nPreVerify est conçu pour être utilisé uniquement avec les chaînes publiques.</b>"
     "oneError.cantSendPost": "❌ <b>Je n'ai pas pu pas envoyer le message, veuillez vous assurer que %s est un administrateur avec suffisamment d'autorisations dans %s.</b>%s"
     "oneSuccess": "✅ <b>Okay, publication réussie!</b>\n\nVoir https://t.me/%s/%s pour le message!\n\n<b>Pour bien protéger votre groupe, vous devez révoquer tous les liens d'invitation précédents. Vous pouvez le faire en:</b>\n1. Révocant votre lien d'invitation personnel\n2. Rétrogradant puis re-promouvant tous vos administrateurs (sauf CalsiBot). Cela révoquera tous les liens d'invitation qu'ils ont partagés."
   }
 
   "joinverify.preverify.main": "<b>%s%s est <a href=\"t.me/CalsiBotDev/111\">protégé par</a> PreVerify.</b>"
   "joinverify.preverify.main.imageText": "Pour rejoindre le groupe:\n1. Appuyez Vérifier, puis Démarrer\n2. Réussissez le test\n3. Rejoignez le groupe!"
-  "joinverify.preverify.verificationMessage": "<b>Ce message vise à vérifier la propriété de ce groupe ou canal pour la fonction PreVerify de CalsiBot.</b>\n\n%s"
+  "joinverify.preverify.verificationMessage": "<b>Ce message vise à vérifier la propriété de ce canal pour la fonction PreVerify de CalsiBot.</b>\n\n%s"
   "joinverify.preverify.setUpCancelled": "<b>La configuration de PreVerify a été annulée.</b>"
 
 
@@ -602,8 +635,6 @@
 
   <b>Autres commandes les plus utilisées:</b>
   /translate, /setwelcome, /hug, /when
-
-  Vous ne voulez que des commandes d'administration de groupe? Utilisez <a href="t.me/CalsiBotDev/100">/AdminMode</a>
   '''
 
 
@@ -668,13 +699,17 @@
 
   "misc.slap.CalsiBot": "<b>Vous ne pouvez pas me gifler, ce n'est pas comme ça que ça fonctionne...</b>"
 
-  "misc.when.main": "<code>Initialement posté le (UTC):</code>"
-  "misc.when.help": "<b>Répondez à un message transféré, et je vous dirai quand il a été initialement publié - à la seconde près.</b>"
+  "misc.when.forwardMain": "📅 Initialement posté le <b>%s</b> à <b>%s</b> (UTC)\n\n⏳ Il y a <b>%s</b>."
+  "misc.when.otherMain": "⏳ Ce message a été envoyé il y a <b>%s</b>."
+  "misc.when.otherEdit": "\n\n✏️ Dernière modification il y a <b>%s</b>."
+  "misc.when.help": "<b>Répondez à n'importe quel message pour voir depuis combien de temps il a été publié - jusqu'au deuxième.\n\nPour les messages transférés, je vous dirai quand le message d'origine a été publié pour la première fois.</b>"
 
   "misc.count.main": "<b>Depuis sa création, ce supergroupe a </b><code>%s</code><b> messages au total, y compris les vôtres</b>"
 
   "misc.pin.help": "<code>/pin</code> <b>vous permet de définir ou de modifier facilement l'épingle du chat sans menus stupides\n\nVous ne savez toujours pas comment l'utiliser? Appuyez sur le bouton ci-dessous pour voir un exemple:</b>"
   "misc.pin.main": "<b>Répondre à une image compressée (non envoyée sous forme de fichier) que vous souhaitez définir comme image de profil de groupe</b>"
+
+  "misc.fileIDSearch.error.noUsableFileFound": "<b>Impossible de trouver un support utilisable, essayez avec un message différent.</b>"
 
   # ℹ️ Example: Come over here, get on your knees, and translate this 😏
   "misc.knees.main": "<b>Venez ici, mettez-vous à genoux, et </b><i>%s</i><b> ceci %s</b>"
@@ -782,5 +817,43 @@
   "atAdmin.info": {
     "delete": "Le message signalé doit-il être supprimé ? Notez que les bots ne peuvent pas supprimer de messages datant d'il y a plus de 48h..."
     "ban": "L'utilisateur signalé devrait-il être banni ?"
+  }
+
+
+  /* ---------------------------------------------------------------------
+                  Stickers - Used for all /sticker commands
+     --------------------------------------------------------------------- */
+  "stickers.defaultPackTitle": "Mon Pack d'Autocollants"
+  "stickers.main": "<b>Créer, gérer et ajouter aux packs d'autocollants avec les commandes suivantes:</b>\n\n/newpack - créer un nouveau pack\n/listpacks - répertoriez vos packs et leurs identifiants\n/removepack - dissocier un pack de CalsiBot\n\n/addsticker - ajouter une image ou un autocollant à un pack\n/deletesticker - supprimer un autocollant d'un pack\n/defaultpack - changer lequel de vos packs est celui par défaut\n\n<b>Utilisation experte:</b>\n\n/addsticker 3 — ajouter une image ou un autocollant pour emballer avec ID <code>3</code>\n/addsticker 🥳🙂😉 — créer un autocollant et le suggérer lors de l'utilisation de l'un de ces trois emoji\n/addsticker 3 🥳🙂😉 — créer un autocollant et l'ajouter au pack <code>3</code>, le suggérer lors de l'utilisation de l'un de ces trois emoji"
+  "stickers.beingAdded": "⏳ <b>Votre autocollant est en cours d'ajout, veuillez patienter...</b>"
+  "stickers.beingAddedQueued": "⏳ <b>Votre autocollant sera ajouté dans %s, veuillez patienter...</b>"
+  "stickers.beingAddedSuccess": "🥳 <b>Votre autocollant a été ajouté!</b>\n\n<i>si vous ne le voyez pas, supprimez et rajoutez le pack d'autocollants:</i>"
+  "stickers.beingDeleted": "<b>Cet autocollant a été supprimé.</b>\n\n<i>cela peut prendre jusqu'à 2 minutes pour disparaître:</i>"
+  "stickers.defaultPackSet": "<b>C'est fait! Votre pack par défaut a été changé.</b>\n\n%s"
+  "stickers.letsCreateAPackInPrivate": "<b>Les packs d'autocollants doivent être créés en privé, c'est parti:</b>"
+  "stickers.removeOnlyInPrivate": "<b>Les packs d'autocollants ne peuvent être supprimés qu'en privé, c'est parti:</b>"
+  "stickers.seeAllCommandsHint": "<b>Envoyer /stickers pour voir toutes les commandes et informations.</b>"
+
+  "stickers.callbacks": {
+    "confirmStickerPackCreate": "<b>Votre pack d'autocollants aura le titre suivant:</b>\n\n<code>%s</code>\n\n<b>⚠️ Vous ne pourrez pas le modifier plus tard.</b>"
+    "cancelStickerPackCreate": "<b>D'accord, choisissez un titre différent et réessayez.</b>"
+    "stickerPackCreateSuccess": "<b>Votre pack d'autocollants a été créé!</b>\n\nVous pouvez désormais répondre aux images et autocollants avec /addsticker pour les ajouter à votre pack\n\n%s"
+    "confirmStickerPackRemove": "⚠️ <b>Votre pack d'autocollants sera déconnecté de CalsiBot.\n\nVous ne pourrez plus jamais mettre à jour ce pack avec CalsiBot.\n\nVoulez-vous vraiment supprimer ce pack?</b>"
+    "cancelStickerPackRemove": "<b>D'accord, le pack n'a pas été supprimé.</b>"
+    "stickerPackRemoveSuccess": "<b>Votre pack d'autocollants a été supprimé de CalsiBot.</b>\n\nPour le supprimer complètement, parlez à @Stickers"
+  }
+
+  "stickers.listPacks": "<b>Vos packs:\n\n%s</b>\n\n%s"
+  "stickers.listPacksFill": "<code>%s</code> — <a href=\"%s\">%s</a>"
+  "stickers.validStickerPacksAre": "<b>Les ID valides du pack d'autocollants sont:\n<code>%s</code></b>"
+
+  "stickers.error": {
+    "noTitleGiven": "<b>Vous devez spécifier un titre. Par exemple:</b>\n\n<code>/%s %s</code>"
+    "noPackGiven": "<b>Vous devez spécifier un pack. Par exemple:</b>\n<code>/%s %s</code>\n\n%s"
+    "noStickerPacks": "<b>Vous n'avez aucun pack d'autocollants.</b>\n\n%s"
+    "specifiedPackDoesNotExist": "<b>Impossible de trouver le pack d'autocollants <code>%s</code></b>\n\n%s"
+    "packLimitReached": "<b>Vous avez atteint la limite de %s Packs d'autocollants.\n\nSi vous souhaitez créer un nouveau pack, vous devez utiliser </b><code>/removepack</code><b> pour en supprimer un en premier.</b>"
+    "addStickerReplyHint": "<b>Répondez à une image ou à un autocollant que vous souhaitez ajouter à un pack d'autocollants.</b>"
+    "deleteStickerReplyHint": "<b>Répondez à un autocollant de l'un de vos packs que vous souhaitez supprimer.</b>"
   }
 }
