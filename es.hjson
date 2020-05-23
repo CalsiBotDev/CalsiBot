@@ -838,7 +838,7 @@
     "confirmStickerPackCreate": "<b>Su paquete de adhesivos tendrá el siguiente título</b>\n\n<code>%s</code>\n\n<b>⚠️ No podrá cambiar esto más tarde.</b>"
     "cancelStickerPackCreate": "<b>Bien, elige un título diferente e inténtalo de nuevo.</b>"
     "stickerPackCreateSuccess": "<b>¡Se ha creado su paquete de adhesivos!</b>\n\nAhora puede responder a imágenes y pegatinas con /addsticker para agregarlos a tu paquete\n\n%s"
-    "confirmStickerPackRemove": "⚠️ <b>Su paquete de calcomanías se desconectará de CalsiBot.\n\nNo podrá actualizar este paquete con CalsiBot nunca antes.\n\n¿Está seguro de que desea eliminar este paquete?</b>"
+    "confirmStickerPackRemove": "⚠️ <b>Su paquete de calcomanías se desconectará de CalsiBot.\n\nNo podrá actualizar este paquete con CalsiBot nunca más.\n\n¿Está seguro de que desea eliminar este paquete?</b>"
     "cancelStickerPackRemove": "<b>Bien, el paquete no se eliminó.</b>"
     "stickerPackRemoveSuccess": "<b>Su paquete de pegatinas se ha eliminado de CalsiBot.</b>\n\nPara eliminarlo por completo, hable con @Stickers"
   }

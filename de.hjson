@@ -151,20 +151,20 @@
   }
 
   "generic.hourPlural": {
-    "zero": "Std"
+    "zero": "Stunden"
     "one": "Stunde"
-    "other": "Std"
+    "other": "Stunden"
   }
 
   "generic.minutePlural": {
-    "zero": "Protokoll"
+    "zero": "Minuten"
     "one": "Minute"
-    "other": "Protokoll"
+    "other": "Minuten"
   }
 
   "generic.secondPlural": {
     "zero": "Sekunden"
-    "one": "zweite"
+    "one": "Sekunde"
     "other": "Sekunden"
   }
 
@@ -699,10 +699,10 @@
 
   "misc.slap.CalsiBot": "<b>Du kannst mich nicht schlagen, so funktioniert das einfach nicht...</b>"
 
-  "misc.when.forwardMain": "📅 Ursprünglich veröffentlicht am <b>%s</b> um <b>%s</b> (UTC)\n\n⏳ Das <b>%s</b> her."
+  "misc.when.forwardMain": "📅 Ursprünglich veröffentlicht am <b>%s</b> um <b>%s</b> (UTC)\n\n⏳ Das ist <b>%s</b> her."
   "misc.when.otherMain": "⏳ Diese Nachricht wurde vor <b>%s</b> gesendet."
-  "misc.when.otherEdit": "\n\n✏️ Zuletzt bearbeitet <b>%s</b> Tagen."
-  "misc.when.help": "<b>Antworten Sie auf eine Nachricht, um zu sehen, wie lange es her ist, seit sie veröffentlicht wurde - bis auf die Sekunde.\n\nFür weitergeleitete Nachrichten werde ich Ihnen mitteilen, wann die ursprüngliche Nachricht zum ersten Mal veröffentlicht wurde.</b>"
+  "misc.when.otherEdit": "\n\n✏️ Zuletzt bearbeitet vor <b>%s</b>."
+  "misc.when.help": "<b>Antworten Sie auf eine Nachricht, um zu sehen, wie lange es her ist, seit sie veröffentlicht wurde - bis auf die Sekunde genau.\n\nBei weitergeleiteten Nachrichten sehen sie wann die uhrsrüngliche Nachricht zum ersten Mal veröffentlicht wurde.</b>"
 
   "misc.count.main": "<b>Diese Supergruppe hatte seit ihrer Gründung </b><code>%s</code><b> Nachrichten insgesamt, einschließlich Ihrer</b>"
 
@@ -823,37 +823,37 @@
   /* ---------------------------------------------------------------------
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
-  "stickers.defaultPackTitle": "Mein Sticker Pack"
-  "stickers.main": "<b>Erstellen, Verwalten und Hinzufügen zu Aufkleberpaketen mit den folgenden Befehlen:</b>\n\n/newpack - Erstellen Sie ein neues Paket\n/listpacks - Listen Sie Ihre Packs und ihre IDs auf\n/removepack - Verknüpfung eines Pakets mit CalsiBot aufheben\n\n/addsticker - Bild oder Aufkleber zu einer Packung hinzufügen\n/deletesticker - Aufkleber aus einer Packung löschen\n/defaultpack - Ändern Sie, welche Ihrer Packungen die Standardeinstellung ist\n\n<b>Experteneinsatz:</b>\n\n/addsticker 3 — Fügen Sie ein Bild oder einen Aufkleber hinzu, um es mit ID <code>3</code> zu verpacken\n/addsticker 🥳🙂😉 — Erstellen Sie einen Aufkleber und schlagen Sie ihn vor, wenn Sie eines dieser drei Emoji verwenden\n/addsticker 3 🥳🙂😉 — Erstellen Sie einen Aufkleber und fügen Sie ihn zu Pack <code>3</code> hinzu, schlagen Sie ihn vor, wenn Sie eines dieser drei Emoji verwenden"
+  "stickers.defaultPackTitle": "Mein Stickerpackung"
+  "stickers.main": "<b>Erstellen, Verwalten und Hinzufügen zu Aufkleberpackungen mit den folgenden Befehlen:</b>\n\n/newpack - Erstellen Sie ein neues Paket\n/listpacks - Listen Sie Ihre Packungen und ihre IDs auf\n/removepack - Verknüpfung eines Pakets mit CalsiBot aufheben\n\n/addsticker - Bild oder Aufkleber zu einer Packung hinzufügen\n/deletesticker - Aufkleber aus einer Packung löschen\n/defaultpack - Ändern Sie, welche Ihrer Packungen die Standardeinstellung ist\n\n<b>Experteneinsatz:</b>\n\n/addsticker 3 — Fügen Sie ein Bild oder einen Aufkleber hinzu, um es mit ID <code>3</code> zu verpacken\n/addsticker 🥳🙂😉 — Erstellen Sie einen Aufkleber und schlagen Sie ihn vor, wenn Sie eines dieser drei Emoji verwenden\n/addsticker 3 🥳🙂😉 — Erstellen Sie einen Aufkleber und fügen Sie ihn zu Pack <code>3</code> hinzu, schlagen Sie ihn vor, wenn Sie eines dieser drei Emoji verwenden"
   "stickers.beingAdded": "⏳ <b>Ihr Aufkleber wird hinzugefügt, bitte warten Sie...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Ihr Aufkleber wird in %s hinzugefügt, bitte warten Sie...</b>"
-  "stickers.beingAddedSuccess": "🥳 <b>Dein Aufkleber wurde hinzugefügt!</b>\n\n<i>Wenn Sie es nicht sehen, entfernen Sie das Sticker Pack und fügen Sie es erneut hinzu:</i>"
+  "stickers.beingAddedSuccess": "🥳 <b>Dein Aufkleber wurde hinzugefügt!</b>\n\n<i>Wenn Sie ihn nicht sehen, entfernen Sie die Stickerpackung und fügen Sie ihn erneut hinzu:</i>"
   "stickers.beingDeleted": "<b>Dieser Aufkleber wurde entfernt.</b>\n\n<i>Das Verschwinden kann bis zu 2 Minuten dauern:</i>"
-  "stickers.defaultPackSet": "<b>Fertig! Ihr Standardpaket wurde geändert.</b>\n\n%s"
-  "stickers.letsCreateAPackInPrivate": "<b>Sticker Packs müssen privat erstellt werden. Los geht's:</b>"
-  "stickers.removeOnlyInPrivate": "<b>Sticker Packs können nur privat entfernt werden. Los geht's:</b>"
-  "stickers.seeAllCommandsHint": "<b>Senden /stickers um alle Befehle und Informationen zu sehen.</b>"
+  "stickers.defaultPackSet": "<b>Fertig! Ihre Standardpackung wurde geändert.</b>\n\n%s"
+  "stickers.letsCreateAPackInPrivate": "<b>Aufkleberpackungen müssen privat erstellt werden. Los geht's:</b>"
+  "stickers.removeOnlyInPrivate": "<b>Aufkleberpackungen können nur privat entfernt werden. Los geht's:</b>"
+  "stickers.seeAllCommandsHint": "<b>Sende /stickers um alle Befehle und Informationen zu sehen.</b>"
 
   "stickers.callbacks": {
-    "confirmStickerPackCreate": "<b>Ihr Sticker Pack hat den folgenden Titel:</b>\n\n<code>%s</code>\n\n<b>⚠️ Sie können dies später nicht mehr ändern.</b>"
+    "confirmStickerPackCreate": "<b>Ihre Aufkleberpackunghat den folgenden Titel:</b>\n\n<code>%s</code>\n\n<b>⚠️ Sie können dies später nicht mehr ändern.</b>"
     "cancelStickerPackCreate": "<b>Okay, wählen Sie einen anderen Titel und versuchen Sie es erneut.</b>"
-    "stickerPackCreateSuccess": "<b>Ihr Sticker Pack wurde erstellt!</b>\n\nSie können jetzt auf Bilder und Aufkleber mit antworten /addsticker, um sie Ihrem Rucksack hinzuzufügen\n\n%s"
-    "confirmStickerPackRemove": "⚠️ <b>Ihr Sticker Pack wird von CalsiBot getrennt.\n\nSie können dieses Pack nie wieder mit CalsiBot aktualisieren.\n\nSind Sie sicher, dass Sie dieses Pack entfernen möchten?</b>"
-    "cancelStickerPackRemove": "<b>Okay, Pack wurde nicht entfernt.</b>"
-    "stickerPackRemoveSuccess": "<b>Ihr Sticker Pack wurde aus CalsiBot entfernt.</b>\n\nUm es vollständig zu löschen, wenden Sie sich an @Stickers"
+    "stickerPackCreateSuccess": "<b>Ihre Aufkleberpackung wurde erstellt!</b>\n\nSie können jetzt auf Bilder und Aufkleber mit /addsticker antworten, um sie Ihrer Packung hinzuzufügen\n\n%s"
+    "confirmStickerPackRemove": "⚠️ <b>Ihre Aufkleberpackung wird von CalsiBot getrennt.\n\nSie können diese Packung nie wieder mit CalsiBot aktualisieren.\n\nSind Sie sicher, dass Sie diese Packung entfernen möchten?</b>"
+    "cancelStickerPackRemove": "<b>Okay, Packung wurde nicht entfernt.</b>"
+    "stickerPackRemoveSuccess": "<b>Ihre Aufkleberpackung wurde aus CalsiBot entfernt.</b>\n\nUm sie vollständig zu löschen, wenden Sie sich an @Stickers"
   }
 
-  "stickers.listPacks": "<b>Ihre Pakete:\n\n%s</b>\n\n%s"
+  "stickers.listPacks": "<b>Ihre Packungen:\n\n%s</b>\n\n%s"
   "stickers.listPacksFill": "<code>%s</code> — <a href=\"%s\">%s</a>"
-  "stickers.validStickerPacksAre": "<b>Gültige Sticker Pack-IDs sind:\n<code>%s</code></b>"
+  "stickers.validStickerPacksAre": "<b>Gültige Aufkleberpackungs-IDs sind:\n<code>%s</code></b>"
 
   "stickers.error": {
     "noTitleGiven": "<b>Sie müssen einen Titel angeben. Zum Beispiel:</b>\n\n<code>/%s %s</code>"
-    "noPackGiven": "<b>Sie müssen ein Paket angeben. Zum Beispiel:</b>\n<code>/%s %s</code>\n\n%s"
-    "noStickerPacks": "<b>Sie haben keine Aufkleberpakete.</b>\n\n%s"
-    "specifiedPackDoesNotExist": "<b>Sticker Pack nicht gefunden werden <code>%s</code></b>\n\n%s"
-    "packLimitReached": "<b>Sie haben das Limit von %s Sticker Packs erreicht.\n\nWenn Sie ein neues Pack erstellen möchten, müssen Sie </b><code>/removepack</code><b> verwenden, um eines zuerst zu entfernen.</b>"
-    "addStickerReplyHint": "<b>Antworten Sie auf ein Bild oder einen Aufkleber, den Sie einem Aufkleberpaket hinzufügen möchten.</b>"
-    "deleteStickerReplyHint": "<b>Antworten Sie auf einen Aufkleber aus einem Ihrer Pakete den Sie löschen möchten.</b>"
+    "noPackGiven": "<b>Sie müssen eine Packung angeben. Zum Beispiel:</b>\n<code>/%s %s</code>\n\n%s"
+    "noStickerPacks": "<b>Sie haben keine Aufkleberpackungen.</b>\n\n%s"
+    "specifiedPackDoesNotExist": "<b>Auskleberpackung nicht gefunden werden <code>%s</code></b>\n\n%s"
+    "packLimitReached": "<b>Sie haben das Limit an %s Aufkleberpackungen erreicht.\n\nWenn Sie ein neue Packung erstellen möchten, müssen Sie </b><code>/removepack</code><b> verwenden, um zuerst eine andere zu entfernen.</b>"
+    "addStickerReplyHint": "<b>Antworten Sie auf ein Bild oder einen Aufkleber, den Sie einer Aufkleberpackung hinzufügen möchten.</b>"
+    "deleteStickerReplyHint": "<b>Antworten Sie auf einen Aufkleber aus einer Ihrer Packungen den Sie löschen möchten.</b>"
   }
 }
