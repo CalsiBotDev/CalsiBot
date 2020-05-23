@@ -110,6 +110,10 @@
     "ignore": "🙈 Ignorar"
 
     "changeLanguage": "🌐 Cambiar Idioma"
+
+    "createPack": "📸 Crear Paquete"
+    "removePack": "💀 Olvidar Paquete"
+    "viewPack": "🌆 Ver Paquete"
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
@@ -134,7 +138,37 @@
     "other": "veces"
   }
 
-  "generic.onlySupergroups": "<b>Lo sentimos, este comando solo se puede usar en Supergrupos</b>"
+  "generic.weekPlural": {
+    "zero": "semanas"
+    "one": "semana"
+    "other": "semanas"
+  }
+
+  "generic.dayPlural": {
+    "zero": "dias"
+    "one": "día"
+    "other": "dias"
+  }
+
+  "generic.hourPlural": {
+    "zero": "horas"
+    "one": "hora"
+    "other": "horas"
+  }
+
+  "generic.minutePlural": {
+    "zero": "minutos"
+    "one": "minuto"
+    "other": "minutos"
+  }
+
+  "generic.secondPlural": {
+    "zero": "segundos"
+    "one": "segundo"
+    "other": "segundos"
+  }
+
+  "generic.onlyInSupergroups": "<b>Lo sentimos, este comando solo se puede usar en Supergrupos</b>"
   "generic.somethingWentWrongTryAgainLater": "<b>Algo salió mal, por favor intente nuevamente más tarde...</b>"
   "generic.rateLimit": "😡 <b>Ahora ignorando los nuevos mensajes de </b>%s<b> por enviar más de 3 mensajes de comando en menos de 1 segundo. Por favor deje de.</b>\n\n<i>Caduca en pocos minutos</i>"
   "generic.willNotSeeAgainForAWhile": "<i>No volverá a ver este mensaje por un tiempo.</i>"
@@ -201,8 +235,6 @@
   "generic.tapNextToContinue": "\n\n<b>Toca </b>/next<b> para Continuar...</b>"
   "generic.tapNextToRetry": "\n\n<b>Toca </b>/next<b> para volver a Intentar...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Toca </b>/cancel<b> para Salir %s</b>"
-
-  "generic.timeInDHMS": "%s días, %s horas, %s minutos, %s segundos"
 
 
   /* ---------------------------------------------------------------------
@@ -402,16 +434,17 @@
   "joinverify.preverify.error.notAvailable": "<b>Join Verify no está habilitado en este momento, debe estar habilitado antes de poder usar PreVerify:</b>"
 
   "joinverify.preverify.steps": {
-    "one": "✴️ <b>1. Reenvíe el mensaje anterior (respondido a)</b> a un grupo público o canal público donde %s es un administrador.\n<b>2. Toque o haga clic con el botón derecho en el mensaje reenviado y <b>Copiar enlace</b>\n3. Envíe el enlace público copiado a este chat</b>.\n\nEl enlace debería verse así:\nhttps://t.me/CalsiBotDev/99999"
+    "one": "✴️ <b>1. Reenvíe el mensaje anterior (respondido a)</b> a un canal público donde %s es un administrador.\n<b>2. Toque o haga clic con el botón derecho en el mensaje reenviado y <b>Copiar enlace</b>\n3. Envíe el enlace público copiado a este chat</b>.\n\nEl enlace debería verse así:\nhttps://t.me/CalsiBotDev/99999"
     "oneError.noVerificationString": "❌ <b>No se pudo encontrar la cadena de verificación requerida en la publicación. Asegúrese de que la publicación a la que se vinculó sea el mensaje de verificación de propiedad que reenvió.</b>"
     "oneError.urlFormat": "❌ <b>El enlace que envió no se ve bien. Debería verse así:</b>\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.targetIsNotChannel": "❌ <b>El enlace que ha proporcionado es para un Grupo público.\n\nPreVerify está diseñado para usarse solo con canales públicos.</b>"
     "oneError.cantSendPost": "❌ <b>No podría enviar el mensaje, asegúrese de que %s sea un administrador con suficientes permisos en %s.</b>%s"
     "oneSuccess": "✅ <b>¡Ok, publicado con éxito!</b>\n\nVer https://t.me/%s/%s para la publicación!\n\n<b>proteja a su grupo, debe revocar todos los enlaces de invitación anteriores. Puede hacerlo mediante:</b>\n1. Revocando su Invite Link personal\n2. Degradar y luego volver a promocionar a todos sus administradores (excepto CalsiBot). Esto revocará cualquier enlace de invitación que hayan compartido."
   }
 
   "joinverify.preverify.main": "<b>%s%s está <a href=\"t.me/CalsiBotDev/111\">protegido por</a> PreVerify.</b>"
   "joinverify.preverify.main.imageText": "Para unirse al grupo:\n1. Toque Verificar, luego Inicio\n2. Pase la prueba\n3. ¡Unirse al grupo!"
-  "joinverify.preverify.verificationMessage": "<b>Este mensaje es para verificar la propiedad de este grupo o canal para la función de PreVerify de CalsiBot.</b>\n\n%s"
+  "joinverify.preverify.verificationMessage": "<b>Este mensaje es para verificar la propiedad de este canal para la función de PreVerify de CalsiBot.</b>\n\n%s"
   "joinverify.preverify.setUpCancelled": "<b>Configuración de PreVerify cancelada.</b>"
 
 
@@ -602,8 +635,6 @@
 
   <b>Otros comandos más utilizados:</b>
   /translate, /setwelcome, /hug, /when
-
-  ¿Solo quieres comandos de administrador de grupo? Use <a href="t.me/CalsiBotDev/100">/AdminMode</a>
   '''
 
 
@@ -668,13 +699,17 @@
 
   "misc.slap.CalsiBot": "<b>No puedes abofetearme, no es así como funciona...</b>"
 
-  "misc.when.main": "<code>Publicado originalmente en (UTC):</code>"
+  "misc.when.forwardMain": "📅 Publicado originalmente el <b>%s</b> a las <b>%s</b> (UTC)\n\n⏳ Eso fue hace <b>%s</b>."
+  "misc.when.otherMain": "⏳ Este mensaje fue enviado hace <b>%s</b>."
+  "misc.when.otherEdit": "\n\n✏️ Última edición hace <b>%s</b>."
   "misc.when.help": "<b>Responda a un mensaje reenviado y le diré cuándo se publicó originalmente, hasta el segundo.</b>"
 
   "misc.count.main": "<b>Desde su creación, este supergrupo ha tenido </b><code>%s</code><b> mensajes en total, incluido el tuyo</b>"
 
   "misc.pin.help": "<code>/pin</code> <b>le permite configurar o cambiar fácilmente el pin del chat sin menús estúpidos\n\n¿Aún no sabes cómo usarlo? Toque el botón de abajo para ver un ejemplo:</b>"
   "misc.pin.main": "<b>Responder a una imagen comprimida (no enviada como archivo) que desea establecer como imagen de perfil de grupo</b>"
+
+  "misc.fileIDSearch.error.noUsableFileFound": "<b>No se pudo encontrar ningún medio utilizable, intente con un mensaje diferente.</b>"
 
   # ℹ️ Example: Come over here, get on your knees, and translate this 😏
   "misc.knees.main": "<b>Ven aquí, ponte de rodillas, y </b><i>%s</i><b> esto %s</b>"
@@ -782,5 +817,43 @@
   "atAdmin.info": {
     "delete": "¿Se debe eliminar el mensaje informado? Tenga en cuenta que los bots no pueden eliminar mensajes anteriores a 48h..."
     "ban": "¿Se debe prohibir al usuario informado?"
+  }
+
+
+  /* ---------------------------------------------------------------------
+                  Stickers - Used for all /sticker commands
+     --------------------------------------------------------------------- */
+  "stickers.defaultPackTitle": "Mi Paquete de Pegatinas"
+  "stickers.main": "<b>Crear, administrar y agregar paquetes de calcomanías con los siguientes comandos:</b>\n\n/newpack - hacer un nuevo paquete\n/listpacks - enumere sus paquetes y sus ID\n/removepack - desvincular un paquete de CalsiBot\n\n/addsticker - agrega una imagen o una pegatina a un paquete\n/deletesticker - elimina la pegatina de un paquete\n/defaultpack - cambia cuál de tus paquetes es el predeterminado\n\n<b>Uso experto:</b>\n\n/addsticker 3 — agregar imagen o pegatina al paquete con ID <code>3</code>\n/addsticker 🥳🙂😉 — crear una pegatina y sugerirla al usar cualquiera de estos tres emoji\n/addsticker 3 🥳🙂😉 — cree una pegatina y agréguela al paquete <code>3</code>, sugiérala cuando use cualquiera de estos tres emoji"
+  "stickers.beingAdded": "⏳ <b>Su pegatina se está agregando, por favor espere...</b>"
+  "stickers.beingAddedQueued": "⏳ <b>Su pegatina se agregará en %s, espere...</b>"
+  "stickers.beingAddedSuccess": "🥳 <b>Su pegatina ha sido añadida!</b>\n\n<i>Si no lo ve, elimine y vuelva a agregar el paquete de pegatinas:</i>"
+  "stickers.beingDeleted": "<b>Esta etiqueta se ha eliminado.</b>\n\n<i>puede tardar hasta 2 minutos en desaparecer:</i>"
+  "stickers.defaultPackSet": "<b>¡Listo! Su paquete predeterminado ha sido cambiado.</b>\n\n%s"
+  "stickers.letsCreateAPackInPrivate": "<b>Los paquetes de pegatinas deben crearse en privado, vamos:</b>"
+  "stickers.removeOnlyInPrivate": "<b>Los paquetes de adhesivos solo se pueden eliminar en privado, vamos:</b>"
+  "stickers.seeAllCommandsHint": "<b>Enviar /stickers para ver todos los comandos e información.</b>"
+
+  "stickers.callbacks": {
+    "confirmStickerPackCreate": "<b>Su paquete de adhesivos tendrá el siguiente título</b>\n\n<code>%s</code>\n\n<b>⚠️ No podrá cambiar esto más tarde.</b>"
+    "cancelStickerPackCreate": "<b>Bien, elige un título diferente e inténtalo de nuevo.</b>"
+    "stickerPackCreateSuccess": "<b>¡Se ha creado su paquete de adhesivos!</b>\n\nAhora puede responder a imágenes y pegatinas con /addsticker para agregarlos a tu paquete\n\n%s"
+    "confirmStickerPackRemove": "⚠️ <b>Su paquete de calcomanías se desconectará de CalsiBot.\n\nNo podrá actualizar este paquete con CalsiBot nunca antes.\n\n¿Está seguro de que desea eliminar este paquete?</b>"
+    "cancelStickerPackRemove": "<b>Bien, el paquete no se eliminó.</b>"
+    "stickerPackRemoveSuccess": "<b>Su paquete de pegatinas se ha eliminado de CalsiBot.</b>\n\nPara eliminarlo por completo, hable con @Stickers"
+  }
+
+  "stickers.listPacks": "<b>Tus paquetes:\n\n%s</b>\n\n%s"
+  "stickers.listPacksFill": "<code>%s</code> — <a href=\"%s\">%s</a>"
+  "stickers.validStickerPacksAre": "<b>Las ID válidas del paquete de adhesivos son:\n<code>%s</code></b>"
+
+  "stickers.error": {
+    "noTitleGiven": "<b>Debe especificar un título. Por ejemplo:</b>\n\n<code>/%s %s</code>"
+    "noPackGiven": "<b>Debe especificar un paquete. Por ejemplo:</b>\n<code>/%s %s</code>\n\n%s"
+    "noStickerPacks": "<b>No tienes ningún paquete de pegatinas.</b>\n\n%s"
+    "specifiedPackDoesNotExist": "<b>No se pudo encontrar el paquete de adhesivos <code>%s</code></b>\n\n%s"
+    "packLimitReached": "<b>Ha alcanzado el límite de %s Paquetes de pegatinas.\n\nSi desea hacer un nuevo paquete, debe usar </b><code>/removepack</code><b> para eliminar uno primero.</b>"
+    "addStickerReplyHint": "<b>Responda a una imagen o etiqueta que desee agregar a un paquete de etiquetas.</b>"
+    "deleteStickerReplyHint": "<b>Responda a una pegatina de uno de sus paquetes que desea eliminar.</b>"
   }
 }
