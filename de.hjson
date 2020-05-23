@@ -702,7 +702,7 @@
   "misc.when.forwardMain": "📅 Ursprünglich veröffentlicht am <b>%s</b> um <b>%s</b> (UTC)\n\n⏳ Das <b>%s</b> her."
   "misc.when.otherMain": "⏳ Diese Nachricht wurde vor <b>%s</b> gesendet."
   "misc.when.otherEdit": "\n\n✏️ Zuletzt bearbeitet <b>%s</b> Tagen."
-  "misc.when.help": "<b>Auf eine weitergeleitete Nachricht antworten, und ich sage Ihnen, wann sie ursprünglich gesendet wurde - auf die Sekunde genau.</b>"
+  "misc.when.help": "<b>Antworten Sie auf eine Nachricht, um zu sehen, wie lange es her ist, seit sie veröffentlicht wurde - bis auf die Sekunde.\n\nFür weitergeleitete Nachrichten werde ich Ihnen mitteilen, wann die ursprüngliche Nachricht zum ersten Mal veröffentlicht wurde.</b>"
 
   "misc.count.main": "<b>Diese Supergruppe hatte seit ihrer Gründung </b><code>%s</code><b> Nachrichten insgesamt, einschließlich Ihrer</b>"
 

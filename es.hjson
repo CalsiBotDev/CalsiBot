@@ -702,7 +702,7 @@
   "misc.when.forwardMain": "📅 Publicado originalmente el <b>%s</b> a las <b>%s</b> (UTC)\n\n⏳ Eso fue hace <b>%s</b>."
   "misc.when.otherMain": "⏳ Este mensaje fue enviado hace <b>%s</b>."
   "misc.when.otherEdit": "\n\n✏️ Última edición hace <b>%s</b>."
-  "misc.when.help": "<b>Responda a un mensaje reenviado y le diré cuándo se publicó originalmente, hasta el segundo.</b>"
+  "misc.when.help": "<b>Responda a cualquier mensaje para ver cuánto tiempo ha pasado desde que se publicó, hasta el segundo.\n\nPara los mensajes reenviados, le diré cuándo se publicó por primera vez el mensaje original.</b>"
 
   "misc.count.main": "<b>Desde su creación, este supergrupo ha tenido </b><code>%s</code><b> mensajes en total, incluido el tuyo</b>"
 
