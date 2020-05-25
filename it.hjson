@@ -823,7 +823,7 @@
   /* ---------------------------------------------------------------------
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
-  "stickers.defaultPackTitle": "Il mio Pacchetto di Adesivi"
+  "stickers.defaultPackTitle": "Preferiti di %"
   "stickers.main": "<b>Crea, gestisci e aggiungi ai pacchetti di adesivi con i seguenti comandi:</b>\n\n/newpack - crea un nuovo pacchetto\n/listpacks - elenca i tuoi pacchetti e i loro\n/removepack - scollega un pacchetto da CalsiBot\n\n/addsticker - aggiungi immagine o adesivo a un pacchetto\n/deletesticker - elimina adesivo da un pacchetto\n/defaultpack - cambia quale dei tuoi pacchetti è l'impostazione predefinita\n\n<b>Uso esperto:</b>\n\n/addsticker 3 — aggiungi immagine o adesivo per imballare con ID <code>3</code>\n/addsticker 🥳🙂😉 — crea un adesivo e suggeriscilo quando usi una di queste tre emoji\n/addsticker 3 🥳🙂😉 — crea un adesivo e aggiungi al pacchetto <code>3</code>, suggeriscilo quando usi una di queste tre emoji"
   "stickers.beingAdded": "⏳ <b>Il tuo adesivo viene aggiunto, attendi...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Il tuo adesivo verrà aggiunto tra %s, attendi...</b>"
@@ -836,7 +836,7 @@
 
   "stickers.callbacks": {
     "confirmStickerPackCreate": "<b>Il tuo pacchetto di adesivi avrà il seguente titolo:</b>\n\n<code>%s</code>\n\n<b>⚠️ Non potrai modificarlo in seguito.</b>"
-    "cancelStickerPackCreate": "<b>Ok, scegli un titolo diverso e riprova.</b>"
+    "cancelStickerPackCreate": "<b>Ok, scegli un titolo diverso e riprova. Ad esempio:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>Il tuo pacchetto di adesivi è stato creato!</b>\n\nOra puoi rispondere a immagini e adesivi con /addsticker per aggiungerli al tuo pacchetto\n\n%s"
     "confirmStickerPackRemove": "⚠️ <b>Il tuo pacchetto di adesivi verrà disconnesso da CalsiBot.\n\nNon sarai più in grado di aggiornare questo pacchetto con CalsiBot.\n\nSei sicuro di voler rimuovere questo pacchetto?</b>"
     "cancelStickerPackRemove": "<b>Ok, il pacchetto non è stato rimosso.</b>"
