@@ -829,10 +829,10 @@
   "stickers.beingAddedQueued": "⏳ <b>Il tuo adesivo verrà aggiunto tra %s, attendi...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>Il tuo adesivo è stato aggiunto!</b>\n\n<i>se non lo vedi, rimuovi e aggiungi nuovamente il pacchetto di adesivi:</i>"
   "stickers.beingDeleted": "<b>Questo adesivo è stato rimosso.</b>\n\n<i>potrebbero essere necessari fino a 2 minuti per scomparire:</i>"
-  "stickers.defaultPackSet": "<b>Fatto! Il pacchetto predefinito è stato modificato.</b>\n\n%s"
   "stickers.letsCreateAPackInPrivate": "<b>I pacchetti di adesivi devono essere creati in privato, andiamo:</b>"
   "stickers.removeOnlyInPrivate": "<b>I pacchetti di adesivi possono essere rimossi solo in privato, andiamo:</b>"
   "stickers.seeAllCommandsHint": "<b>Invia /stickers per vedere tutti i comandi e le informazioni.</b>"
+  "stickers.whichPackShouldBeAddedTo": "<b>A quale pacchetto deve essere aggiunto l'adesivo?</b>"
 
   "stickers.callbacks": {
     "confirmStickerPackCreate": "<b>Il tuo pacchetto di adesivi avrà il seguente titolo:</b>\n\n<code>%s</code>\n\n<b>⚠️ Non potrai modificarlo in seguito.</b>"
@@ -849,7 +849,6 @@
 
   "stickers.error": {
     "noTitleGiven": "<b>Devi specificare un titolo. Ad esempio:</b>\n\n<code>/%s %s</code>"
-    "noPackGiven": "<b>Devi specificare un pacchetto. Ad esempio:</b>\n<code>/%s %s</code>\n\n%s"
     "noEmojiGiven": "<b>Devi specificare una o più emoji. Ad esempio:</b>\n\n<code>%s</code>"
     "noStickerPacks": "<b>Non hai alcun pacchetto di adesivi.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>Impossibile trovare il pacchetto di adesivi <code>%s</code></b>\n\n%s"
