@@ -849,6 +849,7 @@
 
   "stickers.error": {
     "noTitleGiven": "<b>You must specify a title. For example:</b>\n\n<code>/%s %s</code>"
+    "noPackGiven": "<b>You must specify a pack. For example:</b>\n<code>/%s %s</code>\n\n%s"
     "noEmojiGiven": "<b>You must specify one or more emoji. For example:</b>\n\n<code>%s</code>"
     "noStickerPacks": "<b>You don't have any Sticker Packs.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>Could not find Sticker Pack <code>%s</code></b>\n\n%s"

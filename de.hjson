@@ -849,6 +849,7 @@
 
   "stickers.error": {
     "noTitleGiven": "<b>Sie müssen einen Titel angeben. Zum Beispiel:</b>\n\n<code>/%s %s</code>"
+    "noPackGiven": "<b>Sie müssen eine Packung angeben. Zum Beispiel:</b>\n<code>/%s %s</code>\n\n%s"
     "noEmojiGiven": "<b>Sie müssen einen oder mehrere Emoji definieren. Zum Beispiel:</b>\n\n<code>%s</code>"
     "noStickerPacks": "<b>Sie haben keine Aufkleberpackungen.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>Auskleberpackung nicht gefunden werden <code>%s</code></b>\n\n%s"

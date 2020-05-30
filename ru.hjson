@@ -849,6 +849,7 @@
 
   "stickers.error": {
     "noTitleGiven": "<b>Вы должны указать заголовок. Например:</b>\n\n<code>/%s %s</code>"
+    "noPackGiven": "<b>Вы должны указать пакет. Например:</b>\n<code>/%s %s</code>\n\n%s"
     "noEmojiGiven": "<b>Вы должны указать один или несколько смайликов. Например:</b>\n\n<code>%s</code>"
     "noStickerPacks": "<b>У вас нет стикеров.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>Не удалось найти стикер-пак <code>%s</code></b>\n\n%s"
