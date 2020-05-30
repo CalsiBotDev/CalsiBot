@@ -823,20 +823,20 @@
   /* ---------------------------------------------------------------------
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
-  "stickers.defaultPackTitle": "My Sticker Pack"
+  "stickers.defaultPackTitle": "%s's Favorites"
   "stickers.main": "<b>Create, Manage and Add to Sticker Packs with the following commands:</b>\n\n/newpack — make a new pack\n/listpacks — list your packs and their IDs\n/removepack — unlink a pack from CalsiBot\n\n/addsticker — add image or sticker to a pack\n/deletesticker — delete sticker from a pack\n/defaultpack — change which of your packs is the default\n\n<b>Expert usage:</b>\n\n/addsticker 3 — add image or sticker to pack with ID <code>3</code>\n/addsticker 🥳🙂😉 — create sticker and suggest it when using any of these three emoji\n/addsticker 3 🥳🙂😉 — create sticker and add to pack <code>3</code>, suggest it when using any of these three emoji"
   "stickers.beingAdded": "⏳ <b>Your sticker is being added, please wait...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Your sticker will be added in %s, please wait...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>Your sticker has been added!</b>\n\n<i>if you don't see it, remove and re-add the Sticker Pack:</i>"
   "stickers.beingDeleted": "<b>This sticker has been removed.</b>\n\n<i>it may take up to 2 minutes to disappear:</i>"
-  "stickers.defaultPackSet": "<b>Done! Your default pack has been changed.</b>\n\n%s"
   "stickers.letsCreateAPackInPrivate": "<b>Sticker Packs must be created in private, let's go:</b>"
   "stickers.removeOnlyInPrivate": "<b>Sticker Packs can only be removed in private, let's go:</b>"
   "stickers.seeAllCommandsHint": "<b>Send /stickers to see all commands and info.</b>"
+  "stickers.whichPackShouldBeAddedTo": "<b>Which pack should the sticker be added to?</b>"
 
   "stickers.callbacks": {
     "confirmStickerPackCreate": "<b>Your Sticker Pack will have the following title:</b>\n\n<code>%s</code>\n\n<b>⚠️ You will not be able to change this later.</b>"
-    "cancelStickerPackCreate": "<b>Okay, choose a different title and try again.</b>"
+    "cancelStickerPackCreate": "<b>Okay, choose a different title and try again. For example:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>Your Sticker Pack has been created!</b>\n\nYou can now reply to images and stickers with /addsticker to add them to your pack\n\n%s"
     "confirmStickerPackRemove": "⚠️ <b>Your Sticker Pack will be disconnected from CalsiBot.\n\nYou won't be able to update this pack with CalsiBot ever again.\n\nAre you sure you want to remove this pack?</b>"
     "cancelStickerPackRemove": "<b>Okay, pack was not removed.</b>"
@@ -849,7 +849,7 @@
 
   "stickers.error": {
     "noTitleGiven": "<b>You must specify a title. For example:</b>\n\n<code>/%s %s</code>"
-    "noPackGiven": "<b>You must specify a pack. For example:</b>\n<code>/%s %s</code>\n\n%s"
+    "noEmojiGiven": "<b>You must specify one or more emoji. For example:</b>\n\n<code>%s</code>"
     "noStickerPacks": "<b>You don't have any Sticker Packs.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>Could not find Sticker Pack <code>%s</code></b>\n\n%s"
     "packLimitReached": "<b>You have reached the limit of %s Sticker Packs.\n\nIf you want to make a new pack, you must use </b><code>/removepack</code><b> to remove one first.</b>"

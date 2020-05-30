@@ -823,20 +823,20 @@
   /* ---------------------------------------------------------------------
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
-  "stickers.defaultPackTitle": "Mi Paquete de Pegatinas"
+  "stickers.defaultPackTitle": "Los favoritos de %s"
   "stickers.main": "<b>Crear, administrar y agregar paquetes de calcomanías con los siguientes comandos:</b>\n\n/newpack - hacer un nuevo paquete\n/listpacks - enumere sus paquetes y sus ID\n/removepack - desvincular un paquete de CalsiBot\n\n/addsticker - agrega una imagen o una pegatina a un paquete\n/deletesticker - elimina la pegatina de un paquete\n/defaultpack - cambia cuál de tus paquetes es el predeterminado\n\n<b>Uso experto:</b>\n\n/addsticker 3 — agregar imagen o pegatina al paquete con ID <code>3</code>\n/addsticker 🥳🙂😉 — crear una pegatina y sugerirla al usar cualquiera de estos tres emoji\n/addsticker 3 🥳🙂😉 — cree una pegatina y agréguela al paquete <code>3</code>, sugiérala cuando use cualquiera de estos tres emoji"
   "stickers.beingAdded": "⏳ <b>Su pegatina se está agregando, por favor espere...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Su pegatina se agregará en %s, espere...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>Su pegatina ha sido añadida!</b>\n\n<i>Si no lo ve, elimine y vuelva a agregar el paquete de pegatinas:</i>"
   "stickers.beingDeleted": "<b>Esta etiqueta se ha eliminado.</b>\n\n<i>puede tardar hasta 2 minutos en desaparecer:</i>"
-  "stickers.defaultPackSet": "<b>¡Listo! Su paquete predeterminado ha sido cambiado.</b>\n\n%s"
   "stickers.letsCreateAPackInPrivate": "<b>Los paquetes de pegatinas deben crearse en privado, vamos:</b>"
   "stickers.removeOnlyInPrivate": "<b>Los paquetes de adhesivos solo se pueden eliminar en privado, vamos:</b>"
   "stickers.seeAllCommandsHint": "<b>Enviar /stickers para ver todos los comandos e información.</b>"
+  "stickers.whichPackShouldBeAddedTo": "<b>¿A qué paquete se debe agregar la pegatina?</b>"
 
   "stickers.callbacks": {
     "confirmStickerPackCreate": "<b>Su paquete de adhesivos tendrá el siguiente título</b>\n\n<code>%s</code>\n\n<b>⚠️ No podrá cambiar esto más tarde.</b>"
-    "cancelStickerPackCreate": "<b>Bien, elige un título diferente e inténtalo de nuevo.</b>"
+    "cancelStickerPackCreate": "<b>Bien, elige un título diferente e inténtalo de nuevo. Por ejemplo:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>¡Se ha creado su paquete de adhesivos!</b>\n\nAhora puede responder a imágenes y pegatinas con /addsticker para agregarlos a tu paquete\n\n%s"
     "confirmStickerPackRemove": "⚠️ <b>Su paquete de calcomanías se desconectará de CalsiBot.\n\nNo podrá actualizar este paquete con CalsiBot nunca más.\n\n¿Está seguro de que desea eliminar este paquete?</b>"
     "cancelStickerPackRemove": "<b>Bien, el paquete no se eliminó.</b>"
@@ -849,7 +849,7 @@
 
   "stickers.error": {
     "noTitleGiven": "<b>Debe especificar un título. Por ejemplo:</b>\n\n<code>/%s %s</code>"
-    "noPackGiven": "<b>Debe especificar un paquete. Por ejemplo:</b>\n<code>/%s %s</code>\n\n%s"
+    "noEmojiGiven": "<b>Debes especificar uno o más emoji. Por ejemplo:</b>\n\n<code>%s</code>"
     "noStickerPacks": "<b>No tienes ningún paquete de pegatinas.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>No se pudo encontrar el paquete de adhesivos <code>%s</code></b>\n\n%s"
     "packLimitReached": "<b>Ha alcanzado el límite de %s Paquetes de pegatinas.\n\nSi desea hacer un nuevo paquete, debe usar </b><code>/removepack</code><b> para eliminar uno primero.</b>"

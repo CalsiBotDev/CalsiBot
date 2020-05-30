@@ -823,20 +823,20 @@
   /* ---------------------------------------------------------------------
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
-  "stickers.defaultPackTitle": "Mein Stickerpackung"
+  "stickers.defaultPackTitle": "%ss Favoriten"
   "stickers.main": "<b>Erstellen, Verwalten und Hinzufügen zu Aufkleberpackungen mit den folgenden Befehlen:</b>\n\n/newpack - Erstellen Sie ein neues Paket\n/listpacks - Listen Sie Ihre Packungen und ihre IDs auf\n/removepack - Verknüpfung eines Pakets mit CalsiBot aufheben\n\n/addsticker - Bild oder Aufkleber zu einer Packung hinzufügen\n/deletesticker - Aufkleber aus einer Packung löschen\n/defaultpack - Ändern Sie, welche Ihrer Packungen die Standardeinstellung ist\n\n<b>Experteneinsatz:</b>\n\n/addsticker 3 — Fügen Sie ein Bild oder einen Aufkleber hinzu, um es mit ID <code>3</code> zu verpacken\n/addsticker 🥳🙂😉 — Erstellen Sie einen Aufkleber und schlagen Sie ihn vor, wenn Sie eines dieser drei Emoji verwenden\n/addsticker 3 🥳🙂😉 — Erstellen Sie einen Aufkleber und fügen Sie ihn zu Pack <code>3</code> hinzu, schlagen Sie ihn vor, wenn Sie eines dieser drei Emoji verwenden"
   "stickers.beingAdded": "⏳ <b>Ihr Aufkleber wird hinzugefügt, bitte warten Sie...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Ihr Aufkleber wird in %s hinzugefügt, bitte warten Sie...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>Dein Aufkleber wurde hinzugefügt!</b>\n\n<i>Wenn Sie ihn nicht sehen, entfernen Sie die Stickerpackung und fügen Sie ihn erneut hinzu:</i>"
   "stickers.beingDeleted": "<b>Dieser Aufkleber wurde entfernt.</b>\n\n<i>Das Verschwinden kann bis zu 2 Minuten dauern:</i>"
-  "stickers.defaultPackSet": "<b>Fertig! Ihre Standardpackung wurde geändert.</b>\n\n%s"
   "stickers.letsCreateAPackInPrivate": "<b>Aufkleberpackungen müssen privat erstellt werden. Los geht's:</b>"
   "stickers.removeOnlyInPrivate": "<b>Aufkleberpackungen können nur privat entfernt werden. Los geht's:</b>"
   "stickers.seeAllCommandsHint": "<b>Sende /stickers um alle Befehle und Informationen zu sehen.</b>"
+  "stickers.whichPackShouldBeAddedTo": "<b>Zu welcher Packung sollte der Aufkleber hinzugefügt werden?</b>"
 
   "stickers.callbacks": {
     "confirmStickerPackCreate": "<b>Ihre Aufkleberpackunghat den folgenden Titel:</b>\n\n<code>%s</code>\n\n<b>⚠️ Sie können dies später nicht mehr ändern.</b>"
-    "cancelStickerPackCreate": "<b>Okay, wählen Sie einen anderen Titel und versuchen Sie es erneut.</b>"
+    "cancelStickerPackCreate": "<b>Okay, wählen Sie einen anderen Titel und versuchen Sie es erneut. Zum Beispiel:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>Ihre Aufkleberpackung wurde erstellt!</b>\n\nSie können jetzt auf Bilder und Aufkleber mit /addsticker antworten, um sie Ihrer Packung hinzuzufügen\n\n%s"
     "confirmStickerPackRemove": "⚠️ <b>Ihre Aufkleberpackung wird von CalsiBot getrennt.\n\nSie können diese Packung nie wieder mit CalsiBot aktualisieren.\n\nSind Sie sicher, dass Sie diese Packung entfernen möchten?</b>"
     "cancelStickerPackRemove": "<b>Okay, Packung wurde nicht entfernt.</b>"
@@ -849,7 +849,7 @@
 
   "stickers.error": {
     "noTitleGiven": "<b>Sie müssen einen Titel angeben. Zum Beispiel:</b>\n\n<code>/%s %s</code>"
-    "noPackGiven": "<b>Sie müssen eine Packung angeben. Zum Beispiel:</b>\n<code>/%s %s</code>\n\n%s"
+    "noEmojiGiven": "<b>Sie müssen ein oder mehrere Emoji angeben. Zum Beispiel:</b>\n\n<code>%s</code>"
     "noStickerPacks": "<b>Sie haben keine Aufkleberpackungen.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>Auskleberpackung nicht gefunden werden <code>%s</code></b>\n\n%s"
     "packLimitReached": "<b>Sie haben das Limit an %s Aufkleberpackungen erreicht.\n\nWenn Sie ein neue Packung erstellen möchten, müssen Sie </b><code>/removepack</code><b> verwenden, um zuerst eine andere zu entfernen.</b>"

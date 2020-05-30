@@ -823,20 +823,20 @@
   /* ---------------------------------------------------------------------
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
-  "stickers.defaultPackTitle": "Mon Pack d'Autocollants"
+  "stickers.defaultPackTitle": "Les favoris de %s"
   "stickers.main": "<b>Créer, gérer et ajouter aux packs d'autocollants avec les commandes suivantes:</b>\n\n/newpack - créer un nouveau pack\n/listpacks - répertoriez vos packs et leurs identifiants\n/removepack - dissocier un pack de CalsiBot\n\n/addsticker - ajouter une image ou un autocollant à un pack\n/deletesticker - supprimer un autocollant d'un pack\n/defaultpack - changer lequel de vos packs est celui par défaut\n\n<b>Utilisation experte:</b>\n\n/addsticker 3 — ajouter une image ou un autocollant pour emballer avec ID <code>3</code>\n/addsticker 🥳🙂😉 — créer un autocollant et le suggérer lors de l'utilisation de l'un de ces trois emoji\n/addsticker 3 🥳🙂😉 — créer un autocollant et l'ajouter au pack <code>3</code>, le suggérer lors de l'utilisation de l'un de ces trois emoji"
   "stickers.beingAdded": "⏳ <b>Votre autocollant est en cours d'ajout, veuillez patienter...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Votre autocollant sera ajouté dans %s, veuillez patienter...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>Votre autocollant a été ajouté!</b>\n\n<i>si vous ne le voyez pas, supprimez et rajoutez le pack d'autocollants:</i>"
   "stickers.beingDeleted": "<b>Cet autocollant a été supprimé.</b>\n\n<i>cela peut prendre jusqu'à 2 minutes pour disparaître:</i>"
-  "stickers.defaultPackSet": "<b>C'est fait! Votre pack par défaut a été changé.</b>\n\n%s"
   "stickers.letsCreateAPackInPrivate": "<b>Les packs d'autocollants doivent être créés en privé, c'est parti:</b>"
   "stickers.removeOnlyInPrivate": "<b>Les packs d'autocollants ne peuvent être supprimés qu'en privé, c'est parti:</b>"
   "stickers.seeAllCommandsHint": "<b>Envoyer /stickers pour voir toutes les commandes et informations.</b>"
+  "stickers.whichPackShouldBeAddedTo": "<b>À quel pack l'autocollant doit-il être ajouté?</b>"
 
   "stickers.callbacks": {
     "confirmStickerPackCreate": "<b>Votre pack d'autocollants aura le titre suivant:</b>\n\n<code>%s</code>\n\n<b>⚠️ Vous ne pourrez pas le modifier plus tard.</b>"
-    "cancelStickerPackCreate": "<b>D'accord, choisissez un titre différent et réessayez.</b>"
+    "cancelStickerPackCreate": "<b>D'accord, choisissez un titre différent et réessayez. Par exemple:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>Votre pack d'autocollants a été créé!</b>\n\nVous pouvez désormais répondre aux images et autocollants avec /addsticker pour les ajouter à votre pack\n\n%s"
     "confirmStickerPackRemove": "⚠️ <b>Votre pack d'autocollants sera déconnecté de CalsiBot.\n\nVous ne pourrez plus jamais mettre à jour ce pack avec CalsiBot.\n\nVoulez-vous vraiment supprimer ce pack?</b>"
     "cancelStickerPackRemove": "<b>D'accord, le pack n'a pas été supprimé.</b>"
@@ -849,7 +849,7 @@
 
   "stickers.error": {
     "noTitleGiven": "<b>Vous devez spécifier un titre. Par exemple:</b>\n\n<code>/%s %s</code>"
-    "noPackGiven": "<b>Vous devez spécifier un pack. Par exemple:</b>\n<code>/%s %s</code>\n\n%s"
+    "noEmojiGiven": "<b>Vous devez spécifier un ou plusieurs emoji. Par exemple:</b>\n\n<code>%s</code>"
     "noStickerPacks": "<b>Vous n'avez aucun pack d'autocollants.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>Impossible de trouver le pack d'autocollants <code>%s</code></b>\n\n%s"
     "packLimitReached": "<b>Vous avez atteint la limite de %s Packs d'autocollants.\n\nSi vous souhaitez créer un nouveau pack, vous devez utiliser </b><code>/removepack</code><b> pour en supprimer un en premier.</b>"
