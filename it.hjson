@@ -110,6 +110,10 @@
     "ignore": "🙈 Ignora"
 
     "changeLanguage": "🌐 Cambia Lingua"
+
+    "createPack": "📸 Crea stickerpack"
+    "removePack": "💀 Rimuovi stickerpack"
+    "viewPack": "🌆 Visualizza stickerpack"
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
@@ -134,7 +138,37 @@
     "other": "volte"
   }
 
-  "generic.onlySupergroups": "<b>Siamo spiacenti, questo comando può essere utilizzato solo nei supergruppi</b>"
+  "generic.weekPlural": {
+    "zero": "settimane"
+    "one": "settimana"
+    "other": "settimane"
+  }
+
+  "generic.dayPlural": {
+    "zero": "giorni"
+    "one": "giorno"
+    "other": "giorni"
+  }
+
+  "generic.hourPlural": {
+    "zero": "ore"
+    "one": "ora"
+    "other": "ore"
+  }
+
+  "generic.minutePlural": {
+    "zero": "minuti"
+    "one": "minuto"
+    "other": "minuti"
+  }
+
+  "generic.secondPlural": {
+    "zero": "secondi"
+    "one": "secondo"
+    "other": "secondi"
+  }
+
+  "generic.onlyInSupergroups": "<b>Siamo spiacenti, questo comando può essere utilizzato solo nei supergruppi</b>"
   "generic.somethingWentWrongTryAgainLater": "<b>Qualcosa è andato storto, per favore riprova più tardi...</b>"
   "generic.rateLimit": "😡 %s<b>, ti sto ignorando perché hai inviato più di 3 comandi in meno di 1 secondo. Per favore dacci un taglio.</b>\n\n<i>Tra pochi minuti scadrà</i>"
   "generic.willNotSeeAgainForAWhile": "<i>Non vedrai più questo messaggio per un po'.</i>"
@@ -201,8 +235,6 @@
   "generic.tapNextToContinue": "\n\n<b>Tocca </b>/next<b> per Continuare...</b>"
   "generic.tapNextToRetry": "\n\n<b>Tocca </b>/next<b> per Riprovare...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Tocca </b>/cancel<b> per Uscire %s</b>"
-
-  "generic.timeInDHMS": "%s giorni, %s ore, %s minuti, %s secondi"
 
 
   /* ---------------------------------------------------------------------
@@ -402,16 +434,17 @@
   "joinverify.preverify.error.notAvailable": "<b>Join Verify non è abilitato in questo momento, deve essere abilitato prima di poter usare PreVerify:</b>"
 
   "joinverify.preverify.steps": {
-    "one": "✴️ <b>1. Inoltra il messaggio precedente (in risposta)</b> a un gruppo pubblico o canale pubblico in cui %s è un amministratore.\n<b>2. Tocca o fai clic con il pulsante destro del mouse sul messaggio inoltrato e <b>Copia collegamento</b>\n3. Invia il link pubblico copiato a questa chat</b>.\n\nIl link dovrebbe apparire così:\nhttps://t.me/CalsiBotDev/99999"
+    "one": "✴️ <b>1. Inoltra il messaggio precedente (in risposta)</b> a un canale pubblico in cui %s è un amministratore.\n<b>2. Tocca o fai clic con il pulsante destro del mouse sul messaggio inoltrato e <b>Copia collegamento</b>\n3. Invia il link pubblico copiato a questa chat</b>.\n\nIl link dovrebbe apparire così:\nhttps://t.me/CalsiBotDev/99999"
     "oneError.noVerificationString": "❌ <b>Impossibile trovare la stringa di verifica richiesta nel post. Assicurati che il post a cui si riferisce il link sia il messaggio di verifica di proprietà che hai inoltrato.</b>"
     "oneError.urlFormat": "❌ <b>Il collegamento che hai inviato non sembra corretto. Dovrebbe apparire così:</b>\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.targetIsNotChannel": "❌ <b>Il link che hai fornito è per un gruppo pubblico.\n\nPreVerify è progettato per l'uso solo con canali pubblici.</b>"
     "oneError.cantSendPost": "❌ <b>Impossibile inviare il messaggio, assicurati che %s sia un amministratore con autorizzazioni sufficienti in %s.</b>%s"
     "oneSuccess": "✅ <b>Ok, pubblicato correttamente!</b>\n\nVedi https://t.me/%s/%s per il post!\n\n<b>Per proteggere completamente il tuo gruppo, è necessario revocare tutti i precedenti link di invito. Puoi farlo:</b>\n1. Revocando il tuo link di invito personale\n2. Rimuovendo e quindi ri-promuovendo tutti i tuoi amministratori (tranne CalsiBot). Ciò revocherà tutti i link di invito che hanno condiviso."
   }
 
   "joinverify.preverify.main": "<b>%s%s è <a href=\"t.me/CalsiBotDev/111\">protetto da</a> PreVerify.</b>"
   "joinverify.preverify.main.imageText": "Per unirti al gruppo:\n1. Tocca Verifica, quindi Avvia\n2. Passa il test\n3. Unisciti al gruppo!"
-  "joinverify.preverify.verificationMessage": "<b>Questo messaggio serve a verificare la proprietà di questo gruppo o canale per la funzione PreVerify di CalsiBot.</b>\n\n%s"
+  "joinverify.preverify.verificationMessage": "<b>Questo messaggio serve a verificare la proprietà di questo canale per la funzione PreVerify di CalsiBot.</b>\n\n%s"
   "joinverify.preverify.setUpCancelled": "<b>Impostazione PreVerify annullata.</b>"
 
 
@@ -602,8 +635,6 @@
 
   <b>Altri comandi gettonati:</b>
   /translate, /setwelcome, /hug, /when
-
-  Desideri solo i comandi di moderazione? Usa <a href="t.me/CalsiBotDev/100">/AdminMode</a>
   '''
 
 
@@ -668,13 +699,17 @@
 
   "misc.slap.CalsiBot": "<b>Non puoi schiaffeggiarmi, non è così che funziona...</b>"
 
-  "misc.when.main": "<code>Originariamente pubblicato alle (UTC):</code>"
-  "misc.when.help": "<b>Rispondi a un messaggio inoltrato e ti dirò quando è stato pubblicato, preciso al secondo</b>"
+  "misc.when.forwardMain": "📅 Originariamente pubblicato <b>%s</b> alle <b>%s</b> (UTC)\n\n⏳ Sono passati <b>%s</b>."
+  "misc.when.otherMain": "⏳ Questo messaggio è stato inviato <b>%s</b> fa."
+  "misc.when.otherEdit": "\n\n✏️ Ultima modifica <b>%s</b> fa."
+  "misc.when.help": "<b>Rispondi a qualsiasi messaggio per vedere quanto tempo è trascorso da quando è stato pubblicato, preciso al secondo.\n\nPer i messaggi inoltrati, ti dirò quando il messaggio originale è stato pubblicato per la prima volta.</b>"
 
   "misc.count.main": "<b>Da quando è stato creato, in questo gruppo sono stati inviati </b><code>%s</code><b> messaggi in totale, incluso il tuo</b>"
 
   "misc.pin.help": "<code>/pin</code> <b>consente di impostare facilmente o modificare il messaggio fissato senza menu stupidi \n\n Non sei ancora sicuro di come usarlo? Tocca il pulsante qui sotto per vedere un esempio:</b>"
   "misc.pin.main": "<b>Rispondi ad un'immagine compressa (non inviata come file) che desideri impostare come immagine di profilo del gruppo</b>"
+
+  "misc.fileIDSearch.error.noUsableFileFound": "<b>Impossibile recuperare il file dall\'ID, prova con un altro messaggio.</b>"
 
   # ℹ️ Example: Come over here, get on your knees, and translate this 😏
   "misc.knees.main": "<b>Vieni qui, mettiti in ginocchio, e </b><i>%s</i><b> questo %s</b>"
@@ -782,5 +817,44 @@
   "atAdmin.info": {
     "delete": "Il messaggio segnalato deve essere eliminato? Ricorda che i bot non possono eliminare i messaggi più vecchi di 48 ore..."
     "ban": "Vuoi bannare l'utente segnalato?"
+  }
+
+
+  /* ---------------------------------------------------------------------
+                  Stickers - Used for all /sticker commands
+     --------------------------------------------------------------------- */
+  "stickers.defaultPackTitle": "Preferiti di %"
+  "stickers.main": "<b>Crea, gestisci e aggiungi sticker allo stickerpack con i seguenti comandi:</b>\n\n/newpack - crea un nuovo pacchetto\n/listpacks - elenca tutti gli stickerpack\n/removepack - scollega uno stickerpack da CalsiBot\n\n/addsticker - aggiungi immagine o sticker a un pacchetto\n/deletesticker - elimina sticker da un pacchetto\n/defaultpack - cambia lo stickerpack di default\n\n<b>Uso esperto:</b>\n\n/addsticker 3 — aggiungi immagine o sticker via file ID <code>3</code>\n/addsticker 🥳🙂😉 — crea uno sticker e suggeriscilo quando usi una di queste tre emoji\n/addsticker 3 🥳🙂😉 — crea uno sticker e aggiungilo al pacchetto <code>3</code>, suggeriscilo quando usi una di queste tre emoji"
+  "stickers.beingAdded": "⏳ <b>Aggiunta dello sticker in corso...</b>"
+  "stickers.beingAddedQueued": "⏳ <b>Il tuo sticker verrà aggiunto tra %s, attendi...</b>"
+  "stickers.beingAddedSuccess": "🥳 <b>Il tuo sticker è stato aggiunto!</b>\n\n<i>se non lo vedi, rimuovi e aggiungi nuovamente lo stickerpack:</i>"
+  "stickers.beingDeleted": "<b>Questo sticker è stato rimosso.</b>\n\n<i>potrebbero essere necessari fino a 2 minuti perché la modifica abbia effetto:</i>"
+  "stickers.letsCreateAPackInPrivate": "<b>Gli stickerpack devono essere creati in privato, quindi:</b>"
+  "stickers.removeOnlyInPrivate": "<b>Gli stickerpack possono essere rimossi solo in privato, quindi:</b>"
+  "stickers.seeAllCommandsHint": "<b>Invia /stickers per vedere tutti i comandi e le informazioni.</b>"
+  "stickers.whichPackShouldBeAddedTo": "<b>A quale stickerpack deve essere aggiunto lo sticker?</b>"
+
+  "stickers.callbacks": {
+    "confirmStickerPackCreate": "<b>Il tuo stickerpack avrà il seguente titolo:</b>\n\n<code>%s</code>\n\n<b>⚠️ Non potrai modificarlo in seguito.</b>"
+    "cancelStickerPackCreate": "<b>Ok, scegli un titolo diverso e riprova. Ad esempio:</b>\n\n<code>/newpack %s</code>"
+    "stickerPackCreateSuccess": "<b>Il tuo stickerpack è stato creato!</b>\n\nOra puoi rispondere a immagini e sticker con /addsticker per aggiungerli al tuo stickerpack\n\n%s"
+    "confirmStickerPackRemove": "⚠️ <b>Il tuo stickerpack verrà disconnesso da CalsiBot.\n\nNon sarai più in grado di aggiornarlo con CalsiBot.\n\nSei sicuro di volerlo rimovere?</b>"
+    "cancelStickerPackRemove": "<b>Ok, lo stickerpack non è stato rimosso.</b>"
+    "stickerPackRemoveSuccess": "<b>Il tuo stickerpack è stato rimosso da CalsiBot.</b>\n\nPer eliminarlo completamente, puoi usare @Stickers"
+  }
+
+  "stickers.listPacks": "<b>I tuoi stickerpack:\n\n%s</b>\n\n%s"
+  "stickers.listPacksFill": "<code>%s</code> — <a href=\"%s\">%s</a>"
+  "stickers.validStickerPacksAre": "<b>Gli ID stickerpack validi sono:\n<code>%s</code></b>"
+
+  "stickers.error": {
+    "noTitleGiven": "<b>Devi specificare un titolo. Ad esempio:</b>\n\n<code>/%s %s</code>"
+    "noPackGiven": "<b>Devi specificare uno stickerpack. Ad esempio:</b>\n<code>/%s %s</code>\n\n%s"
+    "noEmojiGiven": "<b>Devi specificare una o più emoji. Ad esempio:</b>\n\n<code>%s</code>"
+    "noStickerPacks": "<b>Non hai alcun stickerpack.</b>\n\n%s"
+    "specifiedPackDoesNotExist": "<b>Impossibile trovare lo stickerpack <code>%s</code></b>\n\n%s"
+    "packLimitReached": "<b>Hai raggiunto il limite di %s stickerpack.\n\nSe desideri creare uno nuovo, devi utilizzare </b><code>/removepack</code><b> per rimuoverne almeno uno prima.</b>"
+    "addStickerReplyHint": "<b>Rispondi a un'immagine o sticker che desideri aggiungere a uno stickerpack.</b>"
+    "deleteStickerReplyHint": "<b>Rispondi allo sticker di uno dei tuoi pacchetti per eliminarlo.</b>"
   }
 }
