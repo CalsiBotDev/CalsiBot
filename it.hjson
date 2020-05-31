@@ -111,9 +111,9 @@
 
     "changeLanguage": "🌐 Cambia Lingua"
 
-    "createPack": "📸 Crea Pacchetto"
-    "removePack": "💀 Rimuovi Pacchetto"
-    "viewPack": "🌆 Visualizza Pacchetto"
+    "createPack": "📸 Crea stickerpack"
+    "removePack": "💀 Rimuovi stickerpack"
+    "viewPack": "🌆 Visualizza stickerpack"
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
@@ -699,17 +699,17 @@
 
   "misc.slap.CalsiBot": "<b>Non puoi schiaffeggiarmi, non è così che funziona...</b>"
 
-  "misc.when.forwardMain": "📅 Originariamente pubblicato alle <b>%s</b> alle <b>%s</b> (UTC)\n\n⏳ Sono passati <b>%s</b>."
+  "misc.when.forwardMain": "📅 Originariamente pubblicato <b>%s</b> alle <b>%s</b> (UTC)\n\n⏳ Sono passati <b>%s</b>."
   "misc.when.otherMain": "⏳ Questo messaggio è stato inviato <b>%s</b> fa."
   "misc.when.otherEdit": "\n\n✏️ Ultima modifica <b>%s</b> fa."
-  "misc.when.help": "<b>Rispondi a qualsiasi messaggio per vedere quanto tempo è trascorso da quando è stato pubblicato, fino al secondo.\n\nPer i messaggi inoltrati, ti dirò quando il messaggio originale è stato pubblicato per la prima volta.</b>"
+  "misc.when.help": "<b>Rispondi a qualsiasi messaggio per vedere quanto tempo è trascorso da quando è stato pubblicato, preciso al secondo.\n\nPer i messaggi inoltrati, ti dirò quando il messaggio originale è stato pubblicato per la prima volta.</b>"
 
   "misc.count.main": "<b>Da quando è stato creato, in questo gruppo sono stati inviati </b><code>%s</code><b> messaggi in totale, incluso il tuo</b>"
 
   "misc.pin.help": "<code>/pin</code> <b>consente di impostare facilmente o modificare il messaggio fissato senza menu stupidi \n\n Non sei ancora sicuro di come usarlo? Tocca il pulsante qui sotto per vedere un esempio:</b>"
   "misc.pin.main": "<b>Rispondi ad un'immagine compressa (non inviata come file) che desideri impostare come immagine di profilo del gruppo</b>"
 
-  "misc.fileIDSearch.error.noUsableFileFound": "<b>Impossibile trovare alcun supporto utilizzabile, prova con un altro messaggio.</b>"
+  "misc.fileIDSearch.error.noUsableFileFound": "<b>Impossibile recuperare il file dall\'ID, prova con un altro messaggio.</b>"
 
   # ℹ️ Example: Come over here, get on your knees, and translate this 😏
   "misc.knees.main": "<b>Vieni qui, mettiti in ginocchio, e </b><i>%s</i><b> questo %s</b>"
@@ -824,37 +824,37 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "Preferiti di %"
-  "stickers.main": "<b>Crea, gestisci e aggiungi ai pacchetti di adesivi con i seguenti comandi:</b>\n\n/newpack - crea un nuovo pacchetto\n/listpacks - elenca i tuoi pacchetti e i loro\n/removepack - scollega un pacchetto da CalsiBot\n\n/addsticker - aggiungi immagine o adesivo a un pacchetto\n/deletesticker - elimina adesivo da un pacchetto\n/defaultpack - cambia quale dei tuoi pacchetti è l'impostazione predefinita\n\n<b>Uso esperto:</b>\n\n/addsticker 3 — aggiungi immagine o adesivo per imballare con ID <code>3</code>\n/addsticker 🥳🙂😉 — crea un adesivo e suggeriscilo quando usi una di queste tre emoji\n/addsticker 3 🥳🙂😉 — crea un adesivo e aggiungi al pacchetto <code>3</code>, suggeriscilo quando usi una di queste tre emoji"
-  "stickers.beingAdded": "⏳ <b>Il tuo adesivo viene aggiunto, attendi...</b>"
-  "stickers.beingAddedQueued": "⏳ <b>Il tuo adesivo verrà aggiunto tra %s, attendi...</b>"
-  "stickers.beingAddedSuccess": "🥳 <b>Il tuo adesivo è stato aggiunto!</b>\n\n<i>se non lo vedi, rimuovi e aggiungi nuovamente il pacchetto di adesivi:</i>"
-  "stickers.beingDeleted": "<b>Questo adesivo è stato rimosso.</b>\n\n<i>potrebbero essere necessari fino a 2 minuti per scomparire:</i>"
-  "stickers.letsCreateAPackInPrivate": "<b>I pacchetti di adesivi devono essere creati in privato, andiamo:</b>"
-  "stickers.removeOnlyInPrivate": "<b>I pacchetti di adesivi possono essere rimossi solo in privato, andiamo:</b>"
+  "stickers.main": "<b>Crea, gestisci e aggiungi sticker allo stickerpack con i seguenti comandi:</b>\n\n/newpack - crea un nuovo pacchetto\n/listpacks - elenca tutti gli stickerpack\n/removepack - scollega uno stickerpack da CalsiBot\n\n/addsticker - aggiungi immagine o sticker a un pacchetto\n/deletesticker - elimina sticker da un pacchetto\n/defaultpack - cambia lo stickerpack di default\n\n<b>Uso esperto:</b>\n\n/addsticker 3 — aggiungi immagine o sticker via file ID <code>3</code>\n/addsticker 🥳🙂😉 — crea uno sticker e suggeriscilo quando usi una di queste tre emoji\n/addsticker 3 🥳🙂😉 — crea uno sticker e aggiungilo al pacchetto <code>3</code>, suggeriscilo quando usi una di queste tre emoji"
+  "stickers.beingAdded": "⏳ <b>Aggiunta dello sticker in corso...</b>"
+  "stickers.beingAddedQueued": "⏳ <b>Il tuo sticker verrà aggiunto tra %s, attendi...</b>"
+  "stickers.beingAddedSuccess": "🥳 <b>Il tuo sticker è stato aggiunto!</b>\n\n<i>se non lo vedi, rimuovi e aggiungi nuovamente lo stickerpack:</i>"
+  "stickers.beingDeleted": "<b>Questo sticker è stato rimosso.</b>\n\n<i>potrebbero essere necessari fino a 2 minuti perché la modifica abbia effetto:</i>"
+  "stickers.letsCreateAPackInPrivate": "<b>Gli stickerpack devono essere creati in privato, quindi:</b>"
+  "stickers.removeOnlyInPrivate": "<b>Gli stickerpack possono essere rimossi solo in privato, quindi:</b>"
   "stickers.seeAllCommandsHint": "<b>Invia /stickers per vedere tutti i comandi e le informazioni.</b>"
-  "stickers.whichPackShouldBeAddedTo": "<b>A quale pacchetto deve essere aggiunto l'adesivo?</b>"
+  "stickers.whichPackShouldBeAddedTo": "<b>A quale stickerpack deve essere aggiunto lo sticker?</b>"
 
   "stickers.callbacks": {
-    "confirmStickerPackCreate": "<b>Il tuo pacchetto di adesivi avrà il seguente titolo:</b>\n\n<code>%s</code>\n\n<b>⚠️ Non potrai modificarlo in seguito.</b>"
+    "confirmStickerPackCreate": "<b>Il tuo stickerpack avrà il seguente titolo:</b>\n\n<code>%s</code>\n\n<b>⚠️ Non potrai modificarlo in seguito.</b>"
     "cancelStickerPackCreate": "<b>Ok, scegli un titolo diverso e riprova. Ad esempio:</b>\n\n<code>/newpack %s</code>"
-    "stickerPackCreateSuccess": "<b>Il tuo pacchetto di adesivi è stato creato!</b>\n\nOra puoi rispondere a immagini e adesivi con /addsticker per aggiungerli al tuo pacchetto\n\n%s"
-    "confirmStickerPackRemove": "⚠️ <b>Il tuo pacchetto di adesivi verrà disconnesso da CalsiBot.\n\nNon sarai più in grado di aggiornare questo pacchetto con CalsiBot.\n\nSei sicuro di voler rimuovere questo pacchetto?</b>"
-    "cancelStickerPackRemove": "<b>Ok, il pacchetto non è stato rimosso.</b>"
-    "stickerPackRemoveSuccess": "<b>Il tuo pacchetto di adesivi è stato rimosso da CalsiBot.</b>\n\nPer eliminarlo completamente, parla con @Stickers"
+    "stickerPackCreateSuccess": "<b>Il tuo stickerpack è stato creato!</b>\n\nOra puoi rispondere a immagini e sticker con /addsticker per aggiungerli al tuo stickerpack\n\n%s"
+    "confirmStickerPackRemove": "⚠️ <b>Il tuo stickerpack verrà disconnesso da CalsiBot.\n\nNon sarai più in grado di aggiornarlo con CalsiBot.\n\nSei sicuro di volerlo rimovere?</b>"
+    "cancelStickerPackRemove": "<b>Ok, lo stickerpack non è stato rimosso.</b>"
+    "stickerPackRemoveSuccess": "<b>Il tuo stickerpack è stato rimosso da CalsiBot.</b>\n\nPer eliminarlo completamente, puoi usare @Stickers"
   }
 
-  "stickers.listPacks": "<b>I tuoi pacchetti:\n\n%s</b>\n\n%s"
+  "stickers.listPacks": "<b>I tuoi stickerpack:\n\n%s</b>\n\n%s"
   "stickers.listPacksFill": "<code>%s</code> — <a href=\"%s\">%s</a>"
-  "stickers.validStickerPacksAre": "<b>Gli ID pacchetto adesivi validi sono:\n<code>%s</code></b>"
+  "stickers.validStickerPacksAre": "<b>Gli ID stickerpack validi sono:\n<code>%s</code></b>"
 
   "stickers.error": {
     "noTitleGiven": "<b>Devi specificare un titolo. Ad esempio:</b>\n\n<code>/%s %s</code>"
-    "noPackGiven": "<b>Devi specificare un pacchetto. Ad esempio:</b>\n<code>/%s %s</code>\n\n%s"
+    "noPackGiven": "<b>Devi specificare uno stickerpack. Ad esempio:</b>\n<code>/%s %s</code>\n\n%s"
     "noEmojiGiven": "<b>Devi specificare una o più emoji. Ad esempio:</b>\n\n<code>%s</code>"
-    "noStickerPacks": "<b>Non hai alcun pacchetto di adesivi.</b>\n\n%s"
-    "specifiedPackDoesNotExist": "<b>Impossibile trovare il pacchetto di adesivi <code>%s</code></b>\n\n%s"
-    "packLimitReached": "<b>Hai raggiunto il limite di %s Sticker Pack.\n\nSe desideri creare un nuovo pacchetto, devi utilizzare </b><code>/removepack</code><b> per rimuoverne uno per primo.</b>"
-    "addStickerReplyHint": "<b>Rispondi a un'immagine o adesivo che desideri aggiungere a un pacchetto di adesivi.</b>"
-    "deleteStickerReplyHint": "<b>Rispondi a un adesivo di uno dei tuoi pacchetti che desideri eliminare.</b>"
+    "noStickerPacks": "<b>Non hai alcun stickerpack.</b>\n\n%s"
+    "specifiedPackDoesNotExist": "<b>Impossibile trovare lo stickerpack <code>%s</code></b>\n\n%s"
+    "packLimitReached": "<b>Hai raggiunto il limite di %s stickerpack.\n\nSe desideri creare uno nuovo, devi utilizzare </b><code>/removepack</code><b> per rimuoverne almeno uno prima.</b>"
+    "addStickerReplyHint": "<b>Rispondi a un'immagine o sticker che desideri aggiungere a uno stickerpack.</b>"
+    "deleteStickerReplyHint": "<b>Rispondi allo sticker di uno dei tuoi pacchetti per eliminarlo.</b>"
   }
 }
