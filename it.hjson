@@ -709,7 +709,7 @@
   "misc.pin.help": "<code>/pin</code> <b>consente di impostare facilmente o modificare il messaggio fissato senza menu stupidi \n\n Non sei ancora sicuro di come usarlo? Tocca il pulsante qui sotto per vedere un esempio:</b>"
   "misc.pin.main": "<b>Rispondi ad un'immagine compressa (non inviata come file) che desideri impostare come immagine di profilo del gruppo</b>"
 
-  "misc.fileIDSearch.error.noUsableFileFound": "<b>Impossibile recuperare il file dall\'ID, prova con un altro messaggio.</b>"
+  "misc.fileIDSearch.error.noUsableFileFound": "<b>Impossibile recuperare media utilizzabili, prova con un altro messaggio.</b>"
 
   # ℹ️ Example: Come over here, get on your knees, and translate this 😏
   "misc.knees.main": "<b>Vieni qui, mettiti in ginocchio, e </b><i>%s</i><b> questo %s</b>"
