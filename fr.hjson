@@ -117,7 +117,7 @@
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
-  #          from being emoji into plain text localized numbers.
+  #          to match the 'numbersPlain' localized numbers.
   "generic.numbers": {
     "zero": "0️⃣"
     "one": "1️⃣"
@@ -130,6 +130,21 @@
     "eight": "8️⃣"
     "nine": "9️⃣"
     "ten": "🔟"
+  }
+
+  # ℹ️ Note: These should be plain text localized numbers.
+  "generic.numbersPlain": {
+    "zero": "0"
+    "one": "1"
+    "two": "2"
+    "three": "3"
+    "four": "4"
+    "five": "5"
+    "six": "6"
+    "seven": "7"
+    "eight": "8"
+    "nine": "9"
+    "ten": 10"
   }
 
   "generic.timePlural": {
@@ -832,7 +847,7 @@
   "stickers.letsCreateAPackInPrivate": "<b>Les packs d'autocollants doivent être créés en privé, c'est parti:</b>"
   "stickers.removeOnlyInPrivate": "<b>Les packs d'autocollants ne peuvent être supprimés qu'en privé, c'est parti:</b>"
   "stickers.seeAllCommandsHint": "<b>Envoyer /stickers pour voir toutes les commandes et informations.</b>"
-  "stickers.whichPackShouldBeAddedTo": "<b>À quel pack l'autocollant doit-il être ajouté?</b>"
+  "stickers.whichPackShouldBeAddedTo": "<b>À quel pack l'autocollant doit-il être ajouté?</b>\n\n%s"
 
   "stickers.callbacks": {
     "confirmStickerPackCreate": "<b>Votre pack d'autocollants aura le titre suivant:</b>\n\n<code>%s</code>\n\n<b>⚠️ Vous ne pourrez pas le modifier plus tard.</b>"
@@ -844,7 +859,7 @@
   }
 
   "stickers.listPacks": "<b>Vos packs:\n\n%s</b>\n\n%s"
-  "stickers.listPacksFill": "<code>%s</code> — <a href=\"%s\">%s</a>"
+  "stickers.listPacksFill": "%s — <a href=\"%s\">%s</a>"
   "stickers.validStickerPacksAre": "<b>Les ID valides du pack d'autocollants sont:\n<code>%s</code></b>"
 
   "stickers.error": {

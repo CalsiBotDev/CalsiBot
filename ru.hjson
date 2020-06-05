@@ -117,7 +117,7 @@
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
-  #          from being emoji into plain text localized numbers.
+  #          to match the 'numbersPlain' localized numbers.
   "generic.numbers": {
     "zero": "0️⃣"
     "one": "1️⃣"
@@ -130,6 +130,21 @@
     "eight": "8️⃣"
     "nine": "9️⃣"
     "ten": "🔟"
+  }
+
+  # ℹ️ Note: These should be plain text localized numbers.
+  "generic.numbersPlain": {
+    "zero": "0"
+    "one": "1"
+    "two": "2"
+    "three": "3"
+    "four": "4"
+    "five": "5"
+    "six": "6"
+    "seven": "7"
+    "eight": "8"
+    "nine": "9"
+    "ten": 10"
   }
 
   "generic.timePlural": {
@@ -832,7 +847,7 @@
   "stickers.letsCreateAPackInPrivate": "<b>Пакеты стикеров должны быть созданы в частном порядке, поехали:</b>"
   "stickers.removeOnlyInPrivate": "<b>Пакеты наклеек можно удалить только конфиденциально, поехали:</b>"
   "stickers.seeAllCommandsHint": "<b>Отправить /stickers, чтобы увидеть все команды и информацию.</b>"
-  "stickers.whichPackShouldBeAddedTo": "<b>К какой упаковке следует добавить стикер?</b>"
+  "stickers.whichPackShouldBeAddedTo": "<b>К какой упаковке следует добавить стикер?</b>\n\n%s"
 
   "stickers.callbacks": {
     "confirmStickerPackCreate": "<b>Ваш стикер будет иметь следующий заголовок:</b>\n\n<code>%s</code>\n\n<b>⚠️ Вы не сможете изменить это позже.</b>"
@@ -844,7 +859,7 @@
   }
 
   "stickers.listPacks": "<b>Ваши пакеты:\n\n%s</b>\n\n%s"
-  "stickers.listPacksFill": "<code>%s</code> — <a href=\"%s\">%s</a>"
+  "stickers.listPacksFill": "%s — <a href=\"%s\">%s</a>"
   "stickers.validStickerPacksAre": "<b>Допустимые идентификаторы пакета стикеров:\n<code>%s</code></b>"
 
   "stickers.error": {
