@@ -866,7 +866,7 @@
   "stickers.error": {
     "noTitleGiven": "<b>Devi specificare un titolo. Ad esempio:</b>\n\n<code>/%s %s</code>"
     "noPackGiven": "<b>Devi specificare uno stickerpack. Ad esempio:</b>\n<code>/%s %s</code>\n\n%s"
-    "noEmojiGiven": "<b>Devi specificare una o più emoji. Ad esempio:</b>\n\n<code>%s</code>"
+    "noEmojiGiven": "<b>Scegli un'emoji di seguito o premi Annulla e specifica il tuo. Ad esempio:</b>\n\n<code>%s</code>"
     "noStickerPacks": "<b>Non hai alcun stickerpack.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>Impossibile trovare lo stickerpack <code>%s</code></b>\n\n%s"
     "packLimitReached": "<b>Hai raggiunto il limite di %s stickerpack.\n\nSe desideri creare uno nuovo, devi utilizzare </b><code>/removepack</code><b> per rimuoverne almeno uno prima.</b>"

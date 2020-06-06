@@ -866,7 +866,7 @@
   "stickers.error": {
     "noTitleGiven": "<b>Vous devez spécifier un titre. Par exemple:</b>\n\n<code>/%s %s</code>"
     "noPackGiven": "<b>Vous devez spécifier un pack. Par exemple:</b>\n<code>/%s %s</code>\n\n%s"
-    "noEmojiGiven": "<b>Vous devez spécifier un ou plusieurs emoji. Par exemple:</b>\n\n<code>%s</code>"
+    "noEmojiGiven": "<b>Elija un emoji a continuación o presione Cancelar y especifique el suyo. Par exemple:</b>\n\n<code>%s</code>"
     "noStickerPacks": "<b>Vous n'avez aucun pack d'autocollants.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>Impossible de trouver le pack d'autocollants <code>%s</code></b>\n\n%s"
     "packLimitReached": "<b>Vous avez atteint la limite de %s Packs d'autocollants.\n\nSi vous souhaitez créer un nouveau pack, vous devez utiliser </b><code>/removepack</code><b> pour en supprimer un en premier.</b>"
