@@ -850,12 +850,13 @@
   "stickers.whichPackShouldBeAddedTo": "<b>Which pack should the sticker be added to?</b>\n\n%s"
 
   "stickers.callbacks": {
-    "confirmStickerPackCreate": "<b>Your Sticker Pack will have the following title:</b>\n\n<code>%s</code>\n\n<b>⚠️ You will not be able to change this later.</b>"
+    "confirmStickerPackCreate": "<b>Your Sticker Pack will have the following title:</b>\n\n<code>%s</code>\n\n<b>⚠️ You will not be able to change this later.\n\nPress Cancel to choose a different title.</b>"
     "cancelStickerPackCreate": "<b>Okay, choose a different title and try again. For example:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>Your Sticker Pack has been created!</b>\n\nYou can now reply to images and stickers with /addsticker to add them to your pack\n\n%s"
     "confirmStickerPackRemove": "⚠️ <b>Your Sticker Pack will be disconnected from CalsiBot.\n\nYou won't be able to update this pack with CalsiBot ever again.\n\nAre you sure you want to remove this pack?</b>"
     "cancelStickerPackRemove": "<b>Okay, pack was not removed.</b>"
     "stickerPackRemoveSuccess": "<b>Your Sticker Pack has been removed from CalsiBot.</b>\n\nTo fully delete it, talk to @Stickers"
+    "cancelAddEmojiToMessage": "<b>Okay, you can specify a different emoji yourself. For example:</b>\n\n<code>/addsticker 😂</code>"
   }
 
   "stickers.listPacks": "<b>Your Packs:\n\n%s</b>\n\n%s"

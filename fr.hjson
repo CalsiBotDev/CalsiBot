@@ -850,12 +850,13 @@
   "stickers.whichPackShouldBeAddedTo": "<b>À quel pack l'autocollant doit-il être ajouté?</b>\n\n%s"
 
   "stickers.callbacks": {
-    "confirmStickerPackCreate": "<b>Votre pack d'autocollants aura le titre suivant:</b>\n\n<code>%s</code>\n\n<b>⚠️ Vous ne pourrez pas le modifier plus tard.</b>"
+    "confirmStickerPackCreate": "<b>Votre pack d'autocollants aura le titre suivant:</b>\n\n<code>%s</code>\n\n<b>⚠️ Vous ne pourrez pas le modifier plus tard.\n\nAppuyez sur Annuler pour choisir un autre titre.</b>"
     "cancelStickerPackCreate": "<b>D'accord, choisissez un titre différent et réessayez. Par exemple:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>Votre pack d'autocollants a été créé!</b>\n\nVous pouvez désormais répondre aux images et autocollants avec /addsticker pour les ajouter à votre pack\n\n%s"
     "confirmStickerPackRemove": "⚠️ <b>Votre pack d'autocollants sera déconnecté de CalsiBot.\n\nVous ne pourrez plus jamais mettre à jour ce pack avec CalsiBot.\n\nVoulez-vous vraiment supprimer ce pack?</b>"
     "cancelStickerPackRemove": "<b>D'accord, le pack n'a pas été supprimé.</b>"
     "stickerPackRemoveSuccess": "<b>Votre pack d'autocollants a été supprimé de CalsiBot.</b>\n\nPour le supprimer complètement, parlez à @Stickers"
+    "cancelAddEmojiToMessage": "<b>D'accord, vous pouvez spécifier vous-même un autre emoji. Par exemple:</b>\n\n<code>/addsticker 😂</code>"
   }
 
   "stickers.listPacks": "<b>Vos packs:\n\n%s</b>\n\n%s"
