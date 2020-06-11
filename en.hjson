@@ -724,7 +724,8 @@
   "misc.pin.help": "<code>/pin</code> <b>allows you to easily set, or change the chat's pin without stupid menus\n\nStill unsure how to use it? Tap the button below to see an example:</b>"
   "misc.pin.main": "<b>Reply to a compressed image (not sent as a file) which you want to set as the group profile picture</b>"
 
-  "misc.fileIDSearch.error.noUsableFileFound": "<b>Couldn't find any usable media, try with a different message.</b>"
+  # ℹ️ Example: Couldn't find any compressed photo, uncompressed photo or sticker 😕\n\nTry again with a different message.
+  "misc.fileIDSearch.error.noUsableFileFound": "<b>Couldn't find any %s. 😕\n\nTry again with a different message.</b>"
 
   # ℹ️ Example: Come over here, get on your knees, and translate this 😏
   "misc.knees.main": "<b>Come over here, get on your knees, and </b><i>%s</i><b> this %s</b>"
@@ -839,6 +840,7 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "%s's Favorites"
+  "stickers.acceptableFileTypes": "compressed photo, uncompressed photo or sticker"
   "stickers.main": "<b>Create, Manage and Add to Sticker Packs with the following commands:</b>\n\n/newpack — make a new pack\n/listpacks — list your packs and their IDs\n/removepack — unlink a pack from CalsiBot\n\n/addsticker — add image or sticker to a pack\n/deletesticker — delete sticker from a pack\n\n<b>Expert usage:</b>\n\n/addsticker 3 — add image or sticker to pack with ID <code>3</code>\n/addsticker 🥳🙂😉 — create sticker and suggest it when using any of these three emoji\n/addsticker 3 🥳🙂😉 — create sticker and add to pack <code>3</code>, suggest it when using any of these three emoji"
   "stickers.beingAdded": "⏳ <b>Your sticker is being added, please wait...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Your sticker will be added in %s, please wait...</b>"
@@ -856,7 +858,7 @@
     "confirmStickerPackRemove": "⚠️ <b>Your Sticker Pack will be disconnected from CalsiBot.\n\nYou won't be able to update this pack with CalsiBot ever again.\n\nAre you sure you want to remove this pack?</b>"
     "cancelStickerPackRemove": "<b>Okay, pack was not removed.</b>"
     "stickerPackRemoveSuccess": "<b>Your Sticker Pack has been removed from CalsiBot.</b>\n\nTo fully delete it, talk to @Stickers"
-    "cancelAddEmojiToMessage": "<b>Okay, you can specify a different emoji yourself. For example:</b>\n\n<code>/addsticker 😂</code>"
+    "cancelAddEmojiToMessage": "<b>Okay, you can specify a different emoji yourself. For example:</b>\n\n<code>%s</code>"
   }
 
   "stickers.listPacks": "<b>Your Packs:\n\n%s</b>\n\n%s"
@@ -866,7 +868,7 @@
   "stickers.error": {
     "noTitleGiven": "<b>You must specify a title. For example:</b>\n\n<code>/%s %s</code>"
     "noPackGiven": "<b>You must specify a pack. For example:</b>\n<code>/%s %s</code>\n\n%s"
-    "noEmojiGiven": "<b>Please choose an emoji below, or press Cancel and specify your own. For example:</b>\n\n<code>%s</code>"
+    "noEmojiGiven": "<b>Please choose an emoji below\n\nPress Cancel to specify your own:</b>\n<code>%s</code>"
     "noStickerPacks": "<b>You don't have any Sticker Packs.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>Could not find Sticker Pack <code>%s</code></b>\n\n%s"
     "packLimitReached": "<b>You have reached the limit of %s Sticker Packs.\n\nIf you want to make a new pack, you must use </b><code>/removepack</code><b> to remove one first.</b>"

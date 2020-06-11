@@ -724,7 +724,8 @@
   "misc.pin.help": "<code>/pin</code> <b>le permite configurar o cambiar fácilmente el pin del chat sin menús estúpidos\n\n¿Aún no sabes cómo usarlo? Toque el botón de abajo para ver un ejemplo:</b>"
   "misc.pin.main": "<b>Responder a una imagen comprimida (no enviada como archivo) que desea establecer como imagen de perfil de grupo</b>"
 
-  "misc.fileIDSearch.error.noUsableFileFound": "<b>No se pudo encontrar ningún medio utilizable, intente con un mensaje diferente.</b>"
+  # ℹ️ Example: Couldn't find any compressed photo, uncompressed photo or sticker 😕\n\nTry again with a different message.
+  "misc.fileIDSearch.error.noUsableFileFound": "<b>No se pudo encontrar ninguna %s. 😕\n\nInténtalo de nuevo con un mensaje diferente.</b>"
 
   # ℹ️ Example: Come over here, get on your knees, and translate this 😏
   "misc.knees.main": "<b>Ven aquí, ponte de rodillas, y </b><i>%s</i><b> esto %s</b>"
@@ -839,6 +840,7 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "Los favoritos de %s"
+  "stickers.acceptableFileTypes": "foto comprimida, foto sin comprimir o pegatina"
   "stickers.main": "<b>Crear, administrar y agregar paquetes de calcomanías con los siguientes comandos:</b>\n\n/newpack - hacer un nuevo paquete\n/listpacks - enumere sus paquetes y sus ID\n/removepack - desvincular un paquete de CalsiBot\n\n/addsticker - agrega una imagen o una pegatina a un paquete\n/deletesticker - elimina la pegatina de un paquete\n\n<b>Uso experto:</b>\n\n/addsticker 3 — agregar imagen o pegatina al paquete con ID <code>3</code>\n/addsticker 🥳🙂😉 — crear una pegatina y sugerirla al usar cualquiera de estos tres emoji\n/addsticker 3 🥳🙂😉 — cree una pegatina y agréguela al paquete <code>3</code>, sugiérala cuando use cualquiera de estos tres emoji"
   "stickers.beingAdded": "⏳ <b>Su pegatina se está agregando, por favor espere...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Su pegatina se agregará en %s, espere...</b>"
@@ -856,7 +858,7 @@
     "confirmStickerPackRemove": "⚠️ <b>Su paquete de calcomanías se desconectará de CalsiBot.\n\nNo podrá actualizar este paquete con CalsiBot nunca más.\n\n¿Está seguro de que desea eliminar este paquete?</b>"
     "cancelStickerPackRemove": "<b>Bien, el paquete no se eliminó.</b>"
     "stickerPackRemoveSuccess": "<b>Su paquete de pegatinas se ha eliminado de CalsiBot.</b>\n\nPara eliminarlo por completo, hable con @Stickers"
-    "cancelAddEmojiToMessage": "<b>De acuerdo, puedes especificar un emoji diferente tú mismo. Por ejemplo:</b>\n\n<code>/addsticker 😂</code>"
+    "cancelAddEmojiToMessage": "<b>De acuerdo, puedes especificar un emoji diferente tú mismo. Por ejemplo:</b>\n\n<code>%s</code>"
   }
 
   "stickers.listPacks": "<b>Tus paquetes:\n\n%s</b>\n\n%s"
@@ -866,7 +868,7 @@
   "stickers.error": {
     "noTitleGiven": "<b>Debe especificar un título. Por ejemplo:</b>\n\n<code>/%s %s</code>"
     "noPackGiven": "<b>Debe especificar un paquete. Por ejemplo:</b>\n<code>/%s %s</code>\n\n%s"
-    "noEmojiGiven": "<b>Elija un emoji a continuación o presione Cancelar y especifique el suyo. Por ejemplo:</b>\n\n<code>%s</code>"
+    "noEmojiGiven": "<b>Elija un emoji debajo de\n\nPulse Cancelar para especificar el suyo:</b>\n<code>%s</code>"
     "noStickerPacks": "<b>No tienes ningún paquete de pegatinas.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>No se pudo encontrar el paquete de adhesivos <code>%s</code></b>\n\n%s"
     "packLimitReached": "<b>Ha alcanzado el límite de %s Paquetes de pegatinas.\n\nSi desea hacer un nuevo paquete, debe usar </b><code>/removepack</code><b> para eliminar uno primero.</b>"

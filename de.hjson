@@ -724,7 +724,8 @@
   "misc.pin.help": "<code>/pin</code> <b>ermöglicht es Ihnen, die Chat-PIN ohne dumme Menüs einfach festzulegen oder zu ändern\n\nSie wissen immer noch nicht, wie Sie es verwenden sollen? Tippen Sie auf die Schaltfläche unten, um ein Beispiel anzuzeigen:</b>"
   "misc.pin.main": "<b>Auf ein komprimiertes Bild antworten (nicht als Datei gesendet), das Sie als Gruppenprofilbild festlegen möchten</b>"
 
-  "misc.fileIDSearch.error.noUsableFileFound": "<b>Es konnten keine verwendbaren Medien gefunden werden. Versuchen Sie es mit einer anderen Nachricht.</b>"
+  # ℹ️ Example: Couldn't find any compressed photo, uncompressed photo or sticker 😕\n\nTry again with a different message.
+  "misc.fileIDSearch.error.noUsableFileFound": "<b>Es konnten keine %s gefunden werden. 😕\n\nVersuchen Sie es erneut mit einer anderen Nachricht.</b>"
 
   # ℹ️ Example: Come over here, get on your knees, and translate this 😏
   "misc.knees.main": "<b>Komm her, geh auf die Knie, und </b><i>%s</i><b> das %s</b>"
@@ -839,6 +840,7 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "%ss Favoriten"
+  "stickers.acceptableFileTypes": "komprimiertes Foto, unkomprimiertes Foto oder Aufkleber"
   "stickers.main": "<b>Erstellen, Verwalten und Hinzufügen zu Aufkleberpackungen mit den folgenden Befehlen:</b>\n\n/newpack - Erstellen Sie ein neues Paket\n/listpacks - Listen Sie Ihre Packungen und ihre IDs auf\n/removepack - Verknüpfung eines Pakets mit CalsiBot aufheben\n\n/addsticker - Bild oder Aufkleber zu einer Packung hinzufügen\n/deletesticker - Aufkleber aus einer Packung löschen\n\n<b>Experteneinsatz:</b>\n\n/addsticker 3 — Fügen Sie ein Bild oder einen Aufkleber hinzu, um es mit ID <code>3</code> zu verpacken\n/addsticker 🥳🙂😉 — Erstellen Sie einen Aufkleber und schlagen Sie ihn vor, wenn Sie eines dieser drei Emoji verwenden\n/addsticker 3 🥳🙂😉 — Erstellen Sie einen Aufkleber und fügen Sie ihn zu Pack <code>3</code> hinzu, schlagen Sie ihn vor, wenn Sie eines dieser drei Emoji verwenden"
   "stickers.beingAdded": "⏳ <b>Ihr Aufkleber wird hinzugefügt, bitte warten Sie...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Ihr Aufkleber wird in %s hinzugefügt, bitte warten Sie...</b>"
@@ -856,7 +858,7 @@
     "confirmStickerPackRemove": "⚠️ <b>Ihre Aufkleberpackung wird von CalsiBot getrennt.\n\nSie können diese Packung nie wieder mit CalsiBot aktualisieren.\n\nSind Sie sicher, dass Sie diese Packung entfernen möchten?</b>"
     "cancelStickerPackRemove": "<b>Okay, Packung wurde nicht entfernt.</b>"
     "stickerPackRemoveSuccess": "<b>Ihre Aufkleberpackung wurde aus CalsiBot entfernt.</b>\n\nUm sie vollständig zu löschen, wenden Sie sich an @Stickers"
-    "cancelAddEmojiToMessage": "<b>Okay, Sie können selbst ein anderes Emoji angeben. Zum Beispiel:</b>\n\n<code>/addsticker 😂</code>"
+    "cancelAddEmojiToMessage": "<b>Okay, Sie können selbst ein anderes Emoji angeben. Zum Beispiel:</b>\n\n<code>%s</code>"
   }
 
   "stickers.listPacks": "<b>Ihre Packungen:\n\n%s</b>\n\n%s"
@@ -866,7 +868,7 @@
   "stickers.error": {
     "noTitleGiven": "<b>Sie müssen einen Titel angeben. Zum Beispiel:</b>\n\n<code>/%s %s</code>"
     "noPackGiven": "<b>Sie müssen eine Packung angeben. Zum Beispiel:</b>\n<code>/%s %s</code>\n\n%s"
-    "noEmojiGiven": "<b>Bitte wählen Sie unten ein Emoji aus oder drücken Sie Abbrechen und geben Sie Ihr eigenes an. Zum Beispiel:</b>\n\n<code>%s</code>"
+    "noEmojiGiven": "<b>Bitte wählen Sie unten ein Emoji aus\n\nDrücken Sie Abbrechen, um Ihr eigenes anzugeben:</b>\n<code>%s</code>"
     "noStickerPacks": "<b>Sie haben keine Aufkleberpackungen.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>Auskleberpackung nicht gefunden werden <code>%s</code></b>\n\n%s"
     "packLimitReached": "<b>Sie haben das Limit an %s Aufkleberpackungen erreicht.\n\nWenn Sie ein neue Packung erstellen möchten, müssen Sie </b><code>/removepack</code><b> verwenden, um zuerst eine andere zu entfernen.</b>"

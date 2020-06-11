@@ -724,7 +724,8 @@
   "misc.pin.help": "<code>/pin</code> <b>consente di impostare facilmente o modificare il messaggio fissato senza menu stupidi \n\n Non sei ancora sicuro di come usarlo? Tocca il pulsante qui sotto per vedere un esempio:</b>"
   "misc.pin.main": "<b>Rispondi ad un'immagine compressa (non inviata come file) che desideri impostare come immagine di profilo del gruppo</b>"
 
-  "misc.fileIDSearch.error.noUsableFileFound": "<b>Impossibile recuperare media utilizzabili, prova con un altro messaggio.</b>"
+  # ℹ️ Example: Couldn't find any compressed photo, uncompressed photo or sticker 😕\n\nTry again with a different message.
+  "misc.fileIDSearch.error.noUsableFileFound": "<b>Impossibile trovare alcuna %s. 😕\n\nRiprova con un altro messaggio.</b>"
 
   # ℹ️ Example: Come over here, get on your knees, and translate this 😏
   "misc.knees.main": "<b>Vieni qui, mettiti in ginocchio, e </b><i>%s</i><b> questo %s</b>"
@@ -839,6 +840,7 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "Preferiti di %"
+  "stickers.acceptableFileTypes": "foto compressa, foto non compressa o adesivo"
   "stickers.main": "<b>Crea, gestisci e aggiungi sticker allo stickerpack con i seguenti comandi:</b>\n\n/newpack - crea un nuovo pacchetto\n/listpacks - elenca tutti gli stickerpack\n/removepack - scollega uno stickerpack da CalsiBot\n\n/addsticker - aggiungi immagine o sticker a un pacchetto\n/deletesticker - elimina sticker da un pacchetto\n\n<b>Uso esperto:</b>\n\n/addsticker 3 — aggiungi immagine o sticker via file ID <code>3</code>\n/addsticker 🥳🙂😉 — crea uno sticker e suggeriscilo quando usi una di queste tre emoji\n/addsticker 3 🥳🙂😉 — crea uno sticker e aggiungilo al pacchetto <code>3</code>, suggeriscilo quando usi una di queste tre emoji"
   "stickers.beingAdded": "⏳ <b>Aggiunta dello sticker in corso...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Il tuo sticker verrà aggiunto tra %s, attendi...</b>"
@@ -856,7 +858,7 @@
     "confirmStickerPackRemove": "⚠️ <b>Il tuo stickerpack verrà disconnesso da CalsiBot.\n\nNon sarai più in grado di aggiornarlo con CalsiBot.\n\nSei sicuro di volerlo rimovere?</b>"
     "cancelStickerPackRemove": "<b>Ok, lo stickerpack non è stato rimosso.</b>"
     "stickerPackRemoveSuccess": "<b>Il tuo stickerpack è stato rimosso da CalsiBot.</b>\n\nPer eliminarlo completamente, puoi usare @Stickers"
-    "cancelAddEmojiToMessage": "<b>Ok, puoi specificare tu stesso un'altra emoji. Per esempio:</b>\n\n<code>/addsticker 😂</code>"
+    "cancelAddEmojiToMessage": "<b>Ok, puoi specificare tu stesso un'altra emoji. Per esempio:</b>\n\n<code>%s</code>"
   }
 
   "stickers.listPacks": "<b>I tuoi stickerpack:\n\n%s</b>\n\n%s"
@@ -866,7 +868,7 @@
   "stickers.error": {
     "noTitleGiven": "<b>Devi specificare un titolo. Ad esempio:</b>\n\n<code>/%s %s</code>"
     "noPackGiven": "<b>Devi specificare uno stickerpack. Ad esempio:</b>\n<code>/%s %s</code>\n\n%s"
-    "noEmojiGiven": "<b>Scegli un'emoji di seguito o premi Annulla e specifica il tuo. Ad esempio:</b>\n\n<code>%s</code>"
+    "noEmojiGiven": "<b>Scegli un'emoji sotto\n\nPremi Annulla per specificare il tuo:</b>\n<code>%s</code>"
     "noStickerPacks": "<b>Non hai alcun stickerpack.</b>\n\n%s"
     "specifiedPackDoesNotExist": "<b>Impossibile trovare lo stickerpack <code>%s</code></b>\n\n%s"
     "packLimitReached": "<b>Hai raggiunto il limite di %s stickerpack.\n\nSe desideri creare uno nuovo, devi utilizzare </b><code>/removepack</code><b> per rimuoverne almeno uno prima.</b>"
