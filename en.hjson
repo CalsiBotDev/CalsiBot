@@ -724,8 +724,8 @@
   "misc.pin.help": "<code>/pin</code> <b>allows you to easily set, or change the chat's pin without stupid menus\n\nStill unsure how to use it? Tap the button below to see an example:</b>"
   "misc.pin.main": "<b>Reply to a compressed image (not sent as a file) which you want to set as the group profile picture</b>"
 
-  # ℹ️ Example: Couldn't find any compressed photo, uncompressed photo or sticker 😕\n\nTry again with a different message.
-  "misc.fileIDSearch.error.noUsableFileFound": "<b>Couldn't find any %s. 😕\n\nTry again with a different message.</b>"
+  # ℹ️ Example: Couldn't find any\n- non-animated sticker 😕\n\nTry again with a different message.
+  "misc.fileIDSearch.error.noUsableFileFound": "<b>Couldn't find any:</b>\n%s. 😕\n\n<b>Try again with a different message.</b>"
 
   # ℹ️ Example: Come over here, get on your knees, and translate this 😏
   "misc.knees.main": "<b>Come over here, get on your knees, and </b><i>%s</i><b> this %s</b>"
@@ -840,7 +840,7 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "%s's Favorites"
-  "stickers.acceptableFileTypes": "compressed photo, uncompressed photo or sticker"
+  "stickers.acceptableFileTypes": "<b>- compressed photo,\n- uncompressed photo</b> (<15 MB),\n<b>- non-animated sticker</b>"
   "stickers.main": "<b>Create, Manage and Add to Sticker Packs with the following commands:</b>\n\n/newpack — make a new pack\n/listpacks — list your packs and their IDs\n/removepack — unlink a pack from CalsiBot\n\n/addsticker — add image or sticker to a pack\n/deletesticker — delete sticker from a pack\n\n<b>Expert usage:</b>\n\n/addsticker 3 — add image or sticker to pack with ID <code>3</code>\n/addsticker 🥳🙂😉 — create sticker and suggest it when using any of these three emoji\n/addsticker 3 🥳🙂😉 — create sticker and add to pack <code>3</code>, suggest it when using any of these three emoji"
   "stickers.beingAdded": "⏳ <b>Your sticker is being added, please wait...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Your sticker will be added in %s, please wait...</b>"

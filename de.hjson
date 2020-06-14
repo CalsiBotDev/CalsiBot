@@ -724,8 +724,8 @@
   "misc.pin.help": "<code>/pin</code> <b>ermöglicht es Ihnen, die Chat-PIN ohne dumme Menüs einfach festzulegen oder zu ändern\n\nSie wissen immer noch nicht, wie Sie es verwenden sollen? Tippen Sie auf die Schaltfläche unten, um ein Beispiel anzuzeigen:</b>"
   "misc.pin.main": "<b>Auf ein komprimiertes Bild antworten (nicht als Datei gesendet), das Sie als Gruppenprofilbild festlegen möchten</b>"
 
-  # ℹ️ Example: Couldn't find any compressed photo, uncompressed photo or sticker 😕\n\nTry again with a different message.
-  "misc.fileIDSearch.error.noUsableFileFound": "<b>Es konnten keine %s gefunden werden. 😕\n\nVersuchen Sie es erneut mit einer anderen Nachricht.</b>"
+  # ℹ️ Example: Couldn't find any\n- non-animated sticker 😕\n\nTry again with a different message.
+  "misc.fileIDSearch.error.noUsableFileFound": "<b>Konnte keine finden:</b>\n%s. 😕\n\n<b>Versuchen Sie es erneut mit einer anderen Nachricht.</b>"
 
   # ℹ️ Example: Come over here, get on your knees, and translate this 😏
   "misc.knees.main": "<b>Komm her, geh auf die Knie, und </b><i>%s</i><b> das %s</b>"
@@ -840,7 +840,7 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "%ss Favoriten"
-  "stickers.acceptableFileTypes": "komprimiertes Foto, unkomprimiertes Foto oder Aufkleber"
+  "stickers.acceptableFileTypes": "<b>- komprimiertes Foto,\n- unkomprimiertes Foto</b> (<15 MB),\n<b>- nicht animierter Aufkleber</b>"
   "stickers.main": "<b>Erstellen, Verwalten und Hinzufügen zu Aufkleberpackungen mit den folgenden Befehlen:</b>\n\n/newpack - Erstellen Sie ein neues Paket\n/listpacks - Listen Sie Ihre Packungen und ihre IDs auf\n/removepack - Verknüpfung eines Pakets mit CalsiBot aufheben\n\n/addsticker - Bild oder Aufkleber zu einer Packung hinzufügen\n/deletesticker - Aufkleber aus einer Packung löschen\n\n<b>Experteneinsatz:</b>\n\n/addsticker 3 — Fügen Sie ein Bild oder einen Aufkleber hinzu, um es mit ID <code>3</code> zu verpacken\n/addsticker 🥳🙂😉 — Erstellen Sie einen Aufkleber und schlagen Sie ihn vor, wenn Sie eines dieser drei Emoji verwenden\n/addsticker 3 🥳🙂😉 — Erstellen Sie einen Aufkleber und fügen Sie ihn zu Pack <code>3</code> hinzu, schlagen Sie ihn vor, wenn Sie eines dieser drei Emoji verwenden"
   "stickers.beingAdded": "⏳ <b>Ihr Aufkleber wird hinzugefügt, bitte warten Sie...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Ihr Aufkleber wird in %s hinzugefügt, bitte warten Sie...</b>"
