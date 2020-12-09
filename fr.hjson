@@ -667,8 +667,8 @@
 
   "misc.huh.main": "<b>hein</b>"
 
-  "misc.judge.main.truth": "%s<b>dit la vérité.</b>"
-  "misc.judge.main.lying": "%s<b>ment!</b>"
+  "misc.judge.main.truth": "%s<b> dit la vérité.</b>"
+  "misc.judge.main.lying": "%s<b> ment!</b>"
   "misc.judge.CalsiBot": "<i>Je suis au-delà de tout jugement.</i>"
 
   "misc.coin.main.heads": "%s a lancé une pièce!\n\n<b>C'est pile !</b>"
