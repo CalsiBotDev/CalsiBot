@@ -369,6 +369,7 @@
     "2018vday": "\n%s<%s> - VDay 2018</%s>"
     "2018xmas": "\n%s<%s> - Navidad 2018</%s>"
     "2019newyear": "\n%s<%s> - Año Nuevo 2019</%s>"
+    "2020xmas": "\n%s<%s> - Navidad 2020</%s>"
   }
 
 
@@ -840,7 +841,7 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "Los favoritos de %s"
-  "stickers.acceptableFileTypes": "<b>- foto comprimida,\n- foto sin comprimir</b> (<15 MB),\n<b>- pegatina no animada</b>"
+  "stickers.acceptableFileTypes": "<b>- foto comprimida,\n- foto sin comprimir</b> (&lt;15 MB),\n<b>- pegatina no animada</b>"
   "stickers.main": "<b>Crear, administrar y agregar paquetes de calcomanías con los siguientes comandos:</b>\n\n/newpack - hacer un nuevo paquete\n/listpacks - enumere sus paquetes y sus ID\n/removepack - desvincular un paquete de CalsiBot\n\n/addsticker - agrega una imagen o una pegatina a un paquete\n/deletesticker - elimina la pegatina de un paquete\n\n<b>Uso experto:</b>\n\n/addsticker 3 — agregar imagen o pegatina al paquete con ID <code>3</code>\n/addsticker 🥳🙂😉 — crear una pegatina y sugerirla al usar cualquiera de estos tres emoji\n/addsticker 3 🥳🙂😉 — cree una pegatina y agréguela al paquete <code>3</code>, sugiérala cuando use cualquiera de estos tres emoji"
   "stickers.beingAdded": "⏳ <b>Su pegatina se está agregando, por favor espere...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Su pegatina se agregará en %s, espere...</b>"

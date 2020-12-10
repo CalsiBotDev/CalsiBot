@@ -369,6 +369,7 @@
     "2018vday": "\n%s<%s> - VDay 2018</%s>"
     "2018xmas": "\n%s<%s> - Natale 2018</%s>"
     "2019newyear": "\n%s<%s> - Capodanno 2019</%s>"
+    "2020xmas": "\n%s<%s> - Natale 2020</%s>"
   }
 
 
@@ -840,7 +841,7 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "Preferiti di %s"
-  "stickers.acceptableFileTypes": "<b>- foto compressa,\n- foto non compressa</b> (<15 MB),\n<b>- adesivo non animato</b>"
+  "stickers.acceptableFileTypes": "<b>- foto compressa,\n- foto non compressa</b> (&lt;15 MB),\n<b>- adesivo non animato</b>"
   "stickers.main": "<b>Crea, gestisci e aggiungi sticker allo stickerpack con i seguenti comandi:</b>\n\n/newpack - crea un nuovo pacchetto\n/listpacks - elenca tutti gli stickerpack\n/removepack - scollega uno stickerpack da CalsiBot\n\n/addsticker - aggiungi immagine o sticker a un pacchetto\n/deletesticker - elimina sticker da un pacchetto\n\n<b>Uso esperto:</b>\n\n/addsticker 3 — aggiungi immagine o sticker via file ID <code>3</code>\n/addsticker 🥳🙂😉 — crea uno sticker e suggeriscilo quando usi una di queste tre emoji\n/addsticker 3 🥳🙂😉 — crea uno sticker e aggiungilo al pacchetto <code>3</code>, suggeriscilo quando usi una di queste tre emoji"
   "stickers.beingAdded": "⏳ <b>Aggiunta dello sticker in corso...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Il tuo sticker verrà aggiunto tra %s, attendi...</b>"

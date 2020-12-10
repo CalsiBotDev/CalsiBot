@@ -369,6 +369,7 @@
     "2018vday": "\n%s<%s> - St-Valentin 2018</%s>"
     "2018xmas": "\n%s<%s> - Noël 2018</%s>"
     "2019newyear": "\n%s<%s> - Nouvel an 2019</%s>"
+    "2020xmas": "\n%s<%s> - Noël 2020</%s>"
   }
 
 
@@ -840,7 +841,7 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "Les favoris de %s"
-  "stickers.acceptableFileTypes": "<b>- photo compressée,\n- photo non compressée</b> (<15 MB),\n<b>- autocollant non animé</b>"
+  "stickers.acceptableFileTypes": "<b>- photo compressée,\n- photo non compressée</b> (&lt;15 MB),\n<b>- autocollant non animé</b>"
   "stickers.main": "<b>Créer, gérer et ajouter aux packs d'autocollants avec les commandes suivantes:</b>\n\n/newpack - créer un nouveau pack\n/listpacks - répertoriez vos packs et leurs identifiants\n/removepack - dissocier un pack de CalsiBot\n\n/addsticker - ajouter une image ou un autocollant à un pack\n/deletesticker - supprimer un autocollant d'un pack\n\n<b>Utilisation experte:</b>\n\n/addsticker 3 — ajouter une image ou un autocollant pour emballer avec ID <code>3</code>\n/addsticker 🥳🙂😉 — créer un autocollant et le suggérer lors de l'utilisation de l'un de ces trois emoji\n/addsticker 3 🥳🙂😉 — créer un autocollant et l'ajouter au pack <code>3</code>, le suggérer lors de l'utilisation de l'un de ces trois emoji"
   "stickers.beingAdded": "⏳ <b>Votre autocollant est en cours d'ajout, veuillez patienter...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Votre autocollant sera ajouté dans %s, veuillez patienter...</b>"
