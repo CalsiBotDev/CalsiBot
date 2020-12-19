@@ -539,14 +539,6 @@
 
 
   /* ---------------------------------------------------------------------
-                            Brick - Used for /brick
-     --------------------------------------------------------------------- */
-  "brick.wallBuilding": "Wall Building"
-  "brick.noActivity": "<b>No </b>/brick<b> activity has happened here in a while.</b>"
-  "brick.brickStatsMain": "<b>Brick Stats for this chat:</b>"
-
-
-  /* ---------------------------------------------------------------------
                     Permaban - Used for /Permaban, /UnPermaban
      --------------------------------------------------------------------- */
   "permaban.permaban": "Permaban"
@@ -649,8 +641,8 @@
   <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
   <a href="t.me/CalsiBotDev/23">/restrict</a>, <a href="t.me/CalsiBotDev/82">/warn</a>, <a href="t.me/CalsiBotDev/48">/JoinLock</a>, and <a href="t.me/CalsiBotDev/74">/JoinLimit</a>
 
-  <b>Most used other commands:</b>
-  /translate, /setwelcome, /hug, /when
+  <b>See other commands:</b>
+  /ListCommands
   '''
 
 
@@ -680,6 +672,43 @@
 
   "misc.spurdo.tooLong": "<b>❌ too lonk :dd 🥺</b>"
   "misc.spurdo.replyHint": "<b>reply to de meszage you wand to spurdo-fy :DD</b>"
+
+  "misc.listcommands.main":
+  '''
+  <b>Almost every CalsiBot command:</b>
+
+  <b>Comfy Commands:</b>
+  /hug, /cuddle, /snuggle, /ruffle
+  /pat, /poke, /highfive
+
+  <b>Games:</b>
+  /fish, /marry, /divorce
+
+  <b>Game Commands:</b>
+  /slap, /wish, /judge, /coin (/flip)
+  /roll, /dox
+  /kms, /kys, /kos
+
+  <b>Group Admin Commands:</b>
+  /kick, <code>/kickme</code>, /ban, /permaban
+  /mute (/restrict), /unrestrict (/unban), /warn
+  /pin, /unpin, /title, /chatname, /pfp
+  /SetWelcome, /RemoveWelcome
+  /JoinLimit, /JoinLock
+  /JoinVerify, /PreVerify
+
+  <b>Text Modification Commands:</b>
+  /covfefe, /spurdo, /emojify
+
+  <b>Other:</b>
+  /boi, /denko, /huh
+  /name, /me, /edgy
+  <a href="t.me/CalsiBotDev/51">"sed" (text switching/replacement)</a>
+
+  <b>Useful Functions:</b>
+  /stickers, <code>@admin</code>, /language
+  /translate (/tr), /when, /count
+  '''
 
   # ℹ️ Example: It's
   #             Alex Wayne"

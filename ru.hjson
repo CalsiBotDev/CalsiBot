@@ -539,14 +539,6 @@
 
 
   /* ---------------------------------------------------------------------
-                            Brick - Used for /brick
-     --------------------------------------------------------------------- */
-  "brick.wallBuilding": "Строительство стен"
-  "brick.noActivity": "<b>Строительство </b>/brick<b> не происходило здесь в последнее время.</b>"
-  "brick.brickStatsMain": "<b>Brick Статистика для этого чата:</b>"
-
-
-  /* ---------------------------------------------------------------------
                     Permaban - Used for /Permaban, /UnPermaban
      --------------------------------------------------------------------- */
   "permaban.permaban": "Permaban"
@@ -649,8 +641,8 @@
   <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
   <a href="t.me/CalsiBotDev/23">/restrict</a>, <a href="t.me/CalsiBotDev/82">/warn</a>, <a href="t.me/CalsiBotDev/48">/JoinLock</a>, и <a href="t.me/CalsiBotDev/74">/JoinLimit</a>
 
-  <b>Другие часто используемые команды:</b>
-  /translate, /setwelcome, /hug, /when
+  <b>Посмотреть другие команды:</b>
+  /ListCommands
   '''
 
 
@@ -680,6 +672,43 @@
 
   "misc.spurdo.tooLong": "<b>❌ too lonk :dd 🥺</b>"
   "misc.spurdo.replyHint": "<b>reply to de meszage you wand to spurdo-fy :DD</b>"
+
+  "misc.listcommands.main":
+  '''
+  <b>Почти каждая команда xkBot:</b>
+
+  <b>Комфортные команды:</b>
+  /hug, /cuddle, /snuggle, /ruffle
+  /pat, /poke, /highfive
+
+  <b>Игры:</b>
+  /fish, /marry, /divorce
+
+  <b>Команды игры:</b>
+  /slap, /wish, /judge, /coin (/flip)
+  /roll, /dox
+  /kms, /kys, /kos
+
+  <b>Команды администратора группы:</b>
+  /kick, <code>/kickme</code>, /ban, /permaban
+  /mute (/restrict), /unrestrict (/unban), /warn
+  /pin, /unpin, /title, /chatname, /pfp
+  /SetWelcome, /RemoveWelcome
+  /JoinLimit, /JoinLock
+  /JoinVerify, /PreVerify
+
+  <b>Команды изменения текста:</b>
+  /covfefe, /spurdo, /emojify
+
+  <b>разное:</b>
+  /boi, /denko, /huh
+  /name, /me, /edgy
+  <a href="t.me/CalsiBotDev/51">"sed" (переключение/замена текста)</a>
+
+  <b>Полезные функции:</b>
+  /stickers, <code>@admin</code>, /language
+  /translate (/tr), /when, /count
+  '''
 
   # ℹ️ Example: It's
   #             Alex Wayne"

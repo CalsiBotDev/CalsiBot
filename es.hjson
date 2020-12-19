@@ -539,14 +539,6 @@
 
 
   /* ---------------------------------------------------------------------
-                            Brick - Used for /brick
-     --------------------------------------------------------------------- */
-  "brick.wallBuilding": "Edificio de la pared"
-  "brick.noActivity": "<b>No ha habido </b>/brick<b> actividad aquí en mucho tiempo..</b>"
-  "brick.brickStatsMain": "<b>Brick Estadísticas para este chat:</b>"
-
-
-  /* ---------------------------------------------------------------------
                     Permaban - Used for /Permaban, /UnPermaban
      --------------------------------------------------------------------- */
   "permaban.permaban": "Permaban"
@@ -649,8 +641,8 @@
   <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
   <a href="t.me/CalsiBotDev/23">/restrict</a>, <a href="t.me/CalsiBotDev/82">/warn</a>, <a href="t.me/CalsiBotDev/48">/JoinLock</a>, y <a href="t.me/CalsiBotDev/74">/JoinLimit</a>
 
-  <b>Otros comandos más utilizados:</b>
-  /translate, /setwelcome, /hug, /when
+  <b>Ver otros comandos:</b>
+  /ListCommands
   '''
 
 
@@ -680,6 +672,43 @@
 
   "misc.spurdo.tooLong": "<b>❌ too lonk :dd 🥺</b>"
   "misc.spurdo.replyHint": "<b>responda a de meszage que desea spurdo-fy :DD</b>"
+
+  "misc.listcommands.main":
+  '''
+  <b>Casi todos los comandos de CalsiBot:</b>
+
+  <b>Comandos cómodos:</b>
+  /hug, /cuddle, /snuggle, /ruffle
+  /pat, /poke, /highfive
+
+  <b>Juegos:</b>
+  /fish, /marry, /divorce
+
+  <b>Comandos del juego:</b>
+  /slap, /wish, /judge, /coin (/flip)
+  /roll, /dox
+  /kms, /kys, /kos
+
+  <b>Comandos de administrador de grupo:</b>
+  /kick, <code>/kickme</code>, /ban, /permaban
+  /mute (/restrict), /unrestrict (/unban), /warn
+  /pin, /unpin, /title, /chatname, /pfp
+  /SetWelcome, /RemoveWelcome
+  /JoinLimit, /JoinLock
+  /JoinVerify, /PreVerify
+
+  <b>Comandos de modificación de texto:</b>
+  /covfefe, /spurdo, /emojify
+
+  <b>Otro:</b>
+  /boi, /denko, /huh
+  /name, /me, /edgy
+  <a href="t.me/CalsiBotDev/51">"sed" (cambio/reemplazo de texto)</a>
+
+  <b>Funciones útiles:</b>
+  /stickers, <code>@admin</code>, /language
+  /translate (/tr), /when, /count
+  '''
 
   # ℹ️ Example: It's
   #             Alex Wayne"
