@@ -675,21 +675,21 @@
 
   "misc.listcommands.main":
   '''
-  <b>Quasi ogni comando CalsiBot:</b>
+  <b>I principali comandi di CalsiBot:</b>
 
-  <b>Comodi comandi:</b>
+  <b>Dai affetto ai tuoi amici 🥺</b>
   /hug, /cuddle, /snuggle, /ruffle
   /pat, /poke, /highfive
 
-  <b>Giochi:</b>
+  <b>Gioca</b>
   /fish, /marry, /divorce
 
-  <b>Comandi di gioco:</b>
+  <b>Divertiti</b>
   /slap, /wish, /judge, /coin (/flip)
   /roll, /dox
   /kms, /kys, /kos
 
-  <b>Comandi di amministrazione del gruppo:</b>
+  <b>Amministra il gruppo</b>
   /kick, <code>/kickme</code>, /ban, /permaban
   /mute (/restrict), /unrestrict (/unban), /warn
   /pin, /unpin, /title, /chatname, /pfp
@@ -697,15 +697,15 @@
   /JoinLimit, /JoinLock
   /JoinVerify, /PreVerify
 
-  <b>Comandi di modifica del testo:</b>
+  <b>Manipola il testo in modo comico</b>
   /covfefe, /spurdo, /emojify
 
-  <b>Altro:</b>
+  <b>Ed altro...</b>
   /boi, /denko, /huh
   /name, /me, /edgy
-  <a href="t.me/CalsiBotDev/51">"sed" (cambio di testo/sostituzione)</a>
+  <a href="t.me/CalsiBotDev/51">"sed" (manipolazione testo/sostituzione)</a>
 
-  <b>Funzioni utili:</b>
+  <b>Altre funzioni utili:</b>
   /stickers, <code>@admin</code>, /language
   /translate (/tr), /when, /count
   '''
