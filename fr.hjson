@@ -539,14 +539,6 @@
 
 
   /* ---------------------------------------------------------------------
-                            Brick - Used for /brick
-     --------------------------------------------------------------------- */
-  "brick.wallBuilding": "Construction de mur"
-  "brick.noActivity": "<b>Aucune activité de </b>/brick<b> n'a eu lieu ici depuis un certain temps.</b>"
-  "brick.brickStatsMain": "<b>Statistiques de briques pour ce chat:</b>"
-
-
-  /* ---------------------------------------------------------------------
                     Permaban - Used for /Permaban, /UnPermaban
      --------------------------------------------------------------------- */
   "permaban.permaban": "Permaban"
@@ -649,8 +641,8 @@
   <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
   <a href="t.me/CalsiBotDev/23">/restrict</a>, <a href="t.me/CalsiBotDev/82">/warn</a>, <a href="t.me/CalsiBotDev/48">/JoinLock</a>, et <a href="t.me/CalsiBotDev/74">/JoinLimit</a>
 
-  <b>Autres commandes les plus utilisées:</b>
-  /translate, /setwelcome, /hug, /when
+  <b>Voir les autres commandes:</b>
+  /ListCommands
   '''
 
 
@@ -680,6 +672,43 @@
 
   "misc.spurdo.tooLong": "<b>❌ tro lon :dd 🥺</b>"
   "misc.spurdo.replyHint": "<b>Répondez au meszage gue vous voulez spurdo-fier :DD</b>"
+
+  "misc.listcommands.main":
+  '''
+  <b>Presque toutes les commandes CalsiBot:</b>
+
+  <b>Commandes sympa:</b>
+  /hug, /cuddle, /snuggle, /ruffle
+  /pat, /poke, /highfive
+
+  <b>Jeux:</b>
+  /fish, /marry, /divorce
+
+  <b>Commandes fun:</b>
+  /slap, /wish, /judge, /coin (/flip)
+  /roll, /dox
+  /kms, /kys, /kos
+
+  <b>Commandes d'administration de groupe:</b>
+  /kick, <code>/kickme</code>, /ban, /permaban
+  /mute (/restrict), /unrestrict (/unban), /warn
+  /pin, /unpin, /title, /chatname, /pfp
+  /SetWelcome, /RemoveWelcome
+  /JoinLimit, /JoinLock
+  /JoinVerify, /PreVerify
+
+  <b>Commandes de transformation de texte:</b>
+  /covfefe, /spurdo, /emojify
+
+  <b>Autre:</b>
+  /boi, /denko, /huh
+  /name, /me, /edgy
+  <a href="t.me/CalsiBotDev/51">"sed" (commutation/remplacement de texte)</a>
+
+  <b>Fonctions utiles:</b>
+  /stickers, <code>@admin</code>, /language
+  /translate (/tr), /when, /count
+  '''
 
   # ℹ️ Example: It's
   #             Alex Wayne"
