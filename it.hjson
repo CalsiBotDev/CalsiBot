@@ -539,14 +539,6 @@
 
 
   /* ---------------------------------------------------------------------
-                            Brick - Used for /brick
-     --------------------------------------------------------------------- */
-  "brick.wallBuilding": "Costruzione del muro"
-  "brick.noActivity": "<b>È da un po' che nessuno da </b>/brick<b>...</b>"
-  "brick.brickStatsMain": "<b>Statistiche costruzione per questa chat:</b>"
-
-
-  /* ---------------------------------------------------------------------
                     Permaban - Used for /Permaban, /UnPermaban
      --------------------------------------------------------------------- */
   "permaban.permaban": "Permaban"
@@ -649,8 +641,8 @@
   <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
   <a href="t.me/CalsiBotDev/23">/restrict</a>, <a href="t.me/CalsiBotDev/82">/warn</a>, <a href="t.me/CalsiBotDev/48">/JoinLock</a>, e <a href="t.me/CalsiBotDev/74">/JoinLimit</a>
 
-  <b>Altri comandi gettonati:</b>
-  /translate, /setwelcome, /hug, /when
+  <b>Vedi altri comandi:</b>
+  /ListCommands
   '''
 
 
@@ -680,6 +672,43 @@
 
   "misc.spurdo.tooLong": "<b>❌ troppo lunghe :dd 🥺</b>"
   "misc.spurdo.replyHint": "<b>rispondi a lo meszagio io co bacheta magica per spurdo-ficare :DD</b>"
+
+  "misc.listcommands.main":
+  '''
+  <b>I principali comandi di CalsiBot:</b>
+
+  <b>Dai affetto ai tuoi amici 🥺</b>
+  /hug, /cuddle, /snuggle, /ruffle
+  /pat, /poke, /highfive
+
+  <b>Gioca:</b>
+  /fish, /marry, /divorce
+
+  <b>Divertiti:</b>
+  /slap, /wish, /judge, /coin (/flip)
+  /roll, /dox
+  /kms, /kys, /kos
+
+  <b>Amministra il gruppo:</b>
+  /kick, <code>/kickme</code>, /ban, /permaban
+  /mute (/restrict), /unrestrict (/unban), /warn
+  /pin, /unpin, /title, /chatname, /pfp
+  /SetWelcome, /RemoveWelcome
+  /JoinLimit, /JoinLock
+  /JoinVerify, /PreVerify
+
+  <b>Manipola il testo in modo comico:</b>
+  /covfefe, /spurdo, /emojify
+
+  <b>Ed altro...</b>
+  /boi, /denko, /huh
+  /name, /me, /edgy
+  <a href="t.me/CalsiBotDev/51">"sed" (manipolazione testo/sostituzione)</a>
+
+  <b>Altre funzioni utili:</b>
+  /stickers, <code>@admin</code>, /language
+  /translate (/tr), /when, /count
+  '''
 
   # ℹ️ Example: It's
   #             Alex Wayne"
