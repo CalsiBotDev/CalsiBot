@@ -681,15 +681,15 @@
   /hug, /cuddle, /snuggle, /ruffle
   /pat, /poke, /highfive
 
-  <b>Gioca</b>
+  <b>Gioca:</b>
   /fish, /marry, /divorce
 
-  <b>Divertiti</b>
+  <b>Divertiti:</b>
   /slap, /wish, /judge, /coin (/flip)
   /roll, /dox
   /kms, /kys, /kos
 
-  <b>Amministra il gruppo</b>
+  <b>Amministra il gruppo:</b>
   /kick, <code>/kickme</code>, /ban, /permaban
   /mute (/restrict), /unrestrict (/unban), /warn
   /pin, /unpin, /title, /chatname, /pfp
@@ -697,7 +697,7 @@
   /JoinLimit, /JoinLock
   /JoinVerify, /PreVerify
 
-  <b>Manipola il testo in modo comico</b>
+  <b>Manipola il testo in modo comico:</b>
   /covfefe, /spurdo, /emojify
 
   <b>Ed altro...</b>
