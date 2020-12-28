@@ -428,6 +428,12 @@
 
   # ⚠️ IMPORTANT
   "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Tap The Matching Emoji Below:</b>"
+  "joinverify.imageText": {
+    "successTop": "Confirmed"
+    "successBottom": "Human"
+    "errorTop": "Something Went"
+    "errorBottom": "Wrong"
+  }
 
   # ⚠️ IMPORTANT
   "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>Join Verify is enabled but </b>%s<b> was added by </b>%s<b>, so they don't need to verify themselves.</b>"

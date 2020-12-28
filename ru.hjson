@@ -428,6 +428,12 @@
 
   # ⚠️ IMPORTANT
   "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Нажмите на соответствующий эмодзи ниже:</b>"
+  "joinverify.imageText": {
+    "successTop": "Подтвержденный"
+    "successBottom": "Человек"
+    "errorTop": "Что-то пошло"
+    "errorBottom": "не так"
+  }
 
   # ⚠️ IMPORTANT
   "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>Подтверждение входа включено, но </b>%s<b> был добавлен </b>%s<b>, поэтому ему не нужно подтверждать себя.</b>"
