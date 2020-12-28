@@ -31,8 +31,8 @@ You can see the list of languages [CalsiBot](https://t.me/CalsiBot) currently su
 
 If you think that there is a legitimate need for another language and you are able to contribute and aid in perfecting the translation for it (not easy!) then please [make a Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request) with all the details.
 
-## What's HJSON? (*awesome, mainly.*)
-You may be wondering why all the language files end with `.hjson`, well HJSON is basically human-readable JSON. If that's something that sounds interesting to you, you can find out more on [their official site](https://hjson.org/)
+## What's HJSON?
+You may be wondering why all the language files end with `.hjson`, well HJSON is basically human-readable JSON. If that's something that sounds interesting to you, you can find out more on [their official site](https://hjson.org/).
 
 This way, the translation files can easily be converted to JSON for bot-consumption, while the original HJSON version allows us to add comments and spacing - making the experience of the translators a bit nicer.
 
