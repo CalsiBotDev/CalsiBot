@@ -144,7 +144,7 @@
     "seven": "7"
     "eight": "8"
     "nine": "9"
-    "ten": 10"
+    "ten": "10"
   }
 
   "generic.timePlural": {
@@ -464,8 +464,14 @@
     "oneSuccess": "✅ <b>Okay, posted successfully!</b>\n\nSee https://t.me/%s/%s for the post!\n\n<b>To fully protect your group, you must revoke all previous Invite Links. You can do this by:</b>\n1. Revoking your personal Invite Link\n2. Demoting and then re-promoting all of your admins (except for CalsiBot). This will revoke any Invite Links they have shared."
   }
 
+  "joinverify.preverify.imageText": {
+    "title": "To join the group:"
+    "stepOne": "Tap <span>Verify,</span> then <span>Start</span>"
+    "stepTwo": "<span>Pass</span> the test"
+    "stepThree": "<span>Join</span> the group!"
+  }
+
   "joinverify.preverify.main": "<b>%s%s is <a href=\"t.me/CalsiBotDev/111\">protected by</a> PreVerify.</b>"
-  "joinverify.preverify.main.imageText": "To join the group:\n1. Tap Verify, then Start\n2. Pass the Test\n3. Join the Group!"
   "joinverify.preverify.verificationMessage": "<b>This message is to verify ownership of this channel for CalsiBot's PreVerify feature.</b>\n\n%s"
   "joinverify.preverify.setUpCancelled": "<b>PreVerify set up cancelled.</b>"
 
