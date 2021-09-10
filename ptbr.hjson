@@ -30,16 +30,16 @@
     "featureEnabledAnswerText": "%s enabled"
     "featureAlreadyEnabled": "%s<b> is already enabled</b>"
     "featureAlreadyEnabledAnswerText": "%s Already enabled"
-    "featureDisabledBy": "%s<b> disabled by </b>%s"
+    "featureDisabledBy": "%s<b> desabilitado por </b>%s"
     "featureDisabledAnswerText": "%s disabled"
-    "featureAlreadyDisabled": "%s<b> is already disabled</b>"
-    "featureAlreadyDisabledAnswerText": "%s Already disabled"
+    "featureAlreadyDisabled": "%s<b> já está desabilitado</b>"
+    "featureAlreadyDisabledAnswerText": "%s Já desabilitado"
 
     "joinLimitRestrictionsReset": "<a href=\"tg://user?id=%s\">This user</a><b> had their </b><code>/JoinLimit</code><b> restrictions reset by </b>%s"
     "joinLimitRestrictionsResetAnswerText": "Restrictions Reset!"
 
     "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">This user</a><b> has been granted a one-time join exception by </b>%s\n\n<b>The next time the user joins, I will not remove them.</b>"
-    "joinLockExceptionAddedAnswerText": "Exception Added"
+    "joinLockExceptionAddedAnswerText": "Exceção Adicionada"
 
     "chatNameRemoved": "<b>Chat Name Removed by </b>%s"
     "chatNameRemovedAnswerText": "Chat Name Removed"
@@ -57,20 +57,20 @@
   }
 
   "generic.buttons": {
-    "whatIsThis": "❓ What Is This?"
-    "whatIsThisShort": "❓ What?"
-    "imSorry": "😭 I'm Sorry!"
+    "whatIsThis": "❓ O Quê é Isto?"
+    "whatIsThisShort": "❓ O Quê?"
+    "imSorry": "😭 Me Desculpe!"
 
     "joinChannel": "👋 Join Channel"
-    "addToGroup": "🔱 Add To Group"
+    "addToGroup": "🔱 Adicionar A Grupo"
     "tapToVerify": "🤖 Tap to Verify 🤖"
 
-    "banUser": "Ban User"
-    "banBot": "Ban Bot"
-    "allowUser": "Allow User"
-    "trustUser": "Trust User"
-    "trustBot": "Trust Bot"
-    "unbanUser": "Unban User"
+    "banUser": "Banir Usuário"
+    "banBot": "Banir Bot"
+    "allowUser": "Permitir Usuário"
+    "trustUser": "Confiar em Usuário"
+    "trustBot": "Confiar em Bot"
+    "unbanUser": "Desbanir Usuário"
 
     "settings": "⚙️ Configurações"
 
@@ -88,7 +88,7 @@
     "remove": "❌ Remover"
     "removeAllWarns": "❌ Remove All Warns"
     "history": "📚 Histórico"
-    "setMax": "🔢 Set Max"
+    "setMax": "🔢 Definir Máximo"
     "back": "⬅️ Back"
 
     "messages": "Mensagens"
@@ -99,7 +99,7 @@
     "cancel": "❌ Cancelar"
 
     "seeExample": "👀 Ver Exemplo"
-    "seeGroupInfo": "See Group Info"
+    "seeGroupInfo": "Ver Informações do Grupo"
 
     "marryAccept": "🥰 Aceitar"
     "marryReject": "😒 Rejeitar"
@@ -208,23 +208,23 @@
     "doEverything": "do everything, including adding new admins"
   }
 
-  "generic.loaded": "Loaded"
-  "generic.loadingEllipsis": "Loading..."
-  "generic.disabled": "Disabled"
-  "generic.enabled": "Enabled"
-  "generic.cancelled": "Cancelled"
-  "generic.currently": "Currently"
+  "generic.loaded": "Carregado"
+  "generic.loadingEllipsis": "Carregando..."
+  "generic.disabled": "Desabilitado"
+  "generic.enabled": "Habilitado"
+  "generic.cancelled": "Cancelado"
+  "generic.currently": "Atualmente"
   "generic.gaming": "Gaming"
-  "generic.nobody": "Nobody"
-  "generic.none": "None"
-  "generic.note": "Note"
-  "generic.reasonColon": "Reason:"
-  "generic.deleteQuestion": "Delete?"
-  "generic.banQuestion": "Ban?"
-  "generic.and": " and "
+  "generic.nobody": "Ninguém"
+  "generic.none": "Nenhum"
+  "generic.note": "Nota"
+  "generic.reasonColon": "Razão:"
+  "generic.deleteQuestion": "Deletar?"
+  "generic.banQuestion": "Banir?"
+  "generic.and": " e "
 
   # ℹ️ Example: Exception was added by an admin.
-  "generic.anAdmin": "an admin"
+  "generic.anAdmin": "um admin"
 
   # ℹ️ Example: Fishing is always allowed in private :)
   "generic.featureAlwaysAllowedInPrivate": "%s is always allowed in private :)"
@@ -347,8 +347,8 @@
   <b>🎣 </b><a href="tg://user?id=%s">%s</a><b> – Fish:</b>
 
   🐡 - Blowfish: <b>%s</b>
-  🐟 - Normal Fish: <b>%s</b>
-  🐠 - Tropical Fish: <b>%s</b>
+  🐟 - Peixe Normal: <b>%s</b>
+  🐠 - Peixe Tropical: <b>%s</b>
   🦀 - Caranguejo: <b>%s</b>
   🦑 - Squid: <b>%s</b>
   🐬 - Golfinho: <b>%s</b>
@@ -356,13 +356,13 @@
   🐊 - Crocodilos: <b>%s</b>
   🐳 - Baleias: <b>%s</b>
 
-  🐠🦑🐊 - All Fish: <b>%s</b>
+  🐠🦑🐊 - Todos Os Peixes: <b>%s</b>
 
   /TrophyFish ||| /Fish
   '''
 
   "trophy.types": {
-    "firstfish": "\n%s<%s> - First Fish!</%s>"
+    "firstfish": "\n%s<%s> - Primeiro Peixe!</%s>"
     "1000fish": "\n%s<%s> - One Thousand Fish</%s>"
     "5000fish": "\n%s<%s> - Five Thousand Fish</%s>"
     "10000fish": "\n%s<%s> - Ten Thousand Fish</%s>"
@@ -424,16 +424,16 @@
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
     #          and NOT contain any formatting or assume the value of any dynamic values.
     "timeLimitChangedSignature": "Join Verify Time Limit changed from "
-    "timeLimitChangedAnswerText": "New Settings Saved"
+    "timeLimitChangedAnswerText": "Novas Configurações Salvas"
   }
 
   # ⚠️ IMPORTANT
   "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Tap The Matching Emoji Below:</b>"
   "joinverify.imageText": {
-    "successTop": "Confirmed"
-    "successBottom": "Human"
+    "successTop": "Confirmado"
+    "successBottom": "Humano"
     "errorTop": "Something Went"
-    "errorBottom": "Wrong"
+    "errorBottom": "Errado"
   }
 
   # ⚠️ IMPORTANT
@@ -500,14 +500,14 @@
   }
 
   "marry.result.childPlural": {
-    "zero": "children"
-    "one": "child"
-    "other": "children"
+    "zero": "filhos"
+    "one": "filho"
+    "other": "filhos"
   }
   "marry.result.housePlural": {
-    "zero": "houses"
-    "one": "house"
-    "other": "houses"
+    "zero": "casas"
+    "one": "casa"
+    "other": "casas"
   }
 
   "marry.result.bothGainedHappiness": "🙂 Both gained <b>%s happiness</b> each."
@@ -574,7 +574,7 @@
   /* ---------------------------------------------------------------------
               Restrict - Used for /restrict, /unrestrict, /unban
      --------------------------------------------------------------------- */
-  "restrict.restricted": "restricted"
+  "restrict.restricted": "restrito"
 
   "restrict.callbacks": {
     "restrictionsReset": "<b>Restrictions were reset by </b>%s"
@@ -607,7 +607,7 @@
   /* ---------------------------------------------------------------------
                   Warn - Used for /warn, /Warns, /MyWarns
      --------------------------------------------------------------------- */
-  "warn.warned": "warned"
+  "warn.warned": "avisado"
   "warn.checkWarnsOf": "check the warns of"
 
   "warn.callbacks": {
@@ -751,7 +751,7 @@
   "misc.adminmode.help": "<b>Admin Mode allows you to disable all CalsiBot commands that are not related to Group Administration</b>"
   "misc.adminmode.sorry": "<b>Sorry, Admin Mode is Enabled so you can't use this command here...</b>\n\n%s"
 
-  "misc.sedreplace.main": "Did you mean:"
+  "misc.sedreplace.main": "Você quis dizer:"
 
   "misc.pfp.help": "<b>Reply to a compressed image (not sent as a file) which you want to set as the group profile picture</b>"
 
@@ -778,8 +778,8 @@
                         Language - Used for /language
      --------------------------------------------------------------------- */
   # ℹ️ NOTE: This should be the native name of the language.
-  "language.name": "English"
-  "language.main": "<b>Your language is currently set to:</b>\n<code>%s</code>"
+  "language.name": "Português"
+  "language.main": "<b>Seu idioma está atualmente definido como:</b>\n<code>%s</code>"
   "language.credit": "<b>This translation is made possible by the </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">hard work</a><b> of the following people:</b>\n"
   # ℹ️ NOTE: The contributors string should NOT be changed by anyone other than me, or those who are already listed
   #          as contributors.
@@ -792,17 +792,17 @@
   "language.credit.activeContributors": "<a href=\"t.me/cancer\">Calsï</a>"
 
   "language.callbacks": {
-    "chooseYourLanguage": "<b>Choose your language:</b>"
-    "changedBy": "<b>Language changed from </b><code>%s</code><b> to </b><code>%s</code><b> by </b>%s"
-    "changedByAnswerText": "Language Changed"
-    "languageAlreadySetAnswerText": "%s is the already set as the group language"
+    "chooseYourLanguage": "<b>Escolha seu idioma:</b>"
+    "changedBy": "<b>Idioma alterado do </b><code>%s</code><b> para o </b><code>%s</code><b> por </b>%s"
+    "changedByAnswerText": "Idioma alterado"
+    "languageAlreadySetAnswerText": "%s já está definido como o idioma do grupo"
   }
 
 
   /* ---------------------------------------------------------------------
                         Emojify - Used for /emojify
      --------------------------------------------------------------------- */
-  "emojify.error.tooLong": "<b>❌ Too long. 🍆😐</b>"
+  "emojify.error.tooLong": "<b>❌ Muito longo. 🍆😐</b>"
   "emojify.error.replyToHuman": "<b>Nah 🚫 fam 😂\n\nReply 💬 to a human 👤</b>"
   "emojify.replyHint": "🙈 <b>Reply 💬 to the 👏 text 📲 you 👈 want 👏 to emojify!</b>"
 
@@ -810,7 +810,7 @@
   /* ---------------------------------------------------------------------
                     Translate - Used for /tr, /translate
      --------------------------------------------------------------------- */
-  "translate.error.notALanguage": "<b>Sorry, '%s' is not a language, or isn't supported</b>"
+  "translate.error.notALanguage": "<b>Desculpe, '%s' não é um idioma, ou não possui suporte</b>"
   "translate.replyHint": "<b>Reply to the text you want to translate!</b>"
 
 
@@ -838,23 +838,23 @@
   '''
   <b>Dox of </b>%s<b>:</b>
 
-  <pre>Gender: %s
-  Date of Birth: %s
-  Address: %s, %s
-  Job: %s
+  <pre>Gênero: %s
+  Data de nascimento: %s
+  Endereço: %s, %s
+  Emprego: %s
 
-  Current IP: %s
+  IP Atual: %s
   SSN: %s
-  Phone Number: %s</pre>
+  Número de Telefone: %s</pre>
   '''
 
   "dox.gendersArray": [
-    "boy"
-    "girl"
+    "garoto"
+    "garota"
     "e-boy"
     "e-girl"
-    "thot"
-    "whore"
+    "puta"
+    "vadia"
     "fuckboy"
     "idk 😳"
   ]
