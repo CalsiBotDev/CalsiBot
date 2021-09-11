@@ -488,15 +488,15 @@
   /* ---------------------------------------------------------------------
                     Marry - Used for /Marry, /Divorce, etc.
      --------------------------------------------------------------------- */
-  "marry.marriage": "Marriage"
+  "marry.marriage": "Casamento"
   "marry.callbacks": {
-    "waitForDecisionAnswerText": "😶 You need to wait for %s to choose an option..."
-    "userNotInvolvedAnswerText": "🙄 Stop interfering with other people's relationships, %s."
+    "waitForDecisionAnswerText": "😶 Você tem que esperar por %s para escolher uma opão..."
+    "userNotInvolvedAnswerText": "🙄 Pare de interferir nos relacionamentos de outras pessoas, %s."
 
-    "proposalAccepted": "💝 %s<b> and </b>%s<b> have married each other! 🎉</b><i>\n(happened %s %s so far)</i>\n\n%s\n\n<code>See your </code>/MarryStats"
-    "proposalAcceptedAnswerText": "💝 Congratulations! 🎉"
-    "proposalRejected": "🤕 %s<b> was rejected by </b>%s<i>\n(happened %s %s so far)</i>\n\n%s\n\n<code>See your </code>/MarryStats"
-    "proposalRejectedAnswerText": "🤕 Ouch."
+    "proposalAccepted": "💝 %s<b> e </b>%s<b> casaram entre si! 🎉</b><i>\n(aconteceu %s %s tão rápido)</i>\n\n%s\n\n<code>Veja seu </code>/MarryStats"
+    "proposalAcceptedAnswerText": "💝 Parabéns! 🎉"
+    "proposalRejected": "🤕 %s<b> foi rejeitado por </b>%s<i>\n(aconteceu %s %s tão rápido)</i>\n\n%s\n\n<code>Veja seu </code>/MarryStats"
+    "proposalRejectedAnswerText": "🤕 Ai."
   }
 
   "marry.result.childPlural": {
