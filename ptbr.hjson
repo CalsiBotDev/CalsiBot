@@ -26,7 +26,7 @@
     "userUnbannedAnswerText": "Usuário Desbanido"
 
     # ℹ️ Example: /JoinVerify enabled by Andy
-    "featureEnabledBy": "%s<b> enabled by </b>%s"
+    "featureEnabledBy": "%s<b> habilitado por </b>%s"
     "featureEnabledAnswerText": "%s enabled"
     "featureAlreadyEnabled": "%s<b> is already enabled</b>"
     "featureAlreadyEnabledAnswerText": "%s Already enabled"
