@@ -86,10 +86,10 @@
     "unPermabanUser": "🤝 Desbanir permanentemente usuário"
 
     "remove": "❌ Remover"
-    "removeAllWarns": "❌ Remove All Warns"
+    "removeAllWarns": "❌ Remover todos os avisos"
     "history": "📚 Histórico"
     "setMax": "🔢 Definir Máximo"
-    "back": "⬅️ Back"
+    "back": "⬅️ Voltar"
 
     "messages": "Mensagens"
     "media": "Media"
@@ -104,8 +104,8 @@
     "marryAccept": "🥰 Aceitar"
     "marryReject": "😒 Rejeitar"
 
-    "continueFishing": "🎣 Continar Pescando"
-    "continueBuilding": "⚒ Continar Construindo"
+    "continueFishing": "🎣 Continuar Pescando"
+    "continueBuilding": "⚒ Continuar Construindo"
 
     "chooseAction": "🎭 Escolher Ação"
     "ignore": "🙈 Ignorar"
@@ -162,7 +162,7 @@
 
   "generic.dayPlural": {
     "zero": "dias"
-    "one": "diay"
+    "one": "dia"
     "other": "dias"
   }
 
@@ -184,10 +184,10 @@
     "other": "segundos"
   }
 
-  "generic.onlyInSupergroups": "<b>Sorry, this command can only be used in Supergroups</b>"
-  "generic.somethingWentWrongTryAgainLater": "<b>Something went wrong, please try again later...</b>"
-  "generic.rateLimit": "😡 <b>Now ignoring new messages from </b>%s<b> for sending more than 3 command messages in less than 1 second. Please stop.</b>\n\n<i>Expires in a few minutes</i>"
-  "generic.willNotSeeAgainForAWhile": "<i>You will not see this message again for a while.</i>"
+  "generic.onlyInSupergroups": "<b>Desculpe, este comando só pode ser usado em Supergrupos</b>"
+  "generic.somethingWentWrongTryAgainLater": "<b>Algo deu errado, tente novamente mais tarde...</b>"
+  "generic.rateLimit": "😡 <b>Agora, ignorando novas mensagens de </b>%s<b> por enviar mais de 3 mensagens de comando em menos de 1 segundo. Por favor, pare.</b>\n\n<i>Expira em alguns minutos</i>"
+  "generic.willNotSeeAgainForAWhile": "<i>Você não verá esta mensagem novamente por um tempo.</i>"
 
   # ℹ️ Example: Reply to the person you want to /slap
   "generic.replyToThePersonYouWantTo": "<b>Reply to the person you want to</b> %s"
