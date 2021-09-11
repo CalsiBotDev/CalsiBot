@@ -74,7 +74,7 @@
 
     "settings": "⚙️ Configurações"
 
-    "resetRestrictions": "🤝 Reset Restrictions"
+    "resetRestrictions": "🤝 Redefinir Restrições"
     "yes": "✅ Sim"
     "no": "❌ Não"
     "enable": "✅ Habilitar"
@@ -112,9 +112,9 @@
 
     "changeLanguage": "🌐 Mudar Idioma"
 
-    "createPack": "📸 Create Pack"
-    "removePack": "💀 Remove Pack"
-    "viewPack": "🌆 View Pack"
+    "createPack": "📸 Criar Pacote"
+    "removePack": "💀 Remover Pacote"
+    "viewPack": "🌆 Ver Pacote"
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
@@ -200,12 +200,12 @@
   "generic.CalsiBotNotUsedAnymoreAnswerText": "Sorry, CalsiBot is either not used in the group anymore, or does not have enough permissions."
 
   "generic.permissionTypes": {
-    "changeGroupInfo": "change group info"
-    "banUsers": "ban users"
-    "deleteMessages": "delete messages"
-    "inviteUsers": "invite users"
+    "changeGroupInfo": "muda informações do grupo"
+    "banUsers": "bane usuários"
+    "deleteMessages": "excluir mensagens"
+    "inviteUsers": "convidar usuários"
     "pinMessages": "pin messages"
-    "doEverything": "do everything, including adding new admins"
+    "doEverything": "faz tudo, inclusive adicionar novos administradoresincluding adding new admins"
   }
 
   "generic.loaded": "Carregado"
@@ -302,7 +302,7 @@
   /* ---------------------------------------------------------------------
                       Death - Used for /kys, /kms & /kos
      --------------------------------------------------------------------- */
-  "death.CalsiBot": "<i>I can't be killed </i><b>;)</b>"
+  "death.CalsiBot": "<i>Eu não posso ser morto </i><b>;)</b>"
 
   # ℹ️ Example: Josie stabbed Kevin before they starved to death
   "death.kos": "%s<b> stabbed </b>%s<b> before they %s</b>"
@@ -311,11 +311,11 @@
   /* ---------------------------------------------------------------------
                         Ban - Used for /ban, /kick, etc.
      --------------------------------------------------------------------- */
-  "ban.kick.main": "%s<i> was kicked.</i>"
-  "ban.kickme.main": "%s<i> removed.</i>"
-  "ban.ban.main": "%s<i> was banned.</i>"
-  "ban.deport.main": "%s<i> was deported.</i>"
-  "ban.realdeport.main": "%s<i> was deported, permanently.</i>"
+  "ban.kick.main": "%s<i> foi kickado.</i>"
+  "ban.kickme.main": "%s<i> removido.</i>"
+  "ban.ban.main": "%s<i> foi banido.</i>"
+  "ban.deport.main": "%s<i> foi deportado.</i>"
+  "ban.realdeport.main": "%s<i> foi deportado, permanentemente.</i>"
 
 
   /* ---------------------------------------------------------------------
@@ -339,14 +339,14 @@
     "whale": "<b>THE OCEAN SEEMS TO SINK DOWN...\n\nWith all of your strength, you reel in your catch!</b>\nYou caught a Whale: 🐳"
   }
 
-  "fish.viewYourFish": "\n\n<b>View your fish:</b> /MyFish"
-  "fish.newTrophyFish": "\n\n<b>🎉 You just earned a new</b>\n/TrophyFish!"
+  "fish.viewYourFish": "\n\n<b>Ver seus peixes:</b> /MyFish"
+  "fish.newTrophyFish": "\n\n<b>🎉 Você acaba de ganhar um novo</b>\n/TrophyFish!"
 
   "fish.myFish":
   '''
   <b>🎣 </b><a href="tg://user?id=%s">%s</a><b> – Fish:</b>
 
-  🐡 - Blowfish: <b>%s</b>
+  🐡 - Baiacu: <b>%s</b>
   🐟 - Peixe Normal: <b>%s</b>
   🐠 - Peixe Tropical: <b>%s</b>
   🦀 - Caranguejo: <b>%s</b>
@@ -432,7 +432,7 @@
   "joinverify.imageText": {
     "successTop": "Confirmado"
     "successBottom": "Humano"
-    "errorTop": "Something Went"
+    "errorTop": "Algo deu errado"
     "errorBottom": "Errado"
   }
 
