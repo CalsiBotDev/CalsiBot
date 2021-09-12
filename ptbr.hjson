@@ -190,22 +190,22 @@
   "generic.willNotSeeAgainForAWhile": "<i>Você não verá esta mensagem novamente por um tempo.</i>"
 
   # ℹ️ Example: Reply to the person you want to /slap
-  "generic.replyToThePersonYouWantTo": "<b>Reply to the person you want to</b> %s"
-  "generic.needToReply": "<b>You need to reply to someone.</b>"
+  "generic.replyToThePersonYouWantTo": "<b>Responda para a pessoa que você quer</b> %s"
+  "generic.needToReply": "<b>Você precisa responder a alguém.</b>"
 
-  "generic.needToBeAdmin": "<b>❌ Not allowed. You need to:</b>\n\n1️⃣ Be an admin\n2️⃣ Have permission to %s"
-  "generic.needToBeAdminAnswerText": "❌ Not allowed. You need to:\n\n1️⃣ Be an admin\n2️⃣ Have permission to %s"
-  "generic.CalsiBotNeedsToBeAdmin": "<b>❌ For this to work, %s has to:</b>\n\n1️⃣ Be an admin\n2️⃣ Have permission to %s"
-  "generic.CalsiBotNotUsedAnymore": "<b>Sorry, CalsiBot is either not used in the group anymore, or does not have enough permissions.</b>"
-  "generic.CalsiBotNotUsedAnymoreAnswerText": "Sorry, CalsiBot is either not used in the group anymore, or does not have enough permissions."
+  "generic.needToBeAdmin": "<b>❌ Permissão negada. Você precisa:</b>\n\n1️⃣ Ser um administrador\n2️⃣ Ter permissão para %s"
+  "generic.needToBeAdminAnswerText": "❌ Permissão negada. Você precisa:\n\n1️⃣ Ser um administrador\n2️⃣ Ter permissão para %s"
+  "generic.CalsiBotNeedsToBeAdmin": "<b>❌ Para que isso funcione, %s tem que:</b>\n\n1️⃣ Ser um administrador\n2️⃣ Ter permissão para %s"
+  "generic.CalsiBotNotUsedAnymore": "<b>Desculpe, CalsiBot não é mais usado no grupo ou não tem permissões suficientes.</b>"
+  "generic.CalsiBotNotUsedAnymoreAnswerText": "Desculpe, CalsiBot não é mais usado no grupo ou não tem permissões suficientes."
 
   "generic.permissionTypes": {
-    "changeGroupInfo": "muda informações do grupo"
-    "banUsers": "bane usuários"
+    "changeGroupInfo": "mudar informações do grupo"
+    "banUsers": "banir usuários"
     "deleteMessages": "excluir mensagens"
     "inviteUsers": "convidar usuários"
-    "pinMessages": "pin messages"
-    "doEverything": "faz tudo, inclusive adicionar novos administradoresincluding adding new admins"
+    "pinMessages": "fixar mensagens"
+    "doEverything": "faz tudo, inclusive adicionar novos administradores"
   }
 
   "generic.loaded": "Carregado"
@@ -214,7 +214,7 @@
   "generic.enabled": "Habilitado"
   "generic.cancelled": "Cancelado"
   "generic.currently": "Atualmente"
-  "generic.gaming": "Gaming"
+  "generic.gaming": "Jogando"
   "generic.nobody": "Ninguém"
   "generic.none": "Nenhum"
   "generic.note": "Nota"
@@ -227,13 +227,13 @@
   "generic.anAdmin": "um admin"
 
   # ℹ️ Example: Fishing is always allowed in private :)
-  "generic.featureAlwaysAllowedInPrivate": "%s is always allowed in private :)"
+  "generic.featureAlwaysAllowedInPrivate": "%s é sempre permitido em privado :)"
 
   # ℹ️ Example: Wall Building has now been enabled in this group.
-  "generic.featureEnabled": "<b>%s has now been enabled in this group.</b>"
-  "generic.featureAlreadyEnabled": "<b>%s is already enabled in this group.</b>"
-  "generic.featureDisabled": "<b>%s is now disabled in this group.</b>"
-  "generic.featureAlreadyDisabled": "<b>%s is already disabled in this group.</b>"
+  "generic.featureEnabled": "<b>%s agora foi habilitado neste grupo.</b>"
+  "generic.featureAlreadyEnabled": "<b>%s já está habilitado neste grupo.</b>"
+  "generic.featureDisabled": "<b>%s agora está desabilitado neste grupo.</b>"
+  "generic.featureAlreadyDisabled": "<b>%s já está desabilitado neste grupo.</b>"
 
   "generic.featureDisabledByDefault": "<b>By default, %s is disabled in group chats.</b>\n\nAn admin can %s."
   # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableGames, or you can fish in private, by tapping the button below:
