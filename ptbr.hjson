@@ -41,10 +41,10 @@
     "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">This user</a><b> has been granted a one-time join exception by </b>%s\n\n<b>The next time the user joins, I will not remove them.</b>"
     "joinLockExceptionAddedAnswerText": "Exceção Adicionada"
 
-    "chatNameRemoved": "<b>Chat Name Removed by </b>%s"
-    "chatNameRemovedAnswerText": "Chat Name Removed"
-    "chatNameNotSet": "<b>Chat Name was not set, so nothing to remove.</b>"
-    "chatNameNotSetAnswerText": "Chat Name Not Set"
+    "chatNameRemoved": "<b>Nome do Chat Removido por </b>%s"
+    "chatNameRemovedAnswerText": "Nome do Chat Removido"
+    "chatNameNotSet": "<b>Nome do Chat não foi definido, então não há mada.</b>"
+    "chatNameNotSetAnswerText": "Nome do Chat não foi definido"
 
     "cantUseFeatureOnAdminsAnswerText": "Can't %s admins"
 
