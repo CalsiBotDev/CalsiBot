@@ -235,22 +235,22 @@
   "generic.featureDisabled": "<b>%s agora está desabilitado neste grupo.</b>"
   "generic.featureAlreadyDisabled": "<b>%s já está desabilitado neste grupo.</b>"
 
-  "generic.featureDisabledByDefault": "<b>By default, %s is disabled in group chats.</b>\n\nAn admin can %s."
+  "generic.featureDisabledByDefault": "<b>Por padrão, %s é desabilitado em chats de grupo.</b>\n\nUm administrador pode %s."
   # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableGames, or you can fish in private, by tapping the button below:
-  "generic.featureDisabledByDefaultWithPrivate": "<b>By default, %s is disabled in group chats.</b>\n\nAn admin can %s, or you can %s in private, by tapping the button below:"
+"generic.featureDisabledByDefaultWithPrivate": "<b>Por padrão, %s é desabilitado em chats de grupo.</b>\n\nUm administrador pode %s, Ou você ṕde %s em privado, pressionando o botão abaixo:"
 
   # ℹ️ Example: You can use /DisableBrick to change that.
-  "generic.toggleFeatureHint": "<b>You can use </b>%s<b> to change that.</b>"
+  "generic.toggleFeatureHint": "<b>Você pode usar </b>%s<b> para mudar isso.</b>"
 
   # ℹ️ Example: You can't Warn admins
-  "generic.cantUseFeatureOnAdmins": "<b>You can't </b><code>%s</code><b> admins... Unfortunately.</b>"
-  "generic.cantUseFeatureOnAdminsWithReason": "<b>You can't </b><code>%s</code><b> admins because %s</b>"
+  "generic.cantUseFeatureOnAdmins": "<b>Você não pode </b><code>%s</code><b> administradoress... Infelizmente.</b>"
+  "generic.cantUseFeatureOnAdminsWithReason": "<b>Você não pode </b><code>%s</code><b> administradores porque %s</b>"
   # ℹ️ Example: because they can't be warned in the first place.
-  "generic.theyCantBeInTheFirstPlace": "because they can't be %s in the first place."
+  "generic.theyCantBeInTheFirstPlace": "porque eles não podem estar %s em primeiro lugar."
 
-  "generic.tapNextToContinue": "\n\n<b>Tap </b>/next<b> to Continue...</b>"
-  "generic.tapNextToRetry": "\n\n<b>Tap </b>/next<b> to Retry...</b>"
-  "generic.tapCancelToQuit": "\n\n<b>Tap </b>/cancel<b> to Quit %s</b>"
+  "generic.tapNextToContinue": "\n\n<b>Pressione </b>/next<b> para Continuar...</b>"
+  "generic.tapNextToRetry": "\n\n<b>Pressione </b>/next<b> para Tentar Novamente...</b>"
+  "generic.tapCancelToQuit": "\n\n<b>Pressione </b>/cancel<b> para Sair %s</b>"
 
 
   /* ---------------------------------------------------------------------
