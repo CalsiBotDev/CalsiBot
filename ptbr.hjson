@@ -305,7 +305,7 @@
   "death.CalsiBot": "<i>Eu não posso ser morto </i><b>;)</b>"
 
   # ℹ️ Example: Josie stabbed Kevin before they starved to death
-  "death.kos": "%s<b> stabbed </b>%s<b> before they %s</b>"
+  "death.kos": "%s<b> esfaqueado </b>%s<b> antes deles %s</b>"
 
 
   /* ---------------------------------------------------------------------
