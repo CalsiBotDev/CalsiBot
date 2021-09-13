@@ -408,22 +408,22 @@
      --------------------------------------------------------------------- */
   # ⚠️ IMPORTANT
   "joinverify.callbacks": {
-    "correctAnswerText": "Correct! %s more to go..."
-    "incorrectAnswerText": "Wrong. 3 more to go..."
-    "success": "<b>Success!\n\nGood work human, you can now chat in: </b><code>%s</code>"
-    "successAnswerText": "Success! You can chat in %s now..."
-    "manuallyTrusted": "%s<b> has manually trusted </b>%s<b>.</b>"
-    "manuallyTrustedAnswerText": "User Trusted"
-    "expired": "<b>This Verify Request has Expired.</b>\n\nYou <b>may have been manually banned or trusted by the admins of the group.</b> Or, this is a very old request."
-    "expiredAnswerText": "Verify Request Expired"
+    "correctAnswerText": "Correto! %s mais para ir..."
+    "incorrectAnswerText": "Errado. 3 mais para ir..."
+    "success": "<b>Sucesso!\n\nBom trabalho, humano, você pode agora falar em: </b><code>%s</code>"
+    "successAnswerText": "Sucesso! Você pode falar em %s agora..."
+    "manuallyTrusted": "%s<b> foi manualmente verificado </b>%s<b>.</b>"
+    "manuallyTrustedAnswerText": "Usuário Verificado"
+    "expired": "<b>Esta Requisição de Verificação Expirou.</b>\n\nVocê <b>pode ter sido manualmente banido ou verificado pelos administradores do grupo.</b> Ou essa pode ser uma requisição muito antiga."
+    "expiredAnswerText": "Requisição de Verificação Expirou"
 
-    "settingsUnavailable": "<b>Join Verify is not enabled right now, enable it first to change settings:</b>"
-    "setTimeLimit": "<b>Choose a Time Limit for Join Verify</b>\n\nHow many minutes should unverified members be allowed, before being banned?"
-    "setTimeLimitAnswerText": "Select a Value"
-    "timeLimitChanged": "<b>Join Verify Time Limit changed from </b><code>%s</code><b> to </b><code>%s</code><b> by </b>%s"
+    "settingsUnavailable": "<b>A Verificação de Entrada não está habilitada agora, habilite-a primeiro para mudar as configurações:</b>"
+    "setTimeLimit": "<b>Escolha um Limite de Tempo para a Validação de Entrada</b>\n\nEm quantos minutos usuários não verificados devem ser aprovados, antes de serem banidos?"
+    "setTimeLimitAnswerText": "Selecione um Valor"
+    "timeLimitChanged": "<b>O Limite de Tempo para a Verificação de Entrada foi alterado de </b><code>%s</code><b> para </b><code>%s</code><b> por </b>%s"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
     #          and NOT contain any formatting or assume the value of any dynamic values.
-    "timeLimitChangedSignature": "Join Verify Time Limit changed from "
+    "timeLimitChangedSignature": "Limite de Tempo para Verificação de Entrada alterado de "
     "timeLimitChangedAnswerText": "Novas Configurações Salvas"
   }
 
@@ -439,21 +439,21 @@
   # ⚠️ IMPORTANT
   "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>Join Verify is enabled but </b>%s<b> was added by </b>%s<b>, so they don't need to verify themselves.</b>"
   "joinverify.joinevents.userVerify": "<b>Hey </b>%s<b> welcome to </b><code>%s</code><b>.\n\nTo chat, tap the \"Verify\" button and then \"Start\":</b>"
-  "joinverify.joinevents.userVerifyTimed": "<b>Hey </b>%s<b> welcome to </b><code>%s</code><b>.\n\nTo chat, tap the \"Verify\" button and then \"Start\". Otherwise, you will be banned in %s minutes:</b>"
+  "joinverify.joinevents.userVerifyTimed": "<b>Hey </b>%s<b> bem-vindo ao</b><code>%s</code><b>.\n\nPara conversar, pressione o botão de \"Verificar\" e então \"Iniciar\". De outra forma, você será banido em %s minutos:</b>"
   "joinverify.joinevents.botVerify": "%s<b> is a bot.\n\nAn admin can press \"Trust\" below to allow it to send messages:</b>"
   "joinverify.joinevents.botVerifyTimed": "%s<b> is a bot.\n\nAn admin can press \"Trust\" below to allow it to send messages, otherwise it'll be banned in %s minutes.</b>"
-  "joinverify.joinevents.userVerified": "%s<b> has </b><a href=\"t.me/CalsiBotDev/89\">verified themselves as human</a><b>.</b>"
+  "joinverify.joinevents.userVerified": "%s<b> tem </b><a href=\"t.me/CalsiBotDev/89\">que se verificaram como humanos</a><b>.</b>"
 
   # ⚠️ IMPORTANT
   "joinverify.preverify.callbacks": {
-    "success": "<b>Click the <u>temporary</u> Invite Link below to join the group:</b>\n%s\n\n<i>if you were banned from this group, you will not be able to join</i>"
-    "successAnswerText": "Success! Use the Invite Link to Join!"
-    "memberCount": "This group currently has %s members"
+    "success": "<b>Clique no Link de Convite <u>temporário</u> abaixo para se unir ao grupo:</b>\n%s\n\n<i>se você foi banido desse grupo, você não será capaz de entrar novamente</i>"
+    "successAnswerText": "Sucesso! Use o Link de Convite para Entrar!"
+    "memberCount": "Este grupo tem atualmente %s membros"
   }
 
   "joinverify.preverify.error.preVerifyInvalid": "<b>The PreVerify Invite Link is invalid or the group has disabled JoinVerify.</b>"
   "joinverify.preverify.error.joinLockEnabled": "<b>This group currently has <a href=\"t.me/CalsiBotDev/48\">JoinLock</a> enabled, please try again later.</b>"
-  "joinverify.preverify.error.alreadyVerified": "<b>You have previously verified yourself as human.</b>\n\n%s"
+  "joinverify.preverify.error.alreadyVerified": "<b>Você já foi verificado anteriormente como humano.</b>\n\n%s"
   "joinverify.preverify.error.notAvailable": "<b>Join Verify is not enabled right now, it must be enabled before you can use PreVerify:</b>"
 
   "joinverify.preverify.steps": {
