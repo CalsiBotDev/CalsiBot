@@ -864,18 +864,18 @@
                         AtAdmin - Used for @admin, @admins
      --------------------------------------------------------------------- */
   # ℹ️ NOTE: The last %s may look useless here, but it will hold the 'mentions' to the group's admins
-  "atAdmin.main": "%s <b>has summoned admins to look at this message.</b>%s"
+  "atAdmin.main": "%s <b>invocou administradores para olharem para esta mensagem.</b>%s"
 
   "atAdmin.callbacks": {
-    "chooseAction": "<b>Select the actions you want to take with the toggles below:</b>"
-    "chooseActionAnswerText": "Select An Action"
-    "ignoreAnswerText": "Report Ignored"
-    "actionTakenAnswerText": "The actions you selected have been taken"
+    "chooseAction": "<b>Selecione as ações que deseja realizar com os botões de alternância abaixo:</b>"
+    "chooseActionAnswerText": "Selecione Uma Ação"
+    "ignoreAnswerText": "Relatório Ignorado"
+    "actionTakenAnswerText": "As ações que você selecionou foram tomadas"
   }
 
   "atAdmin.info": {
-    "delete": "Should the reported message be deleted? Note that bots are unable to delete messages older than 48h..."
-    "ban": "Should the reported user be banned?"
+    "delete": "A mensagem reportada deve ser removida? Note que bots são incapazes de remover mensagens mais velhas que 48h..."
+    "ban": "O usuário reportado deve ser banido?"
   }
 
 
