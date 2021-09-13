@@ -27,11 +27,11 @@
 
     # ℹ️ Example: /JoinVerify enabled by Andy
     "featureEnabledBy": "%s<b> habilitado por </b>%s"
-    "featureEnabledAnswerText": "%s enabled"
-    "featureAlreadyEnabled": "%s<b> is already enabled</b>"
-    "featureAlreadyEnabledAnswerText": "%s Already enabled"
+    "featureEnabledAnswerText": "%s habilitado"
+    "featureAlreadyEnabled": "%s<b> já está habilitado</b>"
+    "featureAlreadyEnabledAnswerText": "%s Já habilitado"
     "featureDisabledBy": "%s<b> desabilitado por </b>%s"
-    "featureDisabledAnswerText": "%s disabled"
+    "featureDisabledAnswerText": "%s desabilitado"
     "featureAlreadyDisabled": "%s<b> já está desabilitado</b>"
     "featureAlreadyDisabledAnswerText": "%s Já desabilitado"
 
