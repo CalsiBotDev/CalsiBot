@@ -35,10 +35,10 @@
     "featureAlreadyDisabled": "%s<b> já está desabilitado</b>"
     "featureAlreadyDisabledAnswerText": "%s Já desabilitado"
 
-    "joinLimitRestrictionsReset": "<a href=\"tg://user?id=%s\">This user</a><b> had their </b><code>/JoinLimit</code><b> restrictions reset by </b>%s"
+    "joinLimitRestrictionsReset": "<a href=\"tg://user?id=%s\">Este usuário</a><b> teve suas restrições de </b><code>/JoinLimit</code><b> redefinidas por </b>%s"
     "joinLimitRestrictionsResetAnswerText": "Restrictions Reset!"
 
-    "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">This user</a><b> has been granted a one-time join exception by </b>%s\n\n<b>The next time the user joins, I will not remove them.</b>"
+    "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">Este usuário</a><b> recebeu uma exceção de junção única por </b>%s\n\n<b>Na próxima vez que o usuário entrar, não irei removê-lo.</b>"
     "joinLockExceptionAddedAnswerText": "Exceção Adicionada"
 
     "chatNameRemoved": "<b>Nome do Chat Removido por </b>%s"
@@ -46,14 +46,14 @@
     "chatNameNotSet": "<b>Nome do Chat não foi definido, então não há mada.</b>"
     "chatNameNotSetAnswerText": "Nome do Chat não foi definido"
 
-    "cantUseFeatureOnAdminsAnswerText": "Can't %s admins"
+    "cantUseFeatureOnAdminsAnswerText": "Não pode %s administradores"
 
-    "CalsiBotNoLongerAdmin": "<b>CalsiBot is no longer an admin or doesn't have enough permissions, so this keyboard has expired.</b>"
-    "CalsiBotNoLongerAdminAnswerText": "CalsiBot is no longer an admin or doesn't have enough permissions, so this keyboard has expired."
+    "CalsiBotNoLongerAdmin": "<b>CalsiBot não é mais um administrador ou não tem as permissões necessárias, então este teclado expirou.</b>"
+    "CalsiBotNoLongerAdminAnswerText": "CalsiBot não é mais um administrador ou não tem as permissões necessárias, então este teclado expirou."
 
-    "keyboardHasExpired": "<b>This keyboard has expired.</b>"
-    "keyboardExpiredAnswerText": "Keyboard Expired"
-    "keyboardUpdatedPressConfirmAnswerText": "Keyboard Updated, press 'Confirm' to apply"
+    "keyboardHasExpired": "<b>Este teclado expirou.</b>"
+    "keyboardExpiredAnswerText": "Teclado Expirado"
+    "keyboardUpdatedPressConfirmAnswerText": "Teclado Atualizado, pressione 'Confirmar' para aplicar"
   }
 
   "generic.buttons": {
