@@ -428,7 +428,7 @@
   }
 
   # ⚠️ IMPORTANT
-  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Tap The Matching Emoji Below:</b>"
+  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Toque no emoji correspondente abaixo:</b>"
   "joinverify.imageText": {
     "successTop": "Confirmado"
     "successBottom": "Humano"
@@ -437,11 +437,11 @@
   }
 
   # ⚠️ IMPORTANT
-  "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>Join Verify is enabled but </b>%s<b> was added by </b>%s<b>, so they don't need to verify themselves.</b>"
-  "joinverify.joinevents.userVerify": "<b>Hey </b>%s<b> welcome to </b><code>%s</code><b>.\n\nTo chat, tap the \"Verify\" button and then \"Start\":</b>"
+  "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>Join Verify está habilitado, mas </b>%s<b> foi adicionado por </b>%s<b>, então eles não precisam se verificar.</b>"
+  "joinverify.joinevents.userVerify": "<b>Hey </b>%s<b> bem-vindo ao </b><code>%s</code><b>.\n\nPara conversar, toque no \"Verify\" botão e depois \"Start\":</b>"
   "joinverify.joinevents.userVerifyTimed": "<b>Hey </b>%s<b> bem-vindo ao</b><code>%s</code><b>.\n\nPara conversar, pressione o botão de \"Verificar\" e então \"Iniciar\". De outra forma, você será banido em %s minutos:</b>"
-  "joinverify.joinevents.botVerify": "%s<b> is a bot.\n\nAn admin can press \"Trust\" below to allow it to send messages:</b>"
-  "joinverify.joinevents.botVerifyTimed": "%s<b> is a bot.\n\nAn admin can press \"Trust\" below to allow it to send messages, otherwise it'll be banned in %s minutes.</b>"
+  "joinverify.joinevents.botVerify": "%s<b> é um bot.\n\nUm administrador pode pressionar \"Trust\" abaixo para permitir o envio de mensagens:</b>"
+  "joinverify.joinevents.botVerifyTimed": "%s<b> é um bot.\n\nUm administrador pode pressionar \"Trust\" abaixo para permitir o envio de mensagens, caso contrário, será banido em %s minutos.</b>"
   "joinverify.joinevents.userVerified": "%s<b> tem </b><a href=\"t.me/CalsiBotDev/89\">que se verificaram como humanos</a><b>.</b>"
 
   # ⚠️ IMPORTANT
@@ -451,30 +451,30 @@
     "memberCount": "Este grupo tem atualmente %s membros"
   }
 
-  "joinverify.preverify.error.preVerifyInvalid": "<b>The PreVerify Invite Link is invalid or the group has disabled JoinVerify.</b>"
-  "joinverify.preverify.error.joinLockEnabled": "<b>This group currently has <a href=\"t.me/CalsiBotDev/48\">JoinLock</a> enabled, please try again later.</b>"
+  "joinverify.preverify.error.preVerifyInvalid": "<b>O Link de convite do PreVerify é inválido ou o grupo desativou o JoinVerify.</b>"
+  "joinverify.preverify.error.joinLockEnabled": "<b>Este grupo atualmente tem <a href=\"t.me/CalsiBotDev/48\">JoinLock</a> habilitado, por favor tente novamente mais tarde.</b>"
   "joinverify.preverify.error.alreadyVerified": "<b>Você já foi verificado anteriormente como humano.</b>\n\n%s"
-  "joinverify.preverify.error.notAvailable": "<b>Join Verify is not enabled right now, it must be enabled before you can use PreVerify:</b>"
+  "joinverify.preverify.error.notAvailable": "<b>Join Verify não está habilitado agora, deve ser habilitado antes que você possa usar PreVerify:</b>"
 
   "joinverify.preverify.steps": {
-    "one": "✴️ <b>1. Forward the above (replied to) message</b> to a Public Channel where %s is an admin.\n<b>2. Tap or right-click the forwarded message and <b>Copy Link</b>\n3. Send the copied public link to this chat</b>.\n\nThe link should look like this:\nhttps://t.me/CalsiBotDev/99999"
-    "oneError.noVerificationString": "❌ <b>Couldn't find the required verification string in the post. Make sure the post you linked to is the ownership verification message you forwarded.</b>"
-    "oneError.urlFormat": "❌ <b>The link you sent doesn't look right. It should look like this:</b>\nhttps://t.me/CalsiBotDev/99999"
-    "oneError.targetIsNotChannel": "❌ <b>The link you have provided is for a Public Group.\n\nPreVerify is designed for use with Public Channels only.</b>"
-    "oneError.cantSendPost": "❌ <b>Could not send the message, please ensure %s is an admin with enough permissions in %s.</b>%s"
-    "oneSuccess": "✅ <b>Okay, posted successfully!</b>\n\nSee https://t.me/%s/%s for the post!\n\n<b>To fully protect your group, you must revoke all previous Invite Links. You can do this by:</b>\n1. Revoking your personal Invite Link\n2. Demoting and then re-promoting all of your admins (except for CalsiBot). This will revoke any Invite Links they have shared."
+    "one": "✴️ <b>1. Encaminhar a mensagem acima (respondida)</b> para um canal público onde %s é um administrador.\n<b>2. Toque ou clique com o botão direito na mensagem encaminhada e <b>Copy Link</b>\n3. Envie o link público copiado para este chat</b>.\n\nO link deve ser parecido com este:\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.noVerificationString": "❌ <b>Não foi possível encontrar a string de verificação necessária na postagem. Certifique-se de que a postagem vinculada seja a mensagem de verificação de propriedade que você encaminhou.</b>"
+    "oneError.urlFormat": "❌ <b>O link que você enviou não parece correto. Deve ser assim:</b>\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.targetIsNotChannel": "❌ <b>O link que você forneceu é para um grupo público.\n\nPreVerify é projetado para uso apenas com canais públicos.</b>"
+    "oneError.cantSendPost": "❌ <b>Não foi possível enviar a mensagem, certifique-se %s é um administrador com permissões suficientes em %s.</b>%s"
+    "oneSuccess": "✅ <b>Okay, postado com sucesso!</b>\n\nVer https://t.me/%s/%s para o post!\n\n<b>Para proteger totalmente o seu grupo, você deve revogar todos os links de convite anteriores. Você pode fazer isso por:</b>\n1. Revogando seu convite pessoal Link\n2. Rebaixar e promover novamente todos os seus administradores (exceto CalsiBot). Isso revogará todos os links de convite que eles compartilharam."
   }
 
   "joinverify.preverify.imageText": {
-    "title": "To join the group:"
-    "stepOne": "Tap <span>Verify,</span> then <span>Start</span>"
-    "stepTwo": "<span>Pass</span> the test"
-    "stepThree": "<span>Join</span> the group!"
+    "title": "Para entrar no grupo:"
+    "stepOne": "Tocar <span>Verify,</span> depois <span>Start</span>"
+    "stepTwo": "<span>Pass</span> o teste"
+    "stepThree": "<span>Join</span> o grupo!"
   }
 
-  "joinverify.preverify.main": "<b>%s%s is <a href=\"t.me/CalsiBotDev/111\">protected by</a> PreVerify.</b>"
-  "joinverify.preverify.verificationMessage": "<b>This message is to verify ownership of this channel for CalsiBot's PreVerify feature.</b>\n\n%s"
-  "joinverify.preverify.setUpCancelled": "<b>PreVerify set up cancelled.</b>"
+  "joinverify.preverify.main": "<b>%s%s é <a href=\"t.me/CalsiBotDev/111\">protegida pela</a> PreVerify.</b>"
+  "joinverify.preverify.verificationMessage": "<b>Esta mensagem é para verificar a propriedade deste canal para o recurso PreVerify do CalsiBot.</b>\n\n%s"
+  "joinverify.preverify.setUpCancelled": "<b>Configuração de PreVerify cancelada.</b>"
 
 
   /* ---------------------------------------------------------------------
