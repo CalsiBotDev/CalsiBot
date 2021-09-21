@@ -149,9 +149,9 @@
   }
 
   "generic.timePlural": {
-    "zero": "times"
-    "one": "time"
-    "other": "times"
+    "zero": "tempos"
+    "one": "tempo"
+    "other": "tempos"
   }
 
   "generic.weekPlural": {
@@ -258,8 +258,8 @@
      --------------------------------------------------------------------- */
   "comfy.hug": {
     "self": "%s<b> reaches one arm around and hugs their own body. </b>%s<b> feels slightly less alone now.</b>"
-    "main": "%s just gave you a <b>hug! :)</b>"
-    "CalsiBot": "<i>I can't be hugged </i><b>:/</b>"
+    "main": "%s te deu um <b>abraço! :)</b>"
+    "CalsiBot": "<i>Eu não posso ser abraçado </i><b>:/</b>"
   }
 
   "comfy.cuddle": {
@@ -275,8 +275,8 @@
   }
 
   "comfy.poke": {
-    "self": "%s<b> pokes their chest. It makes them remember that they should probably lose some weight.</b>"
-    "main": "<b>*</b>%s pokes %s<b>* o_o</b>"
+    "self": "%s<b> cutucou seus peitos. Isso os faz lembrar que eles provavelmente deveriam perder um pouco de peso.</b>"
+    "main": "<b>*</b>%s cutucou %s<b>* o_o</b>"
     "CalsiBot": "<b>&gt;_&lt;</b>"
   }
 
@@ -329,13 +329,13 @@
   "fish.verdicts": {
     "failure": "Just like in real life, <b>your bait failed.</b>"
     "blowfish": "You caught a Blowfish: 🐡"
-    "normal": "<b>Not bad!</b>\nYou caught a Normal Fish: 🐟"
-    "tropical": "<b>Cool!</b>\nYou caught a Tropical Fish: 🐠"
-    "squid": "<b>Sweet!</b>\nYou caught a Squid: 🦑"
-    "crab": "<b>Awesome!</b>\nYou caught a Crab: 🦀"
+    "normal": "<b>Nada mal!</b>\nVocê pegou um Peixe Normal: 🐟"
+    "tropical": "<b>Legal!</b>\nVocê pegou um Peixe Tropical: 🐠"
+    "squid": "<b>Muito bom!</b>\nVocê pegou uma Lula: 🦑"
+    "crab": "<b>Incrível!</b>\nVocê pegou um Caranguejo: 🦀"
     "dolphin": "<b>WHOA!</b>\nYou caught a Dolphin: 🐬"
-    "shark": "<b>HOLY FUCKING SHIT!!</b>\nYou caught a Shark: 🦈"
-    "crocodile": "<b>ARGHHH!!!</b>\nYou caught a Crocodile: 🐊"
+    "shark": "<b>PUTA MERDA!!</b>\nVocê pegou um Tubarão: 🦈"
+    "crocodile": "<b>ARGHHH!!!</b>\nVocê pegou um Crocodilo: 🐊"
     "whale": "<b>THE OCEAN SEEMS TO SINK DOWN...\n\nWith all of your strength, you reel in your catch!</b>\nYou caught a Whale: 🐳"
   }
 
@@ -350,7 +350,7 @@
   🐟 - Peixe Normal: <b>%s</b>
   🐠 - Peixe Tropical: <b>%s</b>
   🦀 - Caranguejo: <b>%s</b>
-  🦑 - Squid: <b>%s</b>
+  🦑 - Lula: <b>%s</b>
   🐬 - Golfinho: <b>%s</b>
   🦈 - Tubarão: <b>%s</b>
   🐊 - Crocodilos: <b>%s</b>
@@ -363,9 +363,9 @@
 
   "trophy.types": {
     "firstfish": "\n%s<%s> - Primeiro Peixe!</%s>"
-    "1000fish": "\n%s<%s> - One Thousand Fish</%s>"
-    "5000fish": "\n%s<%s> - Five Thousand Fish</%s>"
-    "10000fish": "\n%s<%s> - Ten Thousand Fish</%s>"
+    "1000fish": "\n%s<%s> - Mil Peixes</%s>"
+    "5000fish": "\n%s<%s> - Cinco Mil Peixes</%s>"
+    "10000fish": "\n%s<%s> - Dez Mil Peixes</%s>"
     "2018newyear": "\n%s<%s> - New Years 2018</%s>"
     "2018vday": "\n%s<%s> - VDay 2018</%s>"
     "2018xmas": "\n%s<%s> - Xmas 2018</%s>"
@@ -468,8 +468,8 @@
   "joinverify.preverify.imageText": {
     "title": "Para entrar no grupo:"
     "stepOne": "Tocar <span>Verify,</span> depois <span>Start</span>"
-    "stepTwo": "<span>Pass</span> o teste"
-    "stepThree": "<span>Join</span> o grupo!"
+    "stepTwo": "<span>Passe</span> o teste"
+    "stepThree": "<span>Junte-se</span> ao grupo!"
   }
 
   "joinverify.preverify.main": "<b>%s%s é <a href=\"t.me/CalsiBotDev/111\">protegida pela</a> PreVerify.</b>"
@@ -529,9 +529,9 @@
 
   "marry.error.cooldown": "<b>You must wait 1 minute between each time you check stats.</b>\n\n%s"
 
-  "marry.self": "<b>You can't marry yourself, even if no one else wants to marry you...</b>"
-  "marry.main": "💘 %s<b> has proposed to you!</b>"
-  "marry.CalsiBot": "<b>Sorry, but I'm already married to my work...</b> 🥺"
+  "marry.self": "<b>Você não pode se casar consigo mesmo, mesmo que ninguém mais te queira...</b>"
+  "marry.main": "💘 %s<b> Te propôs casamento!</b>"
+  "marry.CalsiBot": "<b>Me desculpe, mas eu já estou casado com meu trabalho...</b> 🥺"
 
   "marry.divorce.help": "💔<b> Not feeling the love anymore? </b><code>/divorce</code><b> can be used to split up with people you've previously married.</b>"
 
@@ -541,10 +541,10 @@
   "marry.divorce.main": "🖤 %s<b> divorced </b>%s<i>\n(happened %s %s so far)</i>\n\nMarried for: %s\n\n%s\n\n<code>See your </code>/MarryStats"
   "marry.divorce.CalsiBot": "<b>Let's see what my lawyers say about that...</b> 🤧"
 
-  "marry.marrystats.error.noData": "🥺 %s <b>has never been married.</b>"
+  "marry.marrystats.error.noData": "🥺 %s <b>nunca foi casado.</b>"
   "marry.marrystats.error.noMutualData": "😶 %s <b>has never been married to</b> %s<b>.</b>"
 
-  "marry.marrystats.CalsiBot": "<b>Unlike you, CalsiBot is pure and has no marriage history.</b>"
+  "marry.marrystats.CalsiBot": "<b>Ao contrário de você, CalsiBot é puro e não tem histórico de casamento.</b>"
 
   "marry.marrystats.own.information": "💖 %s<b> – Marry Stats – 1️⃣:</b>\n\n🙂 - Happiness: <b>%s</b>\n🥺 - Children: <b>%s</b>\n🏠 - Houses: <b>%s</b>\n💰 - Net Worth: <b>$%s</b>"
   "marry.marrystats.own.marriages": "💖 %s<b> – Marry Stats – 2️⃣:</b>\n\n❤️ <b>Marriages:</b>\nRequests accepted most by %s\nRequests rejected most by %s\nMarried: <b>%s</b> | Rejected: <b>%s</b>"
@@ -557,10 +557,10 @@
   "permaban.permaban": "Permaban"
 
   "permaban.callbacks": {
-    "userPermabanned": "<a href=\"tg://user?id=%s\">This user</a><b> was Permabanned by </b>%s"
-    "userPermabannedAnswerText": "User Permabanned"
-    "userAlreadyPermabanned": "<a href=\"tg://user?id=%s\">This user</a><b> is already Permabanned.</b>"
-    "userAlreadyPermabannedAnswerText": "User Already Permabanned"
+    "userPermabanned": "<a href=\"tg://user?id=%s\">Este usuário</a><b> foi banido permanentemente por </b>%s"
+    "userPermabannedAnswerText": "Usuário banido permanentemente"
+    "userAlreadyPermabanned": "<a href=\"tg://user?id=%s\">Este usuário</a><b> já está banido permanentemente.</b>"
+    "userAlreadyPermabannedAnswerText": "Usuário Já Banido Permanentemente"
 
     "userUnPermabanned": "<a href=\"tg://user?id=%s\">This user</a><b> was Un-Permabanned by </b>%s"
     "userUnPermabannedAnswerText": "User Un-Permabanned"
@@ -628,14 +628,14 @@
     "maxWarnsValueChangedAnswerText": "New Max Warn Set"
   }
 
-  "warn.noReasonGiven": "No reason given"
+  "warn.noReasonGiven": "Sem razão dada"
 
   "warn.replyHint": "<b>Reply to the user who you want to warn, e.g:</b>\n\n<code>/warn</code><b>, or\n</b><code>/warn &lt;reason here&gt;</code>"
 
-  "warn.success": "%s<b> was warned by </b>%s.%s\n\n<code>%s out of %s warns</code>"
+  "warn.success": "%s<b> foi advertido por </b>%s.%s\n\n<code>%s de %s advertências</code>"
   "warn.userBanned": "%s<b> was banned. Reached </b><code>%s out of %s warns</code>"
-  "warn.myWarns": "<b>Warns for </b>%s<b>:</b>"
-  "warn.noWarns": "No warns, pretty smart."
+  "warn.myWarns": "<b>Advertências por </b>%s<b>:</b>"
+  "warn.noWarns": "Sem advertências, muito esperto."
 
 
   /* ---------------------------------------------------------------------
@@ -646,15 +646,15 @@
   "start.error.JoinVerifyExpired": "<b>Sorry, your Join Verify Request has expired.\n\nPlease re-join the group and try again.</b>"
   "start.main":
   '''
-  <b>Hey </b><code>%s</code><b>, I'm %s!
+  <b>Hey </b><code>%s</code><b>, eu sou %s!
 
   ✴️ I keep your group safe from evil</b> and also have <b>tons of other cool features</b> like <a href="t.me/CalsiBotDev/48">translations</a><b>.</b>
 
-  <b>Most used Group Admin tools:</b>
+  <b>Ferramentas mais utilizadas de Administração de Grupos:</b>
   <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
   <a href="t.me/CalsiBotDev/23">/restrict</a>, <a href="t.me/CalsiBotDev/82">/warn</a>, <a href="t.me/CalsiBotDev/48">/JoinLock</a>, and <a href="t.me/CalsiBotDev/74">/JoinLimit</a>
 
-  <b>See other commands:</b>
+  <b>Veja outros comandos:</b>
   /ListCommands
   '''
 
@@ -673,22 +673,22 @@
 
   "misc.huh.main": "<b>huh</b>"
 
-  "misc.judge.main.truth": "%s<b> is telling the truth.</b>"
-  "misc.judge.main.lying": "%s<b> is lying!</b>"
-  "misc.judge.CalsiBot": "<i>I am beyond judgement.</i>"
+  "misc.judge.main.truth": "%s<b> está falando a verdade.</b>"
+  "misc.judge.main.lying": "%s<b> está mentindo!</b>"
+  "misc.judge.CalsiBot": "<i>Eu estou além do julgamento.</i>"
 
-  "misc.coin.main.heads": "%s flipped a coin!\n\n<b>It's heads!</b>"
-  "misc.coin.main.tails": "%s flipped a coin!\n\n<b>It's tails!</b>"
+  "misc.coin.main.heads": "%s jogou uma moeda!\n\n<b>Deu cara!</b>"
+  "misc.coin.main.tails": "%s jogou uma moeda!\n\n<b>Deu coroa!</b>"
 
-  "misc.covfefe.tooLong": "<b>❌ Too long. ☕😐</b>"
-  "misc.covfefe.replyHint": "<b>Reply to the message you want to covfefe!</b>"
+  "misc.covfefe.tooLong": "<b>❌ Muito longo. ☕😐</b>"
+  "misc.covfefe.replyHint": "<b>Responda à mensagem que você quer covfefe!</b>"
 
   "misc.spurdo.tooLong": "<b>❌ too lonk :dd 🥺</b>"
   "misc.spurdo.replyHint": "<b>reply to de meszage you wand to spurdo-fy :DD</b>"
 
   "misc.listcommands.main":
   '''
-  <b>Almost every CalsiBot command:</b>
+  <b>Quase todos os comandos do CalsiBot:</b>
 
   <b>Comfy Commands:</b>
   /hug, /cuddle, /snuggle, /ruffle
@@ -713,7 +713,7 @@
   <b>Text Modification Commands:</b>
   /covfefe, /spurdo, /emojify
 
-  <b>Other:</b>
+  <b>Outros:</b>
   /boi, /denko, /huh
   /name, /me, /edgy
   <a href="t.me/CalsiBotDev/51">"sed" (text switching/replacement)</a>
