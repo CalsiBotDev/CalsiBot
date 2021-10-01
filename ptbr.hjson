@@ -257,21 +257,21 @@
                       Comfy - Used for /hug, /cuddle, etc.
      --------------------------------------------------------------------- */
   "comfy.hug": {
-    "self": "%s<b> reaches one arm around and hugs their own body. </b>%s<b> feels slightly less alone now.</b>"
+    "self": "%s<b> estende um braço e abraça a si mesmo. </b>%s<b> se sente bem menos sozinho agora.</b>"
     "main": "%s te deu um <b>abraço! :)</b>"
     "CalsiBot": "<i>Eu não posso ser abraçado </i><b>:/</b>"
   }
 
   "comfy.cuddle": {
-    "self": "%s<b> lays face-down on their bed, and tries to cuddle both sides. </b>%s<b> feels slightly less sad now.</b>"
-    "main": "%s cuddles %s tightly"
-    "CalsiBot": "<i>sighhh</i> ☁️😌☁️"
+    "self": "%s<b> deita de bruços na cama e tenta abraçar suas laterais. </b>%s<b> se sente bem menos triste agora.</b>"
+    "main": "%s abraça %s com força"
+    "CalsiBot": "<i>suspiro</i> ☁️😌☁️"
   }
 
   "comfy.snuggle": {
-    "self": "%s<b> draws up their knees and tries to snuggle themselves. </b>%s<b> feels slightly less unloved now.</b>"
-    "main": "%s contentedly snuggles %s"
-    "CalsiBot": "🥺 <i>*relaxed bot noises*</i>"
+    "self": "%s<b> encolhe os joelhos e tenta se aconchegar. </b>%s<b> se sente significantemente mais amado agora.</b>"
+    "main": "%s aconchega %s com satisfação"
+    "CalsiBot": "🥺 <i>*barulhos de bot relaxado*</i>"
   }
 
   "comfy.poke": {
@@ -281,20 +281,20 @@
   }
 
   "comfy.pat": {
-    "self": "%s<b> awkwardly reaches one hand around to pat themselves on the head. 🙃</b>"
-    "main": "<b>*</b>%s pats %s on the head<b>* :V</b>"
+    "self": "%s<b> desajeitadamente estende uma das mãos para dar um tapinha na própria cabeça. 🙃</b>"
+    "main": "<b>*</b>%s dá tapinas na cabeça de %s<b>* :V</b>"
     "CalsiBot": "<i>rawr</i> <b>xDddd</b>"
   }
 
   "comfy.ruffle": {
-    "self": "%s<b> ruffles their own hair... Yikes. 😐</b>"
-    "main": "<b>*</b>%s ruffles %s's hair<b>* :&</b>"
-    "CalsiBot": "<i>You're meant to ruffle the hair on my head...not...there.</i> 😳"
+    "self": "%s<b> bagunça o próprio cabelo... Caramba. 😐</b>"
+    "main": "<b>*</b>%s bagunça o cabelo de %s<b>* :&</b>"
+    "CalsiBot": "<i>Você deveria bagunçar o cabelo da minha cabeça... não... aí.</i> 😳"
   }
 
   "comfy.highfive": {
-    "self": "%s<b> tries to highfive themselves by smacking their own two hands together. </b>%s<b> misses, and sinks deeper into depression.</b>"
-    "main": "%s just <b>high-fived</b> you for this!"
+    "self": "%s<b> tenta se cumprimentar batendo nas próprias mãos. </b>%s<b> erra e se afunda ainda mais na depressão.</b>"
+    "main": "%s <b>cumprimentou</b> você por isso!"
     "CalsiBot": "<i>:D</i>"
   }
 
