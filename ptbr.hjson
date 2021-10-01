@@ -377,10 +377,10 @@
   /* ---------------------------------------------------------------------
                         JoinEvents - Used for Join Flow
      --------------------------------------------------------------------- */
-  "joinevents.error.CalsiBotNotEnoughPermissions": "<b>A Welcome Message, JoinLock, JoinVerify or JoinLimit is currently enabled, but I don't have enough Admin permissions right now...\n\nPlease ensure that I can </b><code>change group info</code><b>, and </b><code>ban users</code><b>.</b>"
-  "joinevents.userPermabanned": "%s<b> was permanently banned from this group by an admin.\n\nI have removed them.</b>"
-  "joinevents.joinlockAddedByAdmin": "<b>Join Lock is enabled but </b>%s<b> was added by </b>%s<b>, so they have not been kicked.</b>"
-  "joinevents.joinlockMemberBanned": "%s<b> was banned because Join Lock is enabled.</b>"
+  "joinevents.error.CalsiBotNotEnoughPermissions": "<b>Uma mensagem de boas-vindas, JoinLock, JoinVerify ou JoinLimit está ativada no momento, mas não tenho permissões de administrador suficientes no momento...\n\nPor favor, garanta que eu possa </b><code>alterar informações do grupo</code><b>, e </b><code>banir usuários</code><b>.</b>"
+  "joinevents.userPermabanned": "%s<b> foi removido permanentemente deste grupo por um administrador.\n\nEu os removi.</b>"
+  "joinevents.joinlockAddedByAdmin": "<b>Join Lock está habilitado mas </b>%s<b> foi adicionado por </b>%s<b>, então eles não foram kickados.</b>"
+  "joinevents.joinlockMemberBanned": "%s<b> foi banido porque o Join Lock está habilitado.</b>"
 
   /* ---------------------------------------------------------------------
                         JoinConfig - Used for Join Flow
