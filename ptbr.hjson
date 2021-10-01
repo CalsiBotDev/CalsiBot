@@ -321,14 +321,14 @@
   /* ---------------------------------------------------------------------
                       Fish - Used for /fish, /MyFish, etc.
      --------------------------------------------------------------------- */
-  "fish.fish": "Fish"
-  "fish.fishing": "Fishing"
-  "fish.noFish": "<b>It looks like </b><a href=\"tg://user?id=%s\">%s</a><b> has never caught a fish before!\n\nHave a go:</b> /Fish"
-  "fish.noTrophyFish": "<b>You don't currently have any Trophy Fish 😢 - but don't worry!\n\nCatch one </b>/Fish<b> to earn your first!</b>\n\n/MyFish ||| /Fish"
+  "fish.fish": "Peixe"
+  "fish.fishing": "Pescando"
+  "fish.noFish": "<b>Parece que </b><a href=\"tg://user?id=%s\">%s</a><b> nunca pegou um peixe antes!\n\nDê uma chance:</b> /Fish"
+  "fish.noTrophyFish": "<b>Atualmente você não tem nenhum Troféu de Peixe 😢 - mas não se preocupe!\n\nUse </b>/Fish<b> para pegar seu primeiro peixe!</b>\n\n/MyFish ||| /Fish"
 
   "fish.verdicts": {
-    "failure": "Just like in real life, <b>your bait failed.</b>"
-    "blowfish": "You caught a Blowfish: 🐡"
+    "failure": "Assim como na vida real, <b>sua isca falhou.</b>"
+    "blowfish": "Você pegou um baiacu: 🐡"
     "normal": "<b>Nada mal!</b>\nVocê pegou um Peixe Normal: 🐟"
     "tropical": "<b>Legal!</b>\nVocê pegou um Peixe Tropical: 🐠"
     "squid": "<b>Muito bom!</b>\nVocê pegou uma Lula: 🦑"
@@ -336,7 +336,7 @@
     "dolphin": "<b>WHOA!</b>\nYou caught a Dolphin: 🐬"
     "shark": "<b>PUTA MERDA!!</b>\nVocê pegou um Tubarão: 🦈"
     "crocodile": "<b>ARGHHH!!!</b>\nVocê pegou um Crocodilo: 🐊"
-    "whale": "<b>THE OCEAN SEEMS TO SINK DOWN...\n\nWith all of your strength, you reel in your catch!</b>\nYou caught a Whale: 🐳"
+    "whale": "<b>O OCEANO PARECE ESTAR AFUNDANDO...\n\nCom toda a sua força, você puxa a vara de pesca!</b>\nVocê pegou uma baleia: 🐳"
   }
 
   "fish.viewYourFish": "\n\n<b>Ver seus peixes:</b> /MyFish"
@@ -344,7 +344,7 @@
 
   "fish.myFish":
   '''
-  <b>🎣 </b><a href="tg://user?id=%s">%s</a><b> – Fish:</b>
+  <b>🎣 </b><a href="tg://user?id=%s">%s</a><b> – Peixe:</b>
 
   🐡 - Baiacu: <b>%s</b>
   🐟 - Peixe Normal: <b>%s</b>
@@ -366,11 +366,11 @@
     "1000fish": "\n%s<%s> - Mil Peixes</%s>"
     "5000fish": "\n%s<%s> - Cinco Mil Peixes</%s>"
     "10000fish": "\n%s<%s> - Dez Mil Peixes</%s>"
-    "2018newyear": "\n%s<%s> - New Years 2018</%s>"
-    "2018vday": "\n%s<%s> - VDay 2018</%s>"
-    "2018xmas": "\n%s<%s> - Xmas 2018</%s>"
-    "2019newyear": "\n%s<%s> - New Years 2019</%s>"
-    "2020xmas": "\n%s<%s> - Xmas 2020</%s>"
+    "2018newyear": "\n%s<%s> - Ano Novo 2018</%s>"
+    "2018vday": "\n%s<%s> - Dia dos Namorados 2018</%s>"
+    "2018xmas": "\n%s<%s> - Natal 2018</%s>"
+    "2019newyear": "\n%s<%s> - Ano Novo 2019</%s>"
+    "2020xmas": "\n%s<%s> - Natal 2020</%s>"
   }
 
 
