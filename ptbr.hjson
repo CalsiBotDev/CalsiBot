@@ -385,18 +385,18 @@
   /* ---------------------------------------------------------------------
                         JoinConfig - Used for Join Flow
      --------------------------------------------------------------------- */
-  "joinconfig.welcome.help": "<code>/SetWelcome</code><b> allows you to set a Welcome Message for your chat\n\nYour message should be like the example below:</b>"
-  "joinconfig.welcome.error.somethingWrong": "<b>Sorry, but there's something wrong with the message you posted.\n\nPlease double-check your formatting, and make sure you haven't included any weird characters.</b>"
-  "joinconfig.welcome.success": "<b>Great, your new Welcome Message has been set. Check above to see how it'll look!\n\nYou can use </b><code>/DeleteWelcome</code><b> to remove it.</b>"
-  "joinconfig.welcome.removed": "<b>The Welcome Message has been removed.\n\nYou can use </b><code>/SetWelcome</code><b>, followed by the message you'd like, to set a new one.</b>"
-  "joinconfig.welcome.alreadyRemoved": "<b>There is currently no Welcome Message set to remove.\n\nYou can use </b><code>/SetWelcome</code><b>, followed by the message you'd like, to set one.</b>"
+  "joinconfig.welcome.help": "<code>/SetWelcome</code><b> permite que você defina uma mensagem de boas vindas para seu chat\n\nSua mensagem deve ser como o exemplo abaixo:</b>"
+  "joinconfig.welcome.error.somethingWrong": "<b>Desculpe, mas tem alguma coisa errada com a mensagem que você postou.\n\nPor favor, verifique a sua formatação, e garanta que você não incluiu nenhum caractere estranho.</b>"
+  "joinconfig.welcome.success": "<b>Ótimo, sua mensagem de boas vindas foi definida. Verifique acima como ela vai ficar!\n\nVocê pode usar </b><code>/DeleteWelcome</code><b> para removê-la.</b>"
+  "joinconfig.welcome.removed": "<b>A mensagem de boas vindas foi removida.\n\nVocê pode usar </b><code>/SetWelcome</code><b>, seguido pela mensagem que você quiser, para definir uma nova.</b>"
+  "joinconfig.welcome.alreadyRemoved": "<b>Atualmente não tem uma mensagem de boas vindas definida para remover.\n\nVocê pode usar </b><code>/SetWelcome</code><b>, seguido pela mensagem que você quiser, para definir uma nova.</b>"
 
   "joinconfig.joinlimit.help": "<code>/JoinLimit</code><b> allows you to set the default restrictions for any members who join your chat\n\nYour message should be like the example below:</b>"
   "joinconfig.joinlimit.success": "<b>Your </b><code>/JoinLimit</code><b> has been set!</b>\n\nNew members will automatically be restricted %s, until an admin unrestricts them."
   "joinconfig.joinlimit.successTimed": "<b>Your </b><code>/JoinLimit</code><b> has been set!</b>\n\nNew members will automatically be restricted %s, for the time limit you specified."
 
-  "joinconfig.title.help": "<code>/%s</code><b> allows you to set the chat's title with a message.\n\nYour message should be like this:</b>\n<code>/%s New chat title</code>\n\n<b>Tip: </b><i>Have a chat name you always use in titles? Check out </i>/cn"
-  "joinconfig.title.replyToTextHint": "<b>If you're replying to another message to set the chat's title, it must be text-only.</b>\n\n<b>Tip: </b><i>Have a chat name you always use in titles? Check out </i>/cn"
+  "joinconfig.title.help": "<code>/%s</code><b> permite que você defina o título do chat com uma mensagem.\n\nSua mensagem deve parecer com isso:</b>\n<code>/%s Novo Título do chat</code>\n\n<b>Dica: </b><i>Tem um nome de chat que você sempre usa em títulos? Verifique </i>/cn"
+  "joinconfig.title.replyToTextHint": "<b>Se você está respondendo a outra mensagem para definir o título do chat, ele deve ser apenas texto.</b>\n\n<b>Dica: </b><i>Tem um nome de chat que você sempre usa em títulos? Verifique </i>/cn"
 
   "joinconfig.chatname.help": "<code>/%s</code><b> allows you to set the chat's name. This name will always appear in front of any chat title set using </b><code>/t</code> <b>or</b> <code>/title</code><b>.\n\nYour message should be like this:</b>\n<code>/%s MyChatName</code>"
   "joinconfig.chatname.replyToTextHint": "<b>If you're replying to another message to set the chat's name, it must be text-only.</b>"
