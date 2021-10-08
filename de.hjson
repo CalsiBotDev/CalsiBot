@@ -150,7 +150,7 @@
 
   "generic.timePlural": {
     "zero": "mal"
-    "one": "zeit"
+    "one": "mal"
     "other": "mal"
   }
 
@@ -243,7 +243,7 @@
   "generic.toggleFeatureHint": "<b>Sie können </b>%s<b> verwenden um das zu ändern</b>"
 
   # ℹ️ Example: You can't Warn admins
-  "generic.cantUseFeatureOnAdmins": "<b>Du kannst Adminsnicht nicht </b><code>%s</code><b> ... Leider</b>"
+  "generic.cantUseFeatureOnAdmins": "<b>Du kannst Admins nicht </b><code>%s</code><b> ... Leider</b>"
   "generic.cantUseFeatureOnAdminsWithReason": "<b>Du kannst Admins nicht </b><code>%s</code><b> weil %s</b>"
   # ℹ️ Example: because they can't be warned in the first place.
   "generic.theyCantBeInTheFirstPlace": "weil sie in erster linie %s nicht verwarnt werden können."
@@ -493,9 +493,9 @@
     "waitForDecisionAnswerText": "😶 Sie müssen auf warten %s um eine Option zu wählen..."
     "userNotInvolvedAnswerText": "🙄 Hören Sie auf, die Beziehungen anderer zu stören %s."
 
-    "proposalAccepted": "💝 %s<b> und </b>%s<b> haben sich geheiratet! 🎉 </b><i>\n(passiert %s %s bisher)</i>\n\n%s\n\n<code>Siehe Ihre </code>/MarryStats"
+    "proposalAccepted": "💝 %s<b> und </b>%s<b> haben sich geheiratet! 🎉 </b><i>\n(passierte %s %s bisher)</i>\n\n%s\n\n<code>Siehe Ihre </code>/MarryStats"
     "proposalAcceptedAnswerText": "💝 Glückwunsch! 🎉"
-    "proposalRejected": "🤕 %s<b> wurde von abgelehnt </b>%s<i>\n(passiert %s %s bisher)</i>\n\n%s\n\n<code>Siehe Ihre </code>/MarryStats"
+    "proposalRejected": "🤕 %s<b> wurde von abgelehnt </b>%s<i>\n(passierte %s %s bisher)</i>\n\n%s\n\n<code>Siehe Ihre </code>/MarryStats"
     "proposalRejectedAnswerText": "🤕 Autsch."
   }
 
@@ -538,7 +538,7 @@
   "marry.divorce.error.notMarried": "😐<b> Sie sind derzeit nicht verheiratet mit </b>%s<b>, also kannst du dich nicht scheiden lassen...</b>"
 
   "marry.divorce.self": "<i>Meintest du:\n</i>/kms"
-  "marry.divorce.main": "🖤 %s<b> geschieden </b>%s<i>\n(passiert %s %s bisher)</i>\n\nVerheiratet am: %s\n\n%s\n\n<code>Siehe Ihre </code>/MarryStats"
+  "marry.divorce.main": "🖤 %s<b> geschieden </b>%s<i>\n(passierte %s %s bisher)</i>\n\nVerheiratet am: %s\n\n%s\n\n<code>Siehe Ihre </code>/MarryStats"
   "marry.divorce.CalsiBot": "<b>Mal sehen, was meine Anwälte dazu sagen...</b> 🤧"
 
   "marry.marrystats.error.noData": "🥺 %s <b>war noch nie verheiratet.</b>"
