@@ -510,45 +510,45 @@
     "other": "casas"
   }
 
-  "marry.result.bothGainedHappiness": "🙂 Both gained <b>%s happiness</b> each."
-  "marry.result.oneLostHappiness": "🙂 %s lost <b>%s happiness</b>."
+  "marry.result.bothGainedHappiness": "🙂 Ambos ganharam <b>%s felicidade</b> cada um."
+  "marry.result.oneLostHappiness": "🙂 %s perdeu <b>%s felicidade</b>."
 
-  "marry.result.bothGainedChildren": "🥺 Both gained <b>%s %s</b> each."
-  "marry.result.oneTookChildrenFrom": "🥺 %s took <b>%s %s</b> from %s."
-  "marry.result.noChildrenGained": "🚫 No children gained this time."
+  "marry.result.bothGainedChildren": "🥺 Ambos ganharam <b>%s %s</b> cada um."
+  "marry.result.oneTookChildrenFrom": "🥺 %s levou <b>%s %s</b> de %s."
+  "marry.result.noChildrenGained": "🚫 Não tiveram crianças dessa vez."
 
-  "marry.result.bothGainedHouses": "🏠 Both gained <b>%s %s</b> each."
-  "marry.result.oneTookHousesFrom": "🏠 %s took <b>%s %s</b> from %s."
-  "marry.result.noHousesGained": "🚫 No houses gained this time."
+  "marry.result.bothGainedHouses": "🏠 Ambos ganharam <b>%s %s</b> cada um."
+  "marry.result.oneTookHousesFrom": "🏠 %s levou <b>%s %s</b> de %s."
+  "marry.result.noHousesGained": "🚫 Não tiveram casas dessa vez."
 
-  "marry.result.bothGainedNetWorth": "💰 Both gained <b>$%s</b> each."
-  "marry.result.oneTookNetWorthFrom": "💰 %s took <b>$%s</b> from %s."
-  "marry.result.noNetWorthGained": "🚫 No net worth gained this time."
+    "marry.result.bothGainedNetWorth": "💰 Ambos ganharam <b>$%s</b> cada um."
+  "marry.result.oneTookNetWorthFrom": "💰 %s levou <b>$%s</b> de %s."
+  "marry.result.noNetWorthGained": "🚫 Nenhum patrimônio líquido ganho desta vez."
 
-  "marry.help": "💍<b> Reply to someone you like with </b><code>/marry</code><b> to make it official.</b>"
+  "marry.help": "💍<b> Responda a alguém que você gosta muito com </b><code>/marry</code><b> para tornar oficial.</b>"
 
-  "marry.error.cooldown": "<b>You must wait 1 minute between each time you check stats.</b>\n\n%s"
+  "marry.error.cooldown": "<b>Você deve esperar 1 minuto entre cada vez que você checar o status.</b>\n\n%s"
 
   "marry.self": "<b>Você não pode se casar consigo mesmo, mesmo que ninguém mais te queira...</b>"
   "marry.main": "💘 %s<b> Te propôs casamento!</b>"
   "marry.CalsiBot": "<b>Me desculpe, mas eu já estou casado com meu trabalho...</b> 🥺"
 
-  "marry.divorce.help": "💔<b> Not feeling the love anymore? </b><code>/divorce</code><b> can be used to split up with people you've previously married.</b>"
+  "marry.divorce.help": "💔<b> Não está mais sentido amor? </b><code>/divorce</code><b> pode ser usado para se separar da pessoa com quem você estava anteriormente casado.</b>"
 
-  "marry.divorce.error.notMarried": "😐<b> You're not currently married to </b>%s<b>, so you can't divorce them...</b>"
+  "marry.divorce.error.notMarried": "😐<b> Você não está atualmente casado com </b>%s<b>, então você não pode se divorciar...</b>"
 
-  "marry.divorce.self": "<i>Did you mean:\n</i>/kms"
-  "marry.divorce.main": "🖤 %s<b> divorced </b>%s<i>\n(happened %s %s so far)</i>\n\nMarried for: %s\n\n%s\n\n<code>See your </code>/MarryStats"
-  "marry.divorce.CalsiBot": "<b>Let's see what my lawyers say about that...</b> 🤧"
+  "marry.divorce.self": "<i>Você quis dizer:\n</i>/kms"
+  "marry.divorce.main": "🖤 %s<b> se divorciou de </b>%s<i>\n(aconteceu %s %s tão rápido)</i>\n\nCasado por: %s\n\n%s\n\n<code>Veja seu </code>/MarryStats"
+  "marry.divorce.CalsiBot": "<b>Vamos ver o que meus advogadis dizem sobre isso...</b> 🤧"
 
   "marry.marrystats.error.noData": "🥺 %s <b>nunca foi casado.</b>"
-  "marry.marrystats.error.noMutualData": "😶 %s <b>has never been married to</b> %s<b>.</b>"
+  "marry.marrystats.error.noMutualData": "😶 %s <b>nunca se casou com</b> %s<b>.</b>"
 
   "marry.marrystats.CalsiBot": "<b>Ao contrário de você, CalsiBot é puro e não tem histórico de casamento.</b>"
 
-  "marry.marrystats.own.information": "💖 %s<b> – Marry Stats – 1️⃣:</b>\n\n🙂 - Happiness: <b>%s</b>\n🥺 - Children: <b>%s</b>\n🏠 - Houses: <b>%s</b>\n💰 - Net Worth: <b>$%s</b>"
-  "marry.marrystats.own.marriages": "💖 %s<b> – Marry Stats – 2️⃣:</b>\n\n❤️ <b>Marriages:</b>\nRequests accepted most by %s\nRequests rejected most by %s\nMarried: <b>%s</b> | Rejected: <b>%s</b>"
-  "marry.marrystats.own.divorces": "💖 %s<b> – Marry Stats – 3️⃣:</b>\n\n🖤 <b>Divorces:</b>\nDivorced from %s most\nTotal: <b>%s</b>"
+  "marry.marrystats.own.information": "💖 %s<b> – Status de Casamento – 1️⃣:</b>\n\n🙂 - Felicidade: <b>%s</b>\n🥺 - Crianças: <b>%s</b>\n🏠 - Casas: <b>%s</b>\n💰 - Patrimônio Líquido: <b>$%s</b>"
+  "marry.marrystats.own.marriages": "💖 %s<b> – Status de Casamento – 2️⃣:</b>\n\n❤️ <b>Casamentos:</b>\nSolicitações aceitas na maioria por %s\nRequests rejected most by %s\nCasado: <b>%s</b> | Rejeitado: <b>%s</b>"
+  "marry.marrystats.own.divorces": "💖 %s<b> – Status de Casamento – 3️⃣:</b>\n\n🖤 <b>Divórcios:</b>\nDivorciado de %s em maioria\nTotal: <b>%s</b>"
 
 
   /* ---------------------------------------------------------------------
