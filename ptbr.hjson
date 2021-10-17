@@ -149,9 +149,9 @@
   }
 
   "generic.timePlural": {
-    "zero": "tempos"
-    "one": "tempo"
-    "other": "tempos"
+    "zero": "horas"
+    "one": "hora"
+    "other": "horas"
   }
 
   "generic.weekPlural": {
