@@ -391,15 +391,15 @@
   "joinconfig.welcome.removed": "<b>A mensagem de boas vindas foi removida.\n\nVocê pode usar </b><code>/SetWelcome</code><b>, seguido pela mensagem que você quiser, para definir uma nova.</b>"
   "joinconfig.welcome.alreadyRemoved": "<b>Atualmente não tem uma mensagem de boas vindas definida para remover.\n\nVocê pode usar </b><code>/SetWelcome</code><b>, seguido pela mensagem que você quiser, para definir uma nova.</b>"
 
-  "joinconfig.joinlimit.help": "<code>/JoinLimit</code><b> allows you to set the default restrictions for any members who join your chat\n\nYour message should be like the example below:</b>"
-  "joinconfig.joinlimit.success": "<b>Your </b><code>/JoinLimit</code><b> has been set!</b>\n\nNew members will automatically be restricted %s, until an admin unrestricts them."
-  "joinconfig.joinlimit.successTimed": "<b>Your </b><code>/JoinLimit</code><b> has been set!</b>\n\nNew members will automatically be restricted %s, for the time limit you specified."
+  "joinconfig.joinlimit.help": "<code>/JoinLimit</code><b> permite que você defina as restrições padrão para qualquer membro que se una ao seu chat\n\nSua mensagem deve ser parecida com o exemplo abaixo:</b>"
+  "joinconfig.joinlimit.success": "<b>Seu </b><code>/JoinLimit</code><b> foi definido!</b>\n\nNovos membros vão automaticamente serem restritos %s, até que um administrador remova a restrição deles."
+  "joinconfig.joinlimit.successTimed": "<b>Seu </b><code>/JoinLimit</code><b> foi definido!</b>\n\nNovos membros vão automaticamente serem restritos %s, pelo limite de tempo que você especificou."
 
   "joinconfig.title.help": "<code>/%s</code><b> permite que você defina o título do chat com uma mensagem.\n\nSua mensagem deve parecer com isso:</b>\n<code>/%s Novo Título do chat</code>\n\n<b>Dica: </b><i>Tem um nome de chat que você sempre usa em títulos? Verifique </i>/cn"
   "joinconfig.title.replyToTextHint": "<b>Se você está respondendo a outra mensagem para definir o título do chat, ele deve ser apenas texto.</b>\n\n<b>Dica: </b><i>Tem um nome de chat que você sempre usa em títulos? Verifique </i>/cn"
 
   "joinconfig.chatname.help": "<code>/%s</code><b> permite que você altere o nome do chat. Esse nome vai sempre aparecer na frente de qualquer título do chat definido usando </b><code>/t</code> <b>ou</b> <code>/title</code><b>.\n\nSua mensagem deve ser algo como:</b>\n<code>/%s MeuNomeDeChat</code>"
-  "joinconfig.chatname.replyToTextHint": "<b>If you're replying to another message to set the chat's name, it must be text-only.</b>"
+  "joinconfig.chatname.replyToTextHint": "<b>Se você está respondendo a outra mensagem para definir o nome do chat, ela deve ser apenas texto.</b>"
   "joinconfig.chatname.success": "<b>Seu Nome do Chat foi definido como:</b>\n%s\n\nEle vai aparecer no início de todos os títulos de chat definidos usando <code>/t</code> ou <code>/title</code>."
 
 
