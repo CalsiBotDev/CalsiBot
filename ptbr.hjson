@@ -577,31 +577,31 @@
   "restrict.restricted": "restrito"
 
   "restrict.callbacks": {
-    "restrictionsReset": "<b>Restrictions were reset by </b>%s"
-    "restrictionsUpdated": "<b>Restrictions updated by </b>%s"
-    "restrictCancelled": "<code>/restrict</code><b> cancelled by </b>%s"
+    "restrictionsReset": "<b>As restrições foram redefinidas por </b>%s"
+    "restrictionsUpdated": "<b>Restrições atualizadas por </b>%s"
+    "restrictCancelled": "<code>/restrict</code><b> cancelada por </b>%s"
   }
 
   "restrict.info": {
-    "messages": "Controls if the user can send any messages at all."
-    "media": "Controls if the user can send audio, documents, photos, videos, video notes, and voice notes."
-    "stickergifs": "Controls if the user can send animations, games, stickers, and use inline bots."
-    "linkpreviews": "Controls if the user can add link previews to their messages."
+    "messages": "Controla se o usuário pode enviar qualquer mensagem."
+    "media": "Controla se o usuário pode enviar áudio, documentos, fotos, vídeos, notas de vídeo e notas de voz."
+    "stickergifs": "Controla se o usuário pode enviar animações, jogos, adesivos e usar bots inline."
+    "linkpreviews": "Controla se o usuário pode adicionar visualizações de link às suas mensagens."
   }
 
   "restrict.types": {
-    "messages": "from sending any Messages here"
-    "media": "from sending any Media messages here"
-    "stickergifs": "from sending any Stickers or GIFs here"
-    "linkpreviews": "from adding any Link Previews to their messages"
+    "messages": "de enviar qualquer mensagem aqui"
+    "media": "de enviar qualquer mensagem de mídia aqui"
+    "stickergifs": "de enviar adesivos ou GIFs aqui"
+    "linkpreviews": "de adicionar qualquer visualização de link às suas mensagens"
   }
 
-  "restrict.success": "%s has now been restricted %s by %s"
-  "restrict.successTimed": "%s has now been restricted %s <b>until %s (UTC) by </b>%s"
-  "restrict.replyHint": "<b>Reply to the user whose restrictions you want to edit</b>"
+  "restrict.success": "%s agora foi restrito %s por %s"
+  "restrict.successTimed": "%s agora foi restrito %s <b>até %s (UTC) por </b>%s"
+  "restrict.replyHint": "<b>Responder ao usuário cujas restrições você deseja editar</b>"
 
-  "restrict.main": "<b>Use the toggles below to choose what </b>%s<b> can send here:</b>"
-  "restrict.mainTimed": "<b>Use the toggles below to choose what </b>%s<b> can send here:\n\nThe restrictions will automatically expire on:\n</b><code>%s %s</code>"
+  "restrict.main": "<b>Use os botões de alternância abaixo para escolher o que </b>%s<b> pode enviar aqui:</b>"
+  "restrict.mainTimed": "<b>Use os botões de alternância abaixo para escolher o que </b>%s<b> pode enviar aqui:\n\nAs restrições irão expirar automaticamente em:\n</b><code>%s %s</code>"
 
 
   /* ---------------------------------------------------------------------
