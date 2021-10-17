@@ -480,9 +480,9 @@
   /* ---------------------------------------------------------------------
                         JoinLimit - Used for /JoinLimit
      --------------------------------------------------------------------- */
-  "joinlimit.joinevents.userLimited": "%s has been restricted %s because <code>/JoinLimit</code><b> is enabled.</b>"
-  "joinlimit.joinevents.userLimitedTimed": "%s has been restricted %s <b>until %s (UTC) because </b><code>/JoinLimit</code><b> is enabled.</b>"
-  "joinlimit.joinevents.signature": " has been restricted "
+  "joinlimit.joinevents.userLimited": "%s foi restrito %s porque <code>/JoinLimit</code><b> está habilitado.</b>"
+  "joinlimit.joinevents.userLimitedTimed": "%s foi restrito %s <b>até %s (UTC) porque </b><code>/JoinLimit</code><b> está habilitado.</b>"
+  "joinlimit.joinevents.signature": " foi restrito "
 
 
   /* ---------------------------------------------------------------------
