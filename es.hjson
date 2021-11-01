@@ -437,7 +437,7 @@
   }
 
   # ⚠️ IMPORTANT
-  "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>Join Verify está activao pero </b>%s<b> fue añadido por </b>%s<b>, por lo que no necesitan verificarse a sí mismos.</b>"
+  "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>Join Verify está activado pero </b>%s<b> fue añadido por </b>%s<b>, por lo que no necesitan verificarse a sí mismos.</b>"
   "joinverify.joinevents.userVerify": "<b>Hola </b>%s<b>. Bienvenido a </b><code>%s</code><b>.\n\nPara chatear o poder escribir, toque el botón \"Verificar\" y luego \"Inicio\":</b>"
   "joinverify.joinevents.userVerifyTimed": "<b>Hola </b>%s<b>. Bienvenido a </b><code>%s</code><b>.\n\nPara chatear o poder escribir, toque el botón \"Verificar\" y luego \"Inicio\". De lo contrario, será baneado en %s minutos:</b>"
   "joinverify.joinevents.botVerify": "%s<b> es un bot.\n\nUn administrador puede presionar \"Confianza\" para permitirle enviar mensajes:</b>"
