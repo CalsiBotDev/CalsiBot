@@ -648,7 +648,7 @@
   '''
   <b>¡Hola </b><code>%s</code><b>, soy %s!
 
-  ✴️ <b>Mantengo a tu grupo a salvo del mal</b>, y también tengo <b>muchas otras herramientas interesantes</b> como las <a href="t.me/CalsiBotDev/48">traducciones</a><b>.</b>
+  ✴️ Mantengo a tu grupo a salvo del mal</b>, y también tengo <b>muchas otras herramientas interesantes</b> como las <a href="t.me/CalsiBotDev/48">traducciones</a><b>.</b>
 
   <b>Herramientas de administración de grupos más utilizadas:</b>
   <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
@@ -680,10 +680,10 @@
   "misc.coin.main.heads": "%s lanzó una moneda!\n\n<b>¡Son cabezas!</b>"
   "misc.coin.main.tails": "%s lanzó una moneda!\n\n<b>¡Son colas!</b>"
 
-  "misc.covfefe.tooLong": "<b>❌ Demasiado tiempo. ☕😐</b>"
-  "misc.covfefe.replyHint": "<b>¡responda al mensaje que desea covfefe!</b>"
+  "misc.covfefe.tooLong": "<b>❌ demasiado tiempo. ☕😐</b>"
+  "misc.covfefe.replyHint": "<b>¡Responda al mensaje que desea covfefe!</b>"
 
-  "misc.spurdo.tooLong": "<b>❌ Demasiado tiempo :dd 🥺</b>"
+  "misc.spurdo.tooLong": "<b>❌ demasiado tiempo :dd 🥺</b>"
   "misc.spurdo.replyHint": "<b>¡responda al mensaje que desea spurdo-fy! :DD</b>"
 
   "misc.listcommands.main":
