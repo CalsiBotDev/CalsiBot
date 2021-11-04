@@ -25,7 +25,7 @@
     "userUnbannedBySignature": " fue desbaneado por "
     "userUnbannedAnswerText": "Usuario desbaneado"
 
-    # ℹ️ Example: /JoinVerify activado por Andy
+    # ℹ️ Example: /JoinVerify enabled by Andy
     "featureEnabledBy": "%s<b> activado por </b>%s"
     "featureEnabledAnswerText": "%s activado"
     "featureAlreadyEnabled": "%s<b> ya está activado</b>"
@@ -65,11 +65,11 @@
     "addToGroup": "🔱 Añadir al Grupo"
     "tapToVerify": "🤖 Toca para verificar 🤖"
 
-    "banUser": "Banear usuario"
+    "banUser": "Banear Usuario"
     "banBot": "Banear Bot"
-    "allowUser": "Autorizar al usuario"
-    "trustUser": "Usuario de confianza"
-    "trustBot": "Bot de confianza"
+    "allowUser": "Autorizar"
+    "trustUser": "Exentuar Usuario"
+    "trustBot": "Exentuar Bot"
     "unbanUser": "Desbanear usuario"
 
     "settings": "⚙️ Ajustes"
@@ -80,13 +80,13 @@
     "enable": "✅ Activar"
     "disable": "❌ Desactivar"
     "disableLimit": "❌ Desactivar límite"
-    "disableTimeLimit": "❌ Desactivar límite de tiempo"
+    "disableTimeLimit": "❌ Desactivar tiempo"
 
-    "permabanUser": "❌ Banear usuario permanentemente"
-    "unPermabanUser": "🤝 Desbanear usuario permanente"
+    "permabanUser": "❌ Baneo permanente"
+    "unPermabanUser": "🤝 Desbaneo permanente"
 
     "remove": "❌ Eliminar"
-    "removeAllWarns": "❌ Eliminar todas las advertencias"
+    "removeAllWarns": "❌ Eliminar advertencias"
     "history": "📚 Historial"
     "setMax": "🔢 Establecer Max"
     "back": "⬅️ Volver"
@@ -117,8 +117,8 @@
     "viewPack": "🌆 Ver Paquete"
   }
 
-  # ℹ️ Note: En el caso de los idiomas que no utilizan números en inglés, éstos deben cambiarse
-  #          para que coincidan con los números localizados de 'numbersPlain'.
+  # ℹ️ Note: For languages which don't use English numbers, these should be changed
+  #          to match the 'numbersPlain' localized numbers.
   "generic.numbers": {
     "zero": "0️⃣"
     "one": "1️⃣"
@@ -133,7 +133,7 @@
     "ten": "🔟"
   }
 
-  # ℹ️ Note: Deben ser números localizados en forma de texto.
+  # ℹ️ Note: These should be plain text localized numbers.
   "generic.numbersPlain": {
     "zero": "0"
     "one": "1"
@@ -189,7 +189,7 @@
   "generic.rateLimit": "😡 <b>Ahora se ignoran los nuevos mensajes de </b>%s<b> por enviar más de 3 mensajes de comando en menos de 1 segundo. Por favor, deténgase.</b>\n\n<i>Expira en unos minutos</i>"
   "generic.willNotSeeAgainForAWhile": "<i>No volverá a ver este mensaje durante un tiempo.</i>"
 
-  # ℹ️ Example: Responde al usuario que quieras con /slap
+  # ℹ️ Example: Reply to the person you want to /slap
   "generic.replyToThePersonYouWantTo": "<b>Responda al usuario que deseas</b> %s"
   "generic.needToReply": "<b>Debe responder a alguien.</b>"
 
@@ -223,29 +223,29 @@
   "generic.banQuestion": "¿Banear?"
   "generic.and": " y "
 
-  # ℹ️ Example: La excepción fue añadida por un administrador.
+  # ℹ️ Example: Exception was added by an admin.
   "generic.anAdmin": "un administrador"
 
-  # ℹ️ Example: La participación en la pesca está siempre permitida en el privado. :)
+  # ℹ️ Example: Fishing is always allowed in private :)
   "generic.featureAlwaysAllowedInPrivate": "%s siempre se permite en el privado :)"
 
-  # ℹ️ Example: La construcción de muros se ha activado en este grupo.
+  # ℹ️ Example: Wall Building has now been enabled in this group.
   "generic.featureEnabled": "<b>%s se ha activado en este grupo.</b>"
   "generic.featureAlreadyEnabled": "<b>%s ya está activado en este grupo.</b>"
   "generic.featureDisabled": "<b>%s está desactivado en este grupo.</b>"
   "generic.featureAlreadyDisabled": "<b>%s ya está desactivado en este grupo.</b>"
 
   "generic.featureDisabledByDefault": "<b>Por defecto, %s está desactivado en los chats grupales.</b>\n\nUn administrador puede %s."
-  # ℹ️ Example: Por defecto, fishing está desactivado en los chats grupales.\n\nUn administrador puede /EnableGames, o puede hacerlo en el privado, tocando el botón de abajo:
+  # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableGames, or you can fish in private, by tapping the button below:
   "generic.featureDisabledByDefaultWithPrivate": "<b>Por defecto, %s está desactivado en los chats grupales.</b>\n\nUn administrador puede %s, o puedes hacer %s en el privado, tocando el botón a continuación:"
 
-  # ℹ️ Example: Puedes usar /DisableBrick para cambiar eso.
+  # ℹ️ Example: You can use /DisableBrick to change that.
   "generic.toggleFeatureHint": "<b>Puedes usar </b>%s<b> para cambiar eso</b>"
 
-  # ℹ️ Example: No se puede advertir a los administradores
+  # ℹ️ Example: You can't Warn admins
   "generic.cantUseFeatureOnAdmins": "<b>No puedes </b><code>%s</code><b> a los administradores... Desafortunadamente</b>"
   "generic.cantUseFeatureOnAdminsWithReason": "<b>No puedes </b><code>%s</code><b> a los administradores porque %s</b>"
-  # ℹ️ Example: porque no pueden ser advertidos en primer lugar.
+  # ℹ️ Example: because they can't be warned in the first place.
   "generic.theyCantBeInTheFirstPlace": "porque no pueden ser %s en primer lugar."
 
   "generic.tapNextToContinue": "\n\n<b>Toca </b>/next<b> para Continuar...</b>"
@@ -304,7 +304,7 @@
      --------------------------------------------------------------------- */
   "death.CalsiBot": "<i>No puedo ser asesinado </i><b>;)</b>"
 
-  # ℹ️ Example: Josie apuñaló a Kevin antes de morir de hambre.																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										
+  # ℹ️ Example: Josie stabbed Kevin before they starved to death																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										
   "death.kos": "%s<b> apuñaló a </b>%s<b> antes de que %s</b>"
 
 
@@ -409,9 +409,9 @@
   # ⚠️ IMPORTANT
   "joinverify.callbacks": {
     "correctAnswerText": "¡Correcto! Falta %s más para continuar ..."
-    "incorrectAnswerText": "Incorrecto. 3 más para continuar ..."
+    "incorrectAnswerText": "Incorrecto. Falta 3 más para continuar ..."
     "success": "<b>¡Éxito!\n\nBuen trabajo, ahora puedes chatear en: </b><code>%s</code>"
-    "successAnswerText": "¡Éxito! Puedes entrar al grupo %s"
+    "successAnswerText": "¡Éxito! Puedes entrar a %s"
     "manuallyTrusted": "%s<b> ha confiado manualmente en </b>%s<b>.</b>"
     "manuallyTrustedAnswerText": "Usuario de confianza"
     "expired": "<b>Esta solicitud de verificación ha caducado.</b>\n\nEs posible <b>que los administradores del grupo te hayan baneado manualmente o hayan confiado en ti.</b> O bien, esta es una solicitud muy antigua."
@@ -421,8 +421,8 @@
     "setTimeLimit": "<b>Elija un límite de tiempo para unirse por Join Verify</b>\n\n¿Cuántos minutos se debe permitir a los miembros no verificados, antes de ser baneados?"
     "setTimeLimitAnswerText": "Seleccione un valor"
     "timeLimitChanged": "<b>El límite de tiempo de Join Verify cambió de </b><code>%s</code><b> a </b><code>%s</code><b> por </b>%s"
-    # ℹ️ NOTE: Las firmas se utilizan para el cambio de texto inteligente. DEBEN ser una porción identificable de forma única del texto completo,
-    #          y NO contienen ningún formato ni asumen el valor de ningún valor dinámico.
+    # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
+    #          and NOT contain any formatting or assume the value of any dynamic values.
     "timeLimitChangedSignature": "El límite de tiempo de Join Verify cambió de "
     "timeLimitChangedAnswerText": "Nueva configuración guardada"
   }
@@ -467,8 +467,8 @@
 
   "joinverify.preverify.imageText": {
     "title": "Para unirse al grupo:"
-    "stepOne": "Toque <span>Verificar,</span> luego <span>Inicio</span>"
-    "stepTwo": "<span>Pase</span> la verificación humana"
+    "stepOne": "Toque <span>Verificar e Iniciar</span>"
+    "stepTwo": "<span>Verifíquese</span> como humano"
     "stepThree": "<span>¡Unirse</span> al grupo!"
   }
 
@@ -481,7 +481,7 @@
                         JoinLimit - Used for /JoinLimit
      --------------------------------------------------------------------- */
   "joinlimit.joinevents.userLimited": "%s ha sido restringido %s porque <code>/JoinLimit</code><b> está activado.</b>"
-  "joinlimit.joinevents.userLimitedTimed": "%s ha sido restringido %s <b>hasta %s (UTC) porque</b><code>/JoinLimit</code><b>está activado</b>"
+  "joinlimit.joinevents.userLimitedTimed": "%s ha sido restringido %s <b>hasta %s (UTC) porque </b><code>/JoinLimit</code><b> está activado.</b>"
   "joinlimit.joinevents.signature": " ha sido restringido "
 
 
@@ -538,7 +538,7 @@
   "marry.divorce.error.notMarried": "😐<b> Actualmente no estás casado con </b>%s<b>, así que no puedes divorciarte de ellos...</b>"
 
   "marry.divorce.self": "<i>Querías decir:\n</i>/kms"
-  "marry.divorce.main": "🖤 %s<b> divorciado de </b>%s<i>\n(ha pasado %s %s hasta ahora)</i>\n\nCasado por: %s\n\n%s\n\n<code>Vea su estado con</code>/ MarryStats"
+  "marry.divorce.main": "🖤 %s<b> divorciado de </b>%s<i>\n(ha pasado %s %s hasta ahora)</i>\n\nCasado por: %s\n\n%s\n\n<code>Revise su estado con </code>/MarryStats"
   "marry.divorce.CalsiBot": "<b>Veamos qué dicen mis abogados al respecto......</b> 🤧"
 
   "marry.marrystats.error.noData": "🥺 %s <b>nunca se ha casado.</b>"
@@ -562,10 +562,10 @@
     "userAlreadyPermabanned": "<a href=\"tg://user?id=%s\">Este usuario</a><b> ya está baneado permanentemente.</b>"
     "userAlreadyPermabannedAnswerText": "Usuario ya baneado permanentemente"
 
-    "userUnPermabanned": "<a href=\"tg://user?id=%s\">Este usuario</a><b> fue desbaneado permanentemente por </b>%s"
-    "userUnPermabannedAnswerText": "Usuario desbaneado permanente"
-    "userAlreadyNotPermabanned": "<a href=\"tg://user?id=%s\">Este usuario</a><b> ya no está baneado permanentemente</b>"
-    "userAlreadyNotPermabannedAnswerText": "El usuario ya no está baneado permanentemente"
+    "userUnPermabanned": "<a href=\"tg://user?id=%s\">Este usuario</a><b> fue desbaneado por </b>%s"
+    "userUnPermabannedAnswerText": "Usuario desbaneado"
+    "userAlreadyNotPermabanned": "<a href=\"tg://user?id=%s\">Este usuario</a><b> ya no está baneado</b>"
+    "userAlreadyNotPermabannedAnswerText": "El usuario ya no está baneado"
   }
 
   "permaban.replyHint": "<b>Responda al usuario que desee con </b><code>permaban</code>"
@@ -648,7 +648,7 @@
   '''
   <b>¡Hola </b><code>%s</code><b>, soy %s!
 
-  ✴️ Mantengo a tu grupo a salvo del mal</b>, y también tengo <b>muchas otras herramientas interesantes</b> como las <a href="t.me/CalsiBotDev/48">traducciones</a><b>.</b>
+  ✴️ I keep your group safe from evil</b> and also have <b>tons of other cool features</b> like <a href="t.me/CalsiBotDev/48">translations</a><b>.</b>
 
   <b>Herramientas de administración de grupos más utilizadas:</b>
   <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
@@ -684,7 +684,7 @@
   "misc.covfefe.replyHint": "<b>¡Responda al mensaje que deseas covfefe!</b>"
 
   "misc.spurdo.tooLong": "<b>❌ Demasiado tiempo :dd 🥺</b>"
-  "misc.spurdo.replyHint": "<b>¡Responda al mensaje que desea provocar o estimular! :DD</b>"
+  "misc.spurdo.replyHint": "<b>¡Responda al mensaje que desea spurdo-fy! :DD</b>"
 
   "misc.listcommands.main":
   '''
@@ -723,7 +723,7 @@
   /translate (/tr), /when, /count
   '''
 
-  # ℹ️ Example: Es
+  # ℹ️ Example: It's
   #             Alex Wayne"
   "misc.name.main": "Es:\n<b>%s</b>"
 
@@ -767,29 +767,29 @@
   "misc.pin.help": "<code>/pin</code> <b>le permite configurar o cambiar fácilmente los mensajes fijados en el grupo sin menús estúpidos\n\n¿Aún no sabes cómo usarlo? Toque el botón de abajo para ver un ejemplo:</b>"
   "misc.pin.main": "<b>Responder a una imagen comprimida (no enviada como archivo) que desea establecer como imagen de perfil del grupo</b>"
 
-  # ℹ️ Example: No pude encontrar ningún sticker\n- sticker no animado 😕\n\nInténtalo de nuevo con un mensaje diferente.
+  # ℹ️ Example: Couldn't find any\n- non-animated sticker 😕\n\nTry again with a different message.
   "misc.fileIDSearch.error.noUsableFileFound": "<b>No se pudo encontrar ningún:</b>\n%s. 😕\n\n<b>Inténtalo de nuevo con un mensaje diferente.</b>"
 
-  # ℹ️ Example: Ven aquí, ponte de rodillas y traduce esto 😏
+  # ℹ️ Example: Come over here, get on your knees, and translate this 😏
   "misc.knees.main": "<b>Ven aquí, ponte de rodillas, y </b><i>%s</i><b> esto %s</b>"
 
 
   /* ---------------------------------------------------------------------
                         Language - Used for /language
      --------------------------------------------------------------------- */
-  # ℹ️ NOTE: Este debe ser el nombre nativo de la lengua.
+  # ℹ️ NOTE: This should be the native name of the language.
   "language.name": "Español"
   "language.main": "<b>Tu idioma está configurado actualmente en:</b>\n<code>%s</code>"
   "language.credit": "<b>Esta traducción es posible gracias al </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">gran esfuerzo</a><b> de las siguientes personas:</b>\n"
-  # ℹ️ NOTE: La lista de colaboradores NO debe ser modificada por nadie más que yo, o los que ya están en la lista
-  #          como colaboradores.
+  # ℹ️ NOTE: The contributors string should NOT be changed by anyone other than me, or those who are already listed
+  #          as contributors.
   #
   #          Por defecto, usamos menciones de ID en lugar de nombres de usuario por razones de privacidad, pero si prefieres
   #          que se te acredite por tu nombre de usuario u otra cosa, no dudes en cambiar tu etiqueta aquí - o pídeme que lo haga.
   #
   #          Esta lista de nombres debe estar en orden de tamaño y frecuencia de contribución, teniendo en cuenta la antigüedad de la última
   #          contribución.
-  "language.credit.activeContributors": "𝓗𝓮𝓷𝓻𝔂"
+  "language.credit.activeContributors": "<a href=\"t.me/hfsoriad\">𝓗𝓮𝓷𝓻𝔂</a>"
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Elige tu idioma:</b>"
@@ -827,7 +827,7 @@
     "feelsbadman.gaypg"
   ]
 
-  # ℹ️ Example: ¡Tienes septuples!
+  # ℹ️ Example: You Got Septuples!
   "roll.main": "Tienes %s"
 
 
@@ -855,7 +855,7 @@
     "e-chica"
     "thot"
     "puta"
-    "jodido chico / puto"
+    "Hijo de puta"
     "no sé 😳"
   ]
 
