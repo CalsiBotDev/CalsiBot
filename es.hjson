@@ -68,9 +68,9 @@
     "banUser": "Banear Usuario"
     "banBot": "Banear Bot"
     "allowUser": "Autorizar"
-    "trustUser": "Exentuar Usuario"
-    "trustBot": "Exentuar Bot"
-    "unbanUser": "Desbanear usuario"
+    "trustUser": "Exentar Usuario"
+    "trustBot": "Exentar Bot"
+    "unbanUser": "Desbanear Usuario"
 
     "settings": "⚙️ Ajustes"
 
@@ -149,9 +149,9 @@
   }
 
   "generic.timePlural": {
-    "zero": "horas"
-    "one": "hora"
-    "other": "horas"
+    "zero": "veces"
+    "one": "vez"
+    "other": "veces"
   }
 
   "generic.weekPlural": {
@@ -315,7 +315,7 @@
   "ban.kickme.main": "%s<i> expulsado.</i>"
   "ban.ban.main": "%s<i> fue baneado.</i>"
   "ban.deport.main": "%s<i> fue deportado.</i>"
-  "ban.realdeport.main": "%s<i> fue deportado de forma permanente.</i>"
+  "ban.realdeport.main": "%s<i> fue deportado permanentemente.</i>"
 
 
   /* ---------------------------------------------------------------------
@@ -467,7 +467,7 @@
 
   "joinverify.preverify.imageText": {
     "title": "Para unirse al grupo:"
-    "stepOne": "Toque <span>Verificar e Iniciar</span>"
+    "stepOne": "Toque <span>Verificar</span> e <span>Iniciar</span>"
     "stepTwo": "<span>Verifíquese</span> como humano"
     "stepThree": "<span>¡Unirse</span> al grupo!"
   }
@@ -539,7 +539,7 @@
 
   "marry.divorce.self": "<i>Querías decir:\n</i>/kms"
   "marry.divorce.main": "🖤 %s<b> divorciado de </b>%s<i>\n(ha pasado %s %s hasta ahora)</i>\n\nCasado por: %s\n\n%s\n\n<code>Revise su estado con </code>/MarryStats"
-  "marry.divorce.CalsiBot": "<b>Veamos qué dicen mis abogados al respecto......</b> 🤧"
+  "marry.divorce.CalsiBot": "<b>Veamos qué dicen mis abogados al respecto...</b> 🤧"
 
   "marry.marrystats.error.noData": "🥺 %s <b>nunca se ha casado.</b>"
   "marry.marrystats.error.noMutualData": "😶 %s <b>nunca se ha casado con</b> %s<b>.</b>"
@@ -648,7 +648,7 @@
   '''
   <b>¡Hola </b><code>%s</code><b>, soy %s!
 
-  ✴️ I keep your group safe from evil</b> and also have <b>tons of other cool features</b> like <a href="t.me/CalsiBotDev/48">translations</a><b>.</b>
+  ✴️ <b>Mantengo a tu grupo a salvo del mal</b>, y también tengo <b>muchas otras herramientas interesantes</b> como las <a href="t.me/CalsiBotDev/48">traducciones</a><b>.</b>
 
   <b>Herramientas de administración de grupos más utilizadas:</b>
   <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
@@ -681,10 +681,10 @@
   "misc.coin.main.tails": "%s lanzó una moneda!\n\n<b>¡Son colas!</b>"
 
   "misc.covfefe.tooLong": "<b>❌ Demasiado tiempo. ☕😐</b>"
-  "misc.covfefe.replyHint": "<b>¡Responda al mensaje que deseas covfefe!</b>"
+  "misc.covfefe.replyHint": "<b>¡responda al mensaje que desea covfefe!</b>"
 
   "misc.spurdo.tooLong": "<b>❌ Demasiado tiempo :dd 🥺</b>"
-  "misc.spurdo.replyHint": "<b>¡Responda al mensaje que desea spurdo-fy! :DD</b>"
+  "misc.spurdo.replyHint": "<b>¡responda al mensaje que desea spurdo-fy! :DD</b>"
 
   "misc.listcommands.main":
   '''
@@ -789,7 +789,7 @@
   #
   #          Esta lista de nombres debe estar en orden de tamaño y frecuencia de contribución, teniendo en cuenta la antigüedad de la última
   #          contribución.
-  "language.credit.activeContributors": "<a href=\"t.me/hfsoriad\">𝓗𝓮𝓷𝓻𝔂</a>"
+  "language.credit.activeContributors": "<a href=\"t.me/hfsoriad\">Henry</a>"
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Elige tu idioma:</b>"
@@ -855,7 +855,7 @@
     "e-chica"
     "thot"
     "puta"
-    "Hijo de puta"
+    "hijo de puta"
     "no sé 😳"
   ]
 
