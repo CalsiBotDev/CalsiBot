@@ -35,7 +35,7 @@
     "featureAlreadyDisabled": "%s<b> ist bereits deaktiviert</b>"
     "featureAlreadyDisabledAnswerText": "%s Bereits deaktiviert"
 
-    "joinLimitRestrictionsReset": "<b>Die </b><code>/JoinLimit</code><b> Einschränkungen <a href=\"tg://user?id=%s\">dieses Nutzers</a><b> würden zurückgesetzt von </b>%s"
+    "joinLimitRestrictionsReset": "<b>Die </b><code>/JoinLimit</code><b> Einschränkungen <a href=\"tg://user?id=%s\">dieses Nutzers</a><b> wurden zurückgesetzt von </b>%s"
     "joinLimitRestrictionsResetAnswerText": "Einschränkungen zurücksetzen!"
 
     "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> hat eine einmalige Join-Ausnahme erhalten </b>%s\n\n<b>Wenn der Benutzer das nächste Mal beitritt, werde ich ihn nicht entfernen.</b>"
@@ -87,7 +87,7 @@
 
     "remove": "❌ Entfernen"
     "removeAllWarns": "❌ Alle Warnungen entfernen"
-    "history": "📚 Geschichte"
+    "history": "📚 Verlauf"
     "setMax": "🔢 Max. Einstellen"
     "back": "⬅️ Zurück"
 
@@ -149,9 +149,9 @@
   }
 
   "generic.timePlural": {
-    "zero": "mal"
-    "one": "mal"
-    "other": "mal"
+    "zero": "Zeiten"
+    "one": "Zeit"
+    "other": "Zeiten"
   }
 
   "generic.weekPlural": {
@@ -186,7 +186,7 @@
 
   "generic.onlyInSupergroups": "<b>Dieser Befehl kann leider nur in Supergruppen verwendet werden</b>"
   "generic.somethingWentWrongTryAgainLater": "<b>Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal...</b>"
-  "generic.rateLimit": "😡 <b>Ich ignorie jetzt neue Nachrichten von </b>%s<b>, da mehr als 3 Befehlsnachrichten in weniger als 1 Sekunde gesendet wurden. Bitte hör auf.</b>\n\n<i>Läuft in wenigen Minuten ab</i>"
+  "generic.rateLimit": "😡 <b>Ich ignoriere jetzt neue Nachrichten von </b>%s<b>, da mehr als 3 Befehlsnachrichten in weniger als 1 Sekunde gesendet wurden. Bitte hör auf.</b>\n\n<i>Läuft in wenigen Minuten ab</i>"
   "generic.willNotSeeAgainForAWhile": "<i>Sie werden diese Nachricht für eine Weile nicht mehr sehen.</i>"
 
   # ℹ️ Example: Reply to the person you want to /slap
@@ -227,7 +227,7 @@
   "generic.anAdmin": "ein admin"
 
   # ℹ️ Example: Fishing is always allowed in private :)
-  "generic.featureAlwaysAllowedInPrivate": "%s ist privat immer erlaubt :)"
+  "generic.featureAlwaysAllowedInPrivate": "%s ist in privat immer erlaubt :)"
 
   # ℹ️ Example: Wall Building has now been enabled in this group.
   "generic.featureEnabled": "<b>%s wurde nun in dieser Gruppe aktiviert.</b>"
@@ -257,7 +257,7 @@
                       Comfy - Used for /hug, /cuddle, etc.
      --------------------------------------------------------------------- */
   "comfy.hug": {
-    "self": "%s<b> fässt mit einem Arm um sich und umarmt ihren eigenen Körper. </b>%s<b> fühlt sich jetzt etwas weniger allein.</b>"
+    "self": "%s<b> Umarmt sich selber. </b>%s<b> fühlt sich jetzt etwas weniger allein.</b>"
     "main": "%s gab dir gerade ein <b>hug! :)</b>"
     "CalsiBot": "<i>Ich kann nicht umarmt werden </i><b>:/</b>"
   }
@@ -275,7 +275,7 @@
   }
 
   "comfy.poke": {
-    "self": "%s<b> stupst die eigene Hüfte und wird dabei erinnert etwas abzunehmen</b>"
+    "self": "%s<b> stupst sich selber an und wird dabei erinnert etwas abzunehmen</b>"
     "main": "<b>*</b>%s stupst %s<b>* o_o</b>"
     "CalsiBot": "<b>&gt;_&lt;</b>"
   }
@@ -293,7 +293,7 @@
   }
 
   "comfy.highfive": {
-    "self": "%s<b> versucht, durch zusammenschlage der eigenen zwei Hände, sich selbst zu ein Highfive zu geben. </b>%s<b> verfehlt und versinkt tiefer in Depression</b>"
+    "self": "%s<b> versucht, durch klatschen der eigenen zwei Hände, sich selbst zu ein Highfive zu geben. </b>%s<b> verfehlt und versinkt tiefer in Depression</b>"
     "main": "%s gibt dir dafür ein <b>high-fived</b>!"
     "CalsiBot": "<i>:D</i>"
   }
@@ -311,11 +311,11 @@
   /* ---------------------------------------------------------------------
                         Ban - Used for /ban, /kick, etc.
      --------------------------------------------------------------------- */
-  "ban.kick.main": "%s<i> wurde getreten.</i>"
+  "ban.kick.main": "%s<i> wurde rausgeworfen.</i>"
   "ban.kickme.main": "%s<i> entfernt.</i>"
   "ban.ban.main": "%s<i> wurde gesperrt.</i>"
-  "ban.deport.main": "%s<i> wurde abgeschoben.</i>"
-  "ban.realdeport.main": "%s<i> wurde abgeschoben. Auf ewig</i>"
+  "ban.deport.main": "%s<i> wurde rausgeworfen.</i>"
+  "ban.realdeport.main": "%s<i> wurde rausgeworfen. Auf ewig</i>"
 
 
   /* ---------------------------------------------------------------------
@@ -741,9 +741,9 @@
   <b>Sie können </b><code>/wish</code><b> als allgemeine Art von Wunschbrunnen verwenden
 
   Beispielsweise:</b>
-  <code>/wish ich könnte mit dir ausgehen 😍</code><b>, or</b>
-  <code>/wish das Sushi wäre 🍣 in /emojify</code><b>, or</b>
-  <code>/wish ich hatte jemanden zum /cuddle in der Nacht</code><b>...</b>
+  <code>/wünschte ich könnte mit dir ausgehen 😍</code><b>, or</b>
+  <code>/wünschte das Sushi wäre 🍣 in /emojify</code><b>, or</b>
+  <code>/wünschte ich hätte jemanden zum /cuddle in der Nacht</code><b>...</b>
   '''
 
   "misc.wish.main": "<b>Dein Wunsch wurde gewirkt. ✨</b>\n\n<i>erfolgschance: %s%</i>"
