@@ -248,6 +248,12 @@
   # ℹ️ Example: because they can't be warned in the first place.
   "generic.theyCantBeInTheFirstPlace": "parce qu'ils ne peuvent pas être %s en premier lieu."
 
+  "generic.cantUseFeatureOnLinkedChannels": "<b>Vous ne pouvez pas faire cela, car vous répondez à une chaîne qui est liée à ce groupe.</b>"
+
+  "generic.cantUseFeatureOnChatSenders": "<b>Vous ne pouvez pas faire cela car l'utilisateur publie en tant que chaîne.\n\nN'oubliez pas :</b> vous <i>pouvez</i> toujours /ban et /unban."
+  "generic.chatSenderCanNoLongerPostAsAnyChatHint": "\n\n<b>Remarque :</b> cet utilisateur ne peut plus publier en tant que chaîne qu'il possède, <b>mais</b> il peut toujours publier à partir de son compte personnel."
+  "generic.chatSenderCanNowPostAsAnyChatHint": "\n\n<b>Remarque :</b> cet utilisateur peut désormais publier sur <b>n'importe quelle</b> chaîne qu'il possède, y compris celle-ci."
+
   "generic.tapNextToContinue": "\n\n<b>Appuyez </b>/next<b> pour Continuer...</b>"
   "generic.tapNextToRetry": "\n\n<b>Appuyez </b>/next<b> pour Réessayer...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Appuyez </b>/cancel<b> pour Quitter %s</b>"
@@ -412,6 +418,8 @@
     "incorrectAnswerText": "Faux. Encore 3..."
     "success": "<b>Succès !\n\nBon travail humain, vous pouvez maintenant discuter dans le groupe: </b><code>%s</code>"
     "successAnswerText": "Succès ! vous pouvez maintenant discuter dans le groupe %s ..."
+    "failure": "<b>Malheureusement, vous avez échoué au test de vérification.</b>\n\nÊtes-vous un bot comme moi ?"
+    "failureAnswerText": "Échec de la demande de vérification"
     "manuallyTrusted": "%s<b> a approuvé manuellement à </b>%s<b>.</b>"
     "manuallyTrustedAnswerText": "Utilisateur approuvé"
     "expired": "<b>Cette demande de vérification a expiré.\n\nIl se peut que </b>vous <b>ayez été manuellement banni ou approuvé par les administrateurs du groupe.</b>Ou, c'est une très vieille demande ."

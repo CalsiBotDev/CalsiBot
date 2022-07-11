@@ -248,6 +248,12 @@
   # ℹ️ Example: because they can't be warned in the first place.
   "generic.theyCantBeInTheFirstPlace": "потому что они не могут быть %s в принципе."
 
+  "generic.cantUseFeatureOnLinkedChannels": "<b>Вы не можете этого сделать, потому что вы отвечаете на канал, который связан с этой группой.</b>"
+
+  "generic.cantUseFeatureOnChatSenders": "<b>Вы не можете сделать это, потому что пользователь размещает сообщения как канал.\n\nПомните:</b> вы <i>можете</i> по-прежнему использовать команды /ban и /unban."
+  "generic.chatSenderCanNoLongerPostAsAnyChatHint": "\n\n<b>Примечание.</b> этот пользователь больше не может публиковать сообщения ни на одном из принадлежащих ему каналов, <b>но</b> он по-прежнему может публиковать сообщения из своей личной учетной записи."
+  "generic.chatSenderCanNowPostAsAnyChatHint": "\n\n<b>Примечание.</b> теперь этот пользователь может публиковать сообщения от имени <b>любого</b> принадлежащего ему канала, включая этот."
+
   "generic.tapNextToContinue": "\n\n<b>Нажмите </b>/next<b> чтобы продолжить...</b>"
   "generic.tapNextToRetry": "\n\n<b>Нажмите </b>/next<b> чтобы повторить попытку...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Нажмите </b>/cancel<b> чтобы выйти %s</b>"
@@ -412,6 +418,8 @@
     "incorrectAnswerText": "Неправильно. Осталось еще 3 ..."
     "success": "<b>Удачи!\n\nМолодец, человек! Теперь ты можешь общаться в: </b><code>%s</code>"
     "successAnswerText": "Успех! Теперь ты можешь общаться в %s "
+    "failure": "<b>К сожалению, вы не прошли проверочный тест.</b>\n\nВы такой же бот, как и я?"
+    "failureAnswerText": "Проверка запроса не удалась"
     "manuallyTrusted": "%s<b> вручную доверил </b>%s<b>.</b>"
     "manuallyTrustedAnswerText": "Доверенный пользователь"
     "expired": "<b>Срок действия запроса на проверку истек.</b>\n\n Вы <b>могли быть вручную заблокированы или доверены администраторами группы.</b> Или это очень старый запрос."

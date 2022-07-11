@@ -248,6 +248,12 @@
   # ℹ️ Example: because they can't be warned in the first place.
   "generic.theyCantBeInTheFirstPlace": "because they can't be %s in the first place."
 
+  "generic.cantUseFeatureOnLinkedChannels": "<b>You can't do this, because you're replying to a channel which is linked to this group.</b>"
+
+  "generic.cantUseFeatureOnChatSenders": "<b>You can't do this because the user is posting as a channel.\n\nRemember:</b> you <i>can</i> still /ban and /unban."
+  "generic.chatSenderCanNoLongerPostAsAnyChatHint": "\n\n<b>Note:</b> this user can no longer post as any of the channels they own, <b>but</b> they can still post from their personal account."
+  "generic.chatSenderCanNowPostAsAnyChatHint": "\n\n<b>Note:</b> this user can now post as <b>any</b> of the channels they own, including this one."
+
   "generic.tapNextToContinue": "\n\n<b>Tap </b>/next<b> to Continue...</b>"
   "generic.tapNextToRetry": "\n\n<b>Tap </b>/next<b> to Retry...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Tap </b>/cancel<b> to Quit %s</b>"
@@ -412,6 +418,8 @@
     "incorrectAnswerText": "Wrong. 3 more to go..."
     "success": "<b>Success!\n\nGood work human, you can now chat in: </b><code>%s</code>"
     "successAnswerText": "Success! You can chat in %s now..."
+    "failure": "<b>Unfortunately, you failed the verification test.</b>\n\nAre you a bot like me?"
+    "failureAnswerText": "Verify Request Failed"
     "manuallyTrusted": "%s<b> has manually trusted </b>%s<b>.</b>"
     "manuallyTrustedAnswerText": "User Trusted"
     "expired": "<b>This Verify Request has Expired.</b>\n\nYou <b>may have been manually banned or trusted by the admins of the group.</b> Or, this is a very old request."

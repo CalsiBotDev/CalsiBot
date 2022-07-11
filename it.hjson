@@ -248,6 +248,12 @@
   # ℹ️ Example: because they can't be warned in the first place.
   "generic.theyCantBeInTheFirstPlace": "perché non possono essere %s comunque."
 
+  "generic.cantUseFeatureOnLinkedChannels": "<b>Non puoi farlo, perché stai rispondendo al canale collegato a questo gruppo.</b>"
+
+  "generic.cantUseFeatureOnChatSenders": "<b>Non puoi farlo perché l'utente sta postando come canale.\n\nRicorda:</b> <i>puoi</i> comunque usare /ban e /unban."
+  "generic.chatSenderCanNoLongerPostAsAnyChatHint": "\n\n<b>Nota:</b> questo utente non può più pubblicare tramite i dei canali di cui è proprietario, <b>ma</b> può comunque pubblicare dal proprio account personale."
+  "generic.chatSenderCanNowPostAsAnyChatHint": "\n\n<b>Nota:</b> questo utente ora può postare come <b>qualsiasi</b> canale di cui è proprietario, incluso questo."
+
   "generic.tapNextToContinue": "\n\n<b>Tocca </b>/next<b> per Continuare...</b>"
   "generic.tapNextToRetry": "\n\n<b>Tocca </b>/next<b> per Riprovare...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Tocca </b>/cancel<b> per Uscire %s</b>"
@@ -412,6 +418,8 @@
     "incorrectAnswerText": "Sbagliato. Altri 3..."
     "success": "<b>Congratulazioni!\n\nOttimo lavoro umano, ora puoi chattare in: </b><code>%s</code>"
     "successAnswerText": "Congratulazioni! Puoi chattare in %s adesso..."
+    "failure": "<b>Sfortunatamente, hai fallito il test di verifica.</b>\n\nSei un bot come me?"
+    "failureAnswerText": "Verifica richiesta non riuscita"
     "manuallyTrusted": "%s<b> ha aggiunto manualmente </b>%s<b> ai fidati.</b>"
     "manuallyTrustedAnswerText": "Utente fidato"
     "expired": "<b>Questa richiesta di verifica è scaduta</b>\n\n<b>Probabilmente sei stato bannato manualmente o considerato attendibile dagli amministratori del gruppo.</b> Oppure, questa è una richiesta molto antica."

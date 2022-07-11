@@ -248,6 +248,12 @@
   # ℹ️ Example: because they can't be warned in the first place.
   "generic.theyCantBeInTheFirstPlace": "weil sie in erster linie %s nicht verwarnt werden können."
 
+  "generic.cantUseFeatureOnLinkedChannels": "<b>Dies ist nicht möglich, da Sie auf einen Kanal antworten, der mit dieser Gruppe verknüpft ist.</b>"
+
+  "generic.cantUseFeatureOnChatSenders": "<b>Sie können dies nicht tun, weil der Benutzer als Kanal postet.\n\nDenken Sie daran:</b> Sie <i>können</i> immer noch /ban und /unban."
+  "generic.chatSenderCanNoLongerPostAsAnyChatHint": "\n\n<b>Hinweis:</b> Dieser Nutzer kann nicht mehr als einer der Kanäle posten, die er besitzt, <b>aber</b> er kann weiterhin von seinem persönlichen Konto aus posten."
+  "generic.chatSenderCanNowPostAsAnyChatHint": "\n\n<b>Hinweis:</b> Dieser Nutzer kann jetzt auf <b>allen</b> seiner Kanäle posten, einschließlich diesem."
+
   "generic.tapNextToContinue": "\n\n<b>Tippen Sie </b>/next<b> um fortzufahren...</b>"
   "generic.tapNextToRetry": "\n\n<b>Tippen Sie auf </b>/next<b>, um es erneut zu versuchen...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Tippen Sie auf </b>/cancel<b> zum Beenden %s</b>"
@@ -412,6 +418,8 @@
     "incorrectAnswerText": "Falsch. Noch 3 weitere..."
     "success": "<b>Erfolg!\n\nGute Arbeit, Mensch, du kannst jetzt in: </b><code>%s</code> chatten "
     "successAnswerText": "Erfolg! Sie können jetzt in %s chatten..."
+    "failure": "<b>Leider haben Sie den Verifizierungstest nicht bestanden.</b>\n\nSind Sie ein Bot wie ich?"
+    "failureAnswerText": "Verifizierungsanfrage fehlgeschlagen"
     "manuallyTrusted": "%s<b> hat </b>%s<b> manuell vertraut.</b>"
     "manuallyTrustedAnswerText": "Benutzer vertrauenswürdig"
     "expired": "<b>Diese Überprüfungsanforderung ist abgelaufen.</b>\n\nSie <b> wurde möglicherweise von den Administratoren der Gruppe manuell gesperrt oder als vertrauenswürdig eingestuft.</b> Oder das ist eine sehr alte Bitte."
