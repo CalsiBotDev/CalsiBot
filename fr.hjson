@@ -436,7 +436,7 @@
   }
 
   # ⚠️ IMPORTANT
-  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Appuyez sur l'emoji principal d'en haut:</b>"
+  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Appuyez sur l'emoji principal du dessus:</b>"
   "joinverify.imageText": {
     "successTop": "Humain"
     "successBottom": "Confirmé"
@@ -902,8 +902,8 @@
   "stickers.seeAllCommandsHint": "<b>Envoyer /stickers pour voir toutes les commandes et informations.</b>"
   "stickers.staticPackIndicator": "[S]"
   "stickers.dynamicPackIndicator": "[D]"
-  "stickers.staticVsDynamicHint": "<i>Remarque : les packs <code>[S]</code>tatiques ne peuvent inclure que des autocollants photo, les packs <code>[D]</code>dynamiques sont nouveaux et peuvent inclure à la fois des autocollants photo, animés et vidéo.\nTous les nouveaux packs que vous créez seront dynamiques.</i> "
-  "stickers.videoTrimmedHint": "<i>Astuce : Lors de l'ajout de vidéos, seules les 3 premières secondes peuvent être utilisées. Coupez-les vous-même avant d'ajouter pour sélectionner une partie spécifique.</i>"
+  "stickers.staticVsDynamicHint": "<i>Remarque : les packs <code>[S]</code>tatiques ne peuvent inclure que des autocollants photo, les packs <code>[D]</code>ynamiques sont nouveaux et peuvent inclure à la fois des autocollants photo, animés et vidéo.\nTous les nouveaux packs que vous créez seront dynamiques.</i> "
+  "stickers.videoTrimmedHint": "<i>Astuce : Lors de l'ajout de vidéos, seules les 3 premières secondes peuvent être utilisées. Coupez-les vous-même avant de les ajouter pour sélectionner une partie spécifique.</i>"
   "stickers.whichPackShouldBeAddedTo": "<b>À quel pack l'autocollant doit-il être ajouté?</b>\n\n%s"
 
   "stickers.callbacks": {
