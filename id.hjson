@@ -1,0 +1,929 @@
+{
+  /* ---------------------------------------------------------------------
+                    Emoji Key - Guide to what they mean
+     --------------------------------------------------------------------- */
+  /*
+
+  ℹ️ - Indicates an example of how this string could look with real values
+  ⚠️ - Indicates IMPORTANT TRANSLATIONS. These should be correctly translated first!
+
+  */
+
+
+  /* ---------------------------------------------------------------------
+                        Generic - Used for multiple things
+     --------------------------------------------------------------------- */
+  "generic.callbacks": {
+    "userBannedBy": "<a href=\"tg://user?id=%s\">Pengguna ini</a><b> diblokir oleh </b>%s"
+    # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
+    #          and NOT contain any formatting or assume the value of any dynamic values.
+    "userBannedBySignature": " diblokir oleh "
+    "userBannedAnswerText": "Pengguna Diblokir"
+    # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
+    #          and NOT contain any formatting or assume the value of any dynamic values.
+    "userUnbannedBy": "<a href=\"tg://user?id=%s\">Pengguna ini</a><b> dilepas dari blokiran oleh </b>%s"
+    "userUnbannedBySignature": " dilepas dari blokiran oleh "
+    "userUnbannedAnswerText": "Pengguna dilepas dari blokiran"
+
+    # ℹ️ Example: /JoinVerify enabled by Andy
+    "featureEnabledBy": "%s<b> diaktifkan oleh </b>%s"
+    "featureEnabledAnswerText": "%s diaktifkan"
+    "featureAlreadyEnabled": "%s<b> sudah diaktifkan</b>"
+    "featureAlreadyEnabledAnswerText": "%s Sudah Diaktifkan"
+    "featureDisabledBy": "%s<b> dinonaktifkan oleh </b>%s"
+    "featureDisabledAnswerText": "%s dinonaktifkan"
+    "featureAlreadyDisabled": "%s<b> sudah dinonaktifkan</b>"
+    "featureAlreadyDisabledAnswerText": "%s Sudah dinonaktifkan"
+
+    "joinLimitRestrictionsReset": "<a href=\"tg://user?id=%s\">Pengguna ini</a><b> memiliki batasan </b><code>/JoinLimit</code><b> batasan diatur ulang oleh </b>%s"
+    "joinLimitRestrictionsResetAnswerText": "Setel ulang batasan!"
+
+    "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">Pengguna ini</a><b> telah diberikan pengecualian bergabung oleh </b>%s\n\n<b>Lain kali pengguna bergabung, aku tidak akan menghapusnya.</b>"
+    "joinLockExceptionAddedAnswerText": "Pengecualian Ditambahkan"
+
+    "chatNameRemoved": "<b>Nama Obrolan Dihapus oleh </b>%s"
+    "chatNameRemovedAnswerText": "Nama Obrolan Dihapus"
+    "chatNameNotSet": "<b>Nama Obrolan tidak disetel, tidak ada yang perlu dihapus.</b>"
+    "chatNameNotSetAnswerText": "Nama Obrolan Belum Di Setel"
+
+    "cantUseFeatureOnAdminsAnswerText": "Tidak bisa %s admin"
+
+    "CalsiBotNoLongerAdmin": "<b>CalsiBot bukan lagi admin atau tidak memiliki izin, keyboard ini telah kedaluwarsa.</b>"
+    "CalsiBotNoLongerAdminAnswerText": "CalsiBot bukan lagi admin atau tidak memiliki izin, keyboard ini telah kedaluwarsa."
+
+    "keyboardHasExpired": "<b>Keyboard ini telah kedaluwarsa.</b>"
+    "keyboardExpiredAnswerText": "Keyboard Kedaluwarsa"
+    "keyboardUpdatedPressConfirmAnswerText": "Keyboard Diperbarui, tekan 'Konfirmasi' untuk menetapkan"
+  }
+
+  "generic.buttons": {
+    "whatIsThis": "❓ Apa ini?"
+    "whatIsThisShort": "❓ Ini Apa?"
+    "imSorry": "😭 Aku minta maaf!"
+
+    "joinChannel": "👋 Join Channel"
+    "addToGroup": "🔱 Tambahkan Ke Grup"
+    "tapToVerify": "🤖 Ketuk untuk Verifikasi 🤖"
+
+    "banUser": "Blokir Pengguna"
+    "banBot": "Blokir Bot"
+    "allowUser": "Izinkan Pengguna"
+    "trustUser": "Percayai Pengguna"
+    "trustBot": "Percayai Bot"
+    "unbanUser": "Unban Pengguna"
+
+    "settings": "⚙️ Pengaturan"
+
+    "resetRestrictions": "🤝 Setel Ulang Batasan"
+    "yes": "✅ Ya"
+    "no": "❌ Tidak"
+    "enable": "✅ Aktif"
+    "disable": "❌ Nonaktif"
+    "disableLimit": "❌ Nonaktifkan Batas"
+    "disableTimeLimit": "❌ Nonaktifkan Batas Waktu"
+
+    "permabanUser": "❌ Permaban Pengguna"
+    "unPermabanUser": "🤝 Un-Permaban Pengguna"
+
+    "remove": "❌ Hapus"
+    "removeAllWarns": "❌ Hapus Semua Peringatan"
+    "history": "📚 Histori"
+    "setMax": "🔢 Tetapkan Maks"
+    "back": "⬅️ Kembali"
+
+    "messages": "Pesan"
+    "media": "Media"
+    "stickersAndGIFs": "Stiker & GIF"
+    "linkPreviews": "Pratinjau Tautan"
+    "confirm": "📝 Konfirmasi"
+    "cancel": "❌ Batal"
+
+    "seeExample": "👀 Lihat Contoh"
+    "seeGroupInfo": "Lihat Info Grup"
+
+    "marryAccept": "🥰 Terima"
+    "marryReject": "😒 Tolak"
+
+    "continueFishing": "🎣 Lanjutkan Memancing"
+    "continueBuilding": "⚒ Lanjutkan Membangun"
+
+    "chooseAction": "🎭 Pilih Tindakan"
+    "ignore": "🙈 Abaikan"
+
+    "changeLanguage": "🌐 Ganti Bahasa"
+
+    "createPack": "📸 Buat Pack"
+    "removePack": "💀 Hapus Pack"
+    "viewPack": "🌆 Lihat Pack"
+  }
+
+  # ℹ️ Note: For languages which don't use English numbers, these should be changed
+  #          to match the 'numbersPlain' localized numbers.
+  "generic.numbers": {
+    "zero": "0️⃣"
+    "one": "1️⃣"
+    "two": "2️⃣"
+    "three": "3️⃣"
+    "four": "4️⃣"
+    "five": "5️⃣"
+    "six": "6️⃣"
+    "seven": "7️⃣"
+    "eight": "8️⃣"
+    "nine": "9️⃣"
+    "ten": "🔟"
+  }
+
+  # ℹ️ Note: These should be plain text localized numbers.
+  "generic.numbersPlain": {
+    "zero": "0"
+    "one": "1"
+    "two": "2"
+    "three": "3"
+    "four": "4"
+    "five": "5"
+    "six": "6"
+    "seven": "7"
+    "eight": "8"
+    "nine": "9"
+    "ten": "10"
+  }
+
+  "generic.timePlural": {
+    "zero": "kali"
+    "one": "kali"
+    "other": "kali"
+  }
+
+  "generic.weekPlural": {
+    "zero": "minggu"
+    "one": "minggu"
+    "other": "minggu"
+  }
+
+  "generic.dayPlural": {
+    "zero": "hari"
+    "one": "hari"
+    "other": "hari"
+  }
+
+  "generic.hourPlural": {
+    "zero": "jam"
+    "one": "jam"
+    "other": "jam"
+  }
+
+  "generic.minutePlural": {
+    "zero": "menit"
+    "one": "menit"
+    "other": "menit"
+  }
+
+  "generic.secondPlural": {
+    "zero": "detik"
+    "one": "detik"
+    "other": "detik"
+  }
+
+  "generic.onlyInSupergroups": "<b>Maaf, perintah ini hanya bisa digunakan di Supergroups</b>"
+  "generic.somethingWentWrongTryAgainLater": "<b>Ada yang salah, coba lagi nanti...</b>"
+  "generic.rateLimit": "😡 <b>Sekarang abaikan pesan baru dari </b>%s<b> untuk mengirim lebih dari 3 pesan perintah dalam waktu kurang dari 1 detik. Tolong hentikan.</b>\n\n<i>Kedaluwarsa dalam beberapa menit</i>"
+  "generic.willNotSeeAgainForAWhile": "<i>Kamu tidak akan melihat pesan ini lagi untuk sementara waktu.</i>"
+
+  # ℹ️ Example: Balas ke orang yang ingin kamu /slap
+  "generic.replyToThePersonYouWantTo": "<b>Balas ke orang yang ingin kamu</b> %s"
+  "generic.needToReply": "<b>Kamu harus membalas pesan seseorang.</b>"
+
+  "generic.needToBeAdmin": "<b>❌ Tidak diizinkan. Kamu harus:</b>\n\n1️⃣ Menjadi admin\n2️⃣ Memiliki izin untuk %s"
+  "generic.needToBeAdminAnswerText": "❌ Tidak diizinkan. Kamu harus:\n\n1️⃣ Menjadi admin\n2️⃣ Memiliki izin untuk %s"
+  "generic.CalsiBotNeedsToBeAdmin": "<b>❌ Agar ini berhasil, %s harus:</b>\n\n1️⃣ Menjadi admin\n2️⃣ Memiliki izin untuk %s"
+  "generic.CalsiBotNotUsedAnymore": "<b>Maaf, CalsiBot tidak bisa digunakan lagi di grup, atau tidak memiliki izin yang cukup.</b>"
+  "generic.CalsiBotNotUsedAnymoreAnswerText": "Maaf, CalsiBot tidak bisa digunakan lagi di grup, atau tidak memiliki izin yang cukup."
+
+  "generic.permissionTypes": {
+    "changeGroupInfo": "ubah info grup"
+    "banUsers": "blokir pengguna"
+    "deleteMessages": "hapus pesan"
+    "inviteUsers": "undang pengguna"
+    "pinMessages": "sematkan pesan"
+    "doEverything": "lakukan semuanya, termasuk menambahkan admin baru"
+  }
+
+  "generic.loaded": "Dimuat"
+  "generic.loadingEllipsis": "Memuat..."
+  "generic.disabled": "Dinonaktifkan"
+  "generic.enabled": "Diaktifkan"
+  "generic.cancelled": "Dibatalkan"
+  "generic.currently": "Saat ini"
+  "generic.gaming": "Permainan"
+  "generic.nobody": "Bukan siapa-siapa"
+  "generic.none": "Tidak ada"
+  "generic.note": "Catatan"
+  "generic.reasonColon": "Alasan:"
+  "generic.deleteQuestion": "Hapus?"
+  "generic.banQuestion": "Blokir?"
+  "generic.and": " dan "
+
+  # ℹ️ Example: Exception was added by an admin.
+  "generic.anAdmin": "seorang admin"
+
+  # ℹ️ Example: Fishing is always allowed in private :)
+  "generic.featureAlwaysAllowedInPrivate": "%s selalu diizinkan di pesan pribadi :)"
+
+  # ℹ️ Example: Wall Building has now been enabled in this group.
+  "generic.featureEnabled": "<b>%s telah diaktifkan di grup ini.</b>"
+  "generic.featureAlreadyEnabled": "<b>%s sudah diaktifkan di grup ini.</b>"
+  "generic.featureDisabled": "<b>%s dinonaktifkan di grup ini.</b>"
+  "generic.featureAlreadyDisabled": "<b>%s sudah dinonaktifkan di grup ini.</b>"
+
+  "generic.featureDisabledByDefault": "<b>Secara default, %s dinonaktifkan dalam obrolan grup.</b>\n\nAdmin bisa menekan %s."
+  # ℹ️ Example: By default, fishing is disabled in group chats.\n\nAn admin can /EnableGames, or you can fish in private, by tapping the button below:
+  "generic.featureDisabledByDefaultWithPrivate": "<b>Secara default, %s dinonaktifkan dalam obrolan grup.</b>\n\nAdmin bisa menekan %s, atau kamu bisa %s di pesan pribadi, dengan menekan tombol di bawah ini:"
+
+  # ℹ️ Example: You can use /DisableBrick to change that.
+  "generic.toggleFeatureHint": "<b>Kamu bisa menggunakan </b>%s<b> untuk mengubah itu.</b>"
+
+  # ℹ️ Example: You can't Warn admins
+  "generic.cantUseFeatureOnAdmins": "<b>kamu tidak bisa </b><code>%s</code><b> admin... Sayangnya.</b>"
+  "generic.cantUseFeatureOnAdminsWithReason": "<b>kamu tidak bisa </b><code>%s</code><b> admin karena %s</b>"
+  # ℹ️ Example: because they can't be warned in the first place.
+  "generic.theyCantBeInTheFirstPlace": "karena mereka tidak bisa %s di tempat pertama."
+
+  "generic.cantUseFeatureOnLinkedChannels": "<b>Kamu tidak bisa melakukan ini, karena kamu membalas saluran yang ditautkan ke grup ini.</b>"
+
+  "generic.cantUseFeatureOnChatSenders": "<b>Kamu tidak bisa melakukan ini karena pengguna mengirim pesan sebagai saluran.\n\nIngat:</b> Kamu <i>tetap</i> bisa /ban dan /unban."
+  "generic.chatSenderCanNoLongerPostAsAnyChatHint": "\n\n<b>Catatan:</b> pengguna ini tidak bisa lagi mengirim sebagai salah satu saluran yang mereka miliki, <b>tapi</b> mereka masih bisa mengirim pesan dari akun asli mereka."
+  "generic.chatSenderCanNowPostAsAnyChatHint": "\n\n<b>Catatan:</b> pengguna ini sekarang bisa mengirim pesan sebagai <b>setiap</b> saluran yang mereka miliki, termasuk yang ini."
+
+  "generic.tapNextToContinue": "\n\n<b>Tekan </b>/next<b> untuk melanjutkan...</b>"
+  "generic.tapNextToRetry": "\n\n<b>Tekan </b>/next<b> untuk mencoba Lagi...</b>"
+  "generic.tapCancelToQuit": "\n\n<b>Tekan </b>/cancel<b> untuk keluar %s</b>"
+
+
+  /* ---------------------------------------------------------------------
+                      Comfy - Used for /hug, /cuddle, etc.
+     --------------------------------------------------------------------- */
+  "comfy.hug": {
+    "self": "%s<b> meraih satu tangan dan memeluk tubuh mereka sendiri. </b>%s<b> merasa sedikit kurang sendirian sekarang.</b>"
+    "main": "%s memberimu <b>pelukan! :)</b>"
+    "CalsiBot": "<i>Aku tidak bisa dipeluk </i><b>:/</b>"
+  }
+
+  "comfy.cuddle": {
+    "self": "%s<b> berbaring telungkup di tempat tidur mereka, dan mencoba memeluk kedua sisi. </b>%s<b> merasa sedikit kurang sedih sekarang.</b>"
+    "main": "%s pelukan %s erat"
+    "CalsiBot": "<i>mendesahhhh</i> ☁️😌☁️"
+  }
+
+  "comfy.snuggle": {
+    "self": "%s<b> menarik lutut mereka dan mencoba meringkuk. </b>%s<b> merasa sedikit kurang dicintai sekarang.</b>"
+    "main": "%s puas meringkuk %s"
+    "CalsiBot": "🥺 <i>*suara bot santai*</i>"
+  }
+
+  "comfy.poke": {
+    "self": "%s<b> menusuk dada mereka. Itu membuat mereka ingat bahwa mereka mungkin harus menurunkan berat badan.</b>"
+    "main": "<b>*</b>%s menusuk %s<b>* o_o</b>"
+    "CalsiBot": "<b>&gt;_&lt;</b>"
+  }
+
+  "comfy.pat": {
+    "self": "%s<b> dengan canggung meraih satu tangan untuk menepuk kepala mereka sendiri. 🙃</b>"
+    "main": "<b>*</b>%s tepukan %s di atas kepala<b>* :V</b>"
+    "CalsiBot": "<i>rawr</i> <b>xDddd</b>"
+  }
+
+  "comfy.ruffle": {
+    "self": "%s<b> mengacak-acak rambut mereka sendiri... Astaga. 😐</b>"
+    "main": "<b>*</b>%s kerutan rambut %s<b>* :&</b>"
+    "CalsiBot": "<i>Kamu dimaksudkan untuk mengacak-acak rambut di kepalaku ... tidak ... di sana.</i> 😳"
+  }
+
+  "comfy.highfive": {
+    "self": "%s<b> mencoba untuk melakukan tos dengan memukul kedua tangan mereka sendiri bersama-sama. </b>%s<b> rindu, dan tenggelam lebih dalam ke dalam depresi.</b>"
+    "main": "%s hanya <b>tos</b> kamu untuk ini!"
+    "CalsiBot": "<i>:D</i>"
+  }
+
+
+  /* ---------------------------------------------------------------------
+                      Death - Used for /kys, /kms & /kos
+     --------------------------------------------------------------------- */
+  "death.CalsiBot": "<i>Aku tidak bisa dibunuh </i><b>;)</b>"
+
+  # ℹ️ Example: Josie stabbed Kevin before they starved to death
+  "death.kos": "%s<b> ditikam </b>%s<b> sebelum mereka %s</b>"
+
+
+  /* ---------------------------------------------------------------------
+                        Ban - Used for /ban, /kick, etc.
+     --------------------------------------------------------------------- */
+  "ban.kick.main": "%s<i> ditendang.</i>"
+  "ban.kickme.main": "%s<i> dihapus.</i>"
+  "ban.ban.main": "%s<i> diblokir.</i>"
+  "ban.deport.main": "%s<i> dideportasi.</i>"
+  "ban.realdeport.main": "%s<i> dideportasi, secara permanen.</i>"
+
+
+  /* ---------------------------------------------------------------------
+                      Fish - Used for /fish, /MyFish, etc.
+     --------------------------------------------------------------------- */
+  "fish.fish": "Ikan"
+  "fish.fishing": "Memancing"
+  "fish.noFish": "<b>Sepertinya </b><a href=\"tg://user?id=%s\">%s</a><b> belum pernah menangkap ikan sebelumnya!\n\nCobalah:</b> /Fish"
+  "fish.noTrophyFish": "<b>Kamu saat ini tidak memiliki Piala Ikan 😢 - tapi jangan khawatir!\n\nTangkap satu </b>/Fish<b> untuk mendapatkan yang pertama!</b>\n\n/MyFish ||| /Fish"
+
+  "fish.verdicts": {
+    "failure": "Sama seperti di kehidupan nyata, <b>umpanmu gagal.</b>"
+    "blowfish": "Kamu menangkap Ikan Buntal: 🐡"
+    "normal": "<b>Lumayan!</b>\nKamu menangkap Ikan Biasa: 🐟"
+    "tropical": "<b>Beuh!</b>\nKamu menangkap Ikan Tropis: 🐠"
+    "squid": "<b>Anjai!</b>\nkamu menangkap Cumi-cumi: 🦑"
+    "crab": "<b>Gilaa!</b>\nKamu menangkap Kepiting: 🦀"
+    "dolphin": "<b>Woooahh!</b>\nKamu menangkap Lumba-lumba: 🐬"
+    "shark": "<b>ANCRITT!!</b>\nKamu menangkap Hiu: 🦈"
+    "crocodile": "<b>HUHUUU!!!</b>\nKamu menangkap Buaya: 🐊"
+    "whale": "<b>AIRNYA JADI ANEH...\n\nDengan seluruh kekuatan, jurus tangan penuh kenangan!</b>\nKamu menangkap Paus: 🐳"
+  }
+
+  "fish.viewYourFish": "\n\n<b>Lihat ikan Kamu:</b> /MyFish"
+  "fish.newTrophyFish": "\n\n<b>🎉 Kamu baru saja mendapatkan yang baru</b>\n/TrophyFish!"
+
+  "fish.myFish":
+  '''
+  <b>🎣 </b><a href="tg://user?id=%s">%s</a><b> – Ikan:</b>
+
+  🐡 - Ikan Buntal: <b>%s</b>
+  🐟 - Ikan Biasa: <b>%s</b>
+  🐠 - Ikan Tropis: <b>%s</b>
+  🦀 - Kepiting: <b>%s</b>
+  🦑 - Cumi-cumi: <b>%s</b>
+  🐬 - Lumba-lumba: <b>%s</b>
+  🦈 - Hiu: <b>%s</b>
+  🐊 - Buaya: <b>%s</b>
+  🐳 - Paus: <b>%s</b>
+
+  🐠🦑🐊 - Semua Ikan: <b>%s</b>
+
+  /TrophyFish ||| /Fish
+  '''
+
+  "trophy.types": {
+    "firstfish": "\n%s<%s> - Ikan pertama!</%s>"
+    "1000fish": "\n%s<%s> - Seribu Ikan</%s>"
+    "5000fish": "\n%s<%s> - Lima Ribu Ikan</%s>"
+    "10000fish": "\n%s<%s> - Sepuluh Ribu Ikan</%s>"
+    "2018newyear": "\n%s<%s> - Tahun Baru 2018</%s>"
+    "2018vday": "\n%s<%s> - Hari V 2018</%s>"
+    "2018xmas": "\n%s<%s> - Natal 2018</%s>"
+    "2019newyear": "\n%s<%s> - Tahun Baru 2019</%s>"
+    "2020xmas": "\n%s<%s> - Natal 2020</%s>"
+  }
+
+
+  /* ---------------------------------------------------------------------
+                        JoinEvents - Used for Join Flow
+     --------------------------------------------------------------------- */
+  "joinevents.error.CalsiBotNotEnoughPermissions": "<b>Pesan Selamat Datang, JoinLock, JoinVerify, atau JoinLimit saat ini diaktifkan, tetapi aku tidak memiliki izin Admin yang cukup saat ini...\n\nTolong pastikan bahwa aku bisa </b><code>ubah info grup</code><b>, dan </b><code>blokir pengguna</code><b>.</b>"
+  "joinevents.userPermabanned": "%s<b> diblokir permanen dari grup ini oleh admin.\n\nAku sudah menghapusnya.</b>"
+  "joinevents.joinlockAddedByAdmin": "<b>JoinLock diaktifkan tetapi </b>%s<b> telah ditambahkan oleh </b>%s<b>, jadi mereka tidak ditendang.</b>"
+  "joinevents.joinlockMemberBanned": "%s<b> diblokir karena JoinLock diaktifkan.</b>"
+
+  /* ---------------------------------------------------------------------
+                        JoinConfig - Used for Join Flow
+     --------------------------------------------------------------------- */
+  "joinconfig.welcome.help": "<code>/SetWelcome</code><b> memungkinkan Kamu untuk mengatur Pesan Selamat Datang untuk obrolan Kamu.\n\nPesan Kamu harus seperti contoh di bawah ini:</b>"
+  "joinconfig.welcome.error.somethingWrong": "<b>Maaf, ada yang salah dengan pesan yang Kamu kirimkan.\n\nHarap periksa kembali format Kamu, dan pastikan Kamu tidak memasukkan karakter yang aneh.</b>"
+  "joinconfig.welcome.success": "<b>Bagus, Pesan Selamat Datang baru Kamu telah disetel. Periksa untuk melihat bagaimana tampilannya!\n\nKamu bisa menggunakan </b><code>/DeleteWelcome</code><b> untuk menghapusnya.</b>"
+  "joinconfig.welcome.removed": "<b>Pesan Selamat Datang telah dihapus.\n\nKamu bisa menggunakan </b><code>/SetWelcome</code><b>, dengan pesan yang Kamu inginkan, untuk mengatur yang baru.</b>"
+  "joinconfig.welcome.alreadyRemoved": "<b>Saat ini tidak ada Pesan Selamat Datang yang disetel untuk dihapus.\n\nKamu bisa menggunakan </b><code>/SetWelcome</code><b>, dengan pesan yang Kamu inginkan, untuk mengaturnya.</b>"
+
+  "joinconfig.joinlimit.help": "<code>/JoinLimit</code><b> memungkinkan Kamu untuk mengatur batasan default untuk setiap anggota yang bergabung dengan obrolan Kamu\n\nPesan Kamu harus seperti contoh di bawah ini:</b>"
+  "joinconfig.joinlimit.success": "<b>Emm</b><code>/JoinLimit</code><b> milikmu telah di atur!</b>\n\nAnggota baru akan secara otomatis dibatasi %s, sampai admin membatasi mereka."
+  "joinconfig.joinlimit.successTimed": "<b>Emm</b><code>/JoinLimit</code><b> milikmu telah di atur!</b>\n\nAnggota baru akan secara otomatis dibatasi %s, untuk batas waktu yang Kamu tentukan."
+
+  "joinconfig.title.help": "<code>/%s</code><b> memungkinkan Kamu untuk mengatur judul obrolan dengan pesan.\n\nPesan Kamu harus seperti ini:</b>\n<code>/%s Judul obrolan baru</code>\n\n<b>Tips: </b><i>Punya nama obrolan yang selalu Kamu gunakan dalam judul? Lihat </i>/cn"
+  "joinconfig.title.replyToTextHint": "<b>Kalo Kamu membalas pesan untuk mengatur judul obrolan, itu harus hanya teks.</b>\n\n<b>Tips: </b><i>Punya nama obrolan yang selalu Kamu gunakan dalam judul? Lihat </i>/cn"
+
+  "joinconfig.chatname.help": "<code>/%s</code><b> memungkinkan Kamu untuk mengatur nama obrolan. Nama ini akan selalu muncul di depan set judul obrolan menggunakan </b><code>/t</code> <b>or</b> <code>/title</code><b>.\n\nPesan Kamu harus seperti ini:</b>\n<code>/%s MyChatName</code>"
+  "joinconfig.chatname.replyToTextHint": "<b>Kalo Kamu membalas pesan untuk menyetel nama obrolan, itu harus hanya teks.</b>"
+  "joinconfig.chatname.success": "<b>Nama Obrolan Kamu telah disetel ke:</b>\n%s\n\nIni akan muncul di awal setiap set judul obrolan menggunakan <code>/t</code> atau <code>/title</code>."
+
+
+  /* ---------------------------------------------------------------------
+                        JoinVerify - Used for /JoinVerify
+     --------------------------------------------------------------------- */
+  # ⚠️ IMPORTANT
+  "joinverify.callbacks": {
+    "correctAnswerText": "Bener! %s kali lagi..."
+    "incorrectAnswerText": "Salah. 3 kali lagi..."
+    "success": "<b>Yeayy!\n\nKerja bagus, sekarang Kamu bisa mengirim pesan: </b><code>%s</code>"
+    "successAnswerText": "Yeayy! Sekarang kamu bisa mengirim pesan di %s..."
+    "failure": "<b>Sayangnya, Kamu gagal dalam tes Join Verify.</b>\n\nApakah Kamu bot seperti aku?"
+    "failureAnswerText": "Join Verify Gagal"
+    "manuallyTrusted": "%s<b> telah dipercaya secara manual </b>%s<b>.</b>"
+    "manuallyTrustedAnswerText": "Pengguna Dipercaya"
+    "expired": "<b>Permintaan Verifikasi ini telah Kedaluwarsa.</b>\n\nKamu <b>mungkin telah diblokir secara manual atau dipercaya oleh admin grup.</b> Atau, ini adalah permintaan yang sudah lama."
+    "expiredAnswerText": "Join Verify Kedaluwarsa"
+
+    "settingsUnavailable": "<b>Join Verify tidak diaktifkan sekarang, aktifkan dulu untuk mengubah pengaturan:</b>"
+    "setTimeLimit": "<b>Pilih Batas Waktu untuk Join Verify</b>\n\nBerapa menit anggota yang belum diverifikasi diizinkan, sebelum dilarang?"
+    "setTimeLimitAnswerText": "Pilih disini"
+    "timeLimitChanged": "<b>Batas Waktu Join Verify berubah dari </b><code>%s</code><b> menjadi </b><code>%s</code><b> oleh </b>%s"
+    # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
+    #          and NOT contain any formatting or assume the value of any dynamic values.
+    "timeLimitChangedSignature": "Batas Waktu Join Verify berubah dari "
+    "timeLimitChangedAnswerText": "Pengaturan Baru Disimpan"
+  }
+
+  # ⚠️ IMPORTANT
+  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Tekan Emoji yang Cocok Di Bawah:</b>"
+  "joinverify.imageText": {
+    "successTop": "Dikonfirmasi"
+    "successBottom": "Manusia"
+    "errorTop": "Ada Yang"
+    "errorBottom": "Salah"
+  }
+
+  # ⚠️ IMPORTANT
+  "joinverify.joinevents.joinVerifyAddedByAdmin": "<b>Join Verify diaktifkan tetapi </b>%s<b> telah ditambahkan oleh </b>%s<b>, jadi mereka tidak perlu memverifikasi dirinya.</b>"
+  "joinverify.joinevents.userVerify": "<b>Aloo </b>%s<b> Selamat Datang di </b><code>%s</code><b>.\n\nUntuk mengirim pesan, tekan tombol \"Verifikasi\" dan kemudian \"Start\":</b>"
+  "joinverify.joinevents.userVerifyTimed": "<b>Aloo </b>%s<b> Selamat Datang di </b><code>%s</code><b>.\n\nUntuk mengirim pesan, tekan tombol \"Verifikasi\" dan kemudian \"Start\". Kalo tidak, Kamu akan dilarang masuk selama %s menit:</b>"
+  "joinverify.joinevents.botVerify": "%s<b> adalah bot.\n\nAdmin bisa menekan \"Percayai\" di bawah ini untuk memungkinkannya mengirim pesan:</b>"
+  "joinverify.joinevents.botVerifyTimed": "%s<b> adalah bot.\n\nAdmin bisa menekan \"Percayai\" di bawah untuk mengizinkannya mengirim pesan, kalo tidak maka akan dilarang selama %s menit.</b>"
+  "joinverify.joinevents.userVerified": "%s<b> sudah </b><a href=\"t.me/CalsiBotDev/89\">memverifikasi diri mereka sebagai manusia</a><b>.</b>"
+
+  # ⚠️ IMPORTANT
+  "joinverify.preverify.callbacks": {
+    "success": "<b>Klik tautan <u>sementara</u> di bawah untuk bergabung dengan grup:</b>\n%s\n\n<i>kalo Kamu dilarang dari grup ini, Kamu tidak akan bisa bergabung</i>"
+    "successAnswerText": "Yeayy! Gunakan Tautan Undang untuk Bergabung!"
+    "memberCount": "Grup ini memiliki %s anggota"
+  }
+
+  "joinverify.preverify.error.preVerifyInvalid": "<b>Tautan Undangan PreVerify tidak valid atau grup telah menonaktifkan JoinVerify.</b>"
+  "joinverify.preverify.error.joinLockEnabled": "<b>Grup ini memiliki <a href=\"t.me/CalsiBotDev/48\">JoinLock</a> aktif, silakan coba lagi nanti.</b>"
+  "joinverify.preverify.error.alreadyVerified": "<b>Kamu sebelumnya telah memverifikasi diri Kamu sebagai manusia.</b>\n\n%s"
+  "joinverify.preverify.error.notAvailable": "<b>Join Verify tidak diaktifkan sekarang, itu harus diaktifkan sebelum Kamu bisa menggunakan PreVerify:</b>"
+
+  "joinverify.preverify.steps": {
+    "one": "✴️ <b>1. Teruskan pesan yang (dibalas) di atas</b> ke Saluran Publik di mana %s adalah admin.\n<b>2. Ketuk atau klik kanan pesan yang diteruskan dan <b>Salin tautan</b>\n3. Kirim tautan publik yang disalin ke obrolan ini</b>.\n\nTautan harus terlihat seperti ini:\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.noVerificationString": "❌ <b>Tidak bisa menemukan string verifikasi yang diperlukan dalam postingan. Pastikan postingan yang Kamu tautkan adalah pesan verifikasi kepemilikan yang Kamu teruskan.</b>"
+    "oneError.urlFormat": "❌ <b>Tautan yang Kamu kirim tidak benar. Harusnya seperti ini:</b>\nhttps://t.me/CalsiBotDev/99999"
+    "oneError.targetIsNotChannel": "❌ <b>Tautan yang Kamu berikan adalah untuk Grup Publik.\n\nPreVerify hanya bisa digunakan dengan Saluran Publik saja.</b>"
+    "oneError.cantSendPost": "❌ <b>Tidak bisa mengirim pesan, harap pastikan %s adalah admin dengan izin yang cukup di %s.</b>%s"
+    "oneSuccess": "✅ <b>Oke, berhasil diposting!</b>\n\nLihat postingan di https://t.me/%s/%s\n\n<b>Untuk melindungi grup Kamu sepenuhnya, Kamu harus mencabut semua Tautan Undangan sebelumnya. Kamu bisa melakukannya dengan:</b>\n1. Mencabut Tautan Undangan pribadi Kamu\n2. Menurunkan dan mempromosikan kembali semua admin Kamu (kecuali CalsiBot). Ini akan mencabut Tautan Undangan apa pun yang telah mereka bagikan."
+  }
+
+  "joinverify.preverify.imageText": {
+    "title": "Untuk bergabung ke grup:"
+    "stepOne": "Ketuk <span>Verifikasi,</span> kemudian <span>Start</span>"
+    "stepTwo": "<span>Lulus</span> tes"
+    "stepThree": "<span>Bergabung</span> ke grup!"
+  }
+
+  "joinverify.preverify.main": "<b>%s%s <a href=\"t.me/CalsiBotDev/111\">dilindungi oleh</a> PreVerify.</b>"
+  "joinverify.preverify.verificationMessage": "<b>Pesan ini untuk memverifikasi kepemilikan saluran ini untuk fitur PreVerify CalsiBot.</b>\n\n%s"
+  "joinverify.preverify.setUpCancelled": "<b>Pengaturan PreVerify dibatalkan.</b>"
+
+
+  /* ---------------------------------------------------------------------
+                        JoinLimit - Used for /JoinLimit
+     --------------------------------------------------------------------- */
+  "joinlimit.joinevents.userLimited": "%s telah dibatasi %s karena <code>/JoinLimit</code><b> diaktifkan.</b>"
+  "joinlimit.joinevents.userLimitedTimed": "%s telah dibatasi %s <b>sampai %s (UTC) karena </b><code>/JoinLimit</code><b> diaktifkan.</b>"
+  "joinlimit.joinevents.signature": " telah dibatasi "
+
+
+  /* ---------------------------------------------------------------------
+                    Marry - Used for /Marry, /Divorce, etc.
+     --------------------------------------------------------------------- */
+  "marry.marriage": "Pernikahan"
+  "marry.callbacks": {
+    "waitForDecisionAnswerText": "😶 Kamu harus menunggu %s untuk memilih opsi..."
+    "userNotInvolvedAnswerText": "🙄 Berhenti mengganggu hubungan orang lain %s."
+
+    "proposalAccepted": "💝 %s<b> dan </b>%s<b> telah menikah satu sama lain! 🎉</b><i>\n(terjadi %s %s sejauh ini)</i>\n\n%s\n\n<code>Lihat Status Kamu </code>/MarryStats"
+    "proposalAcceptedAnswerText": "💝 Selamat! 🎉"
+    "proposalRejected": "🤕 %s<b> ditolak oleh </b>%s<i>\n(terjadi %s %s sejauh ini)</i>\n\n%s\n\n<code>Lihat Status Kamu </code>/MarryStats"
+    "proposalRejectedAnswerText": "🤕 Aduh."
+  }
+
+  "marry.result.childPlural": {
+    "zero": "anak"
+    "one": "anak"
+    "other": "anak-anak"
+  }
+  "marry.result.housePlural": {
+    "zero": "rumah"
+    "one": "rumah"
+    "other": "rumah"
+  }
+
+  "marry.result.bothGainedHappiness": "🙂 Keduanya mendapatkan <b>%s kebahagiaan</b> masing-masing."
+  "marry.result.oneLostHappiness": "🙂 %s kehilangan <b>%s kebahagiaan</b>."
+
+  "marry.result.bothGainedChildren": "🥺 Keduanya memperoleh masing-masing <b>%s %s</b>."
+  "marry.result.oneTookChildrenFrom": "🥺 %s mengambil <b>%s %s</b> dari %s."
+  "marry.result.noChildrenGained": "🚫 Tidak mempunyai anak yang diperoleh kali ini."
+
+  "marry.result.bothGainedHouses": "🏠 Keduanya memperoleh masing-masing <b>%s %s</b>."
+  "marry.result.oneTookHousesFrom": "🏠 %s mengambil <b>%s %s</b> dari %s."
+  "marry.result.noHousesGained": "🚫 Tidak mempunyai rumah yang diperoleh kali ini."
+
+  "marry.result.bothGainedNetWorth": "💰 Keduanya memperoleh masing-masing <b>$%s</b>."
+  "marry.result.oneTookNetWorthFrom": "💰 %s mengambil <b>$%s</b> dari %s."
+  "marry.result.noNetWorthGained": "🚫 Tidak ada kekayaan bersih yang diperoleh kali ini."
+
+  "marry.help": "💍<b> Balas ke seseorang yang kamu suka dengan </b><code>/marry</code><b> untuk menjadikannya resmi.</b>"
+
+  "marry.error.cooldown": "<b>Kamu harus menunggu 1 menit setiap kali Kamu memeriksa statistik.</b>\n\n%s"
+
+  "marry.self": "<b>Kamu tidak bisa menikahi dirimu sendiri, bahkan jika tidak ada orang lain yang ingin menikahimu...</b>"
+  "marry.main": "💘 %s<b> telah melamarmu!</b>"
+  "marry.CalsiBot": "<b>Maaf, tapi aku sudah menikah dengan pekerjaan ku...</b> 🥺"
+
+  "marry.divorce.help": "💔<b> Tak lagi merasakan cinta? </b><code>/divorce</code><b> bisa digunakan untuk berpisah dengan orang yang telah Kamu nikahi sebelumnya.</b>"
+
+  "marry.divorce.error.notMarried": "😐<b> Kamu saat ini tidak menikah dengan </b>%s<b>, jadi kamu tidak bisa menceraikannya...</b>"
+
+  "marry.divorce.self": "<i>Apakah yang kamu maksud:\n</i>/kms"
+  "marry.divorce.main": "🖤 %s<b> Menceraikan </b>%s<i>\n(terjadi %s %s sejauh ini)</i>\n\nMenikah selama: %s\n\n%s\n\n<code>Lihat Status Kamu </code>/MarryStats"
+  "marry.divorce.CalsiBot": "<b>Mari kita lihat apa yang dikatakan pengacara ku tentang itu...</b> 🤧"
+
+  "marry.marrystats.error.noData": "🥺 %s <b>belum pernah menikah.</b>"
+  "marry.marrystats.error.noMutualData": "😶 %s <b>belum pernah menikah Untuk</b> %s<b>.</b>"
+
+  "marry.marrystats.CalsiBot": "<b>Tidak seperti Kamu, CalsiBot murni dan tidak memiliki riwayat pernikahan.</b>"
+
+  "marry.marrystats.own.information": "💖 %s<b> – Statistik Menikah – 1️⃣:</b>\n\n🙂 - Kebahagiaan: <b>%s</b>\n🥺 - Anak: <b>%s</b>\n🏠 - Rumah: <b>%s</b>\n💰 - Kekayaan Bersih: <b>$%s</b>"
+  "marry.marrystats.own.marriages": "💖 %s<b> – Statistik Menikah – 2️⃣:</b>\n\n❤️ <b>Pernikahan:</b>\nPermintaan paling banyak diterima oleh %s\nPermintaan paling banyak ditolak oleh %s\nTelah menikah: <b>%s</b> | Ditolak: <b>%s</b>"
+  "marry.marrystats.own.divorces": "💖 %s<b> – Marry Stats – 3️⃣:</b>\n\n🖤 <b>Perceraian:</b>\nBercerai dari %s terbanyak\nTotal: <b>%s</b>"
+
+
+  /* ---------------------------------------------------------------------
+                    Permaban - Used for /Permaban, /UnPermaban
+     --------------------------------------------------------------------- */
+  "permaban.permaban": "Permaban"
+
+  "permaban.callbacks": {
+    "userPermabanned": "<a href=\"tg://user?id=%s\">Pengguna ini</a><b> di Permaban oleh </b>%s"
+    "userPermabannedAnswerText": "Pengguna di Permaban"
+    "userAlreadyPermabanned": "<a href=\"tg://user?id=%s\">Pengguna ini</a><b> sudah di Permaban.</b>"
+    "userAlreadyPermabannedAnswerText": "Pengguna Sudah di Permaban"
+
+    "userUnPermabanned": "<a href=\"tg://user?id=%s\">Pengguna ini</a><b> Tidak Di-Permaban oleh </b>%s"
+    "userUnPermabannedAnswerText": "Pengguna Tidak Di-Permaban"
+    "userAlreadyNotPermabanned": "<a href=\"tg://user?id=%s\">Pengguna ini</a><b> sudah tidak di Permaban.</b>"
+    "userAlreadyNotPermabannedAnswerText": "Pengguna Sudah Tidak di Permaban"
+  }
+
+  "permaban.replyHint": "<b>Balas ke pengguna yang ingin Kamu </b><code>Permaban</code>"
+
+
+  /* ---------------------------------------------------------------------
+              Restrict - Used for /restrict, /unrestrict, /unban
+     --------------------------------------------------------------------- */
+  "restrict.restricted": "Dibatasi"
+
+  "restrict.callbacks": {
+    "restrictionsReset": "<b>Pembatasan diatur ulang oleh </b>%s"
+    "restrictionsUpdated": "<b>Batasan diperbarui oleh </b>%s"
+    "restrictCancelled": "<code>/restrict</code><b> dibatalkan oleh </b>%s"
+  }
+
+  "restrict.info": {
+    "messages": "Mengontrol apakah pengguna bisa mengirim pesan sama sekali."
+    "media": "Mengontrol apakah pengguna bisa mengirim audio, dokumen, foto, video, pesan video, dan pesan suara."
+    "stickergifs": "Mengontrol apakah pengguna bisa mengirim animasi, game, stiker, dan menggunakan inline bot."
+    "linkpreviews": "Mengontrol apakah pengguna bisa menambahkan pratinjau tautan ke pesan mereka."
+  }
+
+  "restrict.types": {
+    "messages": "dari mengirim Pesan apa pun di sini"
+    "media": "dari mengirim pesan Media apa pun di sini"
+    "stickergifs": "dari mengirim Stiker atau GIF apa pun di sini"
+    "linkpreviews": "dari menambahkan Pratinjau Tautan ke pesan mereka"
+  }
+
+  "restrict.success": "%s telah dibatasi %s oleh %s"
+  "restrict.successTimed": "%s telah dibatasi %s <b>sampai %s (UTC) oleh </b>%s"
+  "restrict.replyHint": "<b>Balas ke pengguna yang batasannya ingin Kamu edit</b>"
+
+  "restrict.main": "<b>Gunakan tombol di bawah ini untuk memilih apa yang </b>%s<b> bisa kirim disini:</b>"
+  "restrict.mainTimed": "<b>Gunakan tombol di bawah ini untuk memilih apa yang </b>%s<b> bisa kirim disini:\n\nPembatasan akan secara otomatis berakhir pada:\n</b><code>%s %s</code>"
+
+
+  /* ---------------------------------------------------------------------
+                  Warn - Used for /warn, /Warns, /MyWarns
+     --------------------------------------------------------------------- */
+  "warn.warned": "diperingati"
+  "warn.checkWarnsOf": "periksa peringatan dari"
+
+  "warn.callbacks": {
+    "warnRemovedBy": "<b>Peringatan telah dihapus oleh </b>%s"
+    "warnRemovedAnswerText": "Peringatan Dihapus!"
+    "noWarns": "<a href=\"tg://user?id=%s\">Pengguna ini</a><b> tidak memiliki peringatan apa pun saat ini</b>"
+    "noWarnsToRemoveAnswerText": "Tidak Ada Peringatan untuk Dihapus"
+    "noWarnsToShowAnswerText": "Tidak Ada Peringatan untuk Ditampilkan"
+    "previousWarns": "<b>Peringatan milik</b><a href=\"tg://user?id=%s\">Pengguna ini</a>"
+    "previousWarnsAnswerText": "Peringatan Sebelumnya Dimuat"
+    "confirmRemoveAllWarns": "<b>Kamu yakin ingin menghapus semua peringatan </b><a href=\"tg://user?id=%s\">milik pengguna ini?</a>"
+    "confirmRemoveAllWarnsAnswerText": "Apa kamu yakin?"
+    "allWarnsRemovedBy": "Semua Peringatan<a href=\"tg://user?id=%s\">milik pengguna ini</a><b> sebelumnya telah dihapus oleh </b>%s"
+    "allWarnsRemovedAnswerText": "Peringatan Sebelumnya Dihapus"
+    "chooseMaxWarnsValue": "<b>Berapa kali peringatan pengguna setelahnya akan dilarang?</b>"
+    "chooseMaxWarnsValueAnswerText": "Pilih Nilai"
+    "maxWarnsValueChangedBy": "<b>Maks Peringatan berubah dari </b><code>%s</code><b> menjadi </b><code>%s</code><b> oleh </b>%s"
+    "maxWarnsValueChangedAnswerText": "Set Peringatan Maks Baru"
+  }
+
+  "warn.noReasonGiven": "Tidak ada alasan yang diberikan"
+
+  "warn.replyHint": "<b>Balas ke pengguna yang ingin Kamu peringati, misalnya:</b>\n\n<code>/warn</code><b>, atau\n</b><code>/warn &lt;alasan&gt;</code>"
+
+  "warn.success": "%s<b> diperingati oleh </b>%s.%s\n\n<code>%s dari %s peringatan</code>"
+  "warn.userBanned": "%s<b> dilarang. Tercapai </b><code>%s dari %s peringatan</code>"
+  "warn.myWarns": "<b>Diperingati sebanyak </b>%s<b>:</b>"
+  "warn.noWarns": "Tidak ada peringatan, mantap."
+
+
+  /* ---------------------------------------------------------------------
+                            Start - Used for /start
+     --------------------------------------------------------------------- */
+  # ⚠️ IMPORTANT
+  "start.error.JoinVerifyWrongUser": "<b>Tombol itu bukan untuk kamu.\n\nTapi hei, sekarang kamu di sini:</b>"
+  "start.error.JoinVerifyExpired": "<b>Maaf, Permintaan Join Verify Kamu telah kedaluwarsa.\n\nSilakan gabung lagi ke grup dan coba lagi.</b>"
+  "start.main":
+  '''
+  <b>Aloo </b><code>%s</code><b>, Aku %s!
+
+  ✴️ Aku akan menjaga grup Kamu aman dari kejahatan</b> dan aku memiliki <b>banyak fitur keren lainnya</b> Seperti <a href="t.me/CalsiBotDev/113">membuat pack stiker</a><b>.</b>
+
+  <b>Perintah Admin yang sering digunakan:</b>
+  <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
+  <a href="t.me/CalsiBotDev/23">/restrict</a>, <a href="t.me/CalsiBotDev/82">/warn</a>, <a href="t.me/CalsiBotDev/48">/JoinLock</a>, dan <a href="t.me/CalsiBotDev/74">/JoinLimit</a>
+
+  <b>Lihat perintah lainnya:</b>
+  /ListCommands
+  '''
+
+
+  /* ---------------------------------------------------------------------
+                        Misc - A mix of other commands
+     --------------------------------------------------------------------- */
+  "misc.boi.self": "<b>Bayangkan secara ironis mencoba </b>/boi<b> dirimu sendiri...</b>"
+  "misc.boi.main": "Kamu telah dikunjungi oleh tangan sang perkasa. Pergi ke sudut Kamu dan pikirkan omong kosong yang Kamu katakan."
+  "misc.boi.CalsiBot": "<b>boiii, apakah kamu tahu apa yang baru saja kamu coba lakukan!? 😡😤</b>"
+
+  "misc.denko.main":
+  '''
+  <b>(´･ω･`)</b>
+  '''
+
+  "misc.huh.main": "<b>huh</b>"
+
+  "misc.judge.main.truth": "%s<b> mengatakan yang sebenarnya.</b>"
+  "misc.judge.main.lying": "%s<b> berbohong!</b>"
+  "misc.judge.CalsiBot": "<i>Aku selalu benar.</i>"
+
+  "misc.coin.main.heads": "%s melempar koin!\n\n<b>Ini Kepala!</b>"
+  "misc.coin.main.tails": "%s melempar koin!\n\n<b>Itu Ekor!</b>"
+
+  "misc.covfefe.tooLong": "<b>❌ Terlalu panjang. ☕😐</b>"
+  "misc.covfefe.replyHint": "<b>Balas pesan yang ingin Kamu covfefe!</b>"
+
+  "misc.spurdo.tooLong": "<b>❌ terlalu pwanjang :dd 🥺</b>"
+  "misc.spurdo.replyHint": "<b>balas pwesan yang ingin kmoeh spurdo-kan :DD</b>"
+
+  "misc.listcommands.main":
+  '''
+  <b>Hampir semua perintah CalsiBot:</b>
+
+  <b>Perintah Nyaman:</b>
+  /hug, /cuddle, /snuggle, /ruffle
+  /pat, /poke, /highfive
+
+  <b>Permainan:</b>
+  /fish, /marry, /divorce
+
+  <b>Perintah Permainan:</b>
+  /slap, /wish, /judge, /coin (/flip)
+  /roll, /dox
+  /kms, /kys, /kos
+
+  <b>Perintah Admin:</b>
+  /kick, <code>/kickme</code>, /ban, /permaban
+  /mute (/restrict), /unrestrict (/unban), /warn
+  /pin, /unpin, /title, /chatname, /pfp
+  /SetWelcome, /RemoveWelcome
+  /JoinLimit, /JoinLock
+  /JoinVerify, /PreVerify
+
+  <b>Perintah Modifikasi Teks:</b>
+  /covfefe, /spurdo, /emojify
+
+  <b>Lainnya:</b>
+  /boi, /denko, /huh
+  /name, /me, /edgy
+  <a href="t.me/CalsiBotDev/51">"sed" (pengalihan/penggantian teks)</a>
+
+  <b>Fungsi yang Berguna:</b>
+  /stickers, <code>@admin</code>, /language
+  /translate (/tr), /when, /count
+  '''
+
+  # ℹ️ Example: It's
+  #             Alex Wayne"
+  "misc.name.main": "Ini:\n<b>%s</b>"
+
+  "misc.me.main":
+  '''
+  <b>Informasi Untuk </b>%s<b>:</b>
+
+  <code>Username: </code>%s
+  <code>User ID: </code>%s
+  <code>Chat ID: </code>%s
+  '''
+
+  "misc.wish.help":
+  '''
+  <b>Kamu bisa menggunakan </b><code>/wish</code><b> untuk mengatakan sebuah Harapan
+
+  For example:</b>
+  <code>/wish Aku bisa berkencan denganmu 😍</code><b>, atau</b>
+  <code>/wish mimpiin kamu 🙈 /emojify</code><b>, atau</b>
+  <code>/wish aku memiliki seseorang untuk dipeluk di malam hari</code><b>...</b>
+  '''
+
+  "misc.wish.main": "<b>Keinginan Kamu telah diungkapkan. ✨</b>\n\n<i>kesempatannya: %s%</i>"
+
+  "misc.adminmode.help": "<b>Mode Admin memungkinkan Kamu untuk menonaktifkan semua perintah CalsiBot yang tidak terkait dengan Administrasi Grup</b>"
+  "misc.adminmode.sorry": "<b>Maaf, Mode Admin Diaktifkan sehingga Kamu tidak bisa menggunakan perintah ini di sini...</b>\n\n%s"
+
+  "misc.sedreplace.main": "Apakah yang kamu maksud:"
+
+  "misc.pfp.help": "<b>Balas ke gambar terkompresi (tidak dikirim sebagai file) yang ingin Kamu tetapkan sebagai gambar profil grup</b>"
+
+  "misc.slap.CalsiBot": "<b>Kamu tidak bisa menampar ku, bukan begitu cara kerjanya...</b>"
+
+  "misc.when.forwardMain": "📅 Awalnya dikirim di <b>%s</b> pada <b>%s</b> (UTC)\n\n⏳ itu <b>%s</b> yang lalu."
+  "misc.when.otherMain": "⏳ Pesan ini terkirim <b>%s</b> yang lalu."
+  "misc.when.otherEdit": "\n\n✏️ Terakhir diedit <b>%s</b> yang lalu."
+  "misc.when.help": "<b>Balas pesan apa pun untuk melihat sudah berapa lama sejak dikirim - hingga detik.\n\nUntuk pesan yang diteruskan, aku akan memberi tahu Kamu saat pesan asli pertama kali dikirim.</b>"
+
+  "misc.count.main": "<b>Sejak dibuat, grup ini telah memiliki </b><code>%s</code><b> pesan, termasuk pesan Kamu</b>"
+
+  "misc.pin.help": "<code>/pin</code> <b>memungkinkan Kamu untuk dengan mudah mengatur, atau mengubah pin obrolan tanpa menu yang bodoh\n\nMasih bingung cara menggunakannya? Ketuk tombol di bawah untuk melihat contohnya:</b>"
+  "misc.pin.main": "<b>Balas ke gambar terkompresi (tidak dikirim sebagai file) yang ingin Kamu tetapkan sebagai gambar profil grup</b>"
+
+  # ℹ️ Example: Couldn't find any\n- non-animated sticker 😕\n\nTry again with a different message.
+  "misc.fileIDSearch.error.noUsableFileFound": "<b>Tidak bisa menemukan:</b>\n%s. 😕\n\n<b>Coba lagi dengan pesan yang berbeda.</b>"
+
+  # ℹ️ Example: Come over here, get on your knees, and translate this 😏
+  "misc.knees.main": "<b>Kemarilah, berlutut, dan </b><i>%s</i><b> ini %s</b>"
+
+
+  /* ---------------------------------------------------------------------
+                        Language - Used for /language
+     --------------------------------------------------------------------- */
+  # ℹ️ NOTE: This should be the native name of the language.
+  "language.name": "Indonesia"
+  "language.main": "<b>Bahasa Kamu saat ini disetel ke:</b>\n<code>%s</code>"
+  "language.credit": "<b>Terjemahan ini dibuat oleh </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">kontribusi</a><b> dari:</b>\n"
+  # ℹ️ NOTE: The contributors string should NOT be changed by anyone other than me, or those who are already listed
+  #          as contributors.
+  #
+  #          By default, let's use id-mentions here instead of usernames for privacy reasons, but if you'd prefer to
+  #          be credited by username or something else, feel free to change your tag here - or ask me to do it.
+  #
+  #          This list of names should be in order of contribution size and frequency, taking into account age of last
+  #          contribution.
+  "language.credit.activeContributors": "<a href=\"t.me/justDzL\">dzL</a>"
+
+  "language.callbacks": {
+    "chooseYourLanguage": "<b>Pilih bahasamu:</b>"
+    "changedBy": "<b>Bahasa diubah dari </b><code>%s</code><b> menjadi </b><code>%s</code><b> oleh </b>%s"
+    "changedByAnswerText": "Bahasa Diubah"
+    "languageAlreadySetAnswerText": "%s sudah ditetapkan sebagai bahasa grup"
+  }
+
+
+  /* ---------------------------------------------------------------------
+                        Emojify - Used for /emojify
+     --------------------------------------------------------------------- */
+  "emojify.error.tooLong": "<b>❌ Terlalu panjang. 🍆😐</b>"
+  "emojify.error.replyToHuman": "<b>hih 🚫 dodol 😂\n\nBalas 💬 pesan manusia 👤</b>"
+  "emojify.replyHint": "🙈 <b>balas 💬 ke 👏 pesan 📲 yang 👈 ingin 👏 Kamu emojify!</b>"
+
+
+  /* ---------------------------------------------------------------------
+                    Translate - Used for /tr, /translate
+     --------------------------------------------------------------------- */
+  "translate.error.notALanguage": "<b>Maaf, '%s' bukan sebuah bahasa, atau tidak didukung</b>"
+  "translate.replyHint": "<b>Balas teks yang ingin Kamu terjemahkan!</b>"
+
+
+  /* ---------------------------------------------------------------------
+                            Roll - Used for /roll
+     --------------------------------------------------------------------- */
+  "roll.singlesArray": [
+    "Gapunya ayang :("
+    ":( jomblo, kayak kamu."
+    "._."
+    "UUUUU"
+    "Miris kamu"
+    "(((mereka))) melakukan ini"
+    "feelsbadman.gaypg"
+  ]
+
+  # ℹ️ Example: You Got Septuples!
+  "roll.main": "kamu mendapatkan %s"
+
+
+  /* ---------------------------------------------------------------------
+                              Dox - Used for /dox
+     --------------------------------------------------------------------- */
+  "dox.result":
+  '''
+  <b>Dox dari </b>%s<b>:</b>
+
+  <pre>Gender: %s
+  Tanggal lahir: %s
+  Alamat: %s, %s
+  Pekerjaan: %s
+
+  IP saat ini: %s
+  SSN: %s
+  Nomor telepon: %s</pre>
+  '''
+
+  "dox.gendersArray": [
+    "cowo"
+    "cewe"
+    "e-boy"
+    "e-girl"
+    "thot"
+    "pelacur"
+    "pakboi"
+    "gatau 😳"
+  ]
+
+
+  /* ---------------------------------------------------------------------
+                        AtAdmin - Used for @admin, @admins
+     --------------------------------------------------------------------- */
+  # ℹ️ NOTE: The last %s may look useless here, but it will hold the 'mentions' to the group's admins
+  "atAdmin.main": "%s <b>telah memanggil admin untuk melihat pesan ini.</b>%s"
+
+  "atAdmin.callbacks": {
+    "chooseAction": "<b>Pilih tindakan yang ingin Kamu lakukan dengan tombol di bawah ini:</b>"
+    "chooseActionAnswerText": "Pilih Tindakan"
+    "ignoreAnswerText": "Laporan Diabaikan"
+    "actionTakenAnswerText": "Tindakan yang Kamu pilih telah diambil"
+  }
+
+  "atAdmin.info": {
+    "delete": "Haruskah pesan yang dilaporkan dihapus? Perhatikan bahwa bot tidak bisa menghapus pesan yang lebih lama dari 48 jam..."
+    "ban": "Haruskah pengguna yang dilaporkan dilarang?"
+  }
+
+
+  /* ---------------------------------------------------------------------
+                  Stickers - Used for all /sticker commands
+     --------------------------------------------------------------------- */
+  "stickers.defaultPackTitle": "Favorit %s"
+  "stickers.acceptableFileTypes": "<b>- foto terkompresi,\n- foto tidak terkompresi</b> (&lt;15 MB),\n<b>- stiker non-animasi</b>"
+  "stickers.main": "<b>Buat, Kelola, dan Tambahkan ke Pack Stiker dengan perintah berikut:</b>\n\n/newpack — buat pack baru\n/listpacks — daftar pack dan ID pack Kamu\n/removepack — hapus tautan pack dari CalsiBot\n\n/addsticker — tambahkan gambar atau stiker ke pack\n/deletesticker — hapus stiker dari pack\n\n<b>Penggunaan ahli:</b>\n\n/addsticker 3 — tambahkan gambar atau stiker ke pack dengan ID <code>3</code>\n/addsticker 🥳🙂😉 — buat stiker dan sarankan saat menggunakan salah satu dari tiga emoji ini\n/addsticker 3 🥳🙂😉 — buat stiker dan tambahkan ke pack <code>3</code>, sarankan saat menggunakan salah satu dari tiga emoji ini"
+  "stickers.beingAdded": "⏳ <b>Stiker Kamu sedang ditambahkan, harap tunggu...</b>"
+  "stickers.beingAddedQueued": "⏳ <b>Stiker Kamu akan ditambahkan dalam %s, harap tunggu...</b>"
+  "stickers.beingAddedSuccess": "🥳 <b>Stiker Kamu telah ditambahkan!</b>\n\n<i>kalo Kamu tidak melihatnya, hapus dan tambahkan kembali Stiker Pack:</i>"
+  "stickers.beingDeleted": "<b>Stiker ini telah dihapus.</b>\n\n<i>mungkin perlu waktu hingga 2 menit untuk menghilang:</i>"
+  "stickers.letsCreateAPackInPrivate": "<b>Pack Stiker harus dibuat secara pribadi, kuyy:</b>"
+  "stickers.removeOnlyInPrivate": "<b>Pack Stiker hanya bisa dihapus secara pribadi, kuyy:</b>"
+  "stickers.seeAllCommandsHint": "<b>Kirim /stickers untuk melihat semua perintah dan info.</b>"
+  "stickers.whichPackShouldBeAddedTo": "<b>Pack mana yang harus ditambahkan stiker??</b>\n\n%s"
+
+  "stickers.callbacks": {
+    "confirmStickerPackCreate": "<b>Pack Stiker Kamu akan memiliki nama kek gini::</b>\n\n<code>%s</code>\n\n<b>⚠️ Kamu gaakan bisa ubah ini nanti.\n\nTekan Batal untuk memilih nama yang berbeda.</b>"
+    "cancelStickerPackCreate": "<b>Oke, pilih nama lain dan coba lagi. Sebagai contoh:</b>\n\n<code>/newpack %s</code>"
+    "stickerPackCreateSuccess": "<b>Pack Stiker Kamu telah dibuat!</b>\n\nSekarang Kamu bisa membalas gambar dan stiker dengan /addsticker untuk menambahkannya ke pack Kamu\n\n%s"
+    "confirmStickerPackRemove": "⚠️ <b>Pack Stiker kamu akan dihapus dari CalsiBot.\n\nKamu gaakan bisa memperbarui pack ini dengan CalsiBot lagi.\n\nApa Kamu yakin mau hapus pack ini??</b>"
+    "cancelStickerPackRemove": "<b>Oke, pack tidak dihapus.</b>"
+    "stickerPackRemoveSuccess": "<b>Pack Stiker Kamu telah dihapus dari CalsiBot.</b>\n\nUntuk menghapus sepenuhnya, silakan ke @Stickers"
+    "cancelAddEmojiToMessage": "<b>Oke, Kamu bisa menentukan sendiri emoji yang berbeda. Contohnya:</b>\n\n<code>%s</code>"
+  }
+
+  "stickers.listPacks": "<b>Pack Kamu:\n\n%s</b>\n\n%s"
+  "stickers.listPacksFill": "%s — <a href=\"%s\">%s</a>"
+  "stickers.validStickerPacksAre": "<b>ID Pack Stiker yang valid adalah:\n<code>%s</code></b>"
+
+  "stickers.error": {
+    "noTitleGiven": "<b>Kamu harus menentukan nama. Contohnya:</b>\n\n<code>/%s %s</code>"
+    "noPackGiven": "<b>Kamu harus menentukan Pack. Contohnya:</b>\n<code>/%s %s</code>\n\n%s"
+    "noEmojiGiven": "<b>Silakan pilih emoji di bawah ini\n\nTekan Batal untuk menentukan milik Kamu:</b>\n<code>%s</code>"
+    "noStickerPacks": "<b>Kamu tidak memiliki Pack Stiker.</b>\n\n%s"
+    "specifiedPackDoesNotExist": "<b>Tidak bisa menemukan Pack Stiker <code>%s</code></b>\n\n%s"
+    "packLimitReached": "<b>Kamu telah mencapai batas %s Pack Stiker.\n\nKalo Kamu ingin membuat Pack baru, Kamu harus menggunakan </b><code>/removepack</code><b> untuk menghapusnya terlebih dahulu.</b>"
+    "addStickerReplyHint": "<b>Balas gambar atau stiker yang ingin Kamu tambahkan ke Pack stiker.</b>"
+    "deleteStickerReplyHint": "<b>Balas stiker dari salah satu Pack Kamu yang ingin Kamu hapus.</b>"
+  }
+}

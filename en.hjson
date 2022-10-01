@@ -436,7 +436,7 @@
   }
 
   # ⚠️ IMPORTANT
-  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Tap The Matching Emoji Below:</b>"
+  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Tap The Main Emoji From Above:</b>"
   "joinverify.imageText": {
     "successTop": "Confirmed"
     "successBottom": "Human"
@@ -891,8 +891,8 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "%s's Favorites"
-  "stickers.acceptableFileTypes": "<b>- compressed photo,\n- uncompressed photo</b> (&lt;15 MB),\n<b>- non-animated sticker</b>"
-  "stickers.main": "<b>Create, Manage and Add to Sticker Packs with the following commands:</b>\n\n/newpack — make a new pack\n/listpacks — list your packs and their IDs\n/removepack — unlink a pack from CalsiBot\n\n/addsticker — add image or sticker to a pack\n/deletesticker — delete sticker from a pack\n\n<b>Expert usage:</b>\n\n/addsticker 3 — add image or sticker to pack with ID <code>3</code>\n/addsticker 🥳🙂😉 — create sticker and suggest it when using any of these three emoji\n/addsticker 3 🥳🙂😉 — create sticker and add to pack <code>3</code>, suggest it when using any of these three emoji"
+  "stickers.acceptableFileTypes": "<b>- GIF,\n- compressed photo,\n- uncompressed photo</b> (&lt;10 MB)<b>,\n- video</b> (&lt;10 MB)<b>,\n- photo, animated, or video sticker</b>"
+  "stickers.main": "<b>Create, Manage and Add to Sticker Packs with the following commands:</b>\n\n/newpack — make a new pack\n/listpacks — list your packs and their IDs\n/removepack — unlink a pack from CalsiBot\n\n/addsticker — add sticker to a pack\n/deletesticker — delete sticker from a pack\n\n<b>Expert usage:</b>\n\n/addsticker 3 — add image or sticker to pack with ID <code>3</code>\n/addsticker 🥳🙂😉 — create sticker and suggest it when using any of these three emoji\n/addsticker 3 🥳🙂😉 — create sticker and add to pack <code>3</code>, suggest it when using any of these three emoji"
   "stickers.beingAdded": "⏳ <b>Your sticker is being added, please wait...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Your sticker will be added in %s, please wait...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>Your sticker has been added!</b>\n\n<i>if you don't see it, remove and re-add the Sticker Pack:</i>"
@@ -900,6 +900,10 @@
   "stickers.letsCreateAPackInPrivate": "<b>Sticker Packs must be created in private, let's go:</b>"
   "stickers.removeOnlyInPrivate": "<b>Sticker Packs can only be removed in private, let's go:</b>"
   "stickers.seeAllCommandsHint": "<b>Send /stickers to see all commands and info.</b>"
+  "stickers.staticPackIndicator": "[S]"
+  "stickers.dynamicPackIndicator": "[D]"
+  "stickers.staticVsDynamicHint": "<i>Note: <code>[S]</code>tatic Packs can only include photo Stickers, <code>[D]</code>ynamic Packs are new and can include both photo, animated, and video Stickers.\nAny new packs you create will be Dynamic.</i>"
+  "stickers.videoTrimmedHint": "<i>Tip: When adding videos, only the first 3 seconds can be used. Trim them yourself before adding to select a specific part.</i>"
   "stickers.whichPackShouldBeAddedTo": "<b>Which pack should the sticker be added to?</b>\n\n%s"
 
   "stickers.callbacks": {
@@ -912,8 +916,8 @@
     "cancelAddEmojiToMessage": "<b>Okay, you can specify a different emoji yourself. For example:</b>\n\n<code>%s</code>"
   }
 
-  "stickers.listPacks": "<b>Your Packs:\n\n%s</b>\n\n%s"
-  "stickers.listPacksFill": "%s — <a href=\"%s\">%s</a>"
+  "stickers.listPacks": "<b>Your Packs:\n\n%s</b>\n\n%s\n\n%s"
+  "stickers.listPacksFill": "%s %s — <a href=\"%s\">%s</a>"
   "stickers.validStickerPacksAre": "<b>Valid Sticker Pack IDs are:\n<code>%s</code></b>"
 
   "stickers.error": {
@@ -921,9 +925,12 @@
     "noPackGiven": "<b>You must specify a pack. For example:</b>\n<code>/%s %s</code>\n\n%s"
     "noEmojiGiven": "<b>Please choose an emoji below\n\nPress Cancel to specify your own:</b>\n<code>%s</code>"
     "noStickerPacks": "<b>You don't have any Sticker Packs.</b>\n\n%s"
+    "noDynamicStickerPacks": "<b>The media you replied to can only be added to a Dynamic Sticker Pack, but you don't have one.</b>\n\n%s\n\n%s"
     "specifiedPackDoesNotExist": "<b>Could not find Sticker Pack <code>%s</code></b>\n\n%s"
+    "stickerAlreadyDeleted": "<b>This sticker has already been deleted.</b>"
+    "packFull": "<b>This pack is full, delete some stickers from it or create a new pack.</b>"
     "packLimitReached": "<b>You have reached the limit of %s Sticker Packs.\n\nIf you want to make a new pack, you must use </b><code>/removepack</code><b> to remove one first.</b>"
-    "addStickerReplyHint": "<b>Reply to an image or sticker which you want to add to a sticker pack.</b>"
+    "addStickerReplyHint": "<b>Reply to the media which you want to add to a sticker pack.</b>"
     "deleteStickerReplyHint": "<b>Reply to a sticker from one of your packs which you want to delete.</b>"
   }
 

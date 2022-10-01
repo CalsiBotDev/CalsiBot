@@ -436,7 +436,7 @@
   }
 
   # ⚠️ IMPORTANT
-  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Toque el emoji correspondiente a continuación:</b>"
+  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Toque el emoji principal desde arriba:</b>"
   "joinverify.imageText": {
     "successTop": "Humano"
     "successBottom": "Confirmado"
@@ -891,8 +891,8 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "Los favoritos de %s"
-  "stickers.acceptableFileTypes": "<b>- foto comprimida,\n- foto sin comprimir</b> (&lt;15 MB),\n<b>- sticker no animado</b>"
-  "stickers.main": "<b>Crear, administrar y agregar paquetes de stickers con los siguientes comandos:</b>\n\n/newpack - hacer un nuevo paquete\n/listpacks - lista sus paquetes y sus ID\n/removepack - remueve y desvincula un paquete de CalsiBot\n\n/addsticker - agrega una imagen o un sticker a un paquete\n/deletesticker - elimina el sticker de un paquete\n\n<b>Uso experto:</b>\n\n/addsticker 3 — agrega la imagen o sticker al paquete con ID <code>3</code>\n/addsticker 🥳🙂😉 — crea un sticker y recomienda al usar cualquiera de estos tres emoji\n/addsticker 3 🥳🙂😉 — cree un sticker y agréguela al paquete <code>3</code>, sugiérala cuando use cualquiera de estos tres emoji"
+  "stickers.acceptableFileTypes": "<b>- GIF,\n- foto comprimida,\n- foto sin comprimir</b> (&lt;10 MB)<b>,\n- vídeo</b> (&lt;10 MB)<b>,\n-pegatina de foto, animación o video</b>"
+  "stickers.main": "<b>Crear, administrar y agregar paquetes de stickers con los siguientes comandos:</b>\n\n/newpack - hacer un nuevo paquete\n/listpacks - lista sus paquetes y sus ID\n/removepack - remueve y desvincula un paquete de CalsiBot\n\n/addsticker - agrega un sticker a un paquete\n/deletesticker - elimina el sticker de un paquete\n\n<b>Uso experto:</b>\n\n/addsticker 3 — agrega la imagen o sticker al paquete con ID <code>3</code>\n/addsticker 🥳🙂😉 — crea un sticker y recomienda al usar cualquiera de estos tres emoji\n/addsticker 3 🥳🙂😉 — cree un sticker y agréguela al paquete <code>3</code>, sugiérala cuando use cualquiera de estos tres emoji"
   "stickers.beingAdded": "⏳ <b>Su sticker se está agregando, por favor espere...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Su sticker se agregará en %s, espere...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>¡Su sticker ha sido añadido!</b>\n\n<i>Si no lo ve, elimine y vuelva a agregar el paquete de stickers:</i>"
@@ -900,6 +900,10 @@
   "stickers.letsCreateAPackInPrivate": "<b>Los paquetes de stickers deben crearse en privado, vamos allá:</b>"
   "stickers.removeOnlyInPrivate": "<b>Los paquetes de stickers solo se pueden eliminar en privado, vamos allá:</b>"
   "stickers.seeAllCommandsHint": "<b>Enviar /stickers para ver todos los comandos e información.</b>"
+  "stickers.staticPackIndicator": "[S]"
+  "stickers.dynamicPackIndicator": "[D]"
+  "stickers.staticVsDynamicHint": "<i>Nota: los paquetes e<code>[S]</code>táticos solo pueden incluir pegatinas de fotos, los paquetes <code>[D]</code>inámicos son nuevos y pueden incluir pegatinas de fotos, animadas y de video.\nCualquier paquete nuevo que crees será dinámico.</i> "
+  "stickers.videoTrimmedHint": "<i>Sugerencia: al agregar videos, solo se pueden usar los primeros 3 segundos. Recórtelos usted mismo antes de agregar para seleccionar una parte específica.</i>"
   "stickers.whichPackShouldBeAddedTo": "<b>¿A qué paquete se debe agregar el sticker?</b>\n\n%s"
 
   "stickers.callbacks": {
@@ -912,8 +916,8 @@
     "cancelAddEmojiToMessage": "<b>De acuerdo, puedes especificar un emoji diferente tú mismo. Por ejemplo:</b>\n\n<code>%s</code>"
   }
 
-  "stickers.listPacks": "<b>Tus paquetes:\n\n%s</b>\n\n%s"
-  "stickers.listPacksFill": "%s — <a href=\"%s\">%s</a>"
+  "stickers.listPacks": "<b>Tus paquetes:\n\n%s</b>\n\n%s\n\n%s"
+  "stickers.listPacksFill": "%s %s — <a href=\"%s\">%s</a>"
   "stickers.validStickerPacksAre": "<b>Las ID válidas del paquete de stickers son:\n<code>%s</code></b>"
 
   "stickers.error": {
@@ -921,9 +925,12 @@
     "noPackGiven": "<b>Debe especificar un paquete. Por ejemplo:</b>\n<code>/%s %s</code>\n\n%s"
     "noEmojiGiven": "<b>Elija un emoji debajo de\n\nPulse Cancelar para especificar el suyo:</b>\n<code>%s</code>"
     "noStickerPacks": "<b>No tienes ningún paquete de stickers.</b>\n\n%s"
+    "noDynamicStickerPacks": "<b>Los medios a los que respondiste solo se pueden agregar a un paquete de pegatinas dinámicas, pero no tienes uno.</b>\n\n%s\n\n%s"
     "specifiedPackDoesNotExist": "<b>No se pudo encontrar el paquete de stickers <code>%s</code></b>\n\n%s"
+    "stickerAlreadyDeleted": "<b>Esta pegatina ya ha sido eliminada.</b>"
+    "packFull": "<b>Este paquete está lleno, elimina algunas pegatinas o crea un nuevo paquete.</b>"
     "packLimitReached": "<b>Ha alcanzado el límite de %s Paquetes de stickers.\n\nSi desea hacer un nuevo paquete, debe usar </b><code>/removepack</code><b> para eliminar uno primero.</b>"
-    "addStickerReplyHint": "<b>Responda a una imagen o sticker que desee agregar a un paquete de stickers.</b>"
+    "addStickerReplyHint": "<b>Responda a los medios que desea agregar a un paquete de pegatinas.</b>"
     "deleteStickerReplyHint": "<b>Responda a un sticker de uno de sus paquetes que desea eliminar.</b>"
   }
 }
