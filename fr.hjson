@@ -436,7 +436,7 @@
   }
 
   # ⚠️ IMPORTANT
-  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Appuyez sur l'Emoji correspondant ci-dessous:</b>"
+  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Appuyez sur l'emoji principal du dessus:</b>"
   "joinverify.imageText": {
     "successTop": "Humain"
     "successBottom": "Confirmé"
@@ -891,8 +891,8 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "Les favoris de %s"
-  "stickers.acceptableFileTypes": "<b>- photo compressée,\n- photo non compressée</b> (&lt;15 MB),\n<b>- autocollant non animé</b>"
-  "stickers.main": "<b>Créer, gérer et ajouter aux packs d'autocollants avec les commandes suivantes:</b>\n\n/newpack - créer un nouveau pack\n/listpacks - répertoriez vos packs et leurs identifiants\n/removepack - dissocier un pack de CalsiBot\n\n/addsticker - ajouter une image ou un autocollant à un pack\n/deletesticker - supprimer un autocollant d'un pack\n\n<b>Utilisation experte:</b>\n\n/addsticker 3 — ajouter une image ou un autocollant pour emballer avec ID <code>3</code>\n/addsticker 🥳🙂😉 — créer un autocollant et le suggérer lors de l'utilisation de l'un de ces trois emoji\n/addsticker 3 🥳🙂😉 — créer un autocollant et l'ajouter au pack <code>3</code>, le suggérer lors de l'utilisation de l'un de ces trois emoji"
+  "stickers.acceptableFileTypes": "<b>- GIF,\n- photo compressée,\n- photo non compressée</b> (&lt;10 Mo)<b>,\n- vidéo</b> (&lt;10 Mo)<b>,\n- autocollant photo, animé ou vidéo</b>"
+  "stickers.main": "<b>Créer, gérer et ajouter aux packs d'autocollants avec les commandes suivantes:</b>\n\n/newpack - créer un nouveau pack\n/listpacks - répertoriez vos packs et leurs identifiants\n/removepack - dissocier un pack de CalsiBot\n\n/addsticker - ajouter un autocollant à un pack\n/deletesticker - supprimer un autocollant d'un pack\n\n<b>Utilisation experte:</b>\n\n/addsticker 3 — ajouter une image ou un autocollant pour emballer avec ID <code>3</code>\n/addsticker 🥳🙂😉 — créer un autocollant et le suggérer lors de l'utilisation de l'un de ces trois emoji\n/addsticker 3 🥳🙂😉 — créer un autocollant et l'ajouter au pack <code>3</code>, le suggérer lors de l'utilisation de l'un de ces trois emoji"
   "stickers.beingAdded": "⏳ <b>Votre autocollant est en cours d'ajout, veuillez patienter...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Votre autocollant sera ajouté dans %s, veuillez patienter...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>Votre autocollant a été ajouté!</b>\n\n<i>si vous ne le voyez pas, supprimez et rajoutez le pack d'autocollants:</i>"
@@ -900,6 +900,10 @@
   "stickers.letsCreateAPackInPrivate": "<b>Les packs d'autocollants doivent être créés en privé, c'est parti:</b>"
   "stickers.removeOnlyInPrivate": "<b>Les packs d'autocollants ne peuvent être supprimés qu'en privé, c'est parti:</b>"
   "stickers.seeAllCommandsHint": "<b>Envoyer /stickers pour voir toutes les commandes et informations.</b>"
+  "stickers.staticPackIndicator": "[S]"
+  "stickers.dynamicPackIndicator": "[D]"
+  "stickers.staticVsDynamicHint": "<i>Remarque : les packs <code>[S]</code>tatiques ne peuvent inclure que des autocollants photo, les packs <code>[D]</code>ynamiques sont nouveaux et peuvent inclure à la fois des autocollants photo, animés et vidéo.\nTous les nouveaux packs que vous créez seront dynamiques.</i> "
+  "stickers.videoTrimmedHint": "<i>Astuce : Lors de l'ajout de vidéos, seules les 3 premières secondes peuvent être utilisées. Coupez-les vous-même avant de les ajouter pour sélectionner une partie spécifique.</i>"
   "stickers.whichPackShouldBeAddedTo": "<b>À quel pack l'autocollant doit-il être ajouté?</b>\n\n%s"
 
   "stickers.callbacks": {
@@ -912,8 +916,8 @@
     "cancelAddEmojiToMessage": "<b>D'accord, vous pouvez spécifier vous-même un autre emoji. Par exemple:</b>\n\n<code>%s</code>"
   }
 
-  "stickers.listPacks": "<b>Vos packs:\n\n%s</b>\n\n%s"
-  "stickers.listPacksFill": "%s — <a href=\"%s\">%s</a>"
+  "stickers.listPacks": "<b>Vos packs:\n\n%s</b>\n\n%s\n\n%s"
+  "stickers.listPacksFill": "%s %s — <a href=\"%s\">%s</a>"
   "stickers.validStickerPacksAre": "<b>Les ID valides du pack d'autocollants sont:\n<code>%s</code></b>"
 
   "stickers.error": {
@@ -921,9 +925,12 @@
     "noPackGiven": "<b>Vous devez spécifier un pack. Par exemple:</b>\n<code>/%s %s</code>\n\n%s"
     "noEmojiGiven": "<b>Veuillez choisir un emoji ci-dessous\n\nAppuyez sur Annuler pour spécifier le vôtre:</b>\n<code>%s</code>"
     "noStickerPacks": "<b>Vous n'avez aucun pack d'autocollants.</b>\n\n%s"
+    "noDynamicStickerPacks": "<b>Le média auquel vous avez répondu ne peut être ajouté qu'à un pack d'autocollants dynamiques, mais vous n'en avez pas.</b>\n\n%s\n\n%s"
     "specifiedPackDoesNotExist": "<b>Impossible de trouver le pack d'autocollants <code>%s</code></b>\n\n%s"
+    "stickerAlreadyDeleted": "<b>Cet autocollant a déjà été supprimé.</b>"
+    "packFull": "<b>Ce pack est plein, supprimez-en quelques autocollants ou créez un nouveau pack.</b>"
     "packLimitReached": "<b>Vous avez atteint la limite de %s Packs d'autocollants.\n\nSi vous souhaitez créer un nouveau pack, vous devez utiliser </b><code>/removepack</code><b> pour en supprimer un en premier.</b>"
-    "addStickerReplyHint": "<b>Répondez à une image ou à un autocollant que vous souhaitez ajouter à un pack d'autocollants.</b>"
+    "addStickerReplyHint": "<b>Répondez au média que vous souhaitez ajouter à un pack d'autocollants.</b>"
     "deleteStickerReplyHint": "<b>Répondez à un autocollant de l'un de vos packs que vous souhaitez supprimer.</b>"
   }
 }
