@@ -904,13 +904,13 @@
   "stickers.dynamicPackIndicator": "[D]"
   "stickers.staticVsDynamicHint": "<i>Catatan: Paket <code>[S]</code>tatis adalah paket yang hanya dapat menyertakan Stiker foto, <code>[D]</code>inamis adalah paket baru dan dapat menyertakan Stiker foto, animasi, dan video.\nSetiap paket baru yang Anda buat akan bersifat Dinamis.</i>"
   "stickers.videoTrimmedHint": "<i>Tip: Saat menambahkan video, hanya 3 detik pertama yang dapat digunakan. Pangkas sendiri video sebelum menambahkan untuk memilih bagian tertentu.</i>"
-  "stickers.whichPackShouldBeAddedTo": "<b>Pack mana yang harus ditambahkan stiker??</b>\n\n%s"
+  "stickers.whichPackShouldBeAddedTo": "<b>Pack mana yang harus ditambahkan stiker?</b>\n\n%s"
 
   "stickers.callbacks": {
     "confirmStickerPackCreate": "<b>Pack Stiker Kamu akan memiliki nama kek gini::</b>\n\n<code>%s</code>\n\n<b>⚠️ Kamu gaakan bisa ubah ini nanti.\n\nTekan Batal untuk memilih nama yang berbeda.</b>"
     "cancelStickerPackCreate": "<b>Oke, pilih nama lain dan coba lagi. Sebagai contoh:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>Pack Stiker Kamu telah dibuat!</b>\n\nSekarang Kamu bisa membalas gambar dan stiker dengan /addsticker untuk menambahkannya ke pack Kamu\n\n%s"
-    "confirmStickerPackRemove": "⚠️ <b>Pack Stiker kamu akan dihapus dari CalsiBot.\n\nKamu gaakan bisa memperbarui pack ini dengan CalsiBot lagi.\n\nApa Kamu yakin mau hapus pack ini??</b>"
+    "confirmStickerPackRemove": "⚠️ <b>Pack Stiker kamu akan dihapus dari CalsiBot.\n\nKamu gaakan bisa memperbarui pack ini dengan CalsiBot lagi.\n\nApa Kamu yakin mau hapus pack ini?</b>"
     "cancelStickerPackRemove": "<b>Oke, pack tidak dihapus.</b>"
     "stickerPackRemoveSuccess": "<b>Pack Stiker Kamu telah dihapus dari CalsiBot.</b>\n\nUntuk menghapus sepenuhnya, silakan ke @Stickers"
     "cancelAddEmojiToMessage": "<b>Oke, Kamu bisa menentukan sendiri emoji yang berbeda. Contohnya:</b>\n\n<code>%s</code>"
