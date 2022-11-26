@@ -30,7 +30,7 @@ Then, always request the following people [as reviewers](https://help.github.com
 | Italian (it)    | [@LucentW](https://github.com/LucentW)   |
 | French (fr)     | [@PBiret](https://github.com/PBiret)     |
 | German (de)     | None needed                              |
-| Indonesian (id) | None needed                              |
+| Indonesian (id) | [@DzLyz](https://github.com/itsdzl)      |
 
 ## Will you add X? (_language requests_)
 
