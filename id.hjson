@@ -300,7 +300,7 @@
 
   "comfy.highfive": {
     "self": "%s<b> mencoba untuk melakukan tos dengan kedua tangannya sendiri. </b>%s<b> rindu, dan tenggelam lebih dalam ke dalam depresi.</b>"
-    "main": "%s memberimu <b>tos</b>"
+    "main": "%s memberi sebuah <b>tos!</b>"
     "CalsiBot": "<i>:D</i>"
   } 
 
@@ -718,7 +718,7 @@
   /JoinLimit, /JoinLock
   /JoinVerify, /PreVerify
 
-  <b>Perintah mengubah Teks:</b>
+  <b>Perintah Mengubah Teks:</b>
   /covfefe, /spurdo, /emojify
 
   <b>Lainnya:</b>
