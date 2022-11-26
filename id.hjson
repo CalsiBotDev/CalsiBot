@@ -184,7 +184,7 @@
     "other": "detik"
   }
 
-  "generic.onlyInSupergroups": "<b>Maaf, perintah ini hanya bisa digunakan di Supergroups</b>"
+  "generic.onlyInSupergroups": "<b>Maaf, perintah ini hanya bisa digunakan di Supergrup</b>"
   "generic.somethingWentWrongTryAgainLater": "<b>Ada yang salah, coba lagi nanti...</b>"
   "generic.rateLimit": "😡 <b>Sekarang abaikan pesan baru dari </b>%s<b> untuk mengirim lebih dari 3 pesan perintah dalam waktu kurang dari 1 detik. Tolong hentikan.</b>\n\n<i>Kedaluwarsa dalam beberapa menit</i>"
   "generic.willNotSeeAgainForAWhile": "<i>Kamu tidak akan melihat pesan ini lagi untuk sementara waktu.</i>"
@@ -263,46 +263,46 @@
                       Comfy - Used for /hug, /cuddle, etc.
      --------------------------------------------------------------------- */
   "comfy.hug": {
-    "self": "%s<b> meraih satu tangan dan memeluk tubuh mereka sendiri. </b>%s<b> merasa sedikit kurang sendirian sekarang.</b>"
+    "self": "%s<b> meraih satu tangan dan memeluk tubuhnya sendiri. </b>%s<b> tidak terlalu merasa sendirian sekarang.</b>"
     "main": "%s memberimu <b>pelukan! :)</b>"
     "CalsiBot": "<i>Aku tidak bisa dipeluk </i><b>:/</b>"
   }
 
   "comfy.cuddle": {
-    "self": "%s<b> berbaring telungkup di tempat tidur mereka, dan mencoba memeluk kedua sisi. </b>%s<b> merasa sedikit kurang sedih sekarang.</b>"
-    "main": "%s pelukan %s erat"
+    "self": "%s<b> berbaring telungkup di tempat tidur nya sendiri, dan mencoba memeluk kedua sisi. </b>%s<b> tidak terlalu sedih sekarang.</b>"
+    "main": "%s memeluk %s dengan erat"
     "CalsiBot": "<i>mendesahhhh</i> ☁️😌☁️"
   }
 
   "comfy.snuggle": {
-    "self": "%s<b> menarik lutut mereka dan mencoba meringkuk. </b>%s<b> merasa sedikit kurang dicintai sekarang.</b>"
+    "self": "%s<b> menarik lututnya sendiri dan mencoba meringkuk. </b>%s<b> merasa kurang dicintai sekarang.</b>"
     "main": "%s puas meringkuk %s"
     "CalsiBot": "🥺 <i>*suara bot santai*</i>"
   }
 
   "comfy.poke": {
-    "self": "%s<b> menusuk dada mereka. Itu membuat mereka ingat bahwa mereka mungkin harus menurunkan berat badan.</b>"
+    "self": "%s<b> menusuk dadanya sendiri. Itu membuat dia ingat bahwa dia mungkin harus menurunkan berat badan.</b>"
     "main": "<b>*</b>%s menusuk %s<b>* o_o</b>"
     "CalsiBot": "<b>&gt;_&lt;</b>"
   }
 
   "comfy.pat": {
-    "self": "%s<b> dengan canggung meraih satu tangan untuk menepuk kepala mereka sendiri. 🙃</b>"
-    "main": "<b>*</b>%s tepukan %s di atas kepala<b>* :V</b>"
+    "self": "%s<b> dengan canggung meraih satu tangan untuk menepuk kepalanya sendiri. 🙃</b>"
+    "main": "<b>*</b>%s menepuk kepala %s<b>* :V</b>"
     "CalsiBot": "<i>rawr</i> <b>xDddd</b>"
   }
 
   "comfy.ruffle": {
-    "self": "%s<b> mengacak-acak rambut mereka sendiri... Astaga. 😐</b>"
-    "main": "<b>*</b>%s kerutan rambut %s<b>* :&</b>"
-    "CalsiBot": "<i>Kamu dimaksudkan untuk mengacak-acak rambut di kepalaku ... tidak ... di sana.</i> 😳"
+    "self": "%s<b> mengacak-acak rambutnya sendiri... Astaga. 😐</b>"
+    "main": "<b>*</b>%s mengacak rambut %s<b>* :&</b>"
+    "CalsiBot": "<i>Kamu mengacak-acak rambutku ... tidak ... di sana.</i> 😳"
   }
 
   "comfy.highfive": {
-    "self": "%s<b> mencoba untuk melakukan tos dengan memukul kedua tangan mereka sendiri bersama-sama. </b>%s<b> rindu, dan tenggelam lebih dalam ke dalam depresi.</b>"
-    "main": "%s hanya <b>tos</b> kamu untuk ini!"
+    "self": "%s<b> mencoba untuk melakukan tos dengan kedua tangannya sendiri. </b>%s<b> rindu, dan tenggelam lebih dalam ke dalam depresi.</b>"
+    "main": "%s memberimu <b>tos</b>"
     "CalsiBot": "<i>:D</i>"
-  }
+  } 
 
 
   /* ---------------------------------------------------------------------
@@ -438,10 +438,10 @@
   # ⚠️ IMPORTANT
   "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Tekan Emoji Utama Dari Atas:</b>"
   "joinverify.imageText": {
-    "successTop": "Dikonfirmasi"
-    "successBottom": "Manusia"
-    "errorTop": "Ada Yang"
-    "errorBottom": "Salah"
+    "successTop": "Berhasil"
+    "successBottom": "Dikonfirmasi"
+    "errorTop": "Ada Sesuatu"
+    "errorBottom": "Yang Salah"
   }
 
   # ⚠️ IMPORTANT
@@ -474,8 +474,8 @@
   }
 
   "joinverify.preverify.imageText": {
-    "title": "Untuk bergabung ke grup:"
-    "stepOne": "Ketuk <span>Verifikasi,</span> kemudian <span>Start</span>"
+    "title": "Bergabung ke grup:"
+    "stepOne": "Ketuk <span>Verifikasi,</span> dan <span>Mulai</span>"
     "stepTwo": "<span>Lulus</span> tes"
     "stepThree": "<span>Bergabung</span> ke grup!"
   }
@@ -656,9 +656,9 @@
   '''
   <b>Aloo </b><code>%s</code><b>, Aku %s!
 
-  ✴️ Aku akan menjaga grup Kamu aman dari kejahatan</b> dan aku memiliki <b>banyak fitur keren lainnya</b> Seperti <a href="t.me/CalsiBotDev/113">membuat pack stiker</a><b>.</b>
+  ✴️ Aku akan menjaga grup Kamu tetap Aman</b> dan aku memiliki <b>banyak fitur keren lainnya</b> Seperti <a href="t.me/CalsiBotDev/113">membuat pack stiker</a><b>.</b>
 
-  <b>Perintah Admin yang sering digunakan:</b>
+  <b>Perintah Admin paling banyak digunakan:</b>
   <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
   <a href="t.me/CalsiBotDev/23">/restrict</a>, <a href="t.me/CalsiBotDev/82">/warn</a>, <a href="t.me/CalsiBotDev/48">/JoinLock</a>, dan <a href="t.me/CalsiBotDev/74">/JoinLimit</a>
 
@@ -671,7 +671,7 @@
                         Misc - A mix of other commands
      --------------------------------------------------------------------- */
   "misc.boi.self": "<b>Bayangkan secara ironis mencoba </b>/boi<b> dirimu sendiri...</b>"
-  "misc.boi.main": "Kamu telah dikunjungi oleh tangan sang perkasa. Pergi ke sudut Kamu dan pikirkan omong kosong yang Kamu katakan."
+  "misc.boi.main": "Kamu telah dikunjungi oleh tangan sang perkasa. Pergi ke sudut dan pikirkan omong kosong yang Kamu katakan."
   "misc.boi.CalsiBot": "<b>boiii, apakah kamu tahu apa yang baru saja kamu coba lakukan!? 😡😤</b>"
 
   "misc.denko.main":
@@ -698,7 +698,7 @@
   '''
   <b>Hampir semua perintah CalsiBot:</b>
 
-  <b>Perintah Nyaman:</b>
+  <b>Perintah Manis:</b>
   /hug, /cuddle, /snuggle, /ruffle
   /pat, /poke, /highfive
 
@@ -718,7 +718,7 @@
   /JoinLimit, /JoinLock
   /JoinVerify, /PreVerify
 
-  <b>Perintah Modifikasi Teks:</b>
+  <b>Perintah mengubah Teks:</b>
   /covfefe, /spurdo, /emojify
 
   <b>Lainnya:</b>
