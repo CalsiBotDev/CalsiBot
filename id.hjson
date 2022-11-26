@@ -916,7 +916,7 @@
     "cancelAddEmojiToMessage": "<b>Oke, Kamu bisa menentukan sendiri emoji yang berbeda. Contohnya:</b>\n\n<code>%s</code>"
   }
 
-  "stickers.listPacks": "<b>Pack Kamu:\n\n%s</b>\n\n%s"
+  "stickers.listPacks": "<b>Pack Kamu:\n\n%s</b>\n\n%s\n\n%s"
   "stickers.listPacksFill": "%s %s — <a href=\"%s\">%s</a>"
   "stickers.validStickerPacksAre": "<b>ID Pack Stiker yang valid adalah:\n<code>%s</code></b>"
 
