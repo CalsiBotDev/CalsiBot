@@ -786,7 +786,7 @@
                         Language - Used for /language
      --------------------------------------------------------------------- */
   # ℹ️ NOTE: This should be the native name of the language.
-  "language.name": "Indonesia"
+  "language.name": "Bahasa Indonesia"
   "language.main": "<b>Bahasa Kamu saat ini disetel ke:</b>\n<code>%s</code>"
   "language.credit": "<b>Terjemahan ini dibuat oleh </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">kontribusi</a><b> dari:</b>\n"
   # ℹ️ NOTE: The contributors string should NOT be changed by anyone other than me, or those who are already listed
