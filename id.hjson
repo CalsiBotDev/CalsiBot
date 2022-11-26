@@ -917,7 +917,7 @@
   }
 
   "stickers.listPacks": "<b>Pack Kamu:\n\n%s</b>\n\n%s"
-  "stickers.listPacksFill": "%s — <a href=\"%s\">%s</a>"
+  "stickers.listPacksFill": "%s %s — <a href=\"%s\">%s</a>"
   "stickers.validStickerPacksAre": "<b>ID Pack Stiker yang valid adalah:\n<code>%s</code></b>"
 
   "stickers.error": {
