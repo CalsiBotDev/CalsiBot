@@ -190,7 +190,7 @@
   "generic.willNotSeeAgainForAWhile": "<i>Vous ne verrez plus ce message pendant un certain temps.</i>"
 
   # ℹ️ Example: Reply to the person you want to /slap
-  "generic.replyToThePersonYouWantTo": "<b>Répondez à la personne que vous souhaitez </b>%s"
+  "generic.replyToThePersonYouWantTo": "<b>Répondez à la personne que vous souhaitez</b> %s"
   "generic.needToReply": "<b>Vous devez répondre à quelqu'un.</b>"
 
   "generic.needToBeAdmin": "<b>❌ Non autorisé. Vous devez:</b>\n\n1️⃣ Être administrateur\n2️⃣ Avoir la permission de %s"
@@ -422,7 +422,7 @@
     "failureAnswerText": "Échec de la demande de vérification"
     "manuallyTrusted": "%s<b> a approuvé manuellement à </b>%s<b>.</b>"
     "manuallyTrustedAnswerText": "Utilisateur approuvé"
-    "expired": "<b>Cette demande de vérification a expiré.\n\nIl se peut que </b>vous <b>ayez été manuellement banni ou approuvé par les administrateurs du groupe.</b>Ou, c'est une très vieille demande ."
+    "expired": "<b>Cette demande de vérification a expiré.\n\nIl se peut que </b>vous <b>ayez été manuellement banni ou approuvé par les administrateurs du groupe.</b> Ou, c'est une très vieille demande ."
     "expiredAnswerText": "Demande de vérification expirée"
 
     "settingsUnavailable": "<b>La vérification au moment de rejoindre n'est pas activée pour le moment, activez-la d'abord pour modifier les paramètres:</b>"
@@ -902,7 +902,7 @@
   "stickers.seeAllCommandsHint": "<b>Envoyer /stickers pour voir toutes les commandes et informations.</b>"
   "stickers.staticPackIndicator": "[S]"
   "stickers.dynamicPackIndicator": "[D]"
-  "stickers.staticVsDynamicHint": "<i>Remarque : les packs <code>[S]</code>tatiques ne peuvent inclure que des autocollants photo, les packs <code>[D]</code>ynamiques sont nouveaux et peuvent inclure à la fois des autocollants photo, animés et vidéo.\nTous les nouveaux packs que vous créez seront dynamiques.</i> "
+  "stickers.staticVsDynamicHint": "<i>Remarque : les packs <code>[S]</code>tatiques ne peuvent inclure que des autocollants photo, les packs <code>[D]</code>ynamiques sont nouveaux et peuvent inclure à la fois des autocollants photo, animés et vidéo.\nTous les nouveaux packs que vous créez seront dynamiques.</i>"
   "stickers.videoTrimmedHint": "<i>Astuce : Lors de l'ajout de vidéos, seules les 3 premières secondes peuvent être utilisées. Coupez-les vous-même avant de les ajouter pour sélectionner une partie spécifique.</i>"
   "stickers.whichPackShouldBeAddedTo": "<b>À quel pack l'autocollant doit-il être ajouté?</b>\n\n%s"
 

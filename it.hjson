@@ -35,7 +35,7 @@
     "featureAlreadyDisabled": "%s<b> è già stato disabilitato</b>"
     "featureAlreadyDisabledAnswerText": "%s è già disabilitato"
 
-    "joinLimitRestrictionsReset": "<a href=\"tg://user?id=%s\">A questo utente</a><b> sono state rimosse le restrizioni di </b><code>/JoinLimit</code> dall'amministratore %s"
+    "joinLimitRestrictionsReset": "<a href=\"tg://user?id=%s\">A questo utente</a><b> sono state rimosse le restrizioni di </b><code>/JoinLimit</code><b> dall'amministratore </b>%s"
     "joinLimitRestrictionsResetAnswerText": "Rimosse restrizioni."
 
     "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">A questo utente</a><b> è stata concessa un'esenzione una tantum da </b>%s\n\n<b>La prossima volta che l'utente si unisce, non sarà rimosso.</b>"
@@ -346,7 +346,7 @@
   }
 
   "fish.viewYourFish": "\n\n<b>Visualizza i tuoi pesci:</b> /MyFish"
-  "fish.newTrophyFish": "\n\n<b> 🎉 Hai appena guadagnato un nuovo</b>\n/TrophyFish!"
+  "fish.newTrophyFish": "\n\n<b>🎉 Hai appena guadagnato un nuovo</b>\n/TrophyFish!"
 
   "fish.myFish":
   '''
@@ -404,7 +404,7 @@
   "joinconfig.title.help": "<code>/%s</code><b> ti permette di impostare il nome del gruppo con un messaggio\n\nIl tuo messaggio dovrebbe essere così:</b>\n<code>/%s nuovo nome gruppo</code>\n\n<b>Suggerimento: </b><i>Hai un prefisso che usi sempre nel nome dei tuoi gruppi? Scopri </i>/cn"
   "joinconfig.title.replyToTextHint": "<b>Se stai rispondendo a un altro messaggio per impostare il nome del gruppo, deve essere solo testo</b>\n\n<b>Suggerimento: </b><i>Hai un prefisso che usi sempre nel nome dei tuoi gruppi? Scopri </i>/cn"
 
-  "joinconfig.chatname.help": "<code>/%s</code><b> ti permette di impostare il prefisso del gruppo. Questo prefisso apparirà sempre davanti a qualsiasi nome del gruppo impostato con </b><code>/t</code> <b> o </b> <code>/title</code><b>.\n\nIl tuo messaggio dovrebbe essere così:</b>\n<code>/%s MyChatName</code>"
+  "joinconfig.chatname.help": "<code>/%s</code><b> ti permette di impostare il prefisso del gruppo. Questo prefisso apparirà sempre davanti a qualsiasi nome del gruppo impostato con </b><code>/t</code> <b>o</b> <code>/title</code><b>.\n\nIl tuo messaggio dovrebbe essere così:</b>\n<code>/%s MyChatName</code>"
   "joinconfig.chatname.replyToTextHint": "<b>Se stai rispondendo a un altro messaggio per impostare il nome del gruppo, deve essere solo testo</b>"
   "joinconfig.chatname.success": "<b>Il prefisso gruppo è stato impostato su:</b>\n%s\n\nQuesto apparirà all'inizio di ogni nome chat impostato usando <code>/t</code> o <code>/title</code>."
 
@@ -541,7 +541,7 @@
   "marry.main": "💘 %s<b> ti ha fatto una proposta di matrimonio!</b>"
   "marry.CalsiBot": "<b>Scusami, ma sono già sposato con il mio lavoro...</b> 🥺"
 
-  "marry.divorce.help": "💔 <b>Non senti più l'amore? </b><code>/divorce</code><b> può essere utilizzato per separarsi dalle persone che hai sposato in precedenza.</b>"
+  "marry.divorce.help": "💔<b> Non senti più l'amore? </b><code>/divorce</code><b> può essere utilizzato per separarsi dalle persone che hai sposato in precedenza.</b>"
 
   "marry.divorce.error.notMarried": "😐<b> ​​Al momento non sei sposato con </b>%s<b>, quindi non puoi ottenere un divorzio...</b>"
 
@@ -554,9 +554,9 @@
 
   "marry.marrystats.CalsiBot": "<b>A differenza di te, CalsiBot è puro e non ha precedenti di matrimonio.</b>"
 
-  "marry.marrystats.own.information": "💖 %s <b> – Statistiche di matrimonio - 1️⃣:</b>\n\n🙂 - Felicità: <b>%s</b>\n🥺 - Bambini: <b>%s</b>\n🏠 - Case: <b>%s</b>\n💰 - Patrimonio netto: <b>$%s</b>"
-  "marry.marrystats.own.marriages": "💖 %s <b> – Statistiche di matrimonio - 2️⃣:</b>\n\n❤️ <b>Matrimoni:</b>\nRichieste accettate per lo più da %s\nRichieste respinte per lo più da %s\nMatrimoni: <b>%s</b> | Rifiuti: <b>%s</b>"
-  "marry.marrystats.own.divorces": "💖 %s <b> – Statistiche di matrimonio - 3️⃣:</b>\n\n🖤 <b>Divorzi:</b>\nDivorziato per lo più da %s\nTotale: <b>%s</b>"
+  "marry.marrystats.own.information": "💖 %s<b> – Statistiche di matrimonio - 1️⃣:</b>\n\n🙂 - Felicità: <b>%s</b>\n🥺 - Bambini: <b>%s</b>\n🏠 - Case: <b>%s</b>\n💰 - Patrimonio netto: <b>$%s</b>"
+  "marry.marrystats.own.marriages": "💖 %s<b> – Statistiche di matrimonio - 2️⃣:</b>\n\n❤️ <b>Matrimoni:</b>\nRichieste accettate per lo più da %s\nRichieste respinte per lo più da %s\nMatrimoni: <b>%s</b> | Rifiuti: <b>%s</b>"
+  "marry.marrystats.own.divorces": "💖 %s<b> – Statistiche di matrimonio - 3️⃣:</b>\n\n🖤 <b>Divorzi:</b>\nDivorziato per lo più da %s\nTotale: <b>%s</b>"
 
 
   /* ---------------------------------------------------------------------
@@ -605,7 +605,7 @@
   }
 
   "restrict.success": "%s è stato limitato %s da %s"
-  "restrict.successTimed": "%s è stato limitato %s <b> fino a %s (UTC) da </b>%s"
+  "restrict.successTimed": "%s è stato limitato %s <b>fino a %s (UTC) da </b>%s"
   "restrict.replyHint": "<b>Rispondi all'utente di cui desideri modificare le restrizioni</b>"
 
   "restrict.main": "<b>Usa le levette sottostanti per scegliere cosa </b>%s<b> può inviare qui:</b>"
@@ -902,7 +902,7 @@
   "stickers.seeAllCommandsHint": "<b>Invia /stickers per vedere tutti i comandi e le informazioni.</b>"
   "stickers.staticPackIndicator": "[S]"
   "stickers.dynamicPackIndicator": "[D]"
-  "stickers.staticVsDynamicHint": "<i>Nota: gli stickerpack <code>[S]</code>tatici possono includere solo sticker statici, gli stickerpack <code>[D]</code>inamici invece possono includere indistintamente sticker statici, animazioni e video.\nTutti i nuovi pacchetti che crei saranno dinamici.</i> "
+  "stickers.staticVsDynamicHint": "<i>Nota: gli stickerpack <code>[S]</code>tatici possono includere solo sticker statici, gli stickerpack <code>[D]</code>inamici invece possono includere indistintamente sticker statici, animazioni e video.\nTutti i nuovi pacchetti che crei saranno dinamici.</i>"
   "stickers.videoTrimmedHint": "<i>Suggerimento: quando si aggiungono video, è possibile utilizzare solo i primi 3 secondi. Tagliali tu stesso prima di aggiungerli per selezionare una parte specifica.</i>"
   "stickers.whichPackShouldBeAddedTo": "<b>A quale stickerpack deve essere aggiunto lo sticker?</b>\n\n%s"
 

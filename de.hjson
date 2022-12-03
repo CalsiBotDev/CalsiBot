@@ -255,7 +255,7 @@
   "generic.chatSenderCanNowPostAsAnyChatHint": "\n\n<b>Hinweis:</b> Dieser Nutzer kann jetzt auf <b>allen</b> seiner Kanäle posten, einschließlich diesem."
 
   "generic.tapNextToContinue": "\n\n<b>Tippen Sie </b>/next<b> um fortzufahren...</b>"
-  "generic.tapNextToRetry": "\n\n<b>Tippen Sie auf </b>/next<b>, um es erneut zu versuchen...</b>"
+  "generic.tapNextToRetry": "\n\n<b>Tippen Sie auf </b>/next<b> um es erneut zu versuchen...</b>"
   "generic.tapCancelToQuit": "\n\n<b>Tippen Sie auf </b>/cancel<b> zum Beenden %s</b>"
 
 
@@ -416,13 +416,13 @@
   "joinverify.callbacks": {
     "correctAnswerText": "Richtig! %s noch..."
     "incorrectAnswerText": "Falsch. Noch 3 weitere..."
-    "success": "<b>Erfolg!\n\nGute Arbeit, Mensch, du kannst jetzt in: </b><code>%s</code> chatten "
+    "success": "<b>Erfolg!\n\nGute Arbeit, Mensch, du kannst jetzt in: </b><code>%s</code> chatten"
     "successAnswerText": "Erfolg! Sie können jetzt in %s chatten..."
     "failure": "<b>Leider haben Sie den Verifizierungstest nicht bestanden.</b>\n\nSind Sie ein Bot wie ich?"
     "failureAnswerText": "Verifizierungsanfrage fehlgeschlagen"
     "manuallyTrusted": "%s<b> hat </b>%s<b> manuell vertraut.</b>"
     "manuallyTrustedAnswerText": "Benutzer vertrauenswürdig"
-    "expired": "<b>Diese Überprüfungsanforderung ist abgelaufen.</b>\n\nSie <b> wurde möglicherweise von den Administratoren der Gruppe manuell gesperrt oder als vertrauenswürdig eingestuft.</b> Oder das ist eine sehr alte Bitte."
+    "expired": "<b>Diese Überprüfungsanforderung ist abgelaufen.</b>\n\nSie <b>wurde möglicherweise von den Administratoren der Gruppe manuell gesperrt oder als vertrauenswürdig eingestuft.</b> Oder das ist eine sehr alte Bitte."
     "expiredAnswerText": "Anforderung abgelaufen"
 
     "settingsUnavailable": "<b>Join Verify ist derzeit nicht aktiviert. Aktivieren Sie es zuerst, um die Einstellungen zu ändern:</b>"
@@ -570,7 +570,7 @@
     "userAlreadyPermabanned": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> ist bereits gepermabannt.</b>"
     "userAlreadyPermabannedAnswerText": "Benutzer bereits gepermabannt"
 
-    "userUnPermabanned": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> wurde von </b>%s nicht gepermabannt "
+    "userUnPermabanned": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> wurde von </b>%s nicht gepermabannt"
     "userUnPermabannedAnswerText": "Benutzer nicht gepermabant"
     "userAlreadyNotPermabanned": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> ist bereits nichtmehr gepermabannt</b>"
     "userAlreadyNotPermabannedAnswerText": "Benutzer bereits nichtmehr gepermabannt"
@@ -670,7 +670,7 @@
   /* ---------------------------------------------------------------------
                         Misc - A mix of other commands
      --------------------------------------------------------------------- */
-  "misc.boi.self": "<b>Stellen Sie sich vor, Sie versuchen unironisch selbst zu </b>/boi<b></b>"
+  "misc.boi.self": "<b>Stellen Sie sich vor, Sie versuchen unironisch selbst zu </b>/boi"
   "misc.boi.main": "Sie wurden von der mächtigen Hand der Roasts besucht. Geh in deine Ecke und denk an den Scheiß den du gesagt hast."
   "misc.boi.CalsiBot": "<b>Alter, weißt du überhaupt, was du gerade versucht hast? 😡😤</b>"
 
@@ -902,7 +902,7 @@
   "stickers.seeAllCommandsHint": "<b>Sende /stickers um alle Befehle und Informationen zu sehen.</b>"
   "stickers.staticPackIndicator": "[S]"
   "stickers.dynamicPackIndicator": "[D]"
-  "stickers.staticVsDynamicHint": "<i>Hinweis: <code>[S]</code>tatische Packungen können nur Foto-Sticker enthalten, <code>[D]</code>ynamische Packungen sind neu und können sowohl Foto- als auch animierte und Video-Sticker enthalten.\nAlle neu erstellten Packungen sind dynamisch.</i> "
+  "stickers.staticVsDynamicHint": "<i>Hinweis: <code>[S]</code>tatische Packungen können nur Foto-Sticker enthalten, <code>[D]</code>ynamische Packungen sind neu und können sowohl Foto- als auch animierte und Video-Sticker enthalten.\nAlle neu erstellten Packungen sind dynamisch.</i>"
   "stickers.videoTrimmedHint": "<i>Tipp: Beim Hinzufügen von Videos können nur die ersten 3 Sekunden verwendet werden. Schneiden Sie sie selbst zu, bevor Sie sie hinzufügen, um einen bestimmten Teil auszuwählen.</i>"
   "stickers.whichPackShouldBeAddedTo": "<b>Zu welcher Packung sollte der Aufkleber hinzugefügt werden?</b>\n\n%s"
 

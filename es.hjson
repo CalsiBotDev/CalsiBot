@@ -35,7 +35,7 @@
     "featureAlreadyDisabled": "%s<b> ya está desactivado</b>"
     "featureAlreadyDisabledAnswerText": "%s Ya desactivado"
 
-    "joinLimitRestrictionsReset": "<a href=\"tg://user?id=%s\">Las restricciones</a><b> de </b><code> /JoinLimit</code><b> de este usuario han sido restablecidas por </b>%s"
+    "joinLimitRestrictionsReset": "<a href=\"tg://user?id=%s\">Las restricciones</a><b> de </b><code>/JoinLimit</code><b> de este usuario han sido restablecidas por </b>%s"
     "joinLimitRestrictionsResetAnswerText": "¡Restricciones Restablecidas!"
 
     "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">A este usuario</a><b> se le ha concedido una excepción de entrada única por </b>%s\n\n<b>La próxima vez que el usuario se una, no lo eliminaré</b>"
@@ -345,7 +345,7 @@
     "whale": "<b>EL OCÉANO PARECE Hundirse...\n\n¡Con todas tus fuerzas, capturaste a tu presa!</b>\nAtrapaste una Ballena: 🐳"
   }
 
-  "fish.viewYourFish": "\n\n<b>Ver tu pez: </b>/MyFish"
+  "fish.viewYourFish": "\n\n<b>Ver tu pez:</b> /MyFish"
   "fish.newTrophyFish": "\n\n<b>🎉 Acabas de ganar uno nuevo</b>\n/TrophyFish!"
 
   "fish.myFish":
@@ -399,12 +399,12 @@
 
   "joinconfig.joinlimit.help": "<code>/JoinLimit</code><b> le permite establecer restricciones predeterminadas para cualquier miembro que se una a su grupo\n\nSu mensaje debe seguir el siguiente ejemplo:</b>"
   "joinconfig.joinlimit.success": "<b>¡Tu </b><code>/JoinLimit</code><b> se ha establecido!</b>\n\nLos nuevos miembros serán restringidos automáticamente %s, hasta que un administrador los cancele."
-  "joinconfig.joinlimit.successTimed": "<b>¡Tu </b><code>/JoinLimit</code><b> <b> se ha establecido!</b>\n\nLos nuevos miembros serán restringidos automáticamente %s, de acuerdo al límite de tiempo que especificó."
+  "joinconfig.joinlimit.successTimed": "<b>¡Tu </b><code>/JoinLimit</code><b> se ha establecido!</b>\n\nLos nuevos miembros serán restringidos automáticamente %s, de acuerdo al límite de tiempo que especificó."
 
-  "joinconfig.title.help": "<code>/%s</code><b> le permite establecer el nombre del grupo con un mensaje.\n\nSu mensaje debería ser el siguiente:</b>\n<code>/%s Nuevo nombre del grupo o chat</code>\n\n<b>Sugerencia: </b><i>¿Tiene un nombre de grupo que siempre usa en los títulos? Echa un vistazo con</i>/cn"
-  "joinconfig.title.replyToTextHint": "<b>Si está respondiendo a otro mensaje para configurar el nombre del grupo, debe ser solo texto.</b>\n\n<b>Sugerencia: </b><i>¿Tiene un nombre del grupo que siempre usa en los títulos? Echa un vistazo con</i>/cn"
+  "joinconfig.title.help": "<code>/%s</code><b> le permite establecer el nombre del grupo con un mensaje.\n\nSu mensaje debería ser el siguiente:</b>\n<code>/%s Nuevo nombre del grupo o chat</code>\n\n<b>Sugerencia: </b><i>¿Tiene un nombre de grupo que siempre usa en los títulos? Echa un vistazo con </i>/cn"
+  "joinconfig.title.replyToTextHint": "<b>Si está respondiendo a otro mensaje para configurar el nombre del grupo, debe ser solo texto.</b>\n\n<b>Sugerencia: </b><i>¿Tiene un nombre del grupo que siempre usa en los títulos? Echa un vistazo con </i>/cn"
 
-  "joinconfig.chatname.help": "<code>/%s</code><b> le permite configurar el nombre del grupo. Este nombre siempre aparecerá frente a cualquier nombre del grupo establecido con </b><code>/t</code> <b>o</b><code>/title</code><b>.\n\nSu mensaje debería ser el siguiente:</b>\n<code>/%s Nombre del grupo</code>"
+  "joinconfig.chatname.help": "<code>/%s</code><b> le permite configurar el nombre del grupo. Este nombre siempre aparecerá frente a cualquier nombre del grupo establecido con </b><code>/t</code> <b>o</b> <code>/title</code><b>.\n\nSu mensaje debería ser el siguiente:</b>\n<code>/%s Nombre del grupo</code>"
   "joinconfig.chatname.replyToTextHint": "<b>Si está respondiendo a otro mensaje para configurar el nombre del grupo, debe ser solo texto.</b>"
   "joinconfig.chatname.success": "<b>El nombre del grupo se ha configurado como:</b>\n%s\n\nEsto aparecerá al inicio de cada nombre del grupo mediante el comando <code>/t</code> o <code>/title</code>."
 
@@ -902,7 +902,7 @@
   "stickers.seeAllCommandsHint": "<b>Enviar /stickers para ver todos los comandos e información.</b>"
   "stickers.staticPackIndicator": "[S]"
   "stickers.dynamicPackIndicator": "[D]"
-  "stickers.staticVsDynamicHint": "<i>Nota: los paquetes e<code>[S]</code>táticos solo pueden incluir pegatinas de fotos, los paquetes <code>[D]</code>inámicos son nuevos y pueden incluir pegatinas de fotos, animadas y de video.\nCualquier paquete nuevo que crees será dinámico.</i> "
+  "stickers.staticVsDynamicHint": "<i>Nota: los paquetes e<code>[S]</code>táticos solo pueden incluir pegatinas de fotos, los paquetes <code>[D]</code>inámicos son nuevos y pueden incluir pegatinas de fotos, animadas y de video.\nCualquier paquete nuevo que crees será dinámico.</i>"
   "stickers.videoTrimmedHint": "<i>Sugerencia: al agregar videos, solo se pueden usar los primeros 3 segundos. Recórtelos usted mismo antes de agregar para seleccionar una parte específica.</i>"
   "stickers.whichPackShouldBeAddedTo": "<b>¿A qué paquete se debe agregar el sticker?</b>\n\n%s"
 
