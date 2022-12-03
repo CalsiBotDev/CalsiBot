@@ -398,8 +398,8 @@
   "joinconfig.welcome.alreadyRemoved": "<b>Saat ini tidak ada Pesan Selamat Datang yang disetel untuk dihapus.\n\nKamu bisa menggunakan </b><code>/SetWelcome</code><b>, dengan pesan yang Kamu inginkan, untuk mengaturnya.</b>"
 
   "joinconfig.joinlimit.help": "<code>/JoinLimit</code><b> memungkinkan Kamu untuk mengatur batasan default untuk setiap anggota yang bergabung dengan obrolan Kamu\n\nPesan Kamu harus seperti contoh di bawah ini:</b>"
-  "joinconfig.joinlimit.success": "<b>Emm</b><code>/JoinLimit</code><b> milikmu telah di atur!</b>\n\nAnggota baru akan secara otomatis dibatasi %s, sampai admin membatasi mereka."
-  "joinconfig.joinlimit.successTimed": "<b>Emm</b><code>/JoinLimit</code><b> milikmu telah di atur!</b>\n\nAnggota baru akan secara otomatis dibatasi %s, untuk batas waktu yang Kamu tentukan."
+  "joinconfig.joinlimit.success": "<b>Emm </b><code>/JoinLimit</code><b> milikmu telah di atur!</b>\n\nAnggota baru akan secara otomatis dibatasi %s, sampai admin membatasi mereka."
+  "joinconfig.joinlimit.successTimed": "<b>Emm </b><code>/JoinLimit</code><b> milikmu telah di atur!</b>\n\nAnggota baru akan secara otomatis dibatasi %s, untuk batas waktu yang Kamu tentukan."
 
   "joinconfig.title.help": "<code>/%s</code><b> memungkinkan Kamu untuk mengatur judul obrolan dengan pesan.\n\nPesan Kamu harus seperti ini:</b>\n<code>/%s Judul obrolan baru</code>\n\n<b>Tips: </b><i>Punya nama obrolan yang selalu Kamu gunakan dalam judul? Lihat </i>/cn"
   "joinconfig.title.replyToTextHint": "<b>Kalo Kamu membalas pesan untuk mengatur judul obrolan, itu harus hanya teks.</b>\n\n<b>Tips: </b><i>Punya nama obrolan yang selalu Kamu gunakan dalam judul? Lihat </i>/cn"
