@@ -184,7 +184,7 @@
     "other": "detik"
   }
 
-  "generic.onlyInSupergroups": "<b>Maaf, perintah ini hanya bisa digunakan di Supergroups</b>"
+  "generic.onlyInSupergroups": "<b>Maaf, perintah ini hanya bisa digunakan di Supergrup</b>"
   "generic.somethingWentWrongTryAgainLater": "<b>Ada yang salah, coba lagi nanti...</b>"
   "generic.rateLimit": "😡 <b>Sekarang abaikan pesan baru dari </b>%s<b> untuk mengirim lebih dari 3 pesan perintah dalam waktu kurang dari 1 detik. Tolong hentikan.</b>\n\n<i>Kedaluwarsa dalam beberapa menit</i>"
   "generic.willNotSeeAgainForAWhile": "<i>Kamu tidak akan melihat pesan ini lagi untuk sementara waktu.</i>"
@@ -263,46 +263,46 @@
                       Comfy - Used for /hug, /cuddle, etc.
      --------------------------------------------------------------------- */
   "comfy.hug": {
-    "self": "%s<b> meraih satu tangan dan memeluk tubuh mereka sendiri. </b>%s<b> merasa sedikit kurang sendirian sekarang.</b>"
+    "self": "%s<b> meraih satu tangan dan memeluk tubuhnya sendiri. </b>%s<b> tidak terlalu merasa sendirian sekarang.</b>"
     "main": "%s memberimu <b>pelukan! :)</b>"
     "CalsiBot": "<i>Aku tidak bisa dipeluk </i><b>:/</b>"
   }
 
   "comfy.cuddle": {
-    "self": "%s<b> berbaring telungkup di tempat tidur mereka, dan mencoba memeluk kedua sisi. </b>%s<b> merasa sedikit kurang sedih sekarang.</b>"
-    "main": "%s pelukan %s erat"
+    "self": "%s<b> berbaring telungkup di tempat tidur nya sendiri, dan mencoba memeluk kedua sisi. </b>%s<b> tidak terlalu sedih sekarang.</b>"
+    "main": "%s memeluk %s dengan erat"
     "CalsiBot": "<i>mendesahhhh</i> ☁️😌☁️"
   }
 
   "comfy.snuggle": {
-    "self": "%s<b> menarik lutut mereka dan mencoba meringkuk. </b>%s<b> merasa sedikit kurang dicintai sekarang.</b>"
+    "self": "%s<b> menarik lututnya sendiri dan mencoba meringkuk. </b>%s<b> merasa kurang dicintai sekarang.</b>"
     "main": "%s puas meringkuk %s"
     "CalsiBot": "🥺 <i>*suara bot santai*</i>"
   }
 
   "comfy.poke": {
-    "self": "%s<b> menusuk dada mereka. Itu membuat mereka ingat bahwa mereka mungkin harus menurunkan berat badan.</b>"
+    "self": "%s<b> menusuk dadanya sendiri. Itu membuat dia ingat bahwa dia mungkin harus menurunkan berat badan.</b>"
     "main": "<b>*</b>%s menusuk %s<b>* o_o</b>"
     "CalsiBot": "<b>&gt;_&lt;</b>"
   }
 
   "comfy.pat": {
-    "self": "%s<b> dengan canggung meraih satu tangan untuk menepuk kepala mereka sendiri. 🙃</b>"
-    "main": "<b>*</b>%s tepukan %s di atas kepala<b>* :V</b>"
+    "self": "%s<b> dengan canggung meraih satu tangan untuk menepuk kepalanya sendiri. 🙃</b>"
+    "main": "<b>*</b>%s menepuk kepala %s<b>* :V</b>"
     "CalsiBot": "<i>rawr</i> <b>xDddd</b>"
   }
 
   "comfy.ruffle": {
-    "self": "%s<b> mengacak-acak rambut mereka sendiri... Astaga. 😐</b>"
-    "main": "<b>*</b>%s kerutan rambut %s<b>* :&</b>"
-    "CalsiBot": "<i>Kamu dimaksudkan untuk mengacak-acak rambut di kepalaku ... tidak ... di sana.</i> 😳"
+    "self": "%s<b> mengacak-acak rambutnya sendiri... Astaga. 😐</b>"
+    "main": "<b>*</b>%s mengacak rambut %s<b>* :&</b>"
+    "CalsiBot": "<i>Kamu mengacak-acak rambutku ... tidak ... di sana.</i> 😳"
   }
 
   "comfy.highfive": {
-    "self": "%s<b> mencoba untuk melakukan tos dengan memukul kedua tangan mereka sendiri bersama-sama. </b>%s<b> rindu, dan tenggelam lebih dalam ke dalam depresi.</b>"
-    "main": "%s hanya <b>tos</b> kamu untuk ini!"
+    "self": "%s<b> mencoba untuk melakukan tos dengan kedua tangannya sendiri. </b>%s<b> rindu, dan tenggelam lebih dalam ke dalam depresi.</b>"
+    "main": "%s memberi sebuah <b>tos!</b>"
     "CalsiBot": "<i>:D</i>"
-  }
+  } 
 
 
   /* ---------------------------------------------------------------------
@@ -398,8 +398,8 @@
   "joinconfig.welcome.alreadyRemoved": "<b>Saat ini tidak ada Pesan Selamat Datang yang disetel untuk dihapus.\n\nKamu bisa menggunakan </b><code>/SetWelcome</code><b>, dengan pesan yang Kamu inginkan, untuk mengaturnya.</b>"
 
   "joinconfig.joinlimit.help": "<code>/JoinLimit</code><b> memungkinkan Kamu untuk mengatur batasan default untuk setiap anggota yang bergabung dengan obrolan Kamu\n\nPesan Kamu harus seperti contoh di bawah ini:</b>"
-  "joinconfig.joinlimit.success": "<b>Emm</b><code>/JoinLimit</code><b> milikmu telah di atur!</b>\n\nAnggota baru akan secara otomatis dibatasi %s, sampai admin membatasi mereka."
-  "joinconfig.joinlimit.successTimed": "<b>Emm</b><code>/JoinLimit</code><b> milikmu telah di atur!</b>\n\nAnggota baru akan secara otomatis dibatasi %s, untuk batas waktu yang Kamu tentukan."
+  "joinconfig.joinlimit.success": "<b>Emm </b><code>/JoinLimit</code><b> milikmu telah di atur!</b>\n\nAnggota baru akan secara otomatis dibatasi %s, sampai admin membatasi mereka."
+  "joinconfig.joinlimit.successTimed": "<b>Emm </b><code>/JoinLimit</code><b> milikmu telah di atur!</b>\n\nAnggota baru akan secara otomatis dibatasi %s, untuk batas waktu yang Kamu tentukan."
 
   "joinconfig.title.help": "<code>/%s</code><b> memungkinkan Kamu untuk mengatur judul obrolan dengan pesan.\n\nPesan Kamu harus seperti ini:</b>\n<code>/%s Judul obrolan baru</code>\n\n<b>Tips: </b><i>Punya nama obrolan yang selalu Kamu gunakan dalam judul? Lihat </i>/cn"
   "joinconfig.title.replyToTextHint": "<b>Kalo Kamu membalas pesan untuk mengatur judul obrolan, itu harus hanya teks.</b>\n\n<b>Tips: </b><i>Punya nama obrolan yang selalu Kamu gunakan dalam judul? Lihat </i>/cn"
@@ -436,12 +436,12 @@
   }
 
   # ⚠️ IMPORTANT
-  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Tekan Emoji yang Cocok Di Bawah:</b>"
+  "joinverify.generateCaptcha.tapMatchingEmojiBelow": "<b>Tekan Emoji Utama Dari Atas:</b>"
   "joinverify.imageText": {
-    "successTop": "Dikonfirmasi"
-    "successBottom": "Manusia"
-    "errorTop": "Ada Yang"
-    "errorBottom": "Salah"
+    "successTop": "Berhasil"
+    "successBottom": "Dikonfirmasi"
+    "errorTop": "Ada Sesuatu"
+    "errorBottom": "Yang Salah"
   }
 
   # ⚠️ IMPORTANT
@@ -474,8 +474,8 @@
   }
 
   "joinverify.preverify.imageText": {
-    "title": "Untuk bergabung ke grup:"
-    "stepOne": "Ketuk <span>Verifikasi,</span> kemudian <span>Start</span>"
+    "title": "Bergabung ke grup:"
+    "stepOne": "Ketuk <span>Verifikasi,</span> dan <span>Mulai</span>"
     "stepTwo": "<span>Lulus</span> tes"
     "stepThree": "<span>Bergabung</span> ke grup!"
   }
@@ -656,9 +656,9 @@
   '''
   <b>Aloo </b><code>%s</code><b>, Aku %s!
 
-  ✴️ Aku akan menjaga grup Kamu aman dari kejahatan</b> dan aku memiliki <b>banyak fitur keren lainnya</b> Seperti <a href="t.me/CalsiBotDev/113">membuat pack stiker</a><b>.</b>
+  ✴️ Aku akan menjaga grup Kamu tetap Aman</b> dan aku memiliki <b>banyak fitur keren lainnya</b> Seperti <a href="t.me/CalsiBotDev/113">membuat pack stiker</a><b>.</b>
 
-  <b>Perintah Admin yang sering digunakan:</b>
+  <b>Perintah Admin paling banyak digunakan:</b>
   <a href="t.me/CalsiBotDev/89">/JoinVerify</a>
   <a href="t.me/CalsiBotDev/23">/restrict</a>, <a href="t.me/CalsiBotDev/82">/warn</a>, <a href="t.me/CalsiBotDev/48">/JoinLock</a>, dan <a href="t.me/CalsiBotDev/74">/JoinLimit</a>
 
@@ -671,7 +671,7 @@
                         Misc - A mix of other commands
      --------------------------------------------------------------------- */
   "misc.boi.self": "<b>Bayangkan secara ironis mencoba </b>/boi<b> dirimu sendiri...</b>"
-  "misc.boi.main": "Kamu telah dikunjungi oleh tangan sang perkasa. Pergi ke sudut Kamu dan pikirkan omong kosong yang Kamu katakan."
+  "misc.boi.main": "Kamu telah dikunjungi oleh tangan sang perkasa. Pergi ke sudut dan pikirkan omong kosong yang Kamu katakan."
   "misc.boi.CalsiBot": "<b>boiii, apakah kamu tahu apa yang baru saja kamu coba lakukan!? 😡😤</b>"
 
   "misc.denko.main":
@@ -698,7 +698,7 @@
   '''
   <b>Hampir semua perintah CalsiBot:</b>
 
-  <b>Perintah Nyaman:</b>
+  <b>Perintah Manis:</b>
   /hug, /cuddle, /snuggle, /ruffle
   /pat, /poke, /highfive
 
@@ -718,7 +718,7 @@
   /JoinLimit, /JoinLock
   /JoinVerify, /PreVerify
 
-  <b>Perintah Modifikasi Teks:</b>
+  <b>Perintah Mengubah Teks:</b>
   /covfefe, /spurdo, /emojify
 
   <b>Lainnya:</b>
@@ -786,7 +786,7 @@
                         Language - Used for /language
      --------------------------------------------------------------------- */
   # ℹ️ NOTE: This should be the native name of the language.
-  "language.name": "Indonesia"
+  "language.name": "Bahasa Indonesia"
   "language.main": "<b>Bahasa Kamu saat ini disetel ke:</b>\n<code>%s</code>"
   "language.credit": "<b>Terjemahan ini dibuat oleh </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">kontribusi</a><b> dari:</b>\n"
   # ℹ️ NOTE: The contributors string should NOT be changed by anyone other than me, or those who are already listed
@@ -797,7 +797,7 @@
   #
   #          This list of names should be in order of contribution size and frequency, taking into account age of last
   #          contribution.
-  "language.credit.activeContributors": "<a href=\"t.me/justDzL\">dzL</a>"
+  "language.credit.activeContributors": "<a href=\"t.me/justdzL\">dzL</a>"
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Pilih bahasamu:</b>"
@@ -891,8 +891,8 @@
                   Stickers - Used for all /sticker commands
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "Favorit %s"
-  "stickers.acceptableFileTypes": "<b>- foto terkompresi,\n- foto tidak terkompresi</b> (&lt;15 MB),\n<b>- stiker non-animasi</b>"
-  "stickers.main": "<b>Buat, Kelola, dan Tambahkan ke Pack Stiker dengan perintah berikut:</b>\n\n/newpack — buat pack baru\n/listpacks — daftar pack dan ID pack Kamu\n/removepack — hapus tautan pack dari CalsiBot\n\n/addsticker — tambahkan gambar atau stiker ke pack\n/deletesticker — hapus stiker dari pack\n\n<b>Penggunaan ahli:</b>\n\n/addsticker 3 — tambahkan gambar atau stiker ke pack dengan ID <code>3</code>\n/addsticker 🥳🙂😉 — buat stiker dan sarankan saat menggunakan salah satu dari tiga emoji ini\n/addsticker 3 🥳🙂😉 — buat stiker dan tambahkan ke pack <code>3</code>, sarankan saat menggunakan salah satu dari tiga emoji ini"
+  "stickers.acceptableFileTypes": "<b>- GIF,\n- foto terkompres,\n- foto tidak terkompres</b> (&lt;10 MB)<b>,\n- video</b> (&lt;10 MB)<b>,\n- foto, animasi, atau stiker video</b>"
+  "stickers.main": "<b>Buat, Kelola, dan Tambah ke Paket Stiker dengan perintah berikut:</b>\n\n/newpack — buat paket baru\n/listpacks — Melihat Daftar Paket Anda dan ID-nya\n/removepack — Menghapus paket dari CalsiBot\n\n/addsticker — tambahkan stiker ke paket\n/deletesticker — hapus stiker dari paket\n\n<b>Perintah Lain:</b>\n\n/addsticker 3 — tambahkan gambar atau stiker ke paket dengan ID <code>3</code>\n/addsticker 🥳🙂😉 — buat stiker dan saran saat menggunakan salah satu dari ketiga emoji ini\n/addsticker 3 🥳🙂😉 — buat stiker dan tambahkan ke paket <code>3</code>, sarankan saat menggunakan salah satu dari ketiga emoji ini"
   "stickers.beingAdded": "⏳ <b>Stiker Kamu sedang ditambahkan, harap tunggu...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Stiker Kamu akan ditambahkan dalam %s, harap tunggu...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>Stiker Kamu telah ditambahkan!</b>\n\n<i>kalo Kamu tidak melihatnya, hapus dan tambahkan kembali Stiker Pack:</i>"
@@ -900,20 +900,24 @@
   "stickers.letsCreateAPackInPrivate": "<b>Pack Stiker harus dibuat secara pribadi, kuyy:</b>"
   "stickers.removeOnlyInPrivate": "<b>Pack Stiker hanya bisa dihapus secara pribadi, kuyy:</b>"
   "stickers.seeAllCommandsHint": "<b>Kirim /stickers untuk melihat semua perintah dan info.</b>"
-  "stickers.whichPackShouldBeAddedTo": "<b>Pack mana yang harus ditambahkan stiker??</b>\n\n%s"
+  "stickers.staticPackIndicator": "[S]"
+  "stickers.dynamicPackIndicator": "[D]"
+  "stickers.staticVsDynamicHint": "<i>Catatan: Paket <code>[S]</code>tatis adalah paket yang hanya dapat menyertakan Stiker foto, <code>[D]</code>inamis adalah paket baru dan dapat menyertakan Stiker foto, animasi, dan video.\nSetiap paket baru yang Anda buat akan bersifat Dinamis.</i>"
+  "stickers.videoTrimmedHint": "<i>Tip: Saat menambahkan video, hanya 3 detik pertama yang dapat digunakan. Pangkas sendiri video sebelum menambahkan untuk memilih bagian tertentu.</i>"
+  "stickers.whichPackShouldBeAddedTo": "<b>Pack mana yang harus ditambahkan stiker?</b>\n\n%s"
 
   "stickers.callbacks": {
     "confirmStickerPackCreate": "<b>Pack Stiker Kamu akan memiliki nama kek gini::</b>\n\n<code>%s</code>\n\n<b>⚠️ Kamu gaakan bisa ubah ini nanti.\n\nTekan Batal untuk memilih nama yang berbeda.</b>"
     "cancelStickerPackCreate": "<b>Oke, pilih nama lain dan coba lagi. Sebagai contoh:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>Pack Stiker Kamu telah dibuat!</b>\n\nSekarang Kamu bisa membalas gambar dan stiker dengan /addsticker untuk menambahkannya ke pack Kamu\n\n%s"
-    "confirmStickerPackRemove": "⚠️ <b>Pack Stiker kamu akan dihapus dari CalsiBot.\n\nKamu gaakan bisa memperbarui pack ini dengan CalsiBot lagi.\n\nApa Kamu yakin mau hapus pack ini??</b>"
+    "confirmStickerPackRemove": "⚠️ <b>Pack Stiker kamu akan dihapus dari CalsiBot.\n\nKamu gaakan bisa memperbarui pack ini dengan CalsiBot lagi.\n\nApa Kamu yakin mau hapus pack ini?</b>"
     "cancelStickerPackRemove": "<b>Oke, pack tidak dihapus.</b>"
     "stickerPackRemoveSuccess": "<b>Pack Stiker Kamu telah dihapus dari CalsiBot.</b>\n\nUntuk menghapus sepenuhnya, silakan ke @Stickers"
     "cancelAddEmojiToMessage": "<b>Oke, Kamu bisa menentukan sendiri emoji yang berbeda. Contohnya:</b>\n\n<code>%s</code>"
   }
 
-  "stickers.listPacks": "<b>Pack Kamu:\n\n%s</b>\n\n%s"
-  "stickers.listPacksFill": "%s — <a href=\"%s\">%s</a>"
+  "stickers.listPacks": "<b>Pack Kamu:\n\n%s</b>\n\n%s\n\n%s"
+  "stickers.listPacksFill": "%s %s — <a href=\"%s\">%s</a>"
   "stickers.validStickerPacksAre": "<b>ID Pack Stiker yang valid adalah:\n<code>%s</code></b>"
 
   "stickers.error": {
@@ -921,9 +925,12 @@
     "noPackGiven": "<b>Kamu harus menentukan Pack. Contohnya:</b>\n<code>/%s %s</code>\n\n%s"
     "noEmojiGiven": "<b>Silakan pilih emoji di bawah ini\n\nTekan Batal untuk menentukan milik Kamu:</b>\n<code>%s</code>"
     "noStickerPacks": "<b>Kamu tidak memiliki Pack Stiker.</b>\n\n%s"
+    "noDynamicStickerPacks": "<b>Media yang Anda balas hanya dapat ditambahkan ke Paket Stiker Dinamis, tetapi Anda tidak memilikinya.</b>\n\n%s\n\n%s"
     "specifiedPackDoesNotExist": "<b>Tidak bisa menemukan Pack Stiker <code>%s</code></b>\n\n%s"
+    "stickerAlreadyDeleted": "<b>Stiker ini telah dihapus.</b>"
+    "packFull": "<b>Paket ini penuh, hapus beberapa stiker atau buat paket baru.</b>"
     "packLimitReached": "<b>Kamu telah mencapai batas %s Pack Stiker.\n\nKalo Kamu ingin membuat Pack baru, Kamu harus menggunakan </b><code>/removepack</code><b> untuk menghapusnya terlebih dahulu.</b>"
-    "addStickerReplyHint": "<b>Balas gambar atau stiker yang ingin Kamu tambahkan ke Pack stiker.</b>"
+    "addStickerReplyHint": "<b>Balas ke media yang ingin Anda tambahkan ke paket stiker.</b>"
     "deleteStickerReplyHint": "<b>Balas stiker dari salah satu Pack Kamu yang ingin Kamu hapus.</b>"
   }
 }
