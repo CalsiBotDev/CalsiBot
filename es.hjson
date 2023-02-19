@@ -26,14 +26,14 @@
     "userUnbannedAnswerText": "Usuario desbaneado"
 
     # ℹ️ Example: /JoinVerify enabled by Andy
-    "featureEnabledBy": "%s<b> activado por </b>%s"
-    "featureEnabledAnswerText": "%s activado"
-    "featureAlreadyEnabled": "%s<b> ya está activado</b>"
+    "featureEnabledBy": "%s<b> fue activado por </b>%s"
+    "featureEnabledAnswerText": "%s fue activado"
+    "featureAlreadyEnabled": "%s<b> ya estaba activado</b>"
     "featureAlreadyEnabledAnswerText": "%s Ya activado"
-    "featureDisabledBy": "%s<b> desactivado por </b>%s"
-    "featureDisabledAnswerText": "%s desactivado"
-    "featureAlreadyDisabled": "%s<b> ya está desactivado</b>"
-    "featureAlreadyDisabledAnswerText": "%s Ya desactivado"
+    "featureDisabledBy": "%s<b> fue desactivado por </b>%s"
+    "featureDisabledAnswerText": "%s fue desactivado"
+    "featureAlreadyDisabled": "%s<b> ya estaba desactivado</b>"
+    "featureAlreadyDisabledAnswerText": "%s Ya fue desactivado"
 
     "joinLimitRestrictionsReset": "<a href=\"tg://user?id=%s\">Las restricciones</a><b> de </b><code>/JoinLimit</code><b> de este usuario han sido restablecidas por </b>%s"
     "joinLimitRestrictionsResetAnswerText": "¡Restricciones Restablecidas!"
@@ -186,12 +186,12 @@
 
   "generic.onlyInSupergroups": "<b>Lo sentimos, este comando solo se puede usar en Supergrupos</b>"
   "generic.somethingWentWrongTryAgainLater": "<b>Algo salió mal, por favor intente nuevamente más tarde...</b>"
-  "generic.rateLimit": "😡 <b>Ahora se ignoran los nuevos mensajes de </b>%s<b> por enviar más de 3 mensajes de comando en menos de 1 segundo. Por favor, deténgase.</b>\n\n<i>Expira en unos minutos</i>"
+  "generic.rateLimit": "😡 <b>Ahora se ignoran los nuevos mensajes de </b>%s<b> por enviar más de 3 mensajes de comando en menos de 1 segundo. Por favor, deténte.</b>\n\n<i>Expira en unos minutos</i>"
   "generic.willNotSeeAgainForAWhile": "<i>No volverá a ver este mensaje durante un tiempo.</i>"
 
   # ℹ️ Example: Reply to the person you want to /slap
-  "generic.replyToThePersonYouWantTo": "<b>Responda al usuario que deseas</b> %s"
-  "generic.needToReply": "<b>Debe responder a alguien.</b>"
+  "generic.replyToThePersonYouWantTo": "<b>Responde al usuario que deseas</b> %s"
+  "generic.needToReply": "<b>Debes responder a alguien.</b>"
 
   "generic.needToBeAdmin": "<b>❌ No autorizado. Necesitas:</b>\n\n1️⃣ Ser administrador\n2️⃣ Para tener permiso a %s"
   "generic.needToBeAdminAnswerText": "❌ No autorizado. Necesitas:\n\n1️⃣ Ser un administrador\n2️⃣ Para tener permiso a %s"
@@ -350,7 +350,7 @@
 
   "fish.myFish":
   '''
-  <b>🎣 </b><a href="tg://user?id=%s">%s</a><b> – Pez:</b>
+  <b>🎣 Peces de </b><a href="tg://user?id=%s">%s</a><b>:</b>
 
   🐡 - Blowfish: <b>%s</b>
   🐟 - Pescado normal: <b>%s</b>
@@ -477,7 +477,7 @@
     "title": "Para unirse al grupo:"
     "stepOne": "Toque <span>Verificar</span> e <span>Iniciar</span>"
     "stepTwo": "<span>Verifíquese</span> como humano"
-    "stepThree": "<span>¡Unirse</span> al grupo!"
+    "stepThree": "<span>¡Únase</span> al grupo!"
   }
 
   "joinverify.preverify.main": "<b>%s%s está <a href=\"t.me/CalsiBotDev/111\">protegido por</a> PreVerify.</b>"
@@ -488,7 +488,7 @@
   /* ---------------------------------------------------------------------
                         JoinLimit - Used for /JoinLimit
      --------------------------------------------------------------------- */
-  "joinlimit.joinevents.userLimited": "%s ha sido restringido %s porque <code>/JoinLimit</code><b> está activado.</b>"
+  "joinlimit.joinevents.userLimited": "%s ha sido restringido %s porque el <code>/JoinLimit</code><b> está activado.</b>"
   "joinlimit.joinevents.userLimitedTimed": "%s ha sido restringido %s <b>hasta %s (UTC) porque </b><code>/JoinLimit</code><b> está activado.</b>"
   "joinlimit.joinevents.signature": " ha sido restringido "
 
@@ -562,7 +562,7 @@
   /* ---------------------------------------------------------------------
                     Permaban - Used for /Permaban, /UnPermaban
      --------------------------------------------------------------------- */
-  "permaban.permaban": "Ban permanente"
+  "permaban.permaban": "Baneo permanente"
 
   "permaban.callbacks": {
     "userPermabanned": "<a href=\"tg://user?id=%s\">Este usuario</a><b> fue baneado permanentemente por </b>%s"
@@ -636,7 +636,7 @@
     "maxWarnsValueChangedAnswerText": "Nuevas advertencias máximas establecidas"
   }
 
-  "warn.noReasonGiven": "Ningún motivo dado"
+  "warn.noReasonGiven": "No se dió un motivo"
 
   "warn.replyHint": "<b>Responda al usuario al que desea advertir, por ejemplo:</b>\n\n<code>/warn</code><b> o\n</b><code>/warn &lt;motivo aquí&gt;</code>"
 
@@ -797,13 +797,13 @@
   #
   #          Esta lista de nombres debe estar en orden de tamaño y frecuencia de contribución, teniendo en cuenta la antigüedad de la última
   #          contribución.
-  "language.credit.activeContributors": "<a href=\"t.me/hfsoriad\">Henry</a>"
+  "language.credit.activeContributors": "<a href=\"t.me/hfsoriad\">Henry></a>, <a href=\"t.me/ByAlReves\">AjnebAlRevés</a>"
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Elige tu idioma:</b>"
     "changedBy": "<b>Idioma cambiado de </b><code>%s</code><b> a </b><code>%s</code><b> por </b>%s"
     "changedByAnswerText": "Idioma Cambiado"
-    "languageAlreadySetAnswerText": "%s es el que ya está establecido como idioma del grupo"
+    "languageAlreadySetAnswerText": "¡%s ya estaba establecido como idioma del grupo!"
   }
 
 
@@ -844,7 +844,7 @@
      --------------------------------------------------------------------- */
   "dox.result":
   '''
-  <b>Dox de </b>%s<b>:</b>
+  <b>Doxx de </b>%s<b>:</b>
 
   <pre>Género: %s
   Fecha de nacimiento: %s
@@ -899,7 +899,7 @@
   "stickers.beingDeleted": "<b>Este sticker se ha eliminado.</b>\n\n<i>puede tardar hasta 2 minutos en desaparecer:</i>"
   "stickers.letsCreateAPackInPrivate": "<b>Los paquetes de stickers deben crearse en privado, vamos allá:</b>"
   "stickers.removeOnlyInPrivate": "<b>Los paquetes de stickers solo se pueden eliminar en privado, vamos allá:</b>"
-  "stickers.seeAllCommandsHint": "<b>Enviar /stickers para ver todos los comandos e información.</b>"
+  "stickers.seeAllCommandsHint": "<b>Envía /stickers para ver todos los comandos e información.</b>"
   "stickers.staticPackIndicator": "[S]"
   "stickers.dynamicPackIndicator": "[D]"
   "stickers.staticVsDynamicHint": "<i>Nota: los paquetes e<code>[S]</code>táticos solo pueden incluir stickers de fotos; los paquetes <code>[D]</code>inámicos son nuevos y pueden incluir stickers de fotos, animaciones y de vídeo.\nCualquier paquete nuevo que hayas creado será dinámico.</i>"
