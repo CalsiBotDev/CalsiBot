@@ -350,7 +350,7 @@
 
   "fish.myFish":
   '''
-  <b>🎣 Peces de: </b><a href="tg://user?id=%s">%s</a><b></b>
+  <b>🎣 Peces de </b><a href="tg://user?id=%s">%s</a><b>:</b>
 
   🐡 - Blowfish: <b>%s</b>
   🐟 - Pescado normal: <b>%s</b>
@@ -797,7 +797,7 @@
   #
   #          Esta lista de nombres debe estar en orden de tamaño y frecuencia de contribución, teniendo en cuenta la antigüedad de la última
   #          contribución.
-  "language.credit.activeContributors": "<a href=\"t.me/hfsoriad\">Henry></a> & <a href=\"t.me/ByAlReves\">AjnebAlRevés </a>"
+  "language.credit.activeContributors": "<a href=\"t.me/hfsoriad\">Henry></a>, <a href=\"t.me/ByAlReves\">AjnebAlRevés</a>"
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Elige tu idioma:</b>"
