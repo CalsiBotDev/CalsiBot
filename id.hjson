@@ -377,6 +377,7 @@
     "2018xmas": "\n%s<%s> - Natal 2018</%s>"
     "2019newyear": "\n%s<%s> - Tahun Baru 2019</%s>"
     "2020xmas": "\n%s<%s> - Natal 2020</%s>"
+    "2022xmas": "\n%s<%s> - Natal 2022</%s>"
   }
 
 
@@ -395,7 +396,7 @@
   "joinconfig.welcome.error.somethingWrong": "<b>Maaf, ada yang salah dengan pesan yang Kamu kirimkan.\n\nHarap periksa kembali format Kamu, dan pastikan Kamu tidak memasukkan karakter yang aneh.</b>"
   "joinconfig.welcome.success": "<b>Bagus, Pesan Selamat Datang baru Kamu telah disetel. Periksa untuk melihat bagaimana tampilannya!\n\nKamu bisa menggunakan </b><code>/DeleteWelcome</code><b> untuk menghapusnya.</b>"
   "joinconfig.welcome.removed": "<b>Pesan Selamat Datang telah dihapus.\n\nKamu bisa menggunakan </b><code>/SetWelcome</code><b>, dengan pesan yang Kamu inginkan, untuk mengatur yang baru.</b>"
-  "joinconfig.welcome.alreadyRemoved": "<b>Saat ini tidak ada Pesan Selamat Datang yang disetel untuk dihapus.\n\nKamu bisa menggunakan </b><code>/SetWelcome</code><b>, dengan pesan yang Kamu inginkan, untuk mengaturnya.</b>"
+  "joinconfig.welcome.notSet": "<b>Saat ini tidak ada Pesan Selamat Datang yang disetel.\n\nKamu bisa menggunakan </b><code>/SetWelcome</code><b>, dengan pesan yang Kamu inginkan, untuk mengaturnya.</b>"
 
   "joinconfig.joinlimit.help": "<code>/JoinLimit</code><b> memungkinkan Kamu untuk mengatur batasan default untuk setiap anggota yang bergabung dengan obrolan Kamu\n\nPesan Kamu harus seperti contoh di bawah ini:</b>"
   "joinconfig.joinlimit.success": "<b>Emm </b><code>/JoinLimit</code><b> milikmu telah di atur!</b>\n\nAnggota baru akan secara otomatis dibatasi %s, sampai admin membatasi mereka."
@@ -837,6 +838,8 @@
 
   # ℹ️ Example: You Got Septuples!
   "roll.main": "kamu mendapatkan %s"
+  # ℹ️ Example: 777\n\nresult between 0 and 1000
+  "roll.custom": "<b>%s</b>\n\n<i>hasil antara <code>%s</code> dan <code>%s</code></i>"
 
 
   /* ---------------------------------------------------------------------
@@ -892,7 +895,7 @@
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "Favorit %s"
   "stickers.acceptableFileTypes": "<b>- GIF,\n- foto terkompres,\n- foto tidak terkompres</b> (&lt;10 MB)<b>,\n- video</b> (&lt;10 MB)<b>,\n- foto, animasi, atau stiker video</b>"
-  "stickers.main": "<b>Buat, Kelola, dan Tambah ke Paket Stiker dengan perintah berikut:</b>\n\n/newpack — buat paket baru\n/listpacks — Melihat Daftar Paket Anda dan ID-nya\n/removepack — Menghapus paket dari CalsiBot\n\n/addsticker — tambahkan stiker ke paket\n/deletesticker — hapus stiker dari paket\n\n<b>Perintah Lain:</b>\n\n/addsticker 3 — tambahkan gambar atau stiker ke paket dengan ID <code>3</code>\n/addsticker 🥳🙂😉 — buat stiker dan saran saat menggunakan salah satu dari ketiga emoji ini\n/addsticker 3 🥳🙂😉 — buat stiker dan tambahkan ke paket <code>3</code>, sarankan saat menggunakan salah satu dari ketiga emoji ini"
+  "stickers.main": "<b>Buat, Kelola, dan Tambah ke Paket Stiker dengan perintah berikut:</b>\n\n/newpack — buat paket baru\n/listpacks — Melihat Daftar Paket Anda dan ID-nya\n/renamepack — ganti nama paket\n/removepack — Menghapus paket dari CalsiBot\n\n/addsticker — tambahkan stiker ke paket\n/deletesticker — hapus stiker dari paket\n\n<b>Perintah Lain:</b>\n\n/addsticker 3 — tambahkan gambar atau stiker ke paket dengan ID <code>3</code>\n/addsticker 🥳🙂😉 — buat stiker dan saran saat menggunakan salah satu dari ketiga emoji ini\n/addsticker 3 🥳🙂😉 — buat stiker dan tambahkan ke paket <code>3</code>, sarankan saat menggunakan salah satu dari ketiga emoji ini"
   "stickers.beingAdded": "⏳ <b>Stiker Kamu sedang ditambahkan, harap tunggu...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Stiker Kamu akan ditambahkan dalam %s, harap tunggu...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>Stiker Kamu telah ditambahkan!</b>\n\n<i>kalo Kamu tidak melihatnya, hapus dan tambahkan kembali Stiker Pack:</i>"
@@ -907,9 +910,10 @@
   "stickers.whichPackShouldBeAddedTo": "<b>Pack mana yang harus ditambahkan stiker?</b>\n\n%s"
 
   "stickers.callbacks": {
-    "confirmStickerPackCreate": "<b>Pack Stiker Kamu akan memiliki nama kek gini::</b>\n\n<code>%s</code>\n\n<b>⚠️ Kamu gaakan bisa ubah ini nanti.\n\nTekan Batal untuk memilih nama yang berbeda.</b>"
-    "cancelStickerPackCreate": "<b>Oke, pilih nama lain dan coba lagi. Sebagai contoh:</b>\n\n<code>/newpack %s</code>"
+    "confirmStickerPackCreateOrRename": "<b>Pack Stiker Kamu akan memiliki nama kek gini::</b>\n\n<code>%s</code>\n\n<b>Tekan Batal untuk memilih nama yang berbeda.</b>"
+    "cancelStickerPackCreateOrRename": "<b>Oke, pilih nama lain dan coba lagi. Sebagai contoh:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>Pack Stiker Kamu telah dibuat!</b>\n\nSekarang Kamu bisa membalas gambar dan stiker dengan /addsticker untuk menambahkannya ke pack Kamu\n\n%s"
+    "stickerPackRenameSuccess": "<b>Pack Stiker Anda telah diganti namanya!</b>\n\n%s"
     "confirmStickerPackRemove": "⚠️ <b>Pack Stiker kamu akan dihapus dari CalsiBot.\n\nKamu gaakan bisa memperbarui pack ini dengan CalsiBot lagi.\n\nApa Kamu yakin mau hapus pack ini?</b>"
     "cancelStickerPackRemove": "<b>Oke, pack tidak dihapus.</b>"
     "stickerPackRemoveSuccess": "<b>Pack Stiker Kamu telah dihapus dari CalsiBot.</b>\n\nUntuk menghapus sepenuhnya, silakan ke @Stickers"

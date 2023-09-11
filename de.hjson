@@ -377,6 +377,7 @@
     "2018xmas": "\n%s<%s> - Weihnachten 2018</%s>"
     "2019newyear": "\n%s<%s> - Neujahr 2019</%s>"
     "2020xmas": "\n%s<%s> - Weihnachten 2020</%s>"
+    "2022xmas": "\n%s<%s> - Weihnachten 2022</%s>"
   }
 
 
@@ -395,7 +396,7 @@
   "joinconfig.welcome.error.somethingWrong": "<b>Es tut uns leid, aber mit der von Ihnen geposteten Nachricht stimmt etwas nicht.\n\nBitte überprüfen Sie Ihre Formatierung und stellen Sie sicher, dass Sie keine seltsamen Zeichen eingefügt haben.</b>"
   "joinconfig.welcome.success": "<b>Großartig, Ihre neue Begrüßungsnachricht wurde festgelegt. Oben können Sie überprüfen wie es aussehen wird!\n\nSie können </b><code>/DeleteWelcome</code><b> verwenden, um es zu entfernen.</b>"
   "joinconfig.welcome.removed": "<b>Die Begrüßungsnachricht wurde entfernt.\n\nSie können </b><code>/SetWelcome</code><b> verwenden, gefolgt von der Nachricht die Sie möchten, um eine neue festzulegen.</b>"
-  "joinconfig.welcome.alreadyRemoved": "<b>Derzeit ist keine Begrüßungsnachricht zum Entfernen festgelegt.\n\nSie können </b><code>/SetWelcome</code><b>, gefolgt von der Nachricht die Sie festlegen möchten, verwenden.</b>"
+  "joinconfig.welcome.notSet": "<b>Derzeit ist keine Begrüßungsnachricht zum festgelegt.\n\nSie können </b><code>/SetWelcome</code><b>, gefolgt von der Nachricht die Sie festlegen möchten, verwenden.</b>"
 
   "joinconfig.joinlimit.help": "<code>/JoinLimit</code><b> Mit dieser Option können Sie die Standardeinschränkungen für alle Mitglieder festlegen, die an Ihrem Chat teilnehmen\n\nIhre Nachricht sollte wie folgt aussehen:</b>"
   "joinconfig.joinlimit.success": "<b>Ihr </b><code>/JoinLimit</code><b> wurde gesetzt!</b>\n\nNeue Mitglieder werden automatisch eingeschränkt %s, bis ein Administrator die Einschränkung aufhebt."
@@ -837,6 +838,8 @@
 
   # ℹ️ Example: You Got Septuples!
   "roll.main": "Du hast %s"
+  # ℹ️ Example: 777\n\nresult between 0 and 1000
+  "roll.custom": "<b>%s</b>\n\n<i>ergebnis zwischen <code>%s</code> und <code>%s</code></i>"
 
 
   /* ---------------------------------------------------------------------
@@ -892,7 +895,7 @@
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "%ss Favoriten"
   "stickers.acceptableFileTypes": "<b>- GIF,\n- komprimiertes Foto,\n- unkomprimiertes Foto</b> (&lt;10 MB)<b>,\n- Video</b> (&lt;10 MB)<b>,\n- Foto-, animierte oder Video-Sticker</b>"
-  "stickers.main": "<b>Erstellen, verwalten und hinzufügen zu Aufkleberpackungen mit den folgenden Befehlen:</b>\n\n/newpack - Erstellen Sie ein neues Paket\n/listpacks - Listen Sie Ihre Packungen und ihre IDs auf\n/removepack - Verknüpfung eines Pakets mit CalsiBot aufheben\n\n/addsticker - Aufkleber zu einer Packung hinzufügen\n/deletesticker - Aufkleber aus einer Packung löschen\n\n<b>Experteneinsatz:</b>\n\n/addsticker 3 — Fügen Sie ein Bild oder einen Aufkleber der Packung mit der ID <code>3</code> hinzu\n/addsticker 🥳🙂😉 — Erstellen Sie einen Aufkleber und schlagen Sie ihn vor, wenn Sie einen dieser drei Emoji verwenden\n/addsticker 3 🥳🙂😉 — Erstellen Sie einen Aufkleber und fügen Sie ihn zu Packung <code>3</code> hinzu, schlagen Sie ihn vor, wenn Sie eines dieser drei Emoji verwenden"
+  "stickers.main": "<b>Erstellen, verwalten und hinzufügen zu Aufkleberpackungen mit den folgenden Befehlen:</b>\n\n/newpack - Erstellen Sie ein neues Paket\n/listpacks - Listen Sie Ihre Packungen und ihre IDs auf\n/renamepack — ein Paket umbenennen\n/removepack - Verknüpfung eines Pakets mit CalsiBot aufheben\n\n/addsticker - Aufkleber zu einer Packung hinzufügen\n/deletesticker - Aufkleber aus einer Packung löschen\n\n<b>Experteneinsatz:</b>\n\n/addsticker 3 — Fügen Sie ein Bild oder einen Aufkleber der Packung mit der ID <code>3</code> hinzu\n/addsticker 🥳🙂😉 — Erstellen Sie einen Aufkleber und schlagen Sie ihn vor, wenn Sie einen dieser drei Emoji verwenden\n/addsticker 3 🥳🙂😉 — Erstellen Sie einen Aufkleber und fügen Sie ihn zu Packung <code>3</code> hinzu, schlagen Sie ihn vor, wenn Sie eines dieser drei Emoji verwenden"
   "stickers.beingAdded": "⏳ <b>Ihr Aufkleber wird hinzugefügt, bitte warten Sie...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Ihr Aufkleber wird in %s hinzugefügt, bitte warten Sie...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>Dein Aufkleber wurde hinzugefügt!</b>\n\n<i>Wenn Sie ihn nicht sehen, entfernen Sie die Stickerpackung und fügen Sie ihn erneut hinzu:</i>"
@@ -907,9 +910,10 @@
   "stickers.whichPackShouldBeAddedTo": "<b>Zu welcher Packung sollte der Aufkleber hinzugefügt werden?</b>\n\n%s"
 
   "stickers.callbacks": {
-    "confirmStickerPackCreate": "<b>Ihre Aufkleberpackunghat den folgenden Titel:</b>\n\n<code>%s</code>\n\n<b>⚠️ Sie können dies später nicht mehr ändern.\n\nDrücken Sie Abbrechen, um einen anderen Titel auszuwählen.</b>"
-    "cancelStickerPackCreate": "<b>Okay, wählen Sie einen anderen Titel und versuchen Sie es erneut. Zum Beispiel:</b>\n\n<code>/newpack %s</code>"
+    "confirmStickerPackCreateOrRename": "<b>Ihre Aufkleberpackunghat den folgenden Titel:</b>\n\n<code>%s</code>\n\n<b>Drücken Sie Abbrechen, um einen anderen Titel auszuwählen.</b>"
+    "cancelStickerPackCreateOrRename": "<b>Okay, wählen Sie einen anderen Titel und versuchen Sie es erneut. Zum Beispiel:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>Ihre Aufkleberpackung wurde erstellt!</b>\n\nSie können jetzt auf Bilder und Aufkleber mit /addsticker antworten, um sie Ihrer Packung hinzuzufügen\n\n%s"
+    "stickerPackRenameSuccess": "<b>Ihre Aufkleberpackung wurde umbenannt!</b>\n\n%s"
     "confirmStickerPackRemove": "⚠️ <b>Ihre Aufkleberpackung wird von CalsiBot getrennt.\n\nSie können diese Packung nie wieder mit CalsiBot aktualisieren.\n\nSind Sie sicher, dass Sie diese Packung entfernen möchten?</b>"
     "cancelStickerPackRemove": "<b>Okay, Packung wurde nicht entfernt.</b>"
     "stickerPackRemoveSuccess": "<b>Ihre Aufkleberpackung wurde aus CalsiBot entfernt.</b>\n\nUm sie vollständig zu löschen, wenden Sie sich an @Stickers"

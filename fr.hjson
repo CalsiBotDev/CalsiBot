@@ -377,6 +377,7 @@
     "2018xmas": "\n%s<%s> - Noël 2018</%s>"
     "2019newyear": "\n%s<%s> - Nouvel an 2019</%s>"
     "2020xmas": "\n%s<%s> - Noël 2020</%s>"
+    "2022xmas": "\n%s<%s> - Noël 2022</%s>"
   }
 
 
@@ -395,7 +396,7 @@
   "joinconfig.welcome.error.somethingWrong": "<b>Désolé, mais il y a un problème avec le message que vous venez de poster.\n\nVeuillez vérifier votre mise en forme et assurez-vous que vous n'avez inclus aucun caractère étrange.</b>"
   "joinconfig.welcome.success": "<b>Génial, votre nouveau message de bienvenue a été défini. Vérifiez ci-dessus pour voir à quoi il ressemble!\n\nVous pouvez utiliser </b><code>/DeleteWelcome</code><b> pour le supprimer.</b>"
   "joinconfig.welcome.removed": "<b>Le message de bienvenue a été supprimé.\n\nVous pouvez utiliser </b><code>/SetWelcome</code><b>, suivi du message souhaité, pour en définir un nouveau.</b>"
-  "joinconfig.welcome.alreadyRemoved": "<b>Il n'y a actuellement aucun message de bienvenue à supprimer.\n\nVous pouvez utiliser </b><code>/SetWelcome</code><b>, suivi du message que vous souhaitez utiliser, pour en définir un.</b>"
+  "joinconfig.welcome.notSet": "<b>Il n'y a actuellement aucun message de bienvenue.\n\nVous pouvez utiliser </b><code>/SetWelcome</code><b>, suivi du message que vous souhaitez utiliser, pour en définir un.</b>"
 
   "joinconfig.joinlimit.help": "<code>/JoinLimit</code><b> vous permet de définir les restrictions par défaut pour tous les membres qui rejoignent votre chat\n\nVotre message doit ressembler à l'exemple ci-dessous:</b>"
   "joinconfig.joinlimit.success": "<b>Votre </b><code>/JoinLimit</code><b> a été défini!</b>\n\nLes nouveaux membres seront automatiquement restreints %s, jusqu'à ce qu'un administrateur supprime ces restrictions."
@@ -837,6 +838,8 @@
 
   # ℹ️ Example: You Got Septuples!
   "roll.main": "Vous avez obtenu des %s"
+  # ℹ️ Example: 777\n\nresult between 0 and 1000
+  "roll.custom": "<b>%s</b>\n\n<i>résultat entre <code>%s</code> et <code>%s</code></i>"
 
 
   /* ---------------------------------------------------------------------
@@ -892,7 +895,7 @@
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "Les favoris de %s"
   "stickers.acceptableFileTypes": "<b>- GIF,\n- photo compressée,\n- photo non compressée</b> (&lt;10 Mo)<b>,\n- vidéo</b> (&lt;10 Mo)<b>,\n- autocollant photo, animé ou vidéo</b>"
-  "stickers.main": "<b>Créer, gérer et ajouter aux packs d'autocollants avec les commandes suivantes:</b>\n\n/newpack - créer un nouveau pack\n/listpacks - répertoriez vos packs et leurs identifiants\n/removepack - dissocier un pack de CalsiBot\n\n/addsticker - ajouter un autocollant à un pack\n/deletesticker - supprimer un autocollant d'un pack\n\n<b>Utilisation experte:</b>\n\n/addsticker 3 — ajouter une image ou un autocollant pour emballer avec ID <code>3</code>\n/addsticker 🥳🙂😉 — créer un autocollant et le suggérer lors de l'utilisation de l'un de ces trois emoji\n/addsticker 3 🥳🙂😉 — créer un autocollant et l'ajouter au pack <code>3</code>, le suggérer lors de l'utilisation de l'un de ces trois emoji"
+  "stickers.main": "<b>Créer, gérer et ajouter aux packs d'autocollants avec les commandes suivantes:</b>\n\n/newpack - créer un nouveau pack\n/listpacks - répertoriez vos packs et leurs identifiants\n/renamepack — renommer un pack\n/removepack - dissocier un pack de CalsiBot\n\n/addsticker - ajouter un autocollant à un pack\n/deletesticker - supprimer un autocollant d'un pack\n\n<b>Utilisation experte:</b>\n\n/addsticker 3 — ajouter une image ou un autocollant pour emballer avec ID <code>3</code>\n/addsticker 🥳🙂😉 — créer un autocollant et le suggérer lors de l'utilisation de l'un de ces trois emoji\n/addsticker 3 🥳🙂😉 — créer un autocollant et l'ajouter au pack <code>3</code>, le suggérer lors de l'utilisation de l'un de ces trois emoji"
   "stickers.beingAdded": "⏳ <b>Votre autocollant est en cours d'ajout, veuillez patienter...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Votre autocollant sera ajouté dans %s, veuillez patienter...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>Votre autocollant a été ajouté!</b>\n\n<i>si vous ne le voyez pas, supprimez et rajoutez le pack d'autocollants:</i>"
@@ -902,14 +905,15 @@
   "stickers.seeAllCommandsHint": "<b>Envoyer /stickers pour voir toutes les commandes et informations.</b>"
   "stickers.staticPackIndicator": "[S]"
   "stickers.dynamicPackIndicator": "[D]"
-  "stickers.staticVsDynamicHint": "<i>Remarque : les packs <code>[S]</code>tatiques ne peuvent inclure que des autocollants photo, les packs <code>[D]</code>ynamiques sont nouveaux et peuvent inclure à la fois des autocollants photo, animés et vidéo.\nTous les nouveaux packs que vous créez seront dynamiques.</i>"
+  "stickers.staticVsDynamicHint": "<i>Remarque : les packs <code>[S]</code>tatiques ne peuvent inclure que des autocollants photo, les packs <code>[D]</code>ynamiques sont nouveaux et peuvent inclure des autocollants photo, animés et vidéo.\nTous les nouveaux packs que vous créez seront dynamiques.</i>"
   "stickers.videoTrimmedHint": "<i>Astuce : Lors de l'ajout de vidéos, seules les 3 premières secondes peuvent être utilisées. Coupez-les vous-même avant de les ajouter pour sélectionner une partie spécifique.</i>"
   "stickers.whichPackShouldBeAddedTo": "<b>À quel pack l'autocollant doit-il être ajouté?</b>\n\n%s"
 
   "stickers.callbacks": {
-    "confirmStickerPackCreate": "<b>Votre pack d'autocollants aura le titre suivant:</b>\n\n<code>%s</code>\n\n<b>⚠️ Vous ne pourrez pas le modifier plus tard.\n\nAppuyez sur Annuler pour choisir un autre titre.</b>"
-    "cancelStickerPackCreate": "<b>D'accord, choisissez un titre différent et réessayez. Par exemple:</b>\n\n<code>/newpack %s</code>"
-    "stickerPackCreateSuccess": "<b>Votre pack d'autocollants a été créé!</b>\n\nVous pouvez désormais répondre aux images et autocollants avec /addsticker pour les ajouter à votre pack\n\n%s"
+    "confirmStickerPackCreateOrRename": "<b>Votre pack d'autocollants aura le titre suivant:</b>\n\n<code>%s</code>\n\n<b>Appuyez sur Annuler pour choisir un autre titre.</b>"
+    "cancelStickerPackCreateOrRename": "<b>D'accord, choisissez un titre différent et réessayez. Par exemple:</b>\n\n<code>/newpack %s</code>"
+    "stickerPackCreateSuccess": "<b>Votre pack d'autocollants a été créé !</b>\n\nVous pouvez désormais répondre aux images et autocollants avec /addsticker pour les ajouter à votre pack\n\n%s"
+    "stickerPackRenameSuccess": "<b>Votre pack d'autocollants a été renommé !</b>\n\n%s"
     "confirmStickerPackRemove": "⚠️ <b>Votre pack d'autocollants sera déconnecté de CalsiBot.\n\nVous ne pourrez plus jamais mettre à jour ce pack avec CalsiBot.\n\nVoulez-vous vraiment supprimer ce pack?</b>"
     "cancelStickerPackRemove": "<b>D'accord, le pack n'a pas été supprimé.</b>"
     "stickerPackRemoveSuccess": "<b>Votre pack d'autocollants a été supprimé de CalsiBot.</b>\n\nPour le supprimer complètement, parlez à @Stickers"

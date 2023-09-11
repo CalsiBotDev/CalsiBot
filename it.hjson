@@ -377,6 +377,7 @@
     "2018xmas": "\n%s<%s> - Natale 2018</%s>"
     "2019newyear": "\n%s<%s> - Capodanno 2019</%s>"
     "2020xmas": "\n%s<%s> - Natale 2020</%s>"
+    "2022xmas": "\n%s<%s> - Natale 2022</%s>"
   }
 
 
@@ -395,7 +396,7 @@
   "joinconfig.welcome.error.somethingWrong": "<b>Ci dispiace, ma c'è qualcosa che non va nel messaggio che hai pubblicato.\n\nVerifica nuovamente la formattazione e assicurati di non aver incluso caratteri strani.</b>"
   "joinconfig.welcome.success": "<b>Fantastico, il tuo nuovo messaggio di benvenuto è stato impostato. Controlla sopra per vedere come apparirà!\n\nPuoi usare </b><code>/DeleteWelcome</code><b> per rimuoverlo</b>"
   "joinconfig.welcome.removed": "<b>Il messaggio di benvenuto è stato rimosso\n\n Puoi usare </b><code>/DeleteWelcome</code><b>, seguito dal messaggio che desideri, per impostarne uno nuovo.</b>"
-  "joinconfig.welcome.alreadyRemoved": "<b>Attualmente non è stato impostato alcun messaggio di benvenuto da rimuovere\n\nPuoi usare </b><code>/SetWelcome</code><b>, seguito dal messaggio che desideri, per impostarne uno.</b>"
+  "joinconfig.welcome.notSet": "<b>Attualmente non è stato impostato alcun messaggio di benvenuto\n\nPuoi usare </b><code>/SetWelcome</code><b>, seguito dal messaggio che desideri, per impostarne uno.</b>"
 
   "joinconfig.joinlimit.help": "<code>/JoinLimit</code><b> ti consente di impostare le restrizioni predefinite per tutti i membri che si uniscono al tuo gruppo\n\nIl tuo messaggio dovrebbe essere come nell'esempio seguente:</b>"
   "joinconfig.joinlimit.success": "<b>Il tuo </b><code>/JoinLimit</code><b> è stato impostato!</b>\n\nI nuovi membri saranno automaticamente limitati %s, fino a quando un amministratore non li sblocca."
@@ -837,6 +838,8 @@
 
   # ℹ️ Example: You Got Septuples!
   "roll.main": "Hai tirato %s"
+  # ℹ️ Example: 777\n\nresult between 0 and 1000
+  "roll.custom": "<b>%s</b>\n\n<i>risultato tra <code>%s</code> e <code>%s</code></i>"
 
 
   /* ---------------------------------------------------------------------
@@ -892,7 +895,7 @@
      --------------------------------------------------------------------- */
   "stickers.defaultPackTitle": "Preferiti di %s"
   "stickers.acceptableFileTypes": "<b>- GIF,\n- foto compressa,\n- foto non compressa</b> (&lt;10 MB)<b>,\n- video</b> (&lt;10 MB)<b>,\n- sticker statico, animato o video</b>"
-  "stickers.main": "<b>Crea, gestisci e aggiungi sticker allo stickerpack con i seguenti comandi:</b>\n\n/newpack - crea un nuovo pacchetto\n/listpacks - elenca tutti gli stickerpack\n/removepack - scollega uno stickerpack da CalsiBot\n\n/addsticker - aggiungi sticker a un pacchetto\n/deletesticker - elimina sticker da un pacchetto\n\n<b>Comandi avanzati:</b>\n\n/addsticker 3 — aggiungi immagine o sticker via file ID <code>3</code>\n/addsticker 🥳🙂😉 — crea uno sticker con queste tre emoji per il suggerimento\n/addsticker 3 🥳🙂😉 — crea uno sticker e aggiungilo al pacchetto <code>3</code>, con queste tre emoji per il suggerimento"
+  "stickers.main": "<b>Crea, gestisci e aggiungi sticker allo stickerpack con i seguenti comandi:</b>\n\n/newpack - crea un nuovo pacchetto\n/listpacks - elenca tutti gli stickerpack\n/renamepack — rinomina un stickerpack\n/removepack - scollega uno stickerpack da CalsiBot\n\n/addsticker - aggiungi sticker a un pacchetto\n/deletesticker - elimina sticker da un pacchetto\n\n<b>Comandi avanzati:</b>\n\n/addsticker 3 — aggiungi immagine o sticker via file ID <code>3</code>\n/addsticker 🥳🙂😉 — crea uno sticker con queste tre emoji per il suggerimento\n/addsticker 3 🥳🙂😉 — crea uno sticker e aggiungilo al pacchetto <code>3</code>, con queste tre emoji per il suggerimento"
   "stickers.beingAdded": "⏳ <b>Aggiunta dello sticker in corso...</b>"
   "stickers.beingAddedQueued": "⏳ <b>Il tuo sticker verrà aggiunto tra %s, attendi...</b>"
   "stickers.beingAddedSuccess": "🥳 <b>Il tuo sticker è stato aggiunto!</b>\n\n<i>se non lo vedi, rimuovi e aggiungi nuovamente lo stickerpack:</i>"
@@ -907,9 +910,10 @@
   "stickers.whichPackShouldBeAddedTo": "<b>A quale stickerpack deve essere aggiunto lo sticker?</b>\n\n%s"
 
   "stickers.callbacks": {
-    "confirmStickerPackCreate": "<b>Il tuo stickerpack avrà il seguente titolo:</b>\n\n<code>%s</code>\n\n<b>⚠️ Non potrai modificarlo in seguito.\n\nPremi Annulla per scegliere un altro titolo.</b>"
-    "cancelStickerPackCreate": "<b>Ok, scegli un titolo diverso e riprova. Ad esempio:</b>\n\n<code>/newpack %s</code>"
+    "confirmStickerPackCreateOrRename": "<b>Il tuo stickerpack avrà il seguente titolo:</b>\n\n<code>%s</code>\n\n<b>Premi Annulla per scegliere un altro titolo.</b>"
+    "cancelStickerPackCreateOrRename": "<b>Ok, scegli un titolo diverso e riprova. Ad esempio:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>Il tuo stickerpack è stato creato!</b>\n\nOra puoi rispondere a immagini e sticker con /addsticker per aggiungerli al tuo stickerpack\n\n%s"
+    "stickerPackRenameSuccess": "<b>Il tuo stickerpack è stato rinominato!</b>\n\n%s"
     "confirmStickerPackRemove": "⚠️ <b>Il tuo stickerpack verrà disconnesso da CalsiBot.\n\nNon sarai più in grado di aggiornarlo con CalsiBot.\n\nSei sicuro di volerlo rimovere?</b>"
     "cancelStickerPackRemove": "<b>Ok, lo stickerpack non è stato rimosso.</b>"
     "stickerPackRemoveSuccess": "<b>Il tuo stickerpack è stato rimosso da CalsiBot.</b>\n\nPer eliminarlo completamente, puoi usare @Stickers"
