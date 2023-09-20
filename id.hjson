@@ -798,7 +798,7 @@
   #
   #          This list of names should be in order of contribution size and frequency, taking into account age of last
   #          contribution.
-  "language.credit.activeContributors": "<a href=\"t.me/justdzL\">dzL</a>"
+  "language.credit.activeContributors": "<a href=\"t.me/urdzL\">dzL</a>"
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Pilih bahasamu:</b>"
@@ -913,7 +913,7 @@
     "confirmStickerPackCreateOrRename": "<b>Pack Stiker Kamu akan memiliki nama kek gini::</b>\n\n<code>%s</code>\n\n<b>Tekan Batal untuk memilih nama yang berbeda.</b>"
     "cancelStickerPackCreateOrRename": "<b>Oke, pilih nama lain dan coba lagi. Sebagai contoh:</b>\n\n<code>/newpack %s</code>"
     "stickerPackCreateSuccess": "<b>Pack Stiker Kamu telah dibuat!</b>\n\nSekarang Kamu bisa membalas gambar dan stiker dengan /addsticker untuk menambahkannya ke pack Kamu\n\n%s"
-    "stickerPackRenameSuccess": "<b>Pack Stiker Anda telah diganti namanya!</b>\n\n%s"
+    "stickerPackRenameSuccess": "<b>Nama Pack Stiker Anda telah diganti!</b>\n\n%s"
     "confirmStickerPackRemove": "⚠️ <b>Pack Stiker kamu akan dihapus dari CalsiBot.\n\nKamu gaakan bisa memperbarui pack ini dengan CalsiBot lagi.\n\nApa Kamu yakin mau hapus pack ini?</b>"
     "cancelStickerPackRemove": "<b>Oke, pack tidak dihapus.</b>"
     "stickerPackRemoveSuccess": "<b>Pack Stiker Kamu telah dihapus dari CalsiBot.</b>\n\nUntuk menghapus sepenuhnya, silakan ke @Stickers"
