@@ -154,6 +154,18 @@
     "other": "mal"
   }
 
+  "generic.yearPlural": {
+    "zero": "Jahren"
+    "one": "Jahr"
+    "other": "Jahren"
+  }
+
+  "generic.monthPlural": {
+    "zero": "Monaten"
+    "one": "Monat"
+    "other": "Monaten"
+  }
+
   "generic.weekPlural": {
     "zero": "Wochen"
     "one": "Woche"
@@ -161,9 +173,9 @@
   }
 
   "generic.dayPlural": {
-    "zero": "Tage"
-    "one": "Tag"
-    "other": "Tage"
+    "zero": "Tagen"
+    "one": "Tage"
+    "other": "Tagen"
   }
 
   "generic.hourPlural": {

@@ -154,6 +154,18 @@
     "other": "veces"
   }
 
+  "generic.yearPlural": {
+    "zero": "años"
+    "one": "año"
+    "other": "años"
+  }
+
+  "generic.monthPlural": {
+    "zero": "meses"
+    "one": "mes"
+    "other": "meses"
+  }
+
   "generic.weekPlural": {
     "zero": "semanas"
     "one": "semana"

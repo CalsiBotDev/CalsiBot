@@ -154,6 +154,18 @@
     "other": "раз"
   }
 
+  "generic.yearPlural": {
+    "zero": "лет"
+    "one": "год"
+    "other": "лет"
+  }
+
+  "generic.monthPlural": {
+    "zero": "месяцев"
+    "one": "месяц"
+    "other": "месяцев"
+  }
+
   "generic.weekPlural": {
     "zero": "недель"
     "one": "неделя"

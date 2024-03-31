@@ -154,6 +154,18 @@
     "other": "volte"
   }
 
+  "generic.yearPlural": {
+    "zero": "anni"
+    "one": "anno"
+    "other": "anni"
+  }
+
+  "generic.monthPlural": {
+    "zero": "mesi"
+    "one": "mese"
+    "other": "mesi"
+  }
+
   "generic.weekPlural": {
     "zero": "settimane"
     "one": "settimana"

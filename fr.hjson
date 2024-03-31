@@ -154,6 +154,18 @@
     "other": "fois"
   }
 
+  "generic.yearPlural": {
+    "zero": "ans"
+    "one": "an"
+    "other": "ans"
+  }
+
+  "generic.monthPlural": {
+    "zero": "mois"
+    "one": "mois"
+    "other": "mois"
+  }
+
   "generic.weekPlural": {
     "zero": "semaines"
     "one": "semaine"

@@ -154,6 +154,18 @@
     "other": "times"
   }
 
+  "generic.yearPlural": {
+    "zero": "years"
+    "one": "year"
+    "other": "years"
+  }
+
+  "generic.monthPlural": {
+    "zero": "months"
+    "one": "month"
+    "other": "months"
+  }
+
   "generic.weekPlural": {
     "zero": "weeks"
     "one": "week"

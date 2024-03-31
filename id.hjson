@@ -154,6 +154,18 @@
     "other": "kali"
   }
 
+  "generic.yearPlural": {
+    "zero": "tahun"
+    "one": "tahun"
+    "other": "tahun"
+  }
+
+  "generic.monthPlural": {
+    "zero": "bulan"
+    "one": "bulan"
+    "other": "bulan"
+  }
+
   "generic.weekPlural": {
     "zero": "minggu"
     "one": "minggu"
