@@ -915,9 +915,6 @@
   "stickers.letsCreateAPackInPrivate": "<b>Пакеты стикеров должны быть созданы в частном порядке, поехали:</b>"
   "stickers.removeOnlyInPrivate": "<b>Пакеты наклеек можно удалить только конфиденциально, поехали:</b>"
   "stickers.seeAllCommandsHint": "<b>Отправить /stickers, чтобы увидеть все команды и информацию.</b>"
-  "stickers.staticPackIndicator": "[С]"
-  "stickers.dynamicPackIndicator": "[Д]"
-  "stickers.staticVsDynamicHint": "<i>Примечание. <code>С</code>татические пакеты могут включать только фотонаклейки, <code>Д</code>инамические пакеты являются новыми и могут включать фото, анимированные, так и видео стикеры.\nВсе новые создаваемые вами пакеты будут динамическими.</i>"
   "stickers.videoTrimmedHint": "<i>Совет: при добавлении видео можно использовать только первые 3 секунды. Обрежьте их самостоятельно перед добавлением, чтобы выбрать конкретную часть.</i>"
   "stickers.whichPackShouldBeAddedTo": "<b>К какой упаковке следует добавить стикер?</b>\n\n%s"
 
@@ -932,8 +929,8 @@
     "cancelAddEmojiToMessage": "<b>Хорошо, вы можете сами указать другой эмодзи. Например:</b>\n\n<code>%s</code>"
   }
 
-  "stickers.listPacks": "<b>Ваши пакеты:\n\n%s</b>\n\n%s\n\n%s"
-  "stickers.listPacksFill": "%s %s — <a href=\"%s\">%s</a>"
+  "stickers.listPacks": "<b>Ваши пакеты:\n\n%s</b>\n\n%s"
+  "stickers.listPacksFill": "%s — <a href=\"%s\">%s</a>"
   "stickers.validStickerPacksAre": "<b>Допустимые идентификаторы пакета стикеров:\n<code>%s</code></b>"
 
   "stickers.error": {
@@ -941,7 +938,6 @@
     "noPackGiven": "<b>Вы должны указать пакет. Например:</b>\n<code>/%s %s</code>\n\n%s"
     "noEmojiGiven": "<b>Пожалуйста, выберите смайлик ниже\n\nНажмите Отмена, чтобы указать свой собственный:</b>\n<code>%s</code>"
     "noStickerPacks": "<b>У вас нет стикеров.</b>\n\n%s"
-    "noDynamicStickerPacks": "<b>Медиафайл, на который вы ответили, можно добавить только в пакет динамических наклеек, но у вас его нет.</b>\n\n%s\n\n%s"
     "specifiedPackDoesNotExist": "<b>Не удалось найти стикер-пак <code>%s</code></b>\n\n%s"
     "stickerAlreadyDeleted": "<b>Эта наклейка уже удалена.</b>"
     "packFull": "<b>Этот набор заполнен, удалите из него несколько наклеек или создайте новый набор.</b>"

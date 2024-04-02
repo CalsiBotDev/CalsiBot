@@ -915,9 +915,6 @@
   "stickers.letsCreateAPackInPrivate": "<b>Gli stickerpack devono essere creati in privato, quindi:</b>"
   "stickers.removeOnlyInPrivate": "<b>Gli stickerpack possono essere rimossi solo in privato, quindi:</b>"
   "stickers.seeAllCommandsHint": "<b>Invia /stickers per vedere tutti i comandi e le informazioni.</b>"
-  "stickers.staticPackIndicator": "[S]"
-  "stickers.dynamicPackIndicator": "[D]"
-  "stickers.staticVsDynamicHint": "<i>Nota: gli stickerpack <code>[S]</code>tatici possono includere solo sticker statici, gli stickerpack <code>[D]</code>inamici invece possono includere indistintamente sticker statici, animazioni e video.\nTutti i nuovi pacchetti che crei saranno dinamici.</i>"
   "stickers.videoTrimmedHint": "<i>Suggerimento: quando si aggiungono video, è possibile utilizzare solo i primi 3 secondi. Tagliali tu stesso prima di aggiungerli per selezionare una parte specifica.</i>"
   "stickers.whichPackShouldBeAddedTo": "<b>A quale stickerpack deve essere aggiunto lo sticker?</b>\n\n%s"
 
@@ -932,8 +929,8 @@
     "cancelAddEmojiToMessage": "<b>Ok, puoi specificare tu stesso un'altra emoji. Per esempio:</b>\n\n<code>%s</code>"
   }
 
-  "stickers.listPacks": "<b>I tuoi stickerpack:\n\n%s</b>\n\n%s\n\n%s"
-  "stickers.listPacksFill": "%s %s — <a href=\"%s\">%s</a>"
+  "stickers.listPacks": "<b>I tuoi stickerpack:\n\n%s</b>\n\n%s"
+  "stickers.listPacksFill": "%s — <a href=\"%s\">%s</a>"
   "stickers.validStickerPacksAre": "<b>Gli ID stickerpack validi sono:\n<code>%s</code></b>"
 
   "stickers.error": {
@@ -941,7 +938,6 @@
     "noPackGiven": "<b>Devi specificare uno stickerpack. Ad esempio:</b>\n<code>/%s %s</code>\n\n%s"
     "noEmojiGiven": "<b>Scegli un'emoji sotto\n\nPremi Annulla per specificare il tuo:</b>\n<code>%s</code>"
     "noStickerPacks": "<b>Non hai alcun stickerpack.</b>\n\n%s"
-    "noDynamicStickerPacks": "<b>Il media a cui hai risposto può essere aggiunto solo ad un stickerpack dinamico, ma tu non ne hai uno.</b>\n\n%s\n\n%s"
     "specifiedPackDoesNotExist": "<b>Impossibile trovare lo stickerpack <code>%s</code></b>\n\n%s"
     "stickerAlreadyDeleted": "<b>Questo sticker è già stato eliminato.</b>"
     "packFull": "<b>Questo stickerpack è pieno, elimina alcuni sticker o crea un nuovo pacchetto.</b>"
