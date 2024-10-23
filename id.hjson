@@ -307,7 +307,7 @@
   "comfy.ruffle": {
     "self": "%s<b> mengacak-acak rambutnya sendiri... yaampun. 😐</b>"
     "main": "<b>*</b>%s mengacak rambut %s<b>* :&</b>"
-    "CalsiBot": "<i>Anda seharusnya mengacak -acak rambut di kepalaku ... jangan ... di sana. 😳</i> 😑"
+    "CalsiBot": "<i>Anda seharusnya mengacak -acak rambut di kepalaku ... jangan ... di sana.</i> 😳"
   }
 
   "comfy.highfive": {
