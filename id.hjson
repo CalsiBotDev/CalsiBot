@@ -275,45 +275,45 @@
                       Comfy - Used for /hug, /cuddle, etc.
      --------------------------------------------------------------------- */
   "comfy.hug": {
-    "self": "%s<b> meraih satu tangan dan memeluk tubuhnya sendiri. </b>%s<b> tidak terlalu merasa sendirian sekarang.</b>"
+    "self": "%s<b> meraih satu tangan dan memeluk tubuhnya sendiri. </b>%s<b> merasa kesepian.</b>"
     "main": "%s memberimu <b>pelukan! :)</b>"
     "CalsiBot": "<i>Aku tidak bisa dipeluk </i><b>:/</b>"
   }
 
   "comfy.cuddle": {
-    "self": "%s<b> berbaring telungkup di tempat tidur nya sendiri, dan mencoba memeluk kedua sisi. </b>%s<b> tidak terlalu sedih sekarang.</b>"
+    "self": "%s<b> berbaring di tempat tidur nya, dan mencoba memeluk diri sendiri. </b>%s<b> sangat kesepian sekarang.</b>"
     "main": "%s memeluk %s dengan erat"
     "CalsiBot": "<i>mendesahhhh</i> ☁️😌☁️"
   }
 
   "comfy.snuggle": {
-    "self": "%s<b> menarik lututnya sendiri dan mencoba meringkuk. </b>%s<b> merasa kurang dicintai sekarang.</b>"
+    "self": "%s<b> menarik dan memeluk lututnya sendiri. </b>%s<b> merasa kurang dicintai sekarang.</b>"
     "main": "%s puas meringkuk %s"
-    "CalsiBot": "🥺 <i>*suara bot santai*</i>"
+    "CalsiBot": "🥺 <i>*suara bot pasrah*</i>"
   }
 
   "comfy.poke": {
-    "self": "%s<b> menusuk dadanya sendiri. Itu membuat dia ingat bahwa dia mungkin harus menurunkan berat badan.</b>"
-    "main": "<b>*</b>%s menusuk %s<b>* o_o</b>"
+    "self": "%s<b> mencolek dadanya sendiri. Itu membuat dia ingat bahwa dia harus menurunkan berat badan.</b>"
+    "main": "<b>*</b>%s mencolek %s<b>* o_o</b>"
     "CalsiBot": "<b>&gt;_&lt;</b>"
   }
 
   "comfy.pat": {
-    "self": "%s<b> dengan canggung meraih satu tangan untuk menepuk kepalanya sendiri. 🙃</b>"
+    "self": "%s<b> menepuk kepalanya sendiri. 🙃</b>"
     "main": "<b>*</b>%s menepuk kepala %s<b>* :V</b>"
     "CalsiBot": "<i>rawr</i> <b>xDddd</b>"
   }
 
   "comfy.ruffle": {
-    "self": "%s<b> mengacak-acak rambutnya sendiri... Astaga. 😐</b>"
-    "main": "<b>*</b>%s mengacak rambut %s<b>* :&</b>"
-    "CalsiBot": "<i>Kamu mengacak-acak rambutku ... tidak ... di sana.</i> 😳"
+    "self": "%s<b> mengacak-acak rambutnya sendiri... yaampun. 😐</b>"
+    "main": "<b>*</b>%s mengacak rambut %s<b>* :&</b> 😝"
+    "CalsiBot": "<i>Kamu mengacak-acak rambutku... oh tidak.</i> 😑"
   }
 
   "comfy.highfive": {
-    "self": "%s<b> mencoba untuk melakukan tos dengan kedua tangannya sendiri. </b>%s<b> rindu, dan tenggelam lebih dalam ke dalam depresi.</b>"
+    "self": "%s<b> mencoba untuk melakukan tos dengan diri sendiri. </b>%s<b> terlihat sangat depresi.</b>"
     "main": "%s memberi sebuah <b>tos!</b>"
-    "CalsiBot": "<i>:D</i>"
+    "CalsiBot": "<i>Tosss!! :D</i>"
   } 
 
 
@@ -323,7 +323,7 @@
   "death.CalsiBot": "<i>Aku tidak bisa dibunuh </i><b>;)</b>"
 
   # ℹ️ Example: Josie stabbed Kevin before they starved to death
-  "death.kos": "%s<b> ditikam </b>%s<b> sebelum mereka %s</b>"
+  "death.kos": "%s<b> menikam </b>%s<b> lalu mereka berdua %s</b>"
 
 
   /* ---------------------------------------------------------------------
@@ -342,27 +342,27 @@
   "fish.fish": "Ikan"
   "fish.fishing": "Memancing"
   "fish.noFish": "<b>Sepertinya </b><a href=\"tg://user?id=%s\">%s</a><b> belum pernah menangkap ikan sebelumnya!\n\nCobalah:</b> /Fish"
-  "fish.noTrophyFish": "<b>Kamu saat ini tidak memiliki Piala Ikan 😢 - tapi jangan khawatir!\n\nTangkap satu </b>/Fish<b> untuk mendapatkan yang pertama!</b>\n\n/MyFish ||| /Fish"
+  "fish.noTrophyFish": "<b>Kamu saat ini belum memiliki Ikan 😢 - tapi jangan khawatir!\n\nTangkap satu </b>/Fish<b> untuk mendapatkan yang pertama!</b>\n\n/MyFish ||| /Fish"
 
   "fish.verdicts": {
-    "failure": "Sama seperti di kehidupan nyata, <b>umpanmu gagal.</b>"
+    "failure": "Lakukan lagi, <b>umpanmu gagal.</b>"
     "blowfish": "Kamu menangkap Ikan Buntal: 🐡"
-    "normal": "<b>Lumayan!</b>\nKamu menangkap Ikan Biasa: 🐟"
+    "normal": "<b>Duhh!</b>\nKamu menangkap Ikan Biasa: 🐟"
     "tropical": "<b>Beuh!</b>\nKamu menangkap Ikan Tropis: 🐠"
-    "squid": "<b>Anjai!</b>\nkamu menangkap Cumi-cumi: 🦑"
+    "squid": "<b>Anjayy!</b>\nkamu menangkap Cumi-cumi: 🦑"
     "crab": "<b>Gilaa!</b>\nKamu menangkap Kepiting: 🦀"
     "dolphin": "<b>Woooahh!</b>\nKamu menangkap Lumba-lumba: 🐬"
     "shark": "<b>ANCRITT!!</b>\nKamu menangkap Hiu: 🦈"
-    "crocodile": "<b>HUHUUU!!!</b>\nKamu menangkap Buaya: 🐊"
-    "whale": "<b>AIRNYA JADI ANEH...\n\nDengan seluruh kekuatan, jurus tangan penuh kenangan!</b>\nKamu menangkap Paus: 🐳"
+    "crocodile": "<b>Wadaww!!!</b>\nKamu menangkap Buaya: 🐊"
+    "whale": "<b>AIRNYA JADI ANEH...\n\nDengan seluruh kekuatan, jurus nelayan sakti!!</b>\nYeayy.. Kamu menangkap Paus: 🐳"
   }
 
-  "fish.viewYourFish": "\n\n<b>Lihat ikan Kamu:</b> /MyFish"
-  "fish.newTrophyFish": "\n\n<b>🎉 Kamu baru saja mendapatkan yang baru</b>\n/TrophyFish!"
+  "fish.viewYourFish": "\n\n<b>Lihat ikanmu:</b> /MyFish"
+  "fish.newTrophyFish": "\n\n<b>🎉 Kamu baru saja mendapatkan piala baru</b>\n/TrophyFish!"
 
   "fish.myFish":
   '''
-  <b>🎣 </b><a href="tg://user?id=%s">%s</a><b> – Ikan:</b>
+  <b>🎣 </b><a href="tg://user?id=%s">%s</a><b> – Memiliki:</b>
 
   🐡 - Ikan Buntal: <b>%s</b>
   🐟 - Ikan Biasa: <b>%s</b>
@@ -698,8 +698,8 @@
   "misc.judge.main.lying": "%s<b> berbohong!</b>"
   "misc.judge.CalsiBot": "<i>Aku selalu benar.</i>"
 
-  "misc.coin.main.heads": "%s melempar koin!\n\n<b>Ini Kepala!</b>"
-  "misc.coin.main.tails": "%s melempar koin!\n\n<b>Itu Ekor!</b>"
+  "misc.coin.main.heads": "%s melempar koin!\n\n<b>dia mendapatkan Angka!</b>"
+  "misc.coin.main.tails": "%s melempar koin!\n\n<b>dia mendapatkan Gambar!</b>"
 
   "misc.covfefe.tooLong": "<b>❌ Terlalu panjang. ☕😐</b>"
   "misc.covfefe.replyHint": "<b>Balas pesan yang ingin Kamu covfefe!</b>"
@@ -721,7 +721,6 @@
   <b>Perintah Permainan:</b>
   /slap, /wish, /judge, /coin (/flip)
   /roll, /dox
-  /kms, /kys, /kos
 
   <b>Perintah Admin:</b>
   /kick, <code>/kickme</code>, /ban, /permaban
@@ -810,7 +809,7 @@
   #
   #          This list of names should be in order of contribution size and frequency, taking into account age of last
   #          contribution.
-  "language.credit.activeContributors": "<a href=\"t.me/urdzL\">dzL</a>"
+  "language.credit.activeContributors": "<a href=\"t.me/izels\">dzL</a>"
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Pilih bahasamu:</b>"
@@ -839,13 +838,13 @@
                             Roll - Used for /roll
      --------------------------------------------------------------------- */
   "roll.singlesArray": [
-    "Gapunya ayang :("
-    ":( jomblo, kayak kamu."
-    "._."
-    "UUUUU"
-    "Miris kamu"
-    "(((mereka))) melakukan ini"
-    "feelsbadman.gaypg"
+    "Dapet hikmahnya..."
+    "Belum beruntung."
+    "jelek"
+    "Sabar, coba lagi"
+    "Miris kamu.."
+    "Terus mencobaa"
+    "Ya gimana ya"
   ]
 
   # ℹ️ Example: You Got Septuples!
