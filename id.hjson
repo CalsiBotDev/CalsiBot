@@ -362,7 +362,7 @@
 
   "fish.myFish":
   '''
-  <b>🎣 </b><a href="tg://user?id=%s">%s</a><b> – Memiliki:</b>
+  <b>🎣 </b><a href="tg://user?id=%s">%s</a><b> – Memiliki Ikan:</b>
 
   🐡 - Ikan Buntal: <b>%s</b>
   🐟 - Ikan Biasa: <b>%s</b>
