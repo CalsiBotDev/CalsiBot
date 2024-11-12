@@ -40,7 +40,7 @@ If you think that there is a legitimate need for another language and you are ab
 
 ## What's HJSON?
 
-You may be wondering why all the language files end with `.hjson`, well HJSON is basically human-readable JSON. If that's something that sounds interesting to you, you can find out more on [their official site](https://hjson.org/).
+You may be wondering why all the language files end with `.hjson`, well HJSON is basically human-readable JSON. If that's something that sounds interesting to you, you can find out more on [their official site](https://hjson.github.io/).
 
 This way, the translation files can easily be converted to JSON for bot-consumption, while the original HJSON version allows us to add comments and spacing - making the experience of the translators a bit nicer.
 
