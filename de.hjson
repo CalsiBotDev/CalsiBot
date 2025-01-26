@@ -258,7 +258,7 @@
   "generic.cantUseFeatureOnAdmins": "<b>Du kannst Admins nicht </b><code>%s</code><b> ... Leider</b>"
   "generic.cantUseFeatureOnAdminsWithReason": "<b>Du kannst Admins nicht </b><code>%s</code><b> weil %s</b>"
   # ℹ️ Example: because they can't be warned in the first place.
-  "generic.theyCantBeInTheFirstPlace": "weil sie in erster linie %s nicht verwarnt werden können."
+  "generic.theyCantBeInTheFirstPlace": "da Sie nicht %s werden können."
 
   "generic.cantUseFeatureOnLinkedChannels": "<b>Dies ist nicht möglich, da Sie auf einen Kanal antworten, der mit dieser Gruppe verknüpft ist.</b>"
 
