@@ -701,9 +701,6 @@
   "misc.coin.main.heads": "%s подбросил(а) монетку!\n\n<b>Это орел!</b>"
   "misc.coin.main.tails": "%s подбросил(а) монетку!\n\n<b>Это решка!</b>"
 
-  "misc.covfefe.tooLong": "<b>❌ Слишком долго. ☕😐</b>"
-  "misc.covfefe.replyHint": "<b>Ответьте на сообщение, которое вы хотите добавить в чат!</b>"
-
   "misc.spurdo.tooLong": "<b>❌ too lonk :dd 🥺</b>"
   "misc.spurdo.replyHint": "<b>reply to de meszage you wand to spurdo-fy :DD</b>"
 
@@ -732,7 +729,7 @@
   /JoinVerify, /PreVerify
 
   <b>Команды изменения текста:</b>
-  /covfefe, /spurdo, /emojify
+  /spurdo, /emojify
 
   <b>разное:</b>
   /boi, /denko, /huh

@@ -701,9 +701,6 @@
   "misc.coin.main.heads": "%s hat eine Münze geworfen!\n\n<b>Es ist Kopf!</b>"
   "misc.coin.main.tails": "%s hat eine Münze geworfen!\n\n<b>Es ist Zahl!</b>"
 
-  "misc.covfefe.tooLong": "<b>❌ Zu lang. ☕😐</b>"
-  "misc.covfefe.replyHint": "<b>Antworte auf die Nachricht die du covfefe-fiziren möchtest!</b>"
-
   "misc.spurdo.tooLong": "<b>❌ zu lang :dd 🥺</b>"
   "misc.spurdo.replyHint": "<b>Antworte auf die Nchrcht, welche du spurdo-fizieren mächtest :DD</b>"
 
@@ -732,7 +729,7 @@
   /JoinVerify, /PreVerify
 
   <b>Befehle zur Textänderung:</b>
-  /covfefe, /spurdo, /emojify
+  /spurdo, /emojify
 
   <b>Andere:</b>
   /boi, /denko, /huh

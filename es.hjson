@@ -701,9 +701,6 @@
   "misc.coin.main.heads": "%s lanzó una moneda!\n\n<b>¡Son cabezas!</b>"
   "misc.coin.main.tails": "%s lanzó una moneda!\n\n<b>¡Son colas!</b>"
 
-  "misc.covfefe.tooLong": "<b>❌ Demasiado largo. ☕😐</b>"
-  "misc.covfefe.replyHint": "<b>¡Responda al mensaje que desea covfefe!</b>"
-
   "misc.spurdo.tooLong": "<b>❌ demasiado largo :dd 🥺</b>"
   "misc.spurdo.replyHint": "<b>¡responda al mensaje que desea spurdo-fy! :DD</b>"
 
@@ -732,7 +729,7 @@
   /JoinVerify, /PreVerify
 
   <b>Comandos de modificación de texto:</b>
-  /covfefe, /spurdo, /emojify
+  /spurdo, /emojify
 
   <b>Otros:</b>
   /boi, /denko, /huh

@@ -701,9 +701,6 @@
   "misc.coin.main.heads": "%s melempar koin!\n\n<b>dia mendapatkan Angka!</b>"
   "misc.coin.main.tails": "%s melempar koin!\n\n<b>dia mendapatkan Gambar!</b>"
 
-  "misc.covfefe.tooLong": "<b>❌ Terlalu panjang. ☕😐</b>"
-  "misc.covfefe.replyHint": "<b>Balas pesan yang ingin Kamu covfefe!</b>"
-
   "misc.spurdo.tooLong": "<b>❌ terlalu pwanjang :dd 🥺</b>"
   "misc.spurdo.replyHint": "<b>balas pwesan yang ingin kmoeh spurdo-kan :DD</b>"
 
@@ -732,7 +729,7 @@
   /JoinVerify, /PreVerify
 
   <b>Perintah Mengubah Teks:</b>
-  /covfefe, /spurdo, /emojify
+  /spurdo, /emojify
 
   <b>Lainnya:</b>
   /boi, /denko, /huh
@@ -810,7 +807,7 @@
   #
   #          This list of names should be in order of contribution size and frequency, taking into account age of last
   #          contribution.
-  "language.credit.activeContributors": "<a href=\"tg://user?id=5966163635\">dzL</a>"
+  "language.credit.activeContributors": "<a href=\"tg://user?id=8278748114\">dzL</a>"
 
   "language.callbacks": {
     "chooseYourLanguage": "<b>Pilih bahasamu:</b>"
